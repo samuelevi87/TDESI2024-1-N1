@@ -3,7 +3,7 @@
 
 # Meu Currículo 🌟
 
-![Header](https://blog.xpeducacao.com.br/wp-content/uploads/2022/12/diferenca-entre-sistema-de-informacao-e-analise-e-desenvolvimento-de-sistema.jpg)
+![Header](https://imgs.search.brave.com/uTMrxODZQQx0I6WZASJKrp_AGRS9BlcHf2zoqa56ELs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9zb2Z0d2FyZS1k/ZXZlbG9wZXItY29k/aW5nLWxhdGUtbmln/aHQtYWlnXzMxOTY1/LTMzMTkzMS5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw)
 
 ## Dados Pessoais 📄
 ![Profile Picture](https://lh3.googleusercontent.com/a/ACg8ocIVADO0xW29itvlaH0yu6dmvpeExMo4f4bDxtGLxGPKAkfYVrg=s288-c-no)
