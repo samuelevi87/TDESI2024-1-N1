@@ -5,6 +5,11 @@ public class Main {
         // 2. Exibir o nome e a idade da pessoa.
         // 3. Alterar a idade da pessoa e exibir novamente.
 
+        Pessoa pessoa1 = new Pessoa("Roberto", 21);
+        System.out.println(pessoa1);
+        pessoa1.setIdade(24);
+        System.out.println(pessoa1);
+
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
         // 2. Depositar um valor na conta.
