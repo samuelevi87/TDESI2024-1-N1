@@ -1,6 +1,7 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
+import Exercicio04.Livro;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,6 +49,12 @@ public class Main {
         // 1. Criar uma instância da classe Livro.
         // 2. Exibir o título, autor e ano de publicação.
         // 3. Alterar o ano de publicação e exibir novamente.
+
+        Livro livro1 = new Livro("O morro dos ventos uivantes", "Emily Brontë", 1849);
+        System.out.println("---- Exercício 4 ----");
+        System.out.println(livro1);
+        livro1.setAnoPublicacao(1847);
+        System.out.println(livro1);
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
