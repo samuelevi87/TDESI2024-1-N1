@@ -1,5 +1,6 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
+import Exercicio03.Produto;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +28,12 @@ public class Main {
         // 2. Exibir o nome, preço e quantidade em estoque.
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
+        Produto produto = new Produto("Cadeira", 10.0, 10);
+        System.out.println(produto.toString());
+        produto.adicionarEstoque(10);
+        System.out.println(produto.getQuantidadeEmEstoque());
+        produto.removerEstoque(1);
+        System.out.println(produto.getQuantidadeEmEstoque());
 
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
