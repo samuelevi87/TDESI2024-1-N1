@@ -11,18 +11,6 @@ public class Produto {
         this.quantidadeEmEstoque = quantidadeEmEstoque;
     }
 
-    public String getNome() {
-        return nome;
-    }
-
-    public double getPreco() {
-        return preco;
-    }
-
-    public int getQuantidadeEmEstoque() {
-        return quantidadeEmEstoque;
-    }
-
     public void adicionarEstoque(int quantidade) {
         this.quantidadeEmEstoque += quantidade;
     }
