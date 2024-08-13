@@ -1,9 +1,14 @@
+import Exercicio01.Pessoa;
+
 public class Main {
     public static void main(String[] args) {
         // Exercício 1:
         // 1. Criar uma instância da classe Pessoa.
+        Pessoa ruan = new Pessoa();
         // 2. Exibir o nome e a idade da pessoa.
+        System.out.println("Nome" + ruan.getNome() + "idade" + ruan.getIdade());
         // 3. Alterar a idade da pessoa e exibir novamente.
+        System.out.println();
 
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
