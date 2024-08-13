@@ -31,7 +31,7 @@ public class Main {
         // 1. Criar uma instância da classe Produto.
         // 2. Exibir o nome, preço e quantidade em estoque.
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
-        // 4. Remover itens do estoque e exibir a nova quantidade.
+        // 4. Remover itens do estoque e exibir a nova quantidade
 
         System.out.println();
         Produto produto1 = new Produto("Queijo", 80, 10);

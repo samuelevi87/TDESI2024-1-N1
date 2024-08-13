@@ -5,7 +5,7 @@ public class Produto {
     // 1. Criar uma instância da classe Produto.
     // 2. Exibir o nome, preço e quantidade em estoque.
     // 3. Adicionar itens ao estoque e exibir a nova quantidade.
-    // 4. Remover itens do estoque e exibir a nova quantidade.
+    // 4. Remover itens do estoque e exibir a nova quantidade
 
     String nome;
     double preco;
