@@ -1,6 +1,7 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
+import Exercicio04.Livro;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,16 +30,20 @@ public class Main {
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
         Produto produto = new Produto("Cadeira", 10.0, 10);
-        System.out.println(produto.toString());
+        System.out.println(produto);
         produto.adicionarEstoque(10);
         System.out.println(produto.getQuantidadeEmEstoque());
-        produto.removerEstoque(1);
+        produto.removerEstoque(9);
         System.out.println(produto.getQuantidadeEmEstoque());
 
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
         // 2. Exibir o título, autor e ano de publicação.
         // 3. Alterar o ano de publicação e exibir novamente.
+        Livro livro = new Livro("A vida invisível de Addie Larue", "V.E Schwab", 2024);
+        System.out.println("Título: " + livro.getTitulo() + "\nAutor: " + livro.getAutor() + "\nAno: " + livro.getAnoPublicacao());
+        livro.setAnoPublicacao(2023);
+        System.out.println("Ano: " + livro.getAnoPublicacao());
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
