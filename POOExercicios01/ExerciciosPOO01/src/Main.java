@@ -1,5 +1,6 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
+import Exercicio03.Produto;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class Main {
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
         // 2. Depositar um valor na conta.
         // 3. Sacar um valor da conta.
-        // 4. Exibir o saldo final.
+        // 4. Exibir o saldo final
 
         System.out.println();
         ContaBancaria contaBancaria1 = new ContaBancaria(1000);
@@ -31,6 +32,14 @@ public class Main {
         // 2. Exibir o nome, preço e quantidade em estoque.
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
+
+        System.out.println();
+        Produto produto1 = new Produto("Queijo", 80, 10);
+        System.out.println("Produto: " + produto1.getNome() + "\nPreço: R$" + produto1.getPreco() + "\nQuantidade em estoque: " + produto1.getQtdEstoque());
+        produto1.addEstoque(5);
+        System.out.println("Quantidade em estoque: " + produto1.getQtdEstoque());
+        produto1.subEstoque(7);
+        System.out.println("Quantidade em estoque: " + produto1.getQtdEstoque());
 
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
