@@ -1,4 +1,5 @@
 import Exercicio01.Pessoa;
+import Exercicio02.ContaBancaria;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,6 +17,10 @@ public class Main {
         // 2. Depositar um valor na conta.
         // 3. Sacar um valor da conta.
         // 4. Exibir o saldo final.
+        ContaBancaria conta = new ContaBancaria(1, 5000.0);
+        conta.depositar(1000.0);
+        conta.sacar(500.0);
+        System.out.println("Saldo final: " + conta.getSaldo());
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
