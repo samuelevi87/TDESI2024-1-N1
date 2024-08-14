@@ -3,6 +3,7 @@ import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
+import Exercicio06.Cliente;
 
 import java.sql.SQLOutput;
 
@@ -57,14 +58,20 @@ public class Main {
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
         Carro carro = new Carro("Honda Civic", "Si", 2005, 170.000);
-        System.out.println("Marca: " + carro.getMarca() + "Modelo: " + carro.getModelo() + "Ano: " + carro.getAno() + "Quilometragem: " + carro.getQuilometragem());
+        System.out.println("\nExercício 5:");
+        System.out.println("Marca: " + carro.getMarca() + "\nModelo: " + carro.getModelo() + "\nAno: " + carro.getAno() + "\nQuilometragem: " + carro.getQuilometragem());
         carro.adicionarQuilometragem(200.000);
-        System.out.println("Quilometragem: " + carro.getQuilometragem());
+        System.out.println("- \nQuilometragem: " + carro.getQuilometragem());
 
         // Exercício 6:
         // 1. Criar uma instância da classe Cliente.
         // 2. Exibir o nome, email e telefone do cliente.
         // 3. Alterar o telefone do cliente e exibir novamente.
+        Cliente cliente = new Cliente("Yumi", "yumi@hotmail.com", "(99) 9999-9999");
+        System.out.println("\nExercício 6:");
+        System.out.println("Nome: " + cliente.getNome() + "\nEmail: " + cliente.getEmail() + "\nTelefone: " + cliente.getTelefone());
+        cliente.setTelefone("(99) 9900-9999");
+        System.out.println("- \nTelefone: " + cliente.getTelefone());
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
