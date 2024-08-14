@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
+
+        public static void caracteristicas() {
+            System.out.println("nome" + nome);
+            System.out.println("idade" + idade);
+        }
         // Exercício 1:
         // 1. Criar uma instância da classe Pessoa.
         // 2. Exibir o nome e a idade da pessoa.
