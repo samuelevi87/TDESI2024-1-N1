@@ -3,6 +3,7 @@ import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
+import Exercicio06.Cliente;
 
 public class Main {
     public static void main(String[] args) {
@@ -62,17 +63,22 @@ public class Main {
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
 
-<<<<<<< HEAD
         Carro carro1 = new Carro("Volkswagen", "Gol", 2011, 10389);
         System.out.println("---- Exercício 5 ----");
         System.out.println(carro1);
         carro1.adicionarQuilometragem(1370);
         System.out.println(carro1);
-=======
+
         // Exercício 6:
         // 1. Criar uma instância da classe Cliente.
         // 2. Exibir o nome, email e telefone do cliente.
         // 3. Alterar o telefone do cliente e exibir novamente.
+
+        Cliente cliente1 = new Cliente("Robson", "robson@gmail.com", "4002-8922");
+        System.out.println("---- Exercício 6 ----");
+        System.out.println(cliente1);
+        cliente1.setTelefone("8922-4002");
+        System.out.println(cliente1);
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
@@ -118,6 +124,5 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
->>>>>>> d8a7cf847fcd43445b23fc96206eae7cd71adf93
     }
 }
