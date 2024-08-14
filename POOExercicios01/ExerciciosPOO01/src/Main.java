@@ -5,6 +5,7 @@ import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
+import Exercicio08.Funcionario;
 
 public class Main {
     public static void main(String[] args) {
@@ -96,6 +97,12 @@ public class Main {
         // 1. Criar uma instância da classe Funcionario.
         // 2. Exibir o nome, cargo e salário do funcionário.
         // 3. Alterar o salário do funcionário e exibir novamente.
+
+        Funcionario funcionario1 = new Funcionario("Rosevaldo", "Supervisor", 3500);
+        System.out.println("---- Exercício 8 ----");
+        System.out.println(funcionario1);
+        funcionario1.setSalario(4000);
+        System.out.println(funcionario1);
 
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
