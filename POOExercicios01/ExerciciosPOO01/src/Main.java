@@ -31,10 +31,10 @@ public class Main {
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
         Produto produto = new Produto("Caixa", 79.90, 450);
-        System.out.println("Exercício 3:");
-        System.out.println("Produto: " + produto.getNome() + "Preço: " + produto.getPreco() + "Quantidade em estoque: " + produto.getQuantidadeEmEstoque());
+        System.out.println("\nExercício 3:");
+        System.out.println("Produto: " + produto.getNome() + "\nPreço: " + produto.getPreco() + "\nQuantidade em estoque: " + produto.getQuantidadeEmEstoque());
         produto.adicionarEstoque(40);
-        System.out.println("\nQuantidade em estoque: " + produto.getQuantidadeEmEstoque());
+        System.out.println("---\nQuantidade em estoque: " + produto.getQuantidadeEmEstoque());
         produto.removerEstoque(4);
         System.out.println("Quantidade em estoque: " + produto.getQuantidadeEmEstoque());
 
