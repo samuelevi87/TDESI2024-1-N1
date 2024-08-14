@@ -6,6 +6,7 @@ import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
+import Exercicio09.ProdutoIndustrial;
 
 public class Main {
     public static void main(String[] args) {
@@ -108,6 +109,12 @@ public class Main {
         // 1. Criar uma instância da classe ProdutoIndustrial.
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
+
+        ProdutoIndustrial produtoIndustrial1 = new ProdutoIndustrial("01", "Peça", 50, 120);
+        System.out.println("---- Exercício 9 ----");
+        System.out.println(produtoIndustrial1);
+        System.out.println("A margem de lucro ficou em: R$" + produtoIndustrial1.calcularMargemLucro());
+        System.out.println();
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
