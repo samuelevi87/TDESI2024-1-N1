@@ -4,6 +4,7 @@ import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
+import Exercicio07.Pedido;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,12 +35,12 @@ public class Main {
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
 
-        Produto produto = new Produto("cadeira", 50, 100);
-        System.out.println(produto.getNome() + " " + produto.getPreco() + " " + produto.getQuantidadeEmEstoque());
-        produto.adicionarEstoque(20);
-        System.out.println(produto.getQuantidadeEmEstoque());
-        produto.removerEstoque(130);
-        System.out.println(produto.getQuantidadeEmEstoque());
+//        Produto produto = new Produto("cadeira", 50, 100);
+//        System.out.println(produto.getNome() + " " + produto.getPreco() + " " + produto.getQuantidadeEmEstoque());
+//        produto.adicionarEstoque(20);
+//        System.out.println(produto.getQuantidadeEmEstoque());
+//        produto.removerEstoque(130);
+//        System.out.println(produto.getQuantidadeEmEstoque());
 
 
         // Exercício 4:
@@ -47,20 +48,20 @@ public class Main {
         // 2. Exibir o título, autor e ano de publicação.
         // 3. Alterar o ano de publicação e exibir novamente.
 
-        Livro livro = new Livro("A vida invisível de Addie Larue", "Julia Quinn", 2020);
-        System.out.println(livro.getTitulo() + " " + livro.getAutor() + " " + livro.getAnoPublicacao());
-        livro.setAnoPublicacao(2019);
-        System.out.println(livro.getAnoPublicacao());
+//        Livro livro = new Livro("A vida invisível de Addie Larue", "Julia Quinn", 2020);
+//        System.out.println(livro.getTitulo() + " " + livro.getAutor() + " " + livro.getAnoPublicacao());
+//        livro.setAnoPublicacao(2019);
+//        System.out.println(livro.getAnoPublicacao());
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
 
-        Carro carro = new Carro("peugeot", "207", 2010, 1000);
-        System.out.println(carro.getMarca() + " " + carro.getModelo() + " " + carro.getAno() + " " + carro.getQuilometragem());
-        carro.adicionarQuilometragem(1000);
-        System.out.println(carro.getQuilometragem());
+//        Carro carro = new Carro("peugeot", "207", 2010, 1000);
+//        System.out.println(carro.getMarca() + " " + carro.getModelo() + " " + carro.getAno() + " " + carro.getQuilometragem());
+//        carro.adicionarQuilometragem(1000);
+//        System.out.println(carro.getQuilometragem());
 
 
         // Exercício 6:
@@ -68,15 +69,22 @@ public class Main {
         // 2. Exibir o nome, email e telefone do cliente.
         // 3. Alterar o telefone do cliente e exibir novamente.
 
-        Cliente cliente = new Cliente("Nathália", "(47)1234-5678", "nathalia@gmail.com");
-        System.out.println(cliente.getNome() + " " + cliente.getTelefone() + " " + cliente.getEmail());
-        cliente.setTelefone("(47)8765-4321");
-        System.out.println(cliente.getTelefone());
-        
+//        Cliente cliente = new Cliente("Nathália", "(47)1234-5678", "nathalia@gmail.com");
+//        System.out.println(cliente.getNome() + " " + cliente.getTelefone() + " " + cliente.getEmail());
+//        cliente.setTelefone("(47)8765-4321");
+//        System.out.println(cliente.getTelefone());
+
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
+
+        Pedido pedido = new Pedido(10, 100, "Processando");
+        System.out.println(pedido.getNumeroPedido() + " " + pedido.getValorTotal() + " " + pedido.getStatus());
+        pedido.setStatus("Enviado");
+        System.out.println(pedido.getStatus());
+
+
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
