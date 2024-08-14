@@ -5,6 +5,7 @@ import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
+import Exercicio08.Funcionario;
 
 import java.sql.SQLOutput;
 
@@ -88,6 +89,11 @@ public class Main {
         // 1. Criar uma instância da classe Funcionario.
         // 2. Exibir o nome, cargo e salário do funcionário.
         // 3. Alterar o salário do funcionário e exibir novamente.
+        Funcionario funcionario = new Funcionario("Tainá Estefani Martins", "Estagiário", 1100);
+        System.out.println("\nExercício 8:");
+        System.out.println("Nome: " + funcionario.getNome() + "\nCargo: " + funcionario.getCargo() + "\nSalário: " + funcionario.getSalario());
+        funcionario.setSalario(1500);
+        System.out.println("- \nSalário: " + funcionario.getSalario());
 
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
