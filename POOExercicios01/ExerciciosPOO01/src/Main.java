@@ -2,6 +2,7 @@ import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
 import Exercicio04.Livro;
+import Exercicio05.Carro;
 
 import java.sql.SQLOutput;
 
@@ -55,5 +56,9 @@ public class Main {
         // 1. Criar uma instância da classe Carro.
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
+        Carro carro = new Carro("Honda Civic", "Si", 2005, 170.000);
+        System.out.println("Marca: " + carro.getMarca() + "Modelo: " + carro.getModelo() + "Ano: " + carro.getAno() + "Quilometragem: " + carro.getQuilometragem());
+        carro.adicionarQuilometragem(200.000);
+        System.out.println("Quilometragem: " + carro.getQuilometragem());
     }
 }
