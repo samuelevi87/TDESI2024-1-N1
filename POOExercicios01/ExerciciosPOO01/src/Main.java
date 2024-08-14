@@ -1,6 +1,7 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
+import Exercicio04.Livro;
 
 public class Main {
     public static void main(String[] args) {
@@ -44,7 +45,11 @@ public class Main {
         // 2. Exibir o título, autor e ano de publicação.
         // 3. Alterar o ano de publicação e exibir novamente.
 
-
+        Livro livro = new Livro("A vida invisível de Addie Larue", "Julia Quinn", 2020);
+        System.out.println(livro.getTitulo() + " " + livro.getAutor() + " " + livro.getAnoPublicacao());
+        livro.setAnoPublicacao(2019);
+        System.out.println(livro.getAnoPublicacao());
+        
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
