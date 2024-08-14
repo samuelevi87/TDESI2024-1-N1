@@ -10,39 +10,113 @@ Bem-vindo aos exercícios de programação em Java! Estes exercícios foram dese
 
 ## Exercícios
 
-### 1. Classe `Pessoa`
+### Exercícios Iniciais
+
+#### 1. Classe `Pessoa`
 - **Objetivo:** Criar uma classe `Pessoa` com atributos de nome e idade, além de métodos para manipular esses atributos.
 - **Conceitos a revisar:**
   - Encapsulamento
   - Métodos getter e setter
   - Construtores
 
-### 2. Classe `ContaBancaria`
+#### 2. Classe `ContaBancaria`
 - **Objetivo:** Criar uma classe `ContaBancaria` que simule operações bancárias simples, como depósito e saque.
 - **Conceitos a revisar:**
   - Manipulação de atributos do tipo `double`
   - Validação de condições dentro de métodos
   - Construtores
 
-### 3. Classe `Produto`
+#### 3. Classe `Produto`
 - **Objetivo:** Criar uma classe `Produto` que represente um item em uma loja, com operações de adição e remoção de estoque.
 - **Conceitos a revisar:**
   - Manipulação de atributos do tipo `int` e `double`
   - Métodos para modificar o estado de um objeto
   - Construtores
 
-### 4. Classe `Livro`
+#### 4. Classe `Livro`
 - **Objetivo:** Criar uma classe `Livro` que represente um livro em uma biblioteca, com atributos como título, autor e ano de publicação.
 - **Conceitos a revisar:**
   - Encapsulamento
   - Métodos getter e setter
   - Construtores
 
-### 5. Classe `Carro`
+#### 5. Classe `Carro`
 - **Objetivo:** Criar uma classe `Carro` que represente um veículo, com atributos como marca, modelo, ano e quilometragem.
 - **Conceitos a revisar:**
   - Manipulação de atributos do tipo `String`, `int` e `double`
   - Métodos para alterar e acessar os atributos do objeto
+  - Construtores
+
+### Novos Exercícios
+
+#### 6. Classe `Cliente`
+- **Objetivo:** Criar uma classe `Cliente` que represente um cliente de uma empresa.
+- **Conceitos a revisar:**
+  - Encapsulamento
+  - Métodos getter e setter
+  - Construtores
+
+#### 7. Classe `Pedido`
+- **Objetivo:** Criar uma classe `Pedido` que represente um pedido realizado por um cliente em uma loja.
+- **Conceitos a revisar:**
+  - Manipulação de atributos do tipo `double`
+  - Validação de condições dentro de métodos
+  - Construtores
+
+#### 8. Classe `Funcionario`
+- **Objetivo:** Criar uma classe `Funcionario` que represente um funcionário de uma empresa.
+- **Conceitos a revisar:**
+  - Encapsulamento
+  - Métodos getter e setter
+  - Construtores
+
+#### 9. Classe `ProdutoIndustrial`
+- **Objetivo:** Criar uma classe `ProdutoIndustrial` que represente um produto fabricado em uma indústria.
+- **Conceitos a revisar:**
+  - Manipulação de atributos do tipo `double`
+  - Cálculo de margens de lucro
+  - Construtores
+
+#### 10. Classe `Contrato`
+- **Objetivo:** Criar uma classe `Contrato` que represente um contrato firmado entre duas partes.
+- **Conceitos a revisar:**
+  - Encapsulamento
+  - Métodos getter e setter
+  - Construtores
+
+#### 11. Classe `Fornecedor`
+- **Objetivo:** Criar uma classe `Fornecedor` que represente um fornecedor de materiais para uma empresa.
+- **Conceitos a revisar:**
+  - Encapsulamento
+  - Métodos getter e setter
+  - Construtores
+
+#### 12. Classe `Maquina`
+- **Objetivo:** Criar uma classe `Maquina` que represente uma máquina em uma linha de produção industrial.
+- **Conceitos a revisar:**
+  - Manipulação de atributos do tipo `String`
+  - Validação de estados de operação
+  - Construtores
+
+#### 13. Classe `VeiculoEmpresa`
+- **Objetivo:** Criar uma classe `VeiculoEmpresa` que represente um veículo da frota de uma empresa.
+- **Conceitos a revisar:**
+  - Manipulação de atributos do tipo `String`, `int` e `double`
+  - Métodos para alterar e acessar os atributos do objeto
+  - Construtores
+
+#### 14. Classe `Projeto`
+- **Objetivo:** Criar uma classe `Projeto` que represente um projeto em andamento em uma empresa.
+- **Conceitos a revisar:**
+  - Manipulação de atributos do tipo `String`, `int` e `double`
+  - Métodos getter e setter
+  - Construtores
+
+#### 15. Classe `Seguro`
+- **Objetivo:** Criar uma classe `Seguro` que represente um seguro contratado por uma empresa ou indivíduo.
+- **Conceitos a revisar:**
+  - Encapsulamento
+  - Métodos getter e setter
   - Construtores
 
 ## Recursos e Referências
