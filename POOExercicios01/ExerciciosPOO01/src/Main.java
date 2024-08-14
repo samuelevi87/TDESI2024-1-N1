@@ -70,7 +70,7 @@ public class Main {
         Cliente cliente = new Cliente("Yumi", "yumi@hotmail.com", "(99) 9999-9999");
         System.out.println("\nExercício 6:");
         System.out.println("Nome: " + cliente.getNome() + "\nEmail: " + cliente.getEmail() + "\nTelefone: " + cliente.getTelefone());
-        cliente.setTelefone("(99) 9900-9999");
+        cliente.setTelefone("(66) 6666-6666");
         System.out.println("- \nTelefone: " + cliente.getTelefone());
 
         // Exercício 7:
