@@ -2,6 +2,7 @@ import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
 import Exercicio04.Livro;
+import Exercicio05.Carro;
 
 public class Main {
     public static void main(String[] args) {
@@ -49,10 +50,15 @@ public class Main {
         System.out.println(livro.getTitulo() + " " + livro.getAutor() + " " + livro.getAnoPublicacao());
         livro.setAnoPublicacao(2019);
         System.out.println(livro.getAnoPublicacao());
-        
+
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
+
+        Carro carro = new Carro("peugeot", "207", 2010, 1000);
+        System.out.println(carro.getMarca() + " " + carro.getModelo() + " " + carro.getAno() + " " + carro.getQuilometragem());
+        carro.adicionarQuilometragem(1000);
+        System.out.println(carro.getQuilometragem());
     }
 }
