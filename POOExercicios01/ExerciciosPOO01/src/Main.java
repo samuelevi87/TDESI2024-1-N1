@@ -4,6 +4,7 @@ import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
+import Exercicio07.Pedido;
 
 import java.sql.SQLOutput;
 
@@ -17,7 +18,7 @@ public class Main {
         System.out.println("\nExercício 1:");
         System.out.println("Nome: " + pessoa.getNome() + "\nIdade: " + pessoa.getIdade());
         pessoa.setIdade(20);
-        System.out.println("Idade: " + pessoa.getIdade());
+        System.out.println("- \nIdade: " + pessoa.getIdade());
 
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
@@ -77,6 +78,11 @@ public class Main {
         // 1. Criar uma instância da classe Pedido.
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
+        Pedido pedido = new Pedido(67, 484, "Pendente");
+        System.out.println("\nExercício 7:");
+        System.out.println("Número do Pedido: " + pedido.getNumeroPedido() + "\nValor Total: " + pedido.getValorTotal() + "\nStatus: " + pedido.getStatus());
+        pedido.setStatus("Processado");
+        System.out.println("- \nStatus: " + pedido.getStatus());
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
