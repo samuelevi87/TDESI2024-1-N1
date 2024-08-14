@@ -18,7 +18,7 @@ public class Main {
         // 2. Depositar um valor na conta.
         // 3. Sacar um valor da conta.
         // 4. Exibir o saldo final.
-
+cla
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
         // 2. Exibir o nome, preço e quantidade em estoque.

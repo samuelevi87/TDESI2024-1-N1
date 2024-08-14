@@ -1,12 +1,13 @@
 
-# Meu Currículo 🌟
+# Meu Curriculo 🌟
 
 ![Header](https://images.unsplash.com/photo-1584697964358-3e14ca57658b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80)
 
 ## Dados Pessoais 📄
-![Profile Picture](https://images.unsplash.com/photo-1554151228-14d9def656e4?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80)
-- **Nome:** [Seu nome completo] 🙍‍♂️
-- **Email:** [Seu email] 📧
+
+![Profile Picture](https://www.mktesportivo.com/wp-content/uploads/2024/07/Jogos-Olimpicos-Paris-2024-2.jpg)
+- **Nome:** [claudyson clairmeus] 🙍‍♂️
+- **Email:** [claudyson_clairmeus@estudente.sesisenai.org.br] 📧
 - **Instagram:** [Link do seu Instagram](https://www.linkedin.com) 🔗
 - **GitHub:** [Link do seu GitHub](https://www.github.com) 🔗
 
