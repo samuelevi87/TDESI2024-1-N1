@@ -10,6 +10,7 @@ import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
+import Exercicio13.VeiculoEmpresa;
 
 public class Main {
     public static void main(String[] args) {
@@ -156,6 +157,12 @@ public class Main {
         // 1. Criar uma instância da classe VeiculoEmpresa.
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+
+        VeiculoEmpresa veiculoEmpresa1 = new VeiculoEmpresa("QJD8902", "Civic", 2015, 1920);
+        System.out.println("---- Exercício 13 ----");
+        System.out.println(veiculoEmpresa1);
+        veiculoEmpresa1.adicionarQuilometragem(1920);
+        System.out.println(veiculoEmpresa1);
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
