@@ -1,6 +1,9 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
+import Exercicio04.Livro;
+
+import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,7 +37,7 @@ public class Main {
         System.out.println("\nExercício 3:");
         System.out.println("Produto: " + produto.getNome() + "\nPreço: " + produto.getPreco() + "\nQuantidade em estoque: " + produto.getQuantidadeEmEstoque());
         produto.adicionarEstoque(40);
-        System.out.println("---\nQuantidade em estoque: " + produto.getQuantidadeEmEstoque());
+        System.out.println("-\nQuantidade em estoque: " + produto.getQuantidadeEmEstoque());
         produto.removerEstoque(4);
         System.out.println("Quantidade em estoque: " + produto.getQuantidadeEmEstoque());
 
@@ -42,6 +45,11 @@ public class Main {
         // 1. Criar uma instância da classe Livro.
         // 2. Exibir o título, autor e ano de publicação.
         // 3. Alterar o ano de publicação e exibir novamente.
+        Livro livro = new Livro("Alice no País das Maravilhas", "Lewis Carroll", 1865);
+        System.out.println("\nExercício 4:");
+        System.out.println("Título: " + livro.getTitulo() + "\nAutor: " + livro.getAutor() + "\nAno de Publicação: " + livro.getAnoPublicacao());
+        livro.setAnoPublicacao(2010);
+        System.out.println("- \nAno de Publicação: " + livro.getAnoPublicacao());
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
