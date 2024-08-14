@@ -5,6 +5,7 @@ import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
+import Exercicio08.Funcionario;
 
 import java.sql.SQLOutput;
 
@@ -80,15 +81,19 @@ public class Main {
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
 
-        Pedido pedido = new Pedido(1, 100, "Pendente");
-        System.out.println(pedido.getNumeroPedido() + " " + pedido.getValorTotal() + " " + pedido.getStatus());
-        pedido.setStatus("enviado");
-        System.out.println(pedido.getStatus());
+//        Pedido pedido = new Pedido(1, 100, "Pendente");
+//        System.out.println(pedido.getNumeroPedido() + " " + pedido.getValorTotal() + " " + pedido.getStatus());
+//        pedido.setStatus("enviado");
+//        System.out.println(pedido.getStatus());
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
         // 2. Exibir o nome, cargo e salário do funcionário.
         // 3. Alterar o salário do funcionário e exibir novamente.
+//        Funcionario funcionario = new Funcionario("Gabriella", "dev", 1000);
+//        System.out.println(funcionario);
+//        funcionario.setSalario(100000000);
+//        System.out.println(funcionario.getSalario());
 
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
