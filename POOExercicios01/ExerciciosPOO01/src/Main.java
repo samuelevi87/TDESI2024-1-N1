@@ -4,6 +4,9 @@ import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
+import Exercicio07.Pedido;
+
+import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,15 +70,20 @@ public class Main {
         // 2. Exibir o nome, email e telefone do cliente.
         // 3. Alterar o telefone do cliente e exibir novamente.
 
-        Cliente cliente = new Cliente("Gabriella", "gabi@gmail.com", "984292863");
-        System.out.println(cliente.getNome() + " " + cliente.getEmail() + " " + cliente.getTelefone());
-        cliente.setTelefone("1234");
-        System.out.println(cliente.getTelefone());
+//        Cliente cliente = new Cliente("Gabriella", "gabi@gmail.com", "984292863");
+//        System.out.println(cliente.getNome() + " " + cliente.getEmail() + " " + cliente.getTelefone());
+//        cliente.setTelefone("1234");
+//        System.out.println(cliente.getTelefone());
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
+
+        Pedido pedido = new Pedido(1, 100, "Pendente");
+        System.out.println(pedido.getNumeroPedido() + " " + pedido.getValorTotal() + " " + pedido.getStatus());
+        pedido.setStatus("enviado");
+        System.out.println(pedido.getStatus());
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
