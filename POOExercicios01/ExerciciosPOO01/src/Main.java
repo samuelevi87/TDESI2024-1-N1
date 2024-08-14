@@ -5,6 +5,7 @@ import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
+import Exercicio08.Funcionario;
 
 public class Main {
     public static void main(String[] args) {
@@ -91,6 +92,10 @@ public class Main {
         // 2. Exibir o nome, cargo e salário do funcionário.
         // 3. Alterar o salário do funcionário e exibir novamente.
 
+        Funcionario funcionario = new Funcionario("Maria", "Bioquímica", 5000);
+        System.out.println(funcionario.getNome() + " " + funcionario.getCargo() + " " + funcionario.getSalario());
+        funcionario.setSalario(5500);
+        System.out.println(funcionario.getSalario());
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
