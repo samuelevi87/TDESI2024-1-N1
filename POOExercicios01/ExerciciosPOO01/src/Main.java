@@ -6,6 +6,7 @@ import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
+import Exercicio09.ProdutoIndustrial;
 
 public class Main {
     public static void main(String[] args) {
@@ -92,15 +93,19 @@ public class Main {
         // 2. Exibir o nome, cargo e salário do funcionário.
         // 3. Alterar o salário do funcionário e exibir novamente.
 
-        Funcionario funcionario = new Funcionario("Maria", "Bioquímica", 5000);
-        System.out.println(funcionario.getNome() + " " + funcionario.getCargo() + " " + funcionario.getSalario());
-        funcionario.setSalario(5500);
-        System.out.println(funcionario.getSalario());
+//        Funcionario funcionario = new Funcionario("Maria", "Bioquímica", 5000);
+//        System.out.println(funcionario.getNome() + " " + funcionario.getCargo() + " " + funcionario.getSalario());
+//        funcionario.setSalario(5500);
+//        System.out.println(funcionario.getSalario());
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
 
+        ProdutoIndustrial produtoIndustrial = new ProdutoIndustrial("1", "Caneta", 1.0, 1.50);
+        System.out.println(produtoIndustrial.getCodigo() + " " + produtoIndustrial.getNome() + " " + produtoIndustrial.getPrecoCusto() + " " + produtoIndustrial.getPrecoVenda());
+        System.out.println(produtoIndustrial.calcularMargemLucro());
+        
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
         // 2. Exibir o número do contrato, descrição, valor e vigência.
