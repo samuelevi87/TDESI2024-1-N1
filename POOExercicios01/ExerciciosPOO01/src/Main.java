@@ -1,6 +1,7 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
+import Exercicio04.Livro;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,9 +35,17 @@ public class Main {
         System.out.println(produto.toString());
 
         // Exercício 4:
-        // 1. Criar uma instância da classe Livro.
-        // 2. Exibir o título, autor e ano de publicação.
-        // 3. Alterar o ano de publicação e exibir novamente.
+        Livro livro = new Livro();
+        livro.setAnoPublicacao(2020);
+        livro.setAutor("Matheus");
+        livro.setTitulo("Harry Pottyr");
+
+        System.out.println(livro.toString());
+
+        livro.setAnoPublicacao(1999);
+        livro.setAutor("Lari");
+        livro.setTitulo("Motivação?");
+        System.out.println(livro.toString());
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
