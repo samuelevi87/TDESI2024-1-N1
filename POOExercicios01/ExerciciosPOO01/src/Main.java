@@ -10,6 +10,7 @@ import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
+import Exercicio13.VeiculoEmpresa;
 
 import java.sql.SQLOutput;
 
@@ -132,16 +133,22 @@ public class Main {
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
 
-        Maquina maquina = new Maquina("123", "solda", "manutenção");
-        System.out.println(maquina);
-        maquina.setStatusOperacao("operacional");
-        System.out.println(maquina.getStatusOperacao());
+//        Maquina maquina = new Maquina("123", "solda", "manutenção");
+//        System.out.println(maquina);
+//        maquina.setStatusOperacao("operacional");
+//        System.out.println(maquina.getStatusOperacao());
 
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+
+        VeiculoEmpresa veiculo = new VeiculoEmpresa("OJDWUI-24545", "HB20", 2024, 1000.0);
+        System.out.println(veiculo);
+        veiculo.adicionarQuilometragem(1000);
+        System.out.println(veiculo.getQuilometragem());
+
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
