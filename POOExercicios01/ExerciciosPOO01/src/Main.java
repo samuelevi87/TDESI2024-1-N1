@@ -8,6 +8,8 @@ import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
+import Exercicio11.Fornecedor;
+import Exercicio12.Maquina;
 
 public class Main {
     public static void main(String[] args) {
@@ -112,20 +114,30 @@ public class Main {
         // 2. Exibir o número do contrato, descrição, valor e vigência.
         // 3. Alterar a vigência do contrato e exibir novamente.
 
-        Contrato contrato = new Contrato("1", "Funcionário contratado para o cargo de Desenvolvedor Júnior", 3000, 6 );
-        System.out.println(contrato.getNumeroContrato() + " " + contrato.getDescricao() + " " + contrato.getValor() + " " + contrato.getVigencia());
-        contrato.setVigencia(12);
-        System.out.println(contrato.getVigencia());
+//        Contrato contrato = new Contrato("1", "Funcionário contratado para o cargo de Desenvolvedor Júnior", 3000, 6 );
+//        System.out.println(contrato.getNumeroContrato() + " " + contrato.getDescricao() + " " + contrato.getValor() + " " + contrato.getVigencia());
+//        contrato.setVigencia(12);
+//        System.out.println(contrato.getVigencia());
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
         // 3. Alterar o telefone do fornecedor e exibir novamente.
 
+//        Fornecedor fornecedor = new Fornecedor("Sayonara",  "12. 345. 678/0001-91", "(47)1234-5678");
+//        System.out.println(fornecedor);
+//        fornecedor.setTelefone("(47)9876-5432");
+//        System.out.println(fornecedor.getTelefone());
+
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
+
+        Maquina maquina = new Maquina("1", "Corte", "Operacional");
+        System.out.println(maquina);
+        maquina.setStatusOperacao("Montagem");
+        System.out.println(maquina.getStatusOperacao());
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
