@@ -1,5 +1,7 @@
 package Exercicio03;
 
+import java.sql.SQLOutput;
+
 public class Produto {
 
     String nome;
@@ -44,7 +46,11 @@ public class Produto {
     }
 
     public void removerEstoque(int valor) {
-        this.quantidadeEmEstoque = this.quantidadeEmEstoque - valor;
+        if (this.quantidadeEmEstoque < valor){
+            System.out.println("Valor informado menor que valor em estoque");
+        } else {
+            this.quantidadeEmEstoque -= valor;
+        }
     }
 
     @Override
