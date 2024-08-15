@@ -7,6 +7,7 @@ import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
+import Exercicio10.Contrato;
 
 import java.sql.SQLOutput;
 
@@ -110,6 +111,12 @@ public class Main {
         // 1. Criar uma instância da classe Contrato.
         // 2. Exibir o número do contrato, descrição, valor e vigência.
         // 3. Alterar a vigência do contrato e exibir novamente.
+        Contrato contrato = new Contrato("14", "?", 450, 7);
+        System.out.println("\nExercício 10:");
+        System.out.println("Número: " + contrato.getNumeroContrato() + "\nDescrição: " + contrato.getDescricao()
+                + "\nValor: " + contrato.getValor() + "\nVigência: " + contrato.getVigencia());
+        contrato.setVigencia(4);
+        System.out.println("- \nVigência: " + contrato.getVigencia());
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
