@@ -6,9 +6,8 @@ import Exercicio04.Livro;
 public class Main {
     public static void main(String[] args) {
         // Exercício 1:
-        Pessoa pessoa = new Pessoa();
-        pessoa.setIdade(18);
-        pessoa.setNome("Matheus");
+        Pessoa pessoa = new Pessoa("Matheus", 18);
+
         System.out.println(pessoa);
 
         pessoa.setIdade(21);
@@ -16,16 +15,14 @@ public class Main {
         System.out.println(pessoa);
 
         // Exercício 2:
-        ContaBancaria conta = new ContaBancaria();
+        ContaBancaria conta = new ContaBancaria(001, 5000);
         conta.depositar(2000);
         conta.sacar(1987);
         conta.getSaldo();
 
         // Exercício 3:
-        Produto produto = new Produto();
-        produto.setNome("Tablet");
-        produto.setPreco(800);
-        produto.setQuantidadeEmEstoque(500);
+        Produto produto = new Produto("Tablet", 800,500);
+
         System.out.println(produto);
 
         produto.adicionarEstoque(300);
@@ -35,10 +32,7 @@ public class Main {
         System.out.println(produto.toString());
 
         // Exercício 4:
-        Livro livro = new Livro();
-        livro.setAnoPublicacao(2020);
-        livro.setAutor("Matheus");
-        livro.setTitulo("Harry Pottyr");
+        Livro livro = new Livro("Harry Pottyr","Matheus",1999);
 
         System.out.println(livro.toString());
 

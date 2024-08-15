@@ -5,8 +5,6 @@ public class Livro {
     String autor;
     int anoPublicacao;
 
-    public Livro() {
-    }
 
     public Livro(String titulo, String autor, int anoPublicacao) {
         this.titulo = titulo;
