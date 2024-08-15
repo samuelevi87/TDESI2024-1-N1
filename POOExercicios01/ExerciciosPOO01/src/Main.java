@@ -12,6 +12,7 @@ import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
 import Exercicio14.Projeto;
+import Exercicio15.Seguro;
 
 public class Main {
     public static void main(String[] args) {
@@ -155,14 +156,19 @@ public class Main {
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
 
-        Projeto projeto = new Projeto("Aplicativo", 6, 2000);
-        System.out.println(projeto.getNome() + " " +  projeto.getDuracao() + " " + projeto.getOrcamento());
-        projeto.setOrcamento(3000);
-        System.out.println(projeto.getOrcamento());
+//        Projeto projeto = new Projeto("Aplicativo", 6, 2000);
+//        System.out.println(projeto.getNome() + " " +  projeto.getDuracao() + " " + projeto.getOrcamento());
+//        projeto.setOrcamento(3000);
+//        System.out.println(projeto.getOrcamento());
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+
+        Seguro seguro = new Seguro("10", "Saúde", 200, 50 );
+        System.out.println(seguro.getNumeroApolice() + " " + seguro.getTipo() + " " + seguro.getValorCobertura() + " " + seguro.getValorPremio());
+        seguro.setValorPremio(100);
+        System.out.println(seguro.getValorPremio());
     }
 }
