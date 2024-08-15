@@ -10,6 +10,7 @@ import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
+import Exercicio13.VeiculoEmpresa;
 
 public class Main {
     public static void main(String[] args) {
@@ -134,16 +135,20 @@ public class Main {
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
 
-        Maquina maquina = new Maquina("1", "Corte", "Operacional");
-        System.out.println(maquina);
-        maquina.setStatusOperacao("Montagem");
-        System.out.println(maquina.getStatusOperacao());
+//        Maquina maquina = new Maquina("1", "Corte", "Operacional");
+//        System.out.println(maquina);
+//        maquina.setStatusOperacao("Montagem");
+//        System.out.println(maquina.getStatusOperacao());
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
 
+        VeiculoEmpresa veiculoEmpresa = new VeiculoEmpresa("SKZ-2018", "Uno",2013, 1000 );
+        System.out.println(veiculoEmpresa.getPlaca() + " " + veiculoEmpresa.getModelo() + " " + veiculoEmpresa.getAno() + " " + veiculoEmpresa.getQuilometragem());
+        veiculoEmpresa.adicionarQuilometragem(600);
+        System.out.println(veiculoEmpresa.getQuilometragem());
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
