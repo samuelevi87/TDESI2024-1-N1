@@ -1,15 +1,34 @@
+import Exercicio01.Pessoa;
+import Exercicio02.ContaBancaria;
+
+import javax.swing.plaf.synth.SynthOptionPaneUI;
+
 public class Main {
     public static void main(String[] args) {
         // Exercício 1:
         // 1. Criar uma instância da classe Pessoa.
         // 2. Exibir o nome e a idade da pessoa.
         // 3. Alterar a idade da pessoa e exibir novamente.
+        Pessoa pessoa1 = new Pessoa("Henrique", 21);
+        System.out.println("O nome da pessoa é: " + pessoa1.getNome() + "e a idade é: " + pessoa1.getIdade());
+        pessoa1.setIdade(40);
+        System.out.println("O nome é: " + pessoa1.getNome() + " e a idade é: " + pessoa1.getIdade());
 
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
-        // 2. Depositar um valor na conta.
+        ContaBancaria contaCorrente = new ContaBancaria(5555,200);
+        System.out.println("Saldo inicial: " + contaCorrente.getSaldo());
+
+        // 2. Depositar um valor na conta
+        contaCorrente.depositar(100);
+        System.out.println("Salto atualiuzado: " + contaCorrente.getSaldo());
+
         // 3. Sacar um valor da conta.
+        contaCorrente.sacar(50);
+
         // 4. Exibir o saldo final.
+        System.out.println("Saldo atualizado: " + contaCorrente.getSaldo());
+
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
