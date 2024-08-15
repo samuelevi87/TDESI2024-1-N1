@@ -12,6 +12,7 @@ import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
 import Exercicio14.Projeto;
+import Exercicio15.Seguro;
 
 import java.sql.SQLOutput;
 
@@ -164,5 +165,10 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+
+//        Seguro seguro = new Seguro("234", "de vida", 1000, 1000);
+//        System.out.println(seguro);
+//        seguro.setValorPremio(200);
+//        System.out.println(seguro.getValorPremio());
     }
 }
