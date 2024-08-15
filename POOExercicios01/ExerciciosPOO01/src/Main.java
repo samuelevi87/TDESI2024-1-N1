@@ -9,6 +9,7 @@ import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
+import Exercicio12.Maquina;
 
 import java.sql.SQLOutput;
 
@@ -133,6 +134,11 @@ public class Main {
         // 1. Criar uma instância da classe Maquina.
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
+        Maquina maquina = new Maquina("78","Montagem", "Manutenção");
+        System.out.println("\nExercício 12:");
+        System.out.println("ID: " + maquina.getIdMaquina() + "\nTipo: " + maquina.getTipo() + "\nStatus: " + maquina.getStatusOperacao());
+        maquina.setStatusOperacao("Parada");
+        System.out.println("- \nStatus: " + maquina.getStatusOperacao());
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
