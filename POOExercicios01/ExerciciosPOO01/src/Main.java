@@ -11,6 +11,7 @@ import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
+import Exercicio14.Projeto;
 
 import java.sql.SQLOutput;
 
@@ -155,6 +156,11 @@ public class Main {
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
+        Projeto projeto = new Projeto("API Fábrica Automotiva", 15, 15000);
+        System.out.println("\nExercício 14:");
+        System.out.println("Nome: " + projeto.getNome() + "\nDuração: " + projeto.getDuracao() + "\nOrçamento: " + projeto.getOrcamento());
+        projeto.setOrcamento(18000);
+        System.out.println("- \nOrçamento: " + projeto.getOrcamento());
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
