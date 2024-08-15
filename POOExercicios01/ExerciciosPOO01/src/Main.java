@@ -1,20 +1,28 @@
 import Exercicio01.Pessoa;
+import Exercicio02.ContaBancaria;
 
 public class Main {
     public static void main(String[] args) {
         // Exercício 1:
         // 1. Criar uma instância da classe Pessoa.
-        Pessoa cliente=new Pessoa();
+        Pessoa cliente=new Pessoa("william",25);
         // 2. Exibir o nome e a idade da pessoa.
-        System.out.println("Nome: "+ cliente.getNome()+" idade: "+ cliente.getIdade());
+        System.out.println("Nome: "+ cliente.getNome());
+        System.out.println(" idade: "+ cliente.getIdade());
         // 3. Alterar a idade da pessoa e exibir novamente.
         cliente.setIdade(25);
         System.out.println("Idade pós alteração: "+ cliente.getIdade());
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
+        ContaBancaria contaBancaria = new ContaBancaria(777,2200);
+        System.out.println("saldo inicial: "+contaBancaria.getSaldo());
         // 2. Depositar um valor na conta.
+        contaBancaria.depositar(100);
+        System.out.println("saldo atual: "+contaBancaria.getSaldo());
         // 3. Sacar um valor da conta.
+        contaBancaria.saque(25);
         // 4. Exibir o saldo final.
+        System.out.println("Saldo atual: "+contaBancaria.getSaldo());
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
