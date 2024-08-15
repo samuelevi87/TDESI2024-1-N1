@@ -7,6 +7,7 @@ import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
+import Exercicio10.Contrato;
 
 public class Main {
     public static void main(String[] args) {
@@ -81,10 +82,10 @@ public class Main {
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
 
-        Pedido pedido = new Pedido(10, 100, "Processando");
-        System.out.println(pedido.getNumeroPedido() + " " + pedido.getValorTotal() + " " + pedido.getStatus());
-        pedido.setStatus("Enviado");
-        System.out.println(pedido.getStatus());
+//        Pedido pedido = new Pedido(10, 100, "Processando");
+//        System.out.println(pedido.getNumeroPedido() + " " + pedido.getValorTotal() + " " + pedido.getStatus());
+//        pedido.setStatus("Enviado");
+//        System.out.println(pedido.getStatus());
 
 
 
@@ -102,14 +103,19 @@ public class Main {
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
 
-        ProdutoIndustrial produtoIndustrial = new ProdutoIndustrial("1", "Caneta", 1.0, 1.50);
-        System.out.println(produtoIndustrial.getCodigo() + " " + produtoIndustrial.getNome() + " " + produtoIndustrial.getPrecoCusto() + " " + produtoIndustrial.getPrecoVenda());
-        System.out.println(produtoIndustrial.calcularMargemLucro());
-        
+//        ProdutoIndustrial produtoIndustrial = new ProdutoIndustrial("1", "Caneta", 1.0, 1.50);
+//        System.out.println(produtoIndustrial.getCodigo() + " " + produtoIndustrial.getNome() + " " + produtoIndustrial.getPrecoCusto() + " " + produtoIndustrial.getPrecoVenda());
+//        System.out.println(produtoIndustrial.calcularMargemLucro());
+
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
         // 2. Exibir o número do contrato, descrição, valor e vigência.
         // 3. Alterar a vigência do contrato e exibir novamente.
+
+        Contrato contrato = new Contrato("1", "Funcionário contratado para o cargo de Desenvolvedor Júnior", 3000, 6 );
+        System.out.println(contrato.getNumeroContrato() + " " + contrato.getDescricao() + " " + contrato.getValor() + " " + contrato.getVigencia());
+        contrato.setVigencia(12);
+        System.out.println(contrato.getVigencia());
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
