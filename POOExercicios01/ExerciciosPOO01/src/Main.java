@@ -6,6 +6,7 @@ import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
+import Exercicio09.ProdutoIndustrial;
 
 import java.sql.SQLOutput;
 
@@ -99,6 +100,11 @@ public class Main {
         // 1. Criar uma instância da classe ProdutoIndustrial.
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
+        ProdutoIndustrial produtoIndustrial = new ProdutoIndustrial("28", "Pote", 46.12, 79.90);
+        System.out.println("\nExercício 9:");
+        System.out.println("Código: " + produtoIndustrial.getCodigo() + "\nNome: " + produtoIndustrial.getNome() + "\nPreço de Custo: "
+                + produtoIndustrial.getPrecoCusto() + "\nPreço de Venda: " + produtoIndustrial.getPrecoVenda());
+        System.out.println("Margem de Lucro: " + produtoIndustrial.calcularMargemLucro());
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
