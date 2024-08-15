@@ -6,10 +6,8 @@ public class Main {
     public static void main(String[] args) {
         // Exercício 1:
         // 1.Pe Criar uma instância da classe Pessoa.
-        Pessoa pessoa=new Pessoa();
-        // 2. Exibir o nome e a idade da pessoa.
-        pessoa.setIdade(12);
-        pessoa.setNome("jorgin");
+        Pessoa pessoa=new Pessoa("juan",17);
+        // 2. Exibir o nome e a idade da pessoa.;
         System.out.println(pessoa);
         // 3. Alterar a idade da pessoa e exibir novamente.
         pessoa.setIdade(13);
@@ -18,7 +16,7 @@ public class Main {
 
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
-        ContaBancaria conta=new ContaBancaria();
+        ContaBancaria conta=new ContaBancaria(4332,400);
         // 2. Depositar um valor na conta.
        conta.deposito(100);
         // 3. Sacar um valor da conta.
@@ -28,7 +26,7 @@ public class Main {
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
-        Produto produto=new Produto();
+        Produto produto=new Produto("garrafa",2.50,12);
         // 2. Exibir o nome, preço e quantidade em estoque.
         System.out.println(produto.toString());
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
@@ -37,7 +35,7 @@ public class Main {
         // 4. Remover itens do estoque e exibir a nova quantidade.
         produto.removerEstoque(4);
         System.out.println(produto.toString());
-        
+
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
         // 2. Exibir o título, autor e ano de publicação.

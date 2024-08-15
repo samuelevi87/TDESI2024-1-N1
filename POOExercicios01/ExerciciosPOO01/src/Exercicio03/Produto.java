@@ -1,9 +1,14 @@
 package Exercicio03;
 
 public class Produto {
-    String nome;
-    double preco;
-    int quantidadeEmEstoque;
+   private String nome;
+    private double preco;
+    private int quantidadeEmEstoque;
+    public Produto(String nome, double preco, int quantidadeEmEstoque) {
+        this.nome=nome;
+        this.preco=preco;
+        this.quantidadeEmEstoque=quantidadeEmEstoque;
+    }
 
     public String getNome() {
         return nome;
@@ -26,13 +31,16 @@ public class Produto {
     }
 
     public void setQuantidadeEmEstoque(int quantidadeEmEstoque) {
-        this.quantidadeEmEstoque = quantidadeEmEstoque+this.quantidadeEmEstoque;
+        this.quantidadeEmEstoque += quantidadeEmEstoque;
     }
     public void removerEstoque(int quantidadeEmEstoque) {
-        this.quantidadeEmEstoque = quantidadeEmEstoque-this.quantidadeEmEstoque;
+       if(this.quantidadeEmEstoque>quantidadeEmEstoque) {
+           this.quantidadeEmEstoque -=quantidadeEmEstoque;
+        }else{
+            System.out.println("n pode ser negativo");
+        }
     }
-    public Produto() {
-    }
+
 
     @Override
     public String toString() {
