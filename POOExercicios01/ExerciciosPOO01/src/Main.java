@@ -8,6 +8,7 @@ import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
+import Exercicio11.Fornecedor;
 
 import java.sql.SQLOutput;
 
@@ -119,6 +120,11 @@ public class Main {
         // 1. Criar uma instância da classe Fornecedor.
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
         // 3. Alterar o telefone do fornecedor e exibir novamente.
+
+//        Fornecedor forncedor = new Fornecedor("Maria", "xxx-xx-xxx", "98429-2863");
+//        System.out.println(forncedor);
+//        forncedor.setTelefone("12344");
+//        System.out.println(forncedor.getTelefone());
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
