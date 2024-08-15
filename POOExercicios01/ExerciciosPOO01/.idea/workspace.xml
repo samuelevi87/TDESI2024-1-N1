@@ -5,19 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ee59a3f-c265-493b-aad4-7dc1b3f032ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio06/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio06/InstruçõesExercicio06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio07/InstruçõesExercicio07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio08/InstruçõesExercicio08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio09/InstruçõesExercicio09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio10/InstruçõesExercicio10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio11/InstruçõesExercicio11.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio12/InstruçõesExercicio12.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio13/InstruçõesExercicio13.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio14/InstruçõesExercicio14.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exercicio15/InstruçõesExercicio15.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exercicio01/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio01/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exercicio02/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio02/ContaBancaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exercicio03/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio03/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio04/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio04/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio05/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio05/Carro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />

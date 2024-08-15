@@ -8,14 +8,27 @@ public class Main {
     public static void main(String[] args) {
         // Exercício 1:
         // 1. Criar uma instância da classe Pessoa.
+
+        Pessoa pessoaNova = new Pessoa( "Ruan", 20);
         // 2. Exibir o nome e a idade da pessoa.
+        System.out.println("o nome é: " + pessoaNova.getNome());
+        System.out.println("a idade é: " +  pessoaNova.getIdade());
         // 3. Alterar a idade da pessoa e exibir novamente.
+        pessoaNova.setIdade(30);
+        System.out.println("dados atualizados:\nNome " + pessoaNova.getNome() + "Idade" + pessoaNova.getIdade());
 
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
+        ContaBancaria contaCorrente = new ContaBancaria(78965, 5000);
+        System.out.println("saldo inicial" + contaCorrente.getsaldo());
         // 2. Depositar um valor na conta.
+        contaCorrente.depositar(100);
+        System.out.println("saldo atualizado: " + contaCorrente.getsaldo());
         // 3. Sacar um valor da conta.
+        contaCorrente.sacar(50);
+        System.out.println("seu saque foi de: " +contaCorrente.getSacar());
         // 4. Exibir o saldo final.
+        System.out.println("saldo atualizado: " + contaCorrente.getsaldo());
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
