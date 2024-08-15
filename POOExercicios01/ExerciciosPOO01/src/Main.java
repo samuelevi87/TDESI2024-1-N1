@@ -11,6 +11,7 @@ import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
+import Exercicio14.Projeto;
 
 import java.sql.SQLOutput;
 
@@ -144,16 +145,20 @@ public class Main {
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
 
-        VeiculoEmpresa veiculo = new VeiculoEmpresa("OJDWUI-24545", "HB20", 2024, 1000.0);
-        System.out.println(veiculo);
-        veiculo.adicionarQuilometragem(1000);
-        System.out.println(veiculo.getQuilometragem());
-
+//        VeiculoEmpresa veiculo = new VeiculoEmpresa("OJDWUI-24545", "HB20", 2024, 1000.0);
+//        System.out.println(veiculo);
+//        veiculo.adicionarQuilometragem(1000);
+//        System.out.println(veiculo.getQuilometragem());
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
+
+//        Projeto projeto = new Projeto("site", 3, 1000);
+//        System.out.println(projeto);
+//        projeto.setOrcamento(2000);
+//        System.out.println(projeto.getOrcamento());
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
