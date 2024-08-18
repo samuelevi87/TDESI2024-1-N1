@@ -2,6 +2,7 @@ import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
 import Exercicio04.Livro;
+import Exercicio05.Carro;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,21 +49,28 @@ public class Main {
 
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
-        Livro livro1 = new Livro("É assim que acaba","Colleen Hoover",2016 );
+       // Livro livro1 = new Livro("É assim que acaba","Colleen Hoover",2016 );
 
         // 2. Exibir o título, autor e ano de publicação.System.out.println("Titulo : "+livro1.getTitulo());
-         System.out.println("Titulo : "+livro1.getTitulo());
-         System.out.println("Autor : "+livro1.getAutor());
-         System.out.println("Ano da publicacao : "+livro1.getAnoPublicacao());
+      //   System.out.println("Titulo : "+livro1.getTitulo());
+       //  System.out.println("Autor : "+livro1.getAutor());
+       //  System.out.println("Ano da publicacao : "+livro1.getAnoPublicacao());
+
         // 3. Alterar o ano de publicação e exibir novamente.
-        livro1.setAnoPublicacao(2022);
-        System.out.println("O ano do livro foi atualizado : "+livro1);
+       // livro1.setAnoPublicacao(2022);
+      //  System.out.println("O ano do livro foi atualizado : "+livro1);
 
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
+        Carro carro1 = new Carro("Mustang","Ford",2024,0.0);
+
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
+        System.out.println(carro1);
+
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
+        carro1.AdicionarQuilometragem(100.5);
+        System.out.println("Novo km : "+carro1.getQuilometragem());
 
         // Exercício 6:
         // 1. Criar uma instância da classe Cliente.
