@@ -1,6 +1,7 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
+import Exercicio04.Livro;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,36 +20,44 @@ public class Main {
 
         // Exercício 2:
        //  1. Criar uma instância da classe ContaBancaria com um saldo inicial.
-        ContaBancaria conta1 = new ContaBancaria(5, 200);
-        System.out.println("saldo inicial : "+conta1.getSaldo());
+       // ContaBancaria conta1 = new ContaBancaria(5, 200);
+     //   System.out.println("saldo inicial : "+conta1.getSaldo());
 
         // 2. Depositar um valor na conta.
-         conta1.depositar(200);
+      //   conta1.depositar(200);
 
       //   3. Sacar um valor da conta.
-        conta1.sacar(20);
+      //  conta1.sacar(20);
        //  4. Exibir o saldo final.
-      System.out.println("saldo atualizada : "+conta1.getSaldo());
+    //  System.out.println("saldo atualizada : "+conta1.getSaldo());
 
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
-        Produto produto1 = new Produto("livro",20,6);
+      //  Produto produto1 = new Produto("livro",20,6);
 
         // 2. Exibir o nome, preço e quantidade em estoque.
-        System.out.println(" nome do Produto : "+produto1.getNome());
+      //  System.out.println(" nome do Produto : "+produto1.getNome());
 
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
-        produto1.adicionarEstoque(6);
+       // produto1.adicionarEstoque(6);
 
         // 4. Remover itens do estoque e exibir a nova quantidade.
-        produto1.removerEstoque(12);
-        System.out.println(" Estoque atualizado : "+produto1.getQuantitadeDeEstoque());
+       // produto1.removerEstoque(12);
+      //  System.out.println(" Estoque atualizado : "+produto1.getQuantitadeDeEstoque());
 
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
-        // 2. Exibir o título, autor e ano de publicação.
+        Livro livro1 = new Livro("É assim que acaba","Colleen Hoover",2016 );
+
+        // 2. Exibir o título, autor e ano de publicação.System.out.println("Titulo : "+livro1.getTitulo());
+         System.out.println("Titulo : "+livro1.getTitulo());
+         System.out.println("Autor : "+livro1.getAutor());
+         System.out.println("Ano da publicacao : "+livro1.getAnoPublicacao());
         // 3. Alterar o ano de publicação e exibir novamente.
+        livro1.setAnoPublicacao(2022);
+        System.out.println("O ano do livro foi atualizado : "+livro1);
+
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
