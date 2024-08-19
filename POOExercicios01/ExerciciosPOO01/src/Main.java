@@ -6,6 +6,7 @@ import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
+import Exercicio09.ProdutoIndustrial;
 
 public class Main {
     public static void main(String[] args) {
@@ -103,21 +104,31 @@ public class Main {
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
-        Funcionario funcionario1 = new Funcionario("Claudyson Clairmeus","Conferente",2500.00);
+       // Funcionario funcionario1 = new Funcionario("Claudyson Clairmeus","Conferente",2500.00);
 
         // 2. Exibir o nome, cargo e salário do funcionário.
-        System.out.println("Nome   : "+funcionario1.getNome());
-        System.out.println("Cargo  : "+funcionario1.getCargo());
-        System.out.println("salario: "+funcionario1.getSalario());
+     //   System.out.println("Nome   : "+funcionario1.getNome());
+      //  System.out.println("Cargo  : "+funcionario1.getCargo());
+      //  System.out.println("salario: "+funcionario1.getSalario());
 
         // 3. Alterar o salário do funcionário e exibir novamente.
-        funcionario1.setSalario(2800.00);
-        System.out.println(funcionario1);
+     //   funcionario1.setSalario(2800.00);
+       // System.out.println(funcionario1);
 
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
+        ProdutoIndustrial produto1 = new ProdutoIndustrial("40927.005","Maxxi",650.0,1000.0);
+
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
+        System.out.println("codigo do produto :"+ produto1.getCodigo());
+        System.out.println("nome do produto   : "+produto1.getNome());
+        System.out.println("preco de Custo    : "+produto1.getPrecoCusto());
+        System.out.println("preco de Venda    : "+produto1.getPrecoVenda());
+
         // 3. Calcular e exibir a margem de lucro do produto.
+        double margemDeLucro = produto1.CalculaMargemLucro();
+        System.out.println("Lucro    : "+margemDeLucro);
+
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
