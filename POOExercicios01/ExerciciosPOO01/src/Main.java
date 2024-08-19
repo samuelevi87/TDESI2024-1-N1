@@ -3,6 +3,7 @@ import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
+import Exercicio06.Cliente;
 
 public class Main {
     public static void main(String[] args) {
@@ -63,19 +64,27 @@ public class Main {
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
-        Carro carro1 = new Carro("Mustang","Ford",2024,0.0);
+       // Carro carro1 = new Carro("Mustang","Ford",2024,0.0);
 
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
-        System.out.println(carro1);
+      //  System.out.println(carro1);
 
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
-        carro1.AdicionarQuilometragem(100.5);
-        System.out.println("Novo km : "+carro1.getQuilometragem());
+     //   carro1.AdicionarQuilometragem(100.5);
+     //   System.out.println("Novo km : "+carro1.getQuilometragem());
 
         // Exercício 6:
         // 1. Criar uma instância da classe Cliente.
+        Cliente cliente1 = new Cliente("Claudyson","claudysonclairmeus@gmail.com","47997853831");
+
         // 2. Exibir o nome, email e telefone do cliente.
+        System.out.println("nome    : "+cliente1.getNome());
+        System.out.println("email   : "+cliente1.getEmail());
+        System.out.println("telefone: "+cliente1.getTelefone());
+
         // 3. Alterar o telefone do cliente e exibir novamente.
+        cliente1.setTelefone("47984535802");
+        System.out.println(cliente1);
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
