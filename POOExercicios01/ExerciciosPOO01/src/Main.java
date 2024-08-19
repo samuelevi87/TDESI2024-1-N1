@@ -5,6 +5,7 @@ import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
+import Exercicio08.Funcionario;
 
 public class Main {
     public static void main(String[] args) {
@@ -89,21 +90,29 @@ public class Main {
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
-        Pedido pedido1 = new Pedido(001,200,"Processado");
+       // Pedido pedido1 = new Pedido(001,200,"Processado");
 
         // 2. Exibir o número do pedido, valor total e status.
-        System.out.println("Numero pedido : "+pedido1.getNumeroPedido());
-        System.out.println("Valor total   : "+pedido1.getValorTotal());
-        System.out.println("Status        : "+pedido1.getStatus());
+       // System.out.println("Numero pedido : "+pedido1.getNumeroPedido());
+       // System.out.println("Valor total   : "+pedido1.getValorTotal());
+       // System.out.println("Status        : "+pedido1.getStatus());
 
         // 3. Alterar o status do pedido e exibir novamente.
-        pedido1.setStatus("Enviado");
-        System.out.println(pedido1);
+        //pedido1.setStatus("Enviado");
+       // System.out.println(pedido1);
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
+        Funcionario funcionario1 = new Funcionario("Claudyson Clairmeus","Conferente",2500.00);
+
         // 2. Exibir o nome, cargo e salário do funcionário.
+        System.out.println("Nome   : "+funcionario1.getNome());
+        System.out.println("Cargo  : "+funcionario1.getCargo());
+        System.out.println("salario: "+funcionario1.getSalario());
+
         // 3. Alterar o salário do funcionário e exibir novamente.
+        funcionario1.setSalario(2800.00);
+        System.out.println(funcionario1);
 
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
