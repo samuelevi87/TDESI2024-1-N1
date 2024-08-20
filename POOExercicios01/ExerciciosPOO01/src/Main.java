@@ -1,5 +1,8 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
+import Exercicio03.Produto;
+import Exercicio04.Livro;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -19,15 +22,15 @@ public class Main {
         // 3. Sacar um valor da conta.
         // 4. Exibir o saldo final.
 
-        ContaBancaria contateste = new ContaBancaria(30091650, 1000);
-        System.out.println("Conta: " + contateste.getNumeroConta());
-        System.out.println("Saldo atual: " + contateste.getSaldo());
-
-        contateste.Depositar(100);
-        System.out.println("Saldo atual: " + contateste.getSaldo());
-
-        contateste.Sacar(500);
-        System.out.println("Saldo atual: " + contateste.getSaldo());
+//        ContaBancaria contateste = new ContaBancaria(30091650, 1000);
+//        System.out.println("Conta: " + contateste.getNumeroConta());
+//        System.out.println("Saldo atual: " + contateste.getSaldo());
+//
+//        contateste.Depositar(100);
+//        System.out.println("Saldo atual: " + contateste.getSaldo());
+//
+//        contateste.Sacar(500);
+//        System.out.println("Saldo atual: " + contateste.getSaldo());
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
@@ -35,10 +38,31 @@ public class Main {
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
 
+//        Produto produtoteste = new Produto("Envelope", 123.45, 3);
+//        System.out.println("Produto: " + produtoteste.getNome());
+//        System.out.println("Preço: " + produtoteste.getPreco());
+//        System.out.println("Estoque: " + produtoteste.getQuantidadeEmEstoque());
+//
+//        produtoteste.adicionarEstoque(100);
+//        System.out.println("Estoque: " + produtoteste.getQuantidadeEmEstoque());
+//
+//        produtoteste.removerEstoque(53);
+//        System.out.println("Estoque: " + produtoteste.getQuantidadeEmEstoque());
+
+
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
         // 2. Exibir o título, autor e ano de publicação.
         // 3. Alterar o ano de publicação e exibir novamente.
+
+        Livro livroteste = new Livro("O Pequeno Príncipe", "Jorge da Silva", 1996);
+        System.out.println("Título: " + livroteste.getTitulo());
+        System.out.println("Autor: " + livroteste.getAutor());
+        System.out.println("Ano de publicação: " + livroteste.getAnoPublicacao());
+
+        livroteste.setAnoPublicacao(2005);
+        System.out.println("Ano de publicação: " + livroteste.getAnoPublicacao());
+
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
