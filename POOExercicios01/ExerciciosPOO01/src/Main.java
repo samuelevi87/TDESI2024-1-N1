@@ -8,6 +8,7 @@ import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
+import Exercicio11.Fornecedor;
 
 public class Main {
     public static void main(String[] args) {
@@ -133,21 +134,30 @@ public class Main {
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
-        Contrato contrato1 = new Contrato("001","Realizar pagamento",5000.0,12);
+      //  Contrato contrato1 = new Contrato("001","Realizar pagamento",5000.0,12);
 
         // 2. Exibir o número do contrato, descrição, valor e vigência.
-        System.out.println("Numero    : "+contrato1.getNumeroContrato());
-        System.out.println("Descricao : "+contrato1.getDescricao());
-        System.out.println("Valor     : "+contrato1.getValor());
-        System.out.println("vigencia  : "+contrato1.getVigencia());
+      //  System.out.println("Numero    : "+contrato1.getNumeroContrato());
+     //   System.out.println("Descricao : "+contrato1.getDescricao());
+     //   System.out.println("Valor     : "+contrato1.getValor());
+     //   System.out.println("vigencia  : "+contrato1.getVigencia());
         // 3. Alterar a vigência do contrato e exibir novamente.
-        contrato1.setVigencia(24);
-        System.out.println(contrato1);
+     //   contrato1.setVigencia(24);
+     //   System.out.println(contrato1);
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
+        Fornecedor fornecedor1 =new Fornecedor("Claudyson Clairmeus","00.000.000/0001-91","47 984535802");
+
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
+        System.out.println("Nome  : "+fornecedor1.getNome());
+        System.out.println("CNPJ  : "+fornecedor1.getCNPJ());
+        System.out.println("Tel.  : "+fornecedor1.getTelefone());
+
         // 3. Alterar o telefone do fornecedor e exibir novamente.
+        fornecedor1.setTelefone("47 97853831");
+        System.out.println(fornecedor1);
+
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
