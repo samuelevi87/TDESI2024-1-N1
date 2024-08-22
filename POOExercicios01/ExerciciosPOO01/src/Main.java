@@ -10,6 +10,7 @@ import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
+import Exercicio13.VeiculoEmpresa;
 
 public class Main {
     public static void main(String[] args) {
@@ -162,21 +163,30 @@ public class Main {
 
         // Exercício 12:
         // 1. Criar uma instância  classe Maquina.
-        Maquina maquina1= new Maquina("123e4567-e89b","Montagem","Operacional");
+      //  Maquina maquina1= new Maquina("123e4567-e89b","Montagem","Operacional");
 
         // 2. Exibir o ID da máquina, tipo e status de operação.
-        System.out.println("ID     : "+maquina1.getID());
-        System.out.println("Tipo   : "+maquina1.getTipo());
-        System.out.println("Status : "+maquina1.getStatus());
+     //   System.out.println("ID     : "+maquina1.getID());
+      //  System.out.println("Tipo   : "+maquina1.getTipo());
+      //  System.out.println("Status : "+maquina1.getStatus());
 
         // 3. Alterar o status de operação da máquina e exibir novamente.
-        maquina1.setStatus("Manutencao");
-        System.out.println(maquina1);
+      //  maquina1.setStatus("Manutencao");
+      //  System.out.println(maquina1);
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
+        VeiculoEmpresa veiculo1 = new VeiculoEmpresa("QJD-9420","Palio Attractive",2015,12000.00);
+
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
+        System.out.println("Placa  : "+veiculo1.getPalaca());
+        System.out.println("Modelo : "+veiculo1.getModelo());
+        System.out.println("Ano    : "+veiculo1.getAno());
+        System.out.println("quilometragem : "+veiculo1.getQuilometragem());
+
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+        veiculo1.adicionarQuilometraem(500);
+        System.out.println("Quilometragem Atualizada : "+veiculo1.getQuilometragem());
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
