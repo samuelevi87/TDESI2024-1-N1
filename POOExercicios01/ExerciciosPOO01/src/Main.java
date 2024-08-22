@@ -11,6 +11,7 @@ import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
+import Exercicio14.Projeto;
 
 public class Main {
     public static void main(String[] args) {
@@ -176,22 +177,30 @@ public class Main {
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
-        VeiculoEmpresa veiculo1 = new VeiculoEmpresa("QJD-9420","Palio Attractive",2015,12000.00);
+      //  VeiculoEmpresa veiculo1 = new VeiculoEmpresa("QJD-9420","Palio Attractive",2015,12000.00);
 
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
-        System.out.println("Placa  : "+veiculo1.getPalaca());
-        System.out.println("Modelo : "+veiculo1.getModelo());
-        System.out.println("Ano    : "+veiculo1.getAno());
-        System.out.println("quilometragem : "+veiculo1.getQuilometragem());
+      //  System.out.println("Placa  : "+veiculo1.getPalaca());
+     //   System.out.println("Modelo : "+veiculo1.getModelo());
+      //  System.out.println("Ano    : "+veiculo1.getAno());
+      //  System.out.println("quilometragem : "+veiculo1.getQuilometragem());
 
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
-        veiculo1.adicionarQuilometraem(500);
-        System.out.println("Quilometragem Atualizada : "+veiculo1.getQuilometragem());
+       // veiculo1.adicionarQuilometraem(500);
+     //   System.out.println("Quilometragem Atualizada : "+veiculo1.getQuilometragem());
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
+        Projeto projeto1 = new Projeto("Minha casa, minha vida",36,800000.00);
+
         // 2. Exibir o nome, duração e orçamento do projeto.
+        System.out.println("Nome     : "+projeto1.getNome());
+        System.out.println("Duracao  : "+projeto1.getDuracao());
+        System.out.println("Orcamento: "+projeto1.getOrcamento());
+
         // 3. Alterar o orçamento do projeto e exibir novamente.
+        projeto1.setOrcamento(9000000.00);
+        System.out.println(projeto1.toString());
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
