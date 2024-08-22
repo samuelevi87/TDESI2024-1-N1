@@ -12,6 +12,7 @@ import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
 import Exercicio14.Projeto;
+import Exercicio15.Seguro;
 
 public class Main {
     public static void main(String[] args) {
@@ -191,20 +192,29 @@ public class Main {
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
-        Projeto projeto1 = new Projeto("Minha casa, minha vida",36,800000.00);
+//Projeto projeto1 = new Projeto("Minha casa, minha vida",36,800000.00);
 
         // 2. Exibir o nome, duração e orçamento do projeto.
-        System.out.println("Nome     : "+projeto1.getNome());
-        System.out.println("Duracao  : "+projeto1.getDuracao());
-        System.out.println("Orcamento: "+projeto1.getOrcamento());
+      //  System.out.println("Nome     : "+projeto1.getNome());
+      //  System.out.println("Duracao  : "+projeto1.getDuracao());
+      //  System.out.println("Orcamento: "+projeto1.getOrcamento());
 
         // 3. Alterar o orçamento do projeto e exibir novamente.
-        projeto1.setOrcamento(9000000.00);
-        System.out.println(projeto1.toString());
+       // projeto1.setOrcamento(9000000.00);
+    //    System.out.println(projeto1.toString());
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
+        Seguro seguro1 = new Seguro("12-32-567-890","Carro",70,10000);
+
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
+        System.out.println("Numero de Apolice : "+seguro1.getNumeroApolice());
+        System.out.println("Tipo              : "+seguro1.getTipo());
+        System.out.println("Valor Cobertura   : "+seguro1.getValorCobertura());
+        System.out.println("Valor Premio      : "+seguro1.getValorPremio());
+
         // 3. Alterar o valor do prêmio e exibir novamente.
+        seguro1.setValorPremio(20000);
+        System.out.println(seguro1);
     }
 }
