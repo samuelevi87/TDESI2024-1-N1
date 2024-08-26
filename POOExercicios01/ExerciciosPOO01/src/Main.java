@@ -9,6 +9,8 @@ import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
+import Exercicio12.Maquina;
+import Exercicio13.VeiculoEmpresa;
 
 
 public class Main {
@@ -129,7 +131,6 @@ public class Main {
         contrato1.setVigencia(2);
         System.out.println("Numero do contrato: " + contrato1.getNumeroContrato() + "\nDescrição: " + contrato1.getDescricao() + "\nValor: " + contrato1.getValor() + "\nVigencia: " + contrato1.getVigencia());
 
-
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
@@ -141,21 +142,18 @@ public class Main {
         fornecedor1.setTelefone("666");
         System.out.println("Nome: " + fornecedor1.getNome() + "\nCNPJ: " + fornecedor1.getCnpj() + "\nTelefone: " + fornecedor1.getTelefone());
 
-
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
 
-        // Exercício 13:
-        // 1. Criar uma instância da classe VeiculoEmpresa.
-        // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
-        // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
-
+        
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
+
+
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
