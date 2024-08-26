@@ -53,6 +53,8 @@ public class Main {
         // 2. Exibir a marca, modelo, ano e quilometragem do carro.
         System.out.println("Marca: "+carro.getMarca()+"Modelo: "+carro.getModelo()+"Ano de fabricação: "+carro.getAno()+"Quilometragem: "+carro.getQuilimetragem());
         // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
+        carro.addQuilimetragem(25000);
+        System.out.println("Nova quilometragem: "+carro.getQuilimetragem());
 
         // Exercício 6:
         // 1. Criar uma instância da classe Cliente.

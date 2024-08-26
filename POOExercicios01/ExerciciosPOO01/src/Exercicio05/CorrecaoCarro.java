@@ -1,16 +1,16 @@
 package Exercicio05;
 
-public class Carro {
+public class CorrecaoCarro {
     private String marca;
     private String modelo;
     private int ano;
-    private double quilimetragem;
+    private double quilometragem;
 
-    public Carro(String marca, String modelo, int ano, double quilimetragem) {
+    public CorrecaoCarro(String marca, String modelo, int ano, double quilometragem) {
         this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
-        this.quilimetragem = quilimetragem;
+        this.quilometragem = quilometragem;
     }
 
     public String getMarca() {
@@ -25,11 +25,11 @@ public class Carro {
         return ano;
     }
 
-    public double getQuilimetragem() {
-        return quilimetragem;
+    public double getQuilometragem() {
+        return quilometragem;
     }
 
-    public void addQuilimetragem(double Km) {
-        this.quilimetragem += Km;
+    public void adicionarQuilometragem(double km){
+        this.quilometragem += km;
     }
 }
