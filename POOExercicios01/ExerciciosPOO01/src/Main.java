@@ -7,6 +7,7 @@ import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
+import Exercicio10.Contrato;
 
 public class Main {
     public static void main(String[] args) {
@@ -126,18 +127,27 @@ public class Main {
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
 
-        ProdutoIndustrial prodteste = new ProdutoIndustrial("091617", "Arame", 0.58, 1.40);
-        System.out.println("Código do produto: " + prodteste.getCodigo());
-        System.out.println("Produto: " + prodteste.getNome());
-        System.out.println("Custo: R$ " + prodteste.getPrecoCusto());
-        System.out.println("Venda: R$ " + prodteste.getPrecoVenda());
-
-        System.out.println("Lucro R$ " + prodteste.calcularMargemLucro());
+//        ProdutoIndustrial prodteste = new ProdutoIndustrial("091617", "Arame", 0.58, 1.40);
+//        System.out.println("Código do produto: " + prodteste.getCodigo());
+//        System.out.println("Produto: " + prodteste.getNome());
+//        System.out.println("Custo: R$ " + prodteste.getPrecoCusto());
+//        System.out.println("Venda: R$ " + prodteste.getPrecoVenda());
+//
+//        System.out.println("Lucro R$ " + prodteste.calcularMargemLucro());
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
         // 2. Exibir o número do contrato, descrição, valor e vigência.
         // 3. Alterar a vigência do contrato e exibir novamente.
+
+        Contrato contratoteste = new Contrato("22485963", "Contrato de Locação", 295.89, 4);
+        System.out.println("Número de contrato: " + contratoteste.getNumeroContrato());
+        System.out.println("Descrição: " + contratoteste.getDescricao());
+        System.out.println("Valor: " + contratoteste.getValor());
+        System.out.println("Vigência: " + contratoteste.getVigencia() + " meses");
+
+        contratoteste.setVigencia(6);
+        System.out.println("Vigência: " + contratoteste.getVigencia() + " meses");
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
