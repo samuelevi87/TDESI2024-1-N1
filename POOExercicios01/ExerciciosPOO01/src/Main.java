@@ -5,6 +5,7 @@ import Exercicio04.CorrecaoLivro;
 import Exercicio05.CorrecaoCarro;
 import Exercicio06.CorrecaoCliente;
 import Exercicio07.CorrecaoPedido;
+import Exercicio08.CorrecaoFuncionario;
 
 public class Main {
     public static void main(String[] args) {
@@ -14,12 +15,8 @@ public class Main {
 //        ex04();
 //        ex05();
 //        ex06();
-        ex07();
-
-        // Exercício 8:
-        // 1. Criar uma instância da classe Funcionario.
-        // 2. Exibir o nome, cargo e salário do funcionário.
-        // 3. Alterar o salário do funcionário e exibir novamente.
+//        ex07();
+        ex08();
 
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
@@ -55,6 +52,17 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex08() {
+        // Exercício 8:
+        // 1. Criar uma instância da classe Funcionario.
+        CorrecaoFuncionario funcionarioNovo = new CorrecaoFuncionario("Pedro","Desenvolvedor", 8500);
+        // 2. Exibir o nome, cargo e salário do funcionário.
+        System.out.println("O funcionário " + funcionarioNovo.getNome() + " atua como " + funcionarioNovo.getCargo() + " e recebe R$ " + funcionarioNovo.getSalario() + " por mês.");
+        // 3. Alterar o salário do funcionário e exibir novamente.
+        funcionarioNovo.setSalario(10500);
+        System.out.println("O funcionário " + funcionarioNovo.getNome() + " atua como " + funcionarioNovo.getCargo() + " e recebe R$ " + funcionarioNovo.getSalario() + " por mês.");
     }
 
     private static void ex07() {
