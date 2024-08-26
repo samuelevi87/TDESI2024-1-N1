@@ -9,6 +9,7 @@ import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
+import Exercicio12.Maquina;
 
 public class Main {
     public static void main(String[] args) {
@@ -155,18 +156,26 @@ public class Main {
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
         // 3. Alterar o telefone do fornecedor e exibir novamente.
 
-        Fornecedor fornecedorteste = new Fornecedor("JGG Pneus", "1478258460000178", "4733227435");
-        System.out.println("Nome: " + fornecedorteste.getNome());
-        System.out.println("CNPJ: " + fornecedorteste.getCnpj());
-        System.out.println("Telefone: " + fornecedorteste.getTelefone());
-
-        fornecedorteste.setTelefone("4733223773");
-        System.out.println("Telefone: " + fornecedorteste.getTelefone());
+//        Fornecedor fornecedorteste = new Fornecedor("JGG Pneus", "1478258460000178", "4733227435");
+//        System.out.println("Nome: " + fornecedorteste.getNome());
+//        System.out.println("CNPJ: " + fornecedorteste.getCnpj());
+//        System.out.println("Telefone: " + fornecedorteste.getTelefone());
+//
+//        fornecedorteste.setTelefone("4733223773");
+//        System.out.println("Telefone: " + fornecedorteste.getTelefone());
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
+
+        Maquina maquinateste = new Maquina("30091650", "Monitor", "Manutenção");
+        System.out.println("ID máquina: " + maquinateste.getIdMaquina());
+        System.out.println("Tipo: " + maquinateste.getTipo());
+        System.out.println("Status: " + maquinateste.getStatusOperacao());
+
+        maquinateste.setStatusOperacao("Operacional");
+        System.out.println("Status: " + maquinateste.getStatusOperacao());
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
