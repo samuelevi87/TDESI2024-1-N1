@@ -6,6 +6,7 @@ import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
+import Exercicio09.ProdutoIndustrial;
 
 public class Main {
     public static void main(String[] args) {
@@ -112,18 +113,26 @@ public class Main {
         // 2. Exibir o nome, cargo e salário do funcionário.
         // 3. Alterar o salário do funcionário e exibir novamente.
 
-        Funcionario funcionarioteste = new Funcionario("Juçara", "Recepcionista", 1587.56);
-        System.out.println("Nome: " + funcionarioteste.getNome());
-        System.out.println("Cargo: " + funcionarioteste.getCargo());
-        System.out.println("Salário: " + funcionarioteste.getSalario());
-
-        funcionarioteste.setSalario(2231.45);
-        System.out.println("Salário atualizado: " + funcionarioteste.getSalario());
+//        Funcionario funcionarioteste = new Funcionario("Juçara", "Recepcionista", 1587.56);
+//        System.out.println("Nome: " + funcionarioteste.getNome());
+//        System.out.println("Cargo: " + funcionarioteste.getCargo());
+//        System.out.println("Salário: " + funcionarioteste.getSalario());
+//
+//        funcionarioteste.setSalario(2231.45);
+//        System.out.println("Salário atualizado: " + funcionarioteste.getSalario());
 
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
+
+        ProdutoIndustrial prodteste = new ProdutoIndustrial("091617", "Arame", 0.58, 1.40);
+        System.out.println("Código do produto: " + prodteste.getCodigo());
+        System.out.println("Produto: " + prodteste.getNome());
+        System.out.println("Custo: R$ " + prodteste.getPrecoCusto());
+        System.out.println("Venda: R$ " + prodteste.getPrecoVenda());
+
+        System.out.println("Lucro R$ " + prodteste.calcularMargemLucro());
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
