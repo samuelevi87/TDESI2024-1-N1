@@ -8,6 +8,7 @@ import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
+import Exercicio11.Fornecedor;
 
 public class Main {
     public static void main(String[] args) {
@@ -140,19 +141,27 @@ public class Main {
         // 2. Exibir o número do contrato, descrição, valor e vigência.
         // 3. Alterar a vigência do contrato e exibir novamente.
 
-        Contrato contratoteste = new Contrato("22485963", "Contrato de Locação", 295.89, 4);
-        System.out.println("Número de contrato: " + contratoteste.getNumeroContrato());
-        System.out.println("Descrição: " + contratoteste.getDescricao());
-        System.out.println("Valor: " + contratoteste.getValor());
-        System.out.println("Vigência: " + contratoteste.getVigencia() + " meses");
-
-        contratoteste.setVigencia(6);
-        System.out.println("Vigência: " + contratoteste.getVigencia() + " meses");
+//        Contrato contratoteste = new Contrato("22485963", "Contrato de Locação", 295.89, 4);
+//        System.out.println("Número de contrato: " + contratoteste.getNumeroContrato());
+//        System.out.println("Descrição: " + contratoteste.getDescricao());
+//        System.out.println("Valor: " + contratoteste.getValor());
+//        System.out.println("Vigência: " + contratoteste.getVigencia() + " meses");
+//
+//        contratoteste.setVigencia(6);
+//        System.out.println("Vigência: " + contratoteste.getVigencia() + " meses");
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
         // 3. Alterar o telefone do fornecedor e exibir novamente.
+
+        Fornecedor fornecedorteste = new Fornecedor("JGG Pneus", "1478258460000178", "4733227435");
+        System.out.println("Nome: " + fornecedorteste.getNome());
+        System.out.println("CNPJ: " + fornecedorteste.getCnpj());
+        System.out.println("Telefone: " + fornecedorteste.getTelefone());
+
+        fornecedorteste.setTelefone("4733223773");
+        System.out.println("Telefone: " + fornecedorteste.getTelefone());
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
