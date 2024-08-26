@@ -135,7 +135,12 @@ public class Main {
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
         // 3. Alterar o telefone do fornecedor e exibir novamente.
 
-        
+        System.out.println();
+        Fornecedor fornecedor1 = new Fornecedor("Augusto", "8080", "999");
+        System.out.println("Nome: " + fornecedor1.getNome() + "\nCNPJ: " + fornecedor1.getCnpj() + "\nTelefone: " + fornecedor1.getTelefone());
+        fornecedor1.setTelefone("666");
+        System.out.println("Nome: " + fornecedor1.getNome() + "\nCNPJ: " + fornecedor1.getCnpj() + "\nTelefone: " + fornecedor1.getTelefone());
+
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
