@@ -1,6 +1,7 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio09.ProdutoIndustrial;
+import Exercicio13.VeiculoEmpresa;
 
 public class Main {
     public static void main(String[] args) {
@@ -62,8 +63,8 @@ public class Main {
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
 
-        ProdutoIndustrial produto = new ProdutoIndustrial("123ABC", "Caneta", 1.00, 2.50);
-        System.out.println(Double.toString(produto.calcularMargemLucro()));
+//        ProdutoIndustrial produto = new ProdutoIndustrial("123ABC", "Caneta", 1.00, 2.50);
+//        System.out.println(Double.toString(produto.calcularMargemLucro()));
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
@@ -84,6 +85,10 @@ public class Main {
         // 1. Criar uma instância da classe VeiculoEmpresa.
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+
+        VeiculoEmpresa carro = new VeiculoEmpresa("MFL3B57", "Voyage", 2016, 100000.00);
+        carro.adicionarQuilometragem(156.65);
+        System.out.println(Double.toString(carro.getQuilometragem()));
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
