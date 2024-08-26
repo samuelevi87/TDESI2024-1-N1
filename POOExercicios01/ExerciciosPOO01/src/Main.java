@@ -8,6 +8,7 @@ import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
+import Exercicio11.Fornecedor;
 
 
 public class Main {
@@ -124,12 +125,17 @@ public class Main {
 
         System.out.println();
         Contrato contrato1 = new Contrato("666", "coisa ruim", 666, 1);
-        System.out.println();
+        System.out.println("Numero do contrato: " + contrato1.getNumeroContrato() + "\nDescrição: " + contrato1.getDescricao() + "\nValor: " + contrato1.getValor() + "\nVigencia: " + contrato1.getVigencia());
+        contrato1.setVigencia(2);
+        System.out.println("Numero do contrato: " + contrato1.getNumeroContrato() + "\nDescrição: " + contrato1.getDescricao() + "\nValor: " + contrato1.getValor() + "\nVigencia: " + contrato1.getVigencia());
+
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
         // 3. Alterar o telefone do fornecedor e exibir novamente.
+
+        
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
