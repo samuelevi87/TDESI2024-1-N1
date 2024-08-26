@@ -7,6 +7,7 @@ import Exercicio06.Cliente;
 import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
+import Exercicio10.Contrato;
 
 public class Main {
     public static void main(String[] args) {
@@ -105,6 +106,11 @@ public class Main {
         // 1. Criar uma instância da classe Contrato.
         // 2. Exibir o número do contrato, descrição, valor e vigência.
         // 3. Alterar a vigência do contrato e exibir novamente.
+        Contrato contrato1 = new Contrato("12345", "Referente a limpeza", 5000, 12);
+        System.out.println("DESCRIÇÃO DO CONTRATO \n" + "NÚMERO CONTRATO:" + contrato1.getNumeroContrato() + "\n" + "DESCRIÇÃO:" + contrato1.getDescricao() + "\n" + "VALOR:" + contrato1.getValor() + "\n" + "VIGÊNCIA:" + contrato1.getVigencia());
+        contrato1.setVigencia(10);
+        System.out.println("VIGÊNCIA ATUALIZADA:" + contrato1.getVigencia() + "\n");
+
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
