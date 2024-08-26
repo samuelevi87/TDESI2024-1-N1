@@ -5,35 +5,42 @@ public class Produto {
     private double preco;
     private int quntidadeEmEstoque;
 
-    public Produto(String descricao, double precoUnico, int quntidadeProduto) {
-        this.nome = descricao;
-        this.preco = precoUnico;
-        this.quntidadeEmEstoque = quntidadeProduto;
+    public Produto(String nome, double preco, int quntidadeEmEstoque) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quntidadeEmEstoque = quntidadeEmEstoque;
     }
 
-    public static String getNome() {
+    public String getNome() {
         return nome;
     }
 
-    public static double getPreco() {
+    public double getPreco() {
         return preco;
-    }
-
-    public static int quantidadeEmEstoque() {
     }
 
     public int getQuntidadeEmEstoque() {
         return quntidadeEmEstoque;
     }
-    public void addEstoque(int QuantToAdd){
-        this.quntidadeEmEstoque+=QuantToAdd;
-    }
-    public void removeEstoque(int QuantToRemove){
-        if (quntidadeEmEstoque-QuantToRemove>=0){
-            this.quntidadeEmEstoque-=QuantToRemove;
-        }
-        else {
-            System.out.println("O estoque não pode ficar negativo");
+
+    public void addEstoque(int quantidade) {
+        if (quantidade > 0) {
+            this.quntidadeEmEstoque += quantidade;
+        } else {
+            System.out.println("quantidade adicionada deve ser positiva! ");
         }
     }
+
+    public void renoverEstoque(int quantidade) {
+        if (quantidade > 0) {
+if (this.quntidadeEmEstoque >= quantidade){
+    this.quntidadeEmEstoque-= quantidade;
+}
+else {
+    System.out.println("Quantidade insuficiente para remoção");
+        }
+    }
+        else{
+            System.out.println("Quantidade para remoção deve ser positiva");
+        }
 }

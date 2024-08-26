@@ -34,7 +34,7 @@ public class Main {
         // 1. Criar uma instância da classe Produto.
         Produto produto = new Produto("Energético", 8.25,1);
         // 2. Exibir o nome, preço e quantidade em estoque.
-        System.out.println(Produto.getNome()+" no preço de: "+Produto.getPreco()+"restam: "+Produto.get()+);
+        System.out.println(produto.getNome()+" no preço de: "+produto.getPreco()+"restam: "+produto.getQuntidadeEmEstoque());
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
 
