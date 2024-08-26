@@ -4,6 +4,7 @@ import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
+import Exercicio07.Pedido;
 
 public class Main {
     public static void main(String[] args) {
@@ -84,18 +85,26 @@ public class Main {
         // 2. Exibir o nome, email e telefone do cliente.
         // 3. Alterar o telefone do cliente e exibir novamente.
 
-        Cliente clienteteste = new Cliente("Jonas", "jonas123@gmail.com", "47997803589");
-        System.out.println("Nome: " + clienteteste.getNome());
-        System.out.println("E-mail: " + clienteteste.getEmail());
-        System.out.println("Telefone: " + clienteteste.getTelefone());
-
-        clienteteste.setTelefone("51997555569");
-        System.out.println("Telefone: " + clienteteste.getTelefone());
+//        Cliente clienteteste = new Cliente("Jonas", "jonas123@gmail.com", "47997803589");
+//        System.out.println("Nome: " + clienteteste.getNome());
+//        System.out.println("E-mail: " + clienteteste.getEmail());
+//        System.out.println("Telefone: " + clienteteste.getTelefone());
+//
+//        clienteteste.setTelefone("51997555569");
+//        System.out.println("Telefone: " + clienteteste.getTelefone());
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
+
+        Pedido pedidoteste = new Pedido(4578, 25.99, "Pendente");
+        System.out.println("Número do pedido: " + pedidoteste.getNumeroPedido());
+        System.out.println("Valor: " + pedidoteste.getValorTotal());
+        System.out.println("Status do pedido: " + pedidoteste.getStatus());
+
+        pedidoteste.setStatus("Processado");
+        System.out.println("Status atualizado: " + pedidoteste.getStatus());
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
