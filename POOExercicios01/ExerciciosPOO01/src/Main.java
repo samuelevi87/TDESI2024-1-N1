@@ -1,6 +1,7 @@
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
+import Exercicio04.Livro;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,10 +10,10 @@ public class Main {
         // 1. Criar uma instância da classe Pessoa.
         // 2. Exibir o nome e a idade da pessoa.
         // 3. Alterar a idade da pessoa e exibir novamente.
-        Pessoa pessoa1 = new Pessoa("Joao", 20) ;
-        System.out.println("Olá, seu nome é: " + pessoa1.getNome() + " e sua idade é: " + pessoa1.getIdade() );
+        Pessoa pessoa1 = new Pessoa("Joao", 20);
+        System.out.println("Olá, seu nome é: " + pessoa1.getNome() + " e sua idade é: " + pessoa1.getIdade());
         pessoa1.setIdade(70);
-        System.out.println("Olá, seu nome é: " + pessoa1.getNome() + " e sua idade é: " + pessoa1.getIdade() );
+        System.out.println("Olá, seu nome é: " + pessoa1.getNome() + " e sua idade é: " + pessoa1.getIdade());
 
 
         // Exercício 2:
@@ -23,7 +24,7 @@ public class Main {
         ContaBancaria contaBancaria1 = new ContaBancaria(12345, 500);
         contaBancaria1.setDepositar(200);
         contaBancaria1.setSacar(50);
-        System.out.println("Saldo disponivel: " + contaBancaria1.getSaldoConta());
+        System.out.println("Saldo disponivel: " + contaBancaria1.getSaldoConta() + "\n");
 
 
         // Exercício 3:
@@ -31,18 +32,21 @@ public class Main {
         // 2. Exibir o nome, preço e quantidade em estoque.
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
-        Produto produto1 = new Produto("MESA",250.00, 10);
-        System.out.println("DESCRIÇÃO PRODUTO: \n" + "NOME:" + produto1.getNome() + "\n" + "PREÇO:" + produto1.getPreco() + "\n" + "QNT ESTOQUE:" + produto1.getQntEmEstoque() );
+        Produto produto1 = new Produto("MESA", 250.00, 10);
+        System.out.println("DESCRIÇÃO PRODUTO: \n" + "NOME:" + produto1.getNome() + "\n" + "PREÇO:" + produto1.getPreco() + "\n" + "QNT ESTOQUE:" + produto1.getQntEmEstoque());
         produto1.setAdicionarEstoque(5);
         produto1.setRemoverEstoque(1);
-        System.out.println("ESTOQUE ATUALIZADO:" + produto1.getQntEmEstoque());
+        System.out.println("ESTOQUE ATUALIZADO:" + produto1.getQntEmEstoque() + "\n");
 
 
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
         // 2. Exibir o título, autor e ano de publicação.
         // 3. Alterar o ano de publicação e exibir novamente.
-
+        Livro livro1 = new Livro("Seja TOP", "João Santos", 2024);
+        System.out.println("DESCRIÇÃO DO LIVRO \n" + "TITULO:" + livro1.getTitulo() + "\n" + "AUTOR:" + livro1.getAutor() + "\n" + "ANO PUBLICAÇÃO:" + livro1.getAnoPublicacao());
+        livro1.setAnoPublicacao(2025);
+        System.out.println("ANO DE PUBLICAÇÃO ATUALIZADO:" + livro1.getAnoPublicacao() + "\n");
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
