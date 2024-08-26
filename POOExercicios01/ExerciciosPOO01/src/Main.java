@@ -4,6 +4,7 @@ import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
+import Exercicio07.Pedido;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,7 +36,7 @@ public class Main {
         // 3. Adicionar itens ao estoque e exibir a nova quantidade.
         // 4. Remover itens do estoque e exibir a nova quantidade.
         Produto produto1 = new Produto("MESA", 250.00, 10);
-        System.out.println("DESCRIÇÃO PRODUTO: \n" + "NOME:" + produto1.getNome() + "\n" + "PREÇO:" + produto1.getPreco() + "\n" + "QNT ESTOQUE:" + produto1.getQntEmEstoque());
+        System.out.println("DESCRIÇÃO PRODUTO \n" + "NOME:" + produto1.getNome() + "\n" + "PREÇO:" + produto1.getPreco() + "\n" + "QNT ESTOQUE:" + produto1.getQntEmEstoque());
         produto1.setAdicionarEstoque(5);
         produto1.setRemoverEstoque(1);
         System.out.println("ESTOQUE ATUALIZADO:" + produto1.getQntEmEstoque() + "\n");
@@ -49,6 +50,7 @@ public class Main {
         System.out.println("DESCRIÇÃO DO LIVRO \n" + "TITULO:" + livro1.getTitulo() + "\n" + "AUTOR:" + livro1.getAutor() + "\n" + "ANO PUBLICAÇÃO:" + livro1.getAnoPublicacao());
         livro1.setAnoPublicacao(2025);
         System.out.println("ANO DE PUBLICAÇÃO ATUALIZADO:" + livro1.getAnoPublicacao() + "\n");
+
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
@@ -69,10 +71,15 @@ public class Main {
         cliente1.setTelefone("47992939495");
         System.out.println("TELEFONE ATUALIZADO:" + cliente1.getTelefone() + "\n");
 
+
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
+        Pedido pedido1 = new Pedido(354, 54.20, "Pendente");
+        System.out.println("DESCRIÇÃO DO PEDIDO \n" + "NUMERO PEDIDO:" + pedido1.getNumeroPedido() + "\n" + "VALOR TOTAL:" + pedido1.getValorTotal() + "\n" + "STATUS:" + pedido1.getStatus());
+        pedido1.setStatus("Enviado");
+        System.out.println("STATUS ATUALIZADO:" + pedido1.getStatus() + "\n");
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
