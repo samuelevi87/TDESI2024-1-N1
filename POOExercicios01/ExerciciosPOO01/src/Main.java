@@ -4,6 +4,8 @@ import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
+import Exercicio07.Pedido;
+
 
 public class Main {
     public static void main(String[] args) {
@@ -82,6 +84,13 @@ public class Main {
         // 1. Criar uma instância da classe Pedido.
         // 2. Exibir o número do pedido, valor total e status.
         // 3. Alterar o status do pedido e exibir novamente.
+
+        System.out.println();
+        Pedido pedido1 = new Pedido(01, 66, "Disponivel");
+        System.out.println("Numero do pedido: " + pedido1.getNumeroPedido() + "Valor Total: " + pedido1.getValorTotal() + "Status: " + pedido1.getStatus());
+        pedido1.setStatus("Indisponivel");
+        System.out.println("Numero do pedido: " + pedido1.getNumeroPedido() + "Valor Total: " + pedido1.getValorTotal() + "Status: " + pedido1.getStatus());
+
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
