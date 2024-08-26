@@ -19,10 +19,10 @@ public class Main {
         // 3. Sacar um valor da conta.
         // 4. Exibir o saldo final.
 
-        ContaBancaria conta = new ContaBancaria(1234567, 1500);
-        conta.Depositar(100);
-        conta.Sacar(200);
-        System.out.println("O saldo é " + conta.getSaldo());
+//        ContaBancaria conta = new ContaBancaria(1234567, 1500);
+//        conta.Depositar(100);
+//        conta.Sacar(200);
+//        System.out.println("O saldo é " + conta.getSaldo());
 
 
         // Exercício 3:
