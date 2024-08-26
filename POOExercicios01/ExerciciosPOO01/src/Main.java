@@ -3,6 +3,7 @@ import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
 import Exercicio04.Livro;
 import Exercicio05.Carro;
+import Exercicio06.Cliente;
 
 public class Main {
     public static void main(String[] args) {
@@ -70,6 +71,12 @@ public class Main {
         // 1. Criar uma instância da classe Cliente.
         // 2. Exibir o nome, email e telefone do cliente.
         // 3. Alterar o telefone do cliente e exibir novamente.
+
+        System.out.println();
+        Cliente cliente1 = new Cliente("Pedro", "Pedro.com", "666");
+        System.out.println("Nome: " + cliente1.getTelefone() + "Email: " + cliente1.getEmail() + "Telefone: " + cliente1.getTelefone());
+        cliente1.setTelefone("999");
+        System.out.println("Nome: " + cliente1.getTelefone() + "Email: " + cliente1.getEmail() + "Telefone: " + cliente1.getTelefone());
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
