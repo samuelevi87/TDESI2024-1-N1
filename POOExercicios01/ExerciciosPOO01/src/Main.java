@@ -3,19 +3,16 @@ import Exercicio02.CorrecaoContaBancaria;
 import Exercicio03.CorrecaoProduto;
 import Exercicio04.CorrecaoLivro;
 import Exercicio05.CorrecaoCarro;
+import Exercicio06.CorrecaoCliente;
 
 public class Main {
     public static void main(String[] args) {
-        ex01();
-        ex02();
-        ex03();
-        ex04();
-        ex05();
-
-        // Exercício 6:
-        // 1. Criar uma instância da classe Cliente.
-        // 2. Exibir o nome, email e telefone do cliente.
-        // 3. Alterar o telefone do cliente e exibir novamente.
+//        ex01();
+//        ex02();
+//        ex03();
+//        ex04();
+//        ex05();
+        ex06();
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
@@ -61,6 +58,17 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex06() {
+        // Exercício 6:
+        // 1. Criar uma instância da classe Cliente.
+        CorrecaoCliente clienteNovo = new CorrecaoCliente("José", "jose@email.com","47987654321");
+        // 2. Exibir o nome, email e telefone do cliente.
+        System.out.println("O nome do cliente é " + clienteNovo.getNome() + ", seu email é " + clienteNovo.getEmail() + " o telefone do cliente é " + clienteNovo.getTelefone());
+        // 3. Alterar o telefone do cliente e exibir novamente.
+        clienteNovo.setTelefone("48996633225");
+        System.out.println("O nome do cliente é " + clienteNovo.getNome() + ", seu email é " + clienteNovo.getEmail() + " o telefone do cliente é " + clienteNovo.getTelefone());
     }
 
     private static void ex05() {
