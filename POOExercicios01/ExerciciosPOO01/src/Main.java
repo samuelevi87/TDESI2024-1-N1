@@ -8,6 +8,7 @@ import Exercicio07.Pedido;
 import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
+import Exercicio11.Fornecedor;
 
 public class Main {
     public static void main(String[] args) {
@@ -116,6 +117,10 @@ public class Main {
         // 1. Criar uma instância da classe Fornecedor.
         // 2. Exibir o nome, CNPJ e telefone do fornecedor.
         // 3. Alterar o telefone do fornecedor e exibir novamente.
+        Fornecedor fornecedor1 = new Fornecedor("Americanas", "1020304050", "11992932302");
+        System.out.println("DESCRIÇÃO DO FORNECEDOR \n" + "NOME:" + fornecedor1.getNome() + "\n" + "CNPJ:" + fornecedor1.getCnpj() + "\n" + "TELEFONE:" + fornecedor1.getTelefone());
+        fornecedor1.setTelefone("11993452120");
+        System.out.println("TELEFONE ATUALIZADO:" + fornecedor1.getTelefone() + "\n");
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
