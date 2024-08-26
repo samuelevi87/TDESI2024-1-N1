@@ -158,7 +158,12 @@ public class Main {
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
 
-        
+        System.out.println();
+        VeiculoEmpresa veiculoEmpresa1 = new VeiculoEmpresa("aa12", "Carro", 2000, 123456);
+        System.out.println("Placa: " + veiculoEmpresa1.getPlaca() + "\nModelo: " + veiculoEmpresa1.getModelo() + "\nAno: " + veiculoEmpresa1.getAno() + "\nQuilometragem: " + veiculoEmpresa1.getQuilometragem());
+        veiculoEmpresa1.addKm(1000);
+        System.out.println("Placa: " + veiculoEmpresa1.getPlaca() + "\nModelo: " + veiculoEmpresa1.getModelo() + "\nAno: " + veiculoEmpresa1.getAno() + "\nQuilometragem: " + veiculoEmpresa1.getQuilometragem());
+
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
