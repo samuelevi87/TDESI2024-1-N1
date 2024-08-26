@@ -11,12 +11,15 @@ public class Produto {
         this.quntidadeEmEstoque = quntidadeProduto;
     }
 
-    public String getNome() {
+    public static String getNome() {
         return nome;
     }
 
-    public double getPreco() {
+    public static double getPreco() {
         return preco;
+    }
+
+    public static int quantidadeEmEstoque() {
     }
 
     public int getQuntidadeEmEstoque() {
