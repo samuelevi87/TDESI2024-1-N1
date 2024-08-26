@@ -10,6 +10,7 @@ import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
+import Exercicio13.VeiculoEmpresa;
 
 public class Main {
     public static void main(String[] args) {
@@ -169,18 +170,27 @@ public class Main {
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
 
-        Maquina maquinateste = new Maquina("30091650", "Monitor", "Manutenção");
-        System.out.println("ID máquina: " + maquinateste.getIdMaquina());
-        System.out.println("Tipo: " + maquinateste.getTipo());
-        System.out.println("Status: " + maquinateste.getStatusOperacao());
-
-        maquinateste.setStatusOperacao("Operacional");
-        System.out.println("Status: " + maquinateste.getStatusOperacao());
+//        Maquina maquinateste = new Maquina("30091650", "Monitor", "Manutenção");
+//        System.out.println("ID máquina: " + maquinateste.getIdMaquina());
+//        System.out.println("Tipo: " + maquinateste.getTipo());
+//        System.out.println("Status: " + maquinateste.getStatusOperacao());
+//
+//        maquinateste.setStatusOperacao("Operacional");
+//        System.out.println("Status: " + maquinateste.getStatusOperacao());
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+
+        VeiculoEmpresa veicteste = new VeiculoEmpresa("MFL7J49", "Voyage", 2005, 12345.77);
+        System.out.println("Placa: " + veicteste.getPlaca());
+        System.out.println("Modelo: " + veicteste.getModelo());
+        System.out.println("Ano: " + veicteste.getAno());
+        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
+
+        veicteste.adicionarQuilometragem(700);
+        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
