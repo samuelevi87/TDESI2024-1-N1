@@ -147,13 +147,22 @@ public class Main {
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
 
+        System.out.println();
+        Maquina maquina1 = new Maquina("1", "Bebida", "Funcional");
+        System.out.println("Id da máquina: " + maquina1.getIdMaquina() + "\nTipo: " + maquina1.getTipo() + "\nStatus de Operação: " + maquina1.getStatusOp());
+        maquina1.setStatusOp("Não funcional");
+        System.out.println("Id da máquina: " + maquina1.getIdMaquina() + "\nTipo: " + maquina1.getTipo() + "\nStatus de Operação: " + maquina1.getStatusOp());
+
+        // Exercício 13:
+        // 1. Criar uma instância da classe VeiculoEmpresa.
+        // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
+        // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+
         
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
-
-
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
