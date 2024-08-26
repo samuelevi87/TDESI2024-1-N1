@@ -5,6 +5,9 @@ import Exercicio04.Livro;
 import Exercicio05.Carro;
 import Exercicio06.Cliente;
 import Exercicio07.Pedido;
+import Exercicio08.Funcionario;
+import Exercicio09.ProdutoIndustrial;
+import Exercicio10.Contrato;
 
 
 public class Main {
@@ -76,9 +79,9 @@ public class Main {
 
         System.out.println();
         Cliente cliente1 = new Cliente("Pedro", "Pedro.com", "666");
-        System.out.println("Nome: " + cliente1.getTelefone() + "Email: " + cliente1.getEmail() + "Telefone: " + cliente1.getTelefone());
+        System.out.println("Nome: " + cliente1.getTelefone() + "\nEmail: " + cliente1.getEmail() + "\nTelefone: " + cliente1.getTelefone());
         cliente1.setTelefone("999");
-        System.out.println("Nome: " + cliente1.getTelefone() + "Email: " + cliente1.getEmail() + "Telefone: " + cliente1.getTelefone());
+        System.out.println("Nome: " + cliente1.getTelefone() + "\nEmail: " + cliente1.getEmail() + "\nTelefone: " + cliente1.getTelefone());
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
@@ -87,9 +90,9 @@ public class Main {
 
         System.out.println();
         Pedido pedido1 = new Pedido(01, 66, "Disponivel");
-        System.out.println("Numero do pedido: " + pedido1.getNumeroPedido() + "Valor Total: " + pedido1.getValorTotal() + "Status: " + pedido1.getStatus());
+        System.out.println("Numero do pedido: " + pedido1.getNumeroPedido() + "\nValor Total: " + pedido1.getValorTotal() + "\nStatus: " + pedido1.getStatus());
         pedido1.setStatus("Indisponivel");
-        System.out.println("Numero do pedido: " + pedido1.getNumeroPedido() + "Valor Total: " + pedido1.getValorTotal() + "Status: " + pedido1.getStatus());
+        System.out.println("Numero do pedido: " + pedido1.getNumeroPedido() + "\nValor Total: " + pedido1.getValorTotal() + "\nStatus: " + pedido1.getStatus());
 
 
         // Exercício 8:
@@ -97,15 +100,31 @@ public class Main {
         // 2. Exibir o nome, cargo e salário do funcionário.
         // 3. Alterar o salário do funcionário e exibir novamente.
 
+        System.out.println();
+        Funcionario funcionario1 = new Funcionario("Jao", "GogoBoy", 666);
+        System.out.println("Nome: " + funcionario1.getNome() + "\nCargo: " + funcionario1.getCargo() + "\nSalário" + funcionario1.getSalario());
+        funcionario1.setSalario(999);
+        System.out.println("Nome: " + funcionario1.getNome() + "\nCargo: " + funcionario1.getCargo() + "\nSalário" + funcionario1.getSalario());
+
+
         // Exercício 9:
         // 1. Criar uma instância da classe ProdutoIndustrial.
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
 
+        System.out.println();
+        ProdutoIndustrial produtoIndustrial1 = new ProdutoIndustrial("1", "carro", 50, 70);
+        System.out.println("Codigo: " + produtoIndustrial1.getCodigo() + "\nNome: " + produtoIndustrial1.getNome() + "\nPreço custo: " + produtoIndustrial1.getPrecoCusto() + "\nPreço venda: " + produtoIndustrial1.getPrecoVenda());
+        System.out.println(produtoIndustrial1.calcularMargemLucro());
+
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
         // 2. Exibir o número do contrato, descrição, valor e vigência.
         // 3. Alterar a vigência do contrato e exibir novamente.
+
+        System.out.println();
+        Contrato contrato1 = new Contrato("666", "coisa ruim", 666, 1);
+        System.out.println();
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
