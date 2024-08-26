@@ -4,6 +4,7 @@ import Exercicio03.CorrecaoProduto;
 import Exercicio04.CorrecaoLivro;
 import Exercicio05.CorrecaoCarro;
 import Exercicio06.CorrecaoCliente;
+import Exercicio07.CorrecaoPedido;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,12 +13,8 @@ public class Main {
 //        ex03();
 //        ex04();
 //        ex05();
-        ex06();
-
-        // Exercício 7:
-        // 1. Criar uma instância da classe Pedido.
-        // 2. Exibir o número do pedido, valor total e status.
-        // 3. Alterar o status do pedido e exibir novamente.
+//        ex06();
+        ex07();
 
         // Exercício 8:
         // 1. Criar uma instância da classe Funcionario.
@@ -58,6 +55,17 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex07() {
+        // Exercício 7:
+        // 1. Criar uma instância da classe Pedido.
+        CorrecaoPedido pedidoNovo = new CorrecaoPedido(123,300.00,"Pendente");
+        // 2. Exibir o número do pedido, valor total e status.
+        System.out.println("Pedido nº: " + pedidoNovo.getNumeroPedido() + "\nValor Total: R$" + pedidoNovo.getValorTotal() + "\nStatus Atual: " + pedidoNovo.getStatus());
+        // 3. Alterar o status do pedido e exibir novamente.
+        pedidoNovo.setStatus("Processado");
+        System.out.println("Pedido nº: " + pedidoNovo.getNumeroPedido() + "\nValor Total: R$" + pedidoNovo.getValorTotal() + "\nStatus Atual: " + pedidoNovo.getStatus());
     }
 
     private static void ex06() {
