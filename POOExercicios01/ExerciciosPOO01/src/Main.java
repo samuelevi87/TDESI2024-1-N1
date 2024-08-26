@@ -1,52 +1,18 @@
-import Exercicio01.Pessoa;
-import Exercicio02.ContaBancaria;
-import Exercicio09.ProdutoIndustrial;
-import Exercicio13.VeiculoEmpresa;
+import Exercicio01.CorrecaoPessoa;
+import Exercicio02.CorrecaoContaBancaria;
+import Exercicio03.CorrecaoProduto;
+import Exercicio04.CorrecaoLivro;
+import Exercicio05.CorrecaoCarro;
+import Exercicio06.CorrecaoCliente;
 
 public class Main {
     public static void main(String[] args) {
-        // Exercício 1:
-        // 1. Criar uma instância da classe Pessoa.
-        // 2. Exibir o nome e a idade da pessoa.
-        // 3. Alterar a idade da pessoa e exibir novamente.
-
-//        Pessoa pess01 = new Pessoa("Bryan Rory", 24);
-//        System.out.println("O " + pess01.getNome() + " tem " + pess01.getIdade() + " anos!");
-//        pess01.setIdade(26);
-//        System.out.println("O " + pess01.getNome() + " tem " + pess01.getIdade() + " anos!");
-
-        // Exercício 2:
-        // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
-        // 2. Depositar um valor na conta.
-        // 3. Sacar um valor da conta.
-        // 4. Exibir o saldo final.
-
-//        ContaBancaria conta = new ContaBancaria(1234567, 1500);
-//        conta.Depositar(100);
-//        conta.Sacar(200);
-//        System.out.println("O saldo é " + conta.getSaldo());
-
-
-        // Exercício 3:
-        // 1. Criar uma instância da classe Produto.
-        // 2. Exibir o nome, preço e quantidade em estoque.
-        // 3. Adicionar itens ao estoque e exibir a nova quantidade.
-        // 4. Remover itens do estoque e exibir a nova quantidade.
-
-        // Exercício 4:
-        // 1. Criar uma instância da classe Livro.
-        // 2. Exibir o título, autor e ano de publicação.
-        // 3. Alterar o ano de publicação e exibir novamente.
-
-        // Exercício 5:
-        // 1. Criar uma instância da classe Carro.
-        // 2. Exibir a marca, modelo, ano e quilometragem do carro.
-        // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
-
-        // Exercício 6:
-        // 1. Criar uma instância da classe Cliente.
-        // 2. Exibir o nome, email e telefone do cliente.
-        // 3. Alterar o telefone do cliente e exibir novamente.
+//        ex01();
+//        ex02();
+//        ex03();
+//        ex04();
+//        ex05();
+        ex06();
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
@@ -62,9 +28,6 @@ public class Main {
         // 1. Criar uma instância da classe ProdutoIndustrial.
         // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
         // 3. Calcular e exibir a margem de lucro do produto.
-
-//        ProdutoIndustrial produto = new ProdutoIndustrial("123ABC", "Caneta", 1.00, 2.50);
-//        System.out.println(Double.toString(produto.calcularMargemLucro()));
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
@@ -86,10 +49,6 @@ public class Main {
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
 
-//        VeiculoEmpresa carro = new VeiculoEmpresa("MFL3B57", "Voyage", 2016, 100000.00);
-//        carro.adicionarQuilometragem(156.65);
-//        System.out.println(Double.toString(carro.getQuilometragem()));
-
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
@@ -99,5 +58,80 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex06() {
+        // Exercício 6:
+        // 1. Criar uma instância da classe Cliente.
+        CorrecaoCliente clienteNovo = new CorrecaoCliente("José", "jose@email.com","47987654321");
+        // 2. Exibir o nome, email e telefone do cliente.
+        System.out.println("O nome do cliente é " + clienteNovo.getNome() + ", seu email é " + clienteNovo.getEmail() + " o telefone do cliente é " + clienteNovo.getTelefone());
+        // 3. Alterar o telefone do cliente e exibir novamente.
+        clienteNovo.setTelefone("48996633225");
+        System.out.println("O nome do cliente é " + clienteNovo.getNome() + ", seu email é " + clienteNovo.getEmail() + " o telefone do cliente é " + clienteNovo.getTelefone());
+    }
+
+    private static void ex05() {
+        // Exercício 5:
+        // 1. Criar uma instância da classe Carro.
+        CorrecaoCarro carroNovo = new CorrecaoCarro("Fiat", "Uno", 2005, 9000);
+        // 2. Exibir a marca, modelo, ano e quilometragem do carro.
+        System.out.println("O Carro é um " + carroNovo.getMarca() + " " + carroNovo.getModelo() + ", fabricado em " + carroNovo.getAno() + " e já tem " + carroNovo.getQuilometragem() + "kms rodados!");
+        // 3. Adicionar quilometragem ao carro e exibir a nova quilometragem.
+        carroNovo.adicionarQuilometragem(1000);
+        System.out.println("O Carro é um " + carroNovo.getMarca() + " " + carroNovo.getModelo() + ", fabricado em " + carroNovo.getAno() + " e já tem " + carroNovo.getQuilometragem() + "kms rodados!");
+    }
+
+    private static void ex04() {
+        // Exercício 4:
+        // 1. Criar uma instância da classe Livro.
+        CorrecaoLivro livroNovo = new CorrecaoLivro("A Firma", "John Grishan", 1985);
+        // 2. Exibir o título, autor e ano de publicação.
+        System.out.println("Livro: " + livroNovo.getTitulo() + ", do Autor " + livroNovo.getAutor() + " publicado no ano de " + livroNovo.getAnoPublicacao());
+        // 3. Alterar o ano de publicação e exibir novamente.
+        livroNovo.setAnoPublicacao(2005);
+        System.out.println("Livro: " + livroNovo.getTitulo() + ", do Autor " + livroNovo.getAutor() + " publicado no ano de " + livroNovo.getAnoPublicacao());
+    }
+
+    private static void ex03() {
+        // Exercício 3:
+        // 1. Criar uma instância da classe Produto.
+        CorrecaoProduto produtoNovo = new CorrecaoProduto("Cadeira",155.00,5);
+        // 2. Exibir o nome, preço e quantidade em estoque.
+        System.out.println("Nome: " + produtoNovo.getNome());
+        System.out.println("Preço: " + produtoNovo.getPreco());
+        // 3. Adicionar itens ao estoque e exibir a nova quantidade.
+        produtoNovo.adicionarEstoque(10);
+        // 4. Remover itens do estoque e exibir a nova quantidade.
+        produtoNovo.removerEstoque(15);
+        System.out.println("Quantidade em Estoque: " + produtoNovo.getQuantidadeEmEstoque());
+        System.out.println("Nome: " + produtoNovo.getNome());
+        System.out.println("Preço: " + produtoNovo.getPreco());
+        System.out.println("Quantidade em Estoque: " + produtoNovo.getQuantidadeEmEstoque());
+    }
+
+    private static void ex02() {
+        // Exercício 2:
+        // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
+        CorrecaoContaBancaria contaNova = new CorrecaoContaBancaria(1234,600);
+        // 2. Depositar um valor na conta.
+        contaNova.depositar(150);
+        // 3. Sacar um valor da conta.
+        contaNova.sacar(50);
+        // 4. Exibir o saldo final.
+        System.out.println("Saldo atual: " + contaNova.getSaldo());
+    }
+
+    private static void ex01() {
+        // Exercício 1:
+        // 1. Criar uma instância da classe Pessoa.
+        CorrecaoPessoa pessoaNova = new CorrecaoPessoa("Carlos",36);
+        // 2. Exibir o nome e a idade da pessoa.
+        System.out.println("Nome: " + pessoaNova.getNome());
+        System.out.println("Idade: " + pessoaNova.getIdade());
+        // 3. Alterar a idade da pessoa e exibir novamente.
+        pessoaNova.setIdade(37);
+        System.out.println("Nome: " + pessoaNova.getNome());
+        System.out.println("Idade: " + pessoaNova.getIdade());
     }
 }
