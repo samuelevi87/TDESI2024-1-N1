@@ -10,6 +10,7 @@ import Exercicio09.CorrecaoProdutoIndustrial;
 import Exercicio10.CorrecaoContrato;
 import Exercicio11.CorrecaoFornecedor;
 import Exercicio12.CorrecaoMaquina;
+import Exercicio13.CorrecaoVeiculoEmpresa;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,12 +25,8 @@ public class Main {
 //        ex09();
 //        ex10();
 //        ex11();
-        ex12();
-
-        // Exercício 13:
-        // 1. Criar uma instância da classe VeiculoEmpresa.
-        // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
-        // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+//        ex12();
+        ex13();
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
@@ -40,6 +37,17 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex13() {
+        // Exercício 13:
+        // 1. Criar uma instância da classe VeiculoEmpresa.
+        CorrecaoVeiculoEmpresa veiculoEmpresa = new CorrecaoVeiculoEmpresa("ABC12P9","BMW", 2023, 1000);
+        // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
+        System.out.println("Veículo placa: " + veiculoEmpresa.getPlaca() + ", modelo: " + veiculoEmpresa.getModelo() + ", ano de fabricação: " + veiculoEmpresa.getAno() + " tem, atualmente, " + veiculoEmpresa.getQuilometragem() + " quilômetros rodados.");
+        // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+        veiculoEmpresa.adicionarQuilometragem(1000);
+        System.out.println("Veículo placa: " + veiculoEmpresa.getPlaca() + ", modelo: " + veiculoEmpresa.getModelo() + ", ano de fabricação: " + veiculoEmpresa.getAno() + " tem, atualmente, " + veiculoEmpresa.getQuilometragem() + " quilômetros rodados.");
     }
 
     private static void ex12() {
