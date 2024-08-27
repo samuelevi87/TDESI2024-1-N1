@@ -184,27 +184,27 @@ public class Main {
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
 
-//        VeiculoEmpresa veicteste = new VeiculoEmpresa("MFL7J49", "Voyage", 2005, 12345.77);
-//        System.out.println("Placa: " + veicteste.getPlaca());
-//        System.out.println("Modelo: " + veicteste.getModelo());
-//        System.out.println("Ano: " + veicteste.getAno());
-//        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
-//
-//        veicteste.adicionarQuilometragem(700);
-//        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
+        VeiculoEmpresa veicteste = new VeiculoEmpresa("MFL7J49", "Voyage", 2005, 12345.77);
+        System.out.println("Placa: " + veicteste.getPlaca());
+        System.out.println("Modelo: " + veicteste.getModelo());
+        System.out.println("Ano: " + veicteste.getAno());
+        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
+
+        veicteste.adicionarQuilometragem(700);
+        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
 
-        Projeto projetoteste = new Projeto("Controle Carro por Assinatura", 12, 23789.48);
-        System.out.println("Nome do Projeto: " + projetoteste.getNome());
-        System.out.println("Duração: " + projetoteste.getDuracao() + " meses");
-        System.out.println("Orçamento: " + projetoteste.getOrcamento());
-
-        projetoteste.setOrcamento(32500.78);
-        System.out.println("Orçamento: " + projetoteste.getOrcamento());
+//        Projeto projetoteste = new Projeto("Controle Carro por Assinatura", 12, 23789.48);
+//        System.out.println("Nome do Projeto: " + projetoteste.getNome());
+//        System.out.println("Duração: " + projetoteste.getDuracao() + " meses");
+//        System.out.println("Orçamento: " + projetoteste.getOrcamento());
+//
+//        projetoteste.setOrcamento(32500.78);
+//        System.out.println("Orçamento: " + projetoteste.getOrcamento());
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
