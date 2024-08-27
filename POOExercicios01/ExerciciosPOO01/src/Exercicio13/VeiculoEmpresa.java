@@ -13,7 +13,7 @@ public class VeiculoEmpresa {
         this.quilometragem = quilometragem;
     }
     public void adicionarQuilometragem(double km){
-        quilometragem += km;
+        this.quilometragem += km;
     }
 
     public String getPlaca() {
