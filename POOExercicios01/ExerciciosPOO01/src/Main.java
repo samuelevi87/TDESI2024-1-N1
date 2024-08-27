@@ -12,6 +12,7 @@ import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
 import Exercicio14.Projeto;
+import Exercicio15.Seguro;
 
 
 public class Main {
@@ -180,5 +181,12 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+
+        System.out.println();
+        Seguro seguro1 = new Seguro("123", "SIM", 666, 999);
+        System.out.println("NumeroApolice: " + seguro1.getNumeroApolice() + "\nTipo: " + seguro1.getTipo() + "\nValor Cobertura: " + seguro1.getValorCobertura() + "\nValor premio: " + seguro1.getValorPremio());
+        seguro1.setValorPremio(1000);
+        System.out.println("NumeroApolice: " + seguro1.getNumeroApolice() + "\nTipo: " + seguro1.getTipo() + "\nValor Cobertura: " + seguro1.getValorCobertura() + "\nValor premio: " + seguro1.getValorPremio());
+
     }
 }
