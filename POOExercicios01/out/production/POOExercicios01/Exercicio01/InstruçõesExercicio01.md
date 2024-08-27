@@ -1,4 +1,3 @@
-
 Aqui estão três exercícios de criação de classes em Java, seguindo as orientações para focar em conceitos básicos como encapsulamento e manipulação de atributos. A classe `Main` contém apenas os comentários indicando os passos que os alunos devem seguir.
 
 ### Exercício 1: Classe `Pessoa`
