@@ -30,6 +30,6 @@ public class ProdutoIndustrial {
     }
 
     public double calcularMargemLucro() {
-        return precoVenda - precoCusto;
+        return this.precoVenda - this.precoCusto;
     }
 }
