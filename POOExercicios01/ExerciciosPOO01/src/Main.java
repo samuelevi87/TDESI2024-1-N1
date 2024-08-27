@@ -11,6 +11,7 @@ import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
+import Exercicio14.Projeto;
 
 
 public class Main {
@@ -168,6 +169,12 @@ public class Main {
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
+
+        System.out.println();
+        Projeto projeto1 = new Projeto("Projeto1", 10, 999);
+        System.out.println("Nome: " + projeto1.getNome() + "\nDuracão: " + projeto1.getDuracao() + "\nOrçamento: " + projeto1.getOrcamento());
+        projeto1.setOrcamento(666);
+        System.out.println("Nome: " + projeto1.getNome() + "\nDuracão: " + projeto1.getDuracao() + "\nOrçamento: " + projeto1.getOrcamento());
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
