@@ -9,6 +9,7 @@ import Exercicio08.Funcionario;
 import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
+import Exercicio12.Maquina;
 
 public class Main {
     public static void main(String[] args) {
@@ -126,6 +127,10 @@ public class Main {
         // 1. Criar uma instância da classe Maquina.
         // 2. Exibir o ID da máquina, tipo e status de operação.
         // 3. Alterar o status de operação da máquina e exibir novamente.
+        Maquina maquina1 = new Maquina("12", "Mecanica", "Operacional");
+        System.out.println("DESCRIÇÃO DA MÁQUINA \n" + "ID:" + maquina1.getIdMaquina() + "\n" + "TIPO:" + maquina1.getTipo() + "\n" + "STATUS OPERAÇÃO:" + maquina1.getStatusOperacao());
+        maquina1.setStatusOperacao("Manutenção");
+        System.out.println("STATUS DE OPERAÇÃO ATUALIZADO:" + maquina1.getStatusOperacao() + "\n");
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
