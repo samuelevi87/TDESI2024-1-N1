@@ -9,6 +9,7 @@ import Exercicio08.CorrecaoFuncionario;
 import Exercicio09.CorrecaoProdutoIndustrial;
 import Exercicio10.CorrecaoContrato;
 import Exercicio11.CorrecaoFornecedor;
+import Exercicio12.CorrecaoMaquina;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,12 +23,8 @@ public class Main {
 //        ex08();
 //        ex09();
 //        ex10();
-        ex11();
-
-        // Exercício 12:
-        // 1. Criar uma instância da classe Maquina.
-        // 2. Exibir o ID da máquina, tipo e status de operação.
-        // 3. Alterar o status de operação da máquina e exibir novamente.
+//        ex11();
+        ex12();
 
         // Exercício 13:
         // 1. Criar uma instância da classe VeiculoEmpresa.
@@ -43,6 +40,17 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex12() {
+        // Exercício 12:
+        // 1. Criar uma instância da classe Maquina.
+        CorrecaoMaquina maquina = new CorrecaoMaquina("365","Corte", "Manutençao");
+        // 2. Exibir o ID da máquina, tipo e status de operação.
+        System.out.println("A máquina de código: " + maquina.getIdMaquina() + ", do tipo: " + maquina.getTipo() + " está com o status: " + maquina.getStatusOperacao());
+        // 3. Alterar o status de operação da máquina e exibir novamente.
+        maquina.setStatusOperacao("Parada");
+        System.out.println("A máquina de código: " + maquina.getIdMaquina() + ", do tipo: " + maquina.getTipo() + " está com o status: " + maquina.getStatusOperacao());
     }
 
     private static void ex11() {
