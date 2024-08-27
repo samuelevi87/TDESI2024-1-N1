@@ -10,6 +10,8 @@ import Exercicio09.ProdutoIndustrial;
 import Exercicio10.Contrato;
 import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
+import Exercicio13.VeiculoEmpresa;
+import Exercicio14.Projeto;
 
 public class Main {
     public static void main(String[] args) {
@@ -136,11 +138,20 @@ public class Main {
         // 1. Criar uma instância da classe VeiculoEmpresa.
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+        VeiculoEmpresa veiculoEmpresa1 = new VeiculoEmpresa("MKT-0000", "ONIX TURBO", 2024, 25000);
+        System.out.println("DESCRIÇÃO DO VEICULO \n" + "PLACA:" + veiculoEmpresa1.getPlaca() + "\n" + "MODELO:" + veiculoEmpresa1.getModelo() + "\n" + "ANO:" + veiculoEmpresa1.getAno() + "\n" + "KM:" + veiculoEmpresa1.getQuilometragem());
+        veiculoEmpresa1.adicionarQuilometragem(1000);
+        System.out.println("KM ATUALIZADA:" + veiculoEmpresa1.getQuilometragem() + "\n");
+
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
         // 3. Alterar o orçamento do projeto e exibir novamente.
+        Projeto projeto1 = new Projeto("AUTOMAÇÃO", 12, 20000);
+        System.out.println("DESCRIÇÃO DO PROJETO \n" + "NOME:" + projeto1.getNome() + "\n" + "DURAÇÃO:" + projeto1.getDuracao() + "\n" + "ORÇAMENTO:" + projeto1.getOrcamento());
+        projeto1.setOrcamento(35000);
+        System.out.println("ORÇAMENTO ATUALIZADO:" + projeto1.getOrcamento() + "\n");
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.

@@ -14,5 +14,24 @@ public class VeiculoEmpresa {
         this.quilometragem = quilometragem;
     }
 
+    public String getPlaca() {
+        return placa;
+    }
 
+    public String getModelo() {
+        return modelo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public double getQuilometragem() {
+        return quilometragem;
+    }
+
+    public double adicionarQuilometragem(double km) {
+
+        return quilometragem += km;
+    }
 }
