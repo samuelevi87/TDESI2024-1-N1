@@ -11,6 +11,7 @@ import Exercicio10.CorrecaoContrato;
 import Exercicio11.CorrecaoFornecedor;
 import Exercicio12.CorrecaoMaquina;
 import Exercicio13.CorrecaoVeiculoEmpresa;
+import Exercicio14.CorrecaoProjeto;
 
 public class Main {
     public static void main(String[] args) {
@@ -26,17 +27,24 @@ public class Main {
 //        ex10();
 //        ex11();
 //        ex12();
-        ex13();
-
-        // Exercício 14:
-        // 1. Criar uma instância da classe Projeto.
-        // 2. Exibir o nome, duração e orçamento do projeto.
-        // 3. Alterar o orçamento do projeto e exibir novamente.
+//        ex13();
+        ex14();
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex14() {
+        // Exercício 14:
+        // 1. Criar uma instância da classe Projeto.
+        CorrecaoProjeto projeto = new CorrecaoProjeto("Desenvolvimento de Calculadora", 2, 1000);
+        // 2. Exibir o nome, duração e orçamento do projeto.
+        System.out.println("O projeto " + projeto.getNome() + " deve durar " + projeto.getDuracao() + " e custará R$ " + projeto.getOrcamento());
+        // 3. Alterar o orçamento do projeto e exibir novamente.
+        projeto.setOrcamento(3);
+        System.out.println("O projeto " + projeto.getNome() + " deve durar " + projeto.getDuracao() + " e custará R$ " + projeto.getOrcamento());
     }
 
     private static void ex13() {
