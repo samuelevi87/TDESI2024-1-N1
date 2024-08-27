@@ -12,6 +12,7 @@ import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
 import Exercicio14.Projeto;
+import Exercicio15.Seguro;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,7 +26,6 @@ public class Main {
         pessoa1.setIdade(70);
         System.out.println("Olá, seu nome é: " + pessoa1.getNome() + " e sua idade é: " + pessoa1.getIdade());
 
-
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
         // 2. Depositar um valor na conta.
@@ -35,7 +35,6 @@ public class Main {
         contaBancaria1.setDepositar(200);
         contaBancaria1.setSacar(50);
         System.out.println("Saldo disponivel: " + contaBancaria1.getSaldoConta() + "\n");
-
 
         // Exercício 3:
         // 1. Criar uma instância da classe Produto.
@@ -48,7 +47,6 @@ public class Main {
         produto1.setRemoverEstoque(1);
         System.out.println("ESTOQUE ATUALIZADO:" + produto1.getQntEmEstoque() + "\n");
 
-
         // Exercício 4:
         // 1. Criar uma instância da classe Livro.
         // 2. Exibir o título, autor e ano de publicação.
@@ -57,7 +55,6 @@ public class Main {
         System.out.println("DESCRIÇÃO DO LIVRO \n" + "TITULO:" + livro1.getTitulo() + "\n" + "AUTOR:" + livro1.getAutor() + "\n" + "ANO PUBLICAÇÃO:" + livro1.getAnoPublicacao());
         livro1.setAnoPublicacao(2025);
         System.out.println("ANO DE PUBLICAÇÃO ATUALIZADO:" + livro1.getAnoPublicacao() + "\n");
-
 
         // Exercício 5:
         // 1. Criar uma instância da classe Carro.
@@ -68,7 +65,6 @@ public class Main {
         carro1.adicionarQuilometragem(500);
         System.out.println("QUILOMETRAGEM ATUALIZADA:" + carro1.getQuilometragem() + "\n");
 
-
         // Exercício 6:
         // 1. Criar uma instância da classe Cliente.
         // 2. Exibir o nome, email e telefone do cliente.
@@ -77,7 +73,6 @@ public class Main {
         System.out.println("DESCRIÇÃO DO CLIENTE \n" + "NOME:" + cliente1.getNome() + "\n" + "EMAIL:" + cliente1.getEmail() + "\n" + "TELEFONE:" + cliente1.getTelefone());
         cliente1.setTelefone("47992939495");
         System.out.println("TELEFONE ATUALIZADO:" + cliente1.getTelefone() + "\n");
-
 
         // Exercício 7:
         // 1. Criar uma instância da classe Pedido.
@@ -105,7 +100,6 @@ public class Main {
         System.out.println("DESCRIÇÃO DO PRODUTO \n" + "CODIGO:" + produtoIndustrial1.getCodigo() + "\n" + "NOME:" + produtoIndustrial1.getNome() + "\n" + "PREÇO CUSTO:" + produtoIndustrial1.getPrecoCusto() + "\n" + "PREÇO VENDA:" + produtoIndustrial1.getPrecoVenda());
         System.out.println("MARGEM DE LUCRO DO PRODUTO R$:" + produtoIndustrial1.calcularMargemLucro() + "\n");
 
-
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
         // 2. Exibir o número do contrato, descrição, valor e vigência.
@@ -114,7 +108,6 @@ public class Main {
         System.out.println("DESCRIÇÃO DO CONTRATO \n" + "NÚMERO CONTRATO:" + contrato1.getNumeroContrato() + "\n" + "DESCRIÇÃO:" + contrato1.getDescricao() + "\n" + "VALOR:" + contrato1.getValor() + "\n" + "VIGÊNCIA:" + contrato1.getVigencia());
         contrato1.setVigencia(10);
         System.out.println("VIGÊNCIA ATUALIZADA:" + contrato1.getVigencia() + "\n");
-
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
@@ -143,7 +136,6 @@ public class Main {
         veiculoEmpresa1.adicionarQuilometragem(1000);
         System.out.println("KM ATUALIZADA:" + veiculoEmpresa1.getQuilometragem() + "\n");
 
-
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
         // 2. Exibir o nome, duração e orçamento do projeto.
@@ -157,5 +149,10 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+        Seguro seguro1 = new Seguro("10", "Veículo", 20000, 10000);
+        System.out.println("DESCRIÇÃO DO SEGURO \n" + "NÚMERO APOLICE:" + seguro1.getNumeroApolice() + "\n" + "TIPO:" + seguro1.getTipo() + "\n" + "VALOR COBERTURA:" + seguro1.getValorCobertura() + "\n" + "VALOR PREMIO:" + seguro1.getValorPremio());
+        seguro1.setValorPremio(2000);
+        System.out.println("VALOR DO PREMIO ATUALIZADO:" + seguro1.getValorPremio() + "\n");
+
     }
 }
