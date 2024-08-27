@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="620dbd04-3559-4e83-b55d-e16ac0e18e2e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio01/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio01/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio02/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio02/ContaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio03/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio03/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio04/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio04/Livro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio05/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio05/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/TDESI2024-1-N1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/ExerciciosPOO01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio01/InstruçõesExercicio01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio02/InstruçõesExercicio02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio03/InstruçõesExercicio03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio04/InstruçõesExercicio04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio05/InstruçõesExercicio05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TDESI2024-1-N1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../curriculo-ruanFortes.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +52,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging ruanFortes",
     "last_opened_file_path": "C:/Users/ruan_fortes/Documents/TDESI2024-1-N1/POOExercicios01/ExerciciosPOO01"
   }
 }]]></component>

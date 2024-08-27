@@ -216,10 +216,5 @@ public class Main {
         System.out.println("valor da cobertura: " + seguro.getValorCobertura());
         System.out.println("valor do premio: " + seguro.getValorPremio());
         // 3. Alterar o valor do prêmio e exibir novamente.
-        seguro.setValorPremio(1300.00);
-        System.out.println("\nvalor do premio foi atualizado:");
-        System.out.println("valor do premio: " + seguro.getValorPremio());
-
-        seguro.setValorPremio(-200.00);
     }
 }

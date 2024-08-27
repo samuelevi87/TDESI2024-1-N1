@@ -15,5 +15,3 @@ Aqui estão três exercícios de criação de classes em Java, seguindo as orien
   - Métodos `getNome` e `getIdade` para retornar os valores dos atributos.
   - Método `setIdade` para alterar a idade da pessoa.
 
-
-
