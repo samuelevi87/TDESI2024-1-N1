@@ -2,9 +2,9 @@ package Exercicio12;
 
 public class Maquina {
 
-    public String idMaquina;
-    public String tipo;
-    public String statusOperacao;
+    private String idMaquina;
+    private String tipo;
+    private String statusOperacao;
 
     public Maquina(String idMaquina, String tipo, String statusOperacao) {
         this.idMaquina = idMaquina;

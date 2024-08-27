@@ -2,9 +2,9 @@ package Exercicio11;
 
 public class Fornecedor {
 
-    public String nome;
-    public String cnpj;
-    public String telefone;
+    private String nome;
+    private String cnpj;
+    private String telefone;
 
     public Fornecedor(String nome, String cnpj, String telefone) {
         this.nome = nome;
