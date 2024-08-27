@@ -8,6 +8,7 @@ import Exercicio07.CorrecaoPedido;
 import Exercicio08.CorrecaoFuncionario;
 import Exercicio09.CorrecaoProdutoIndustrial;
 import Exercicio10.CorrecaoContrato;
+import Exercicio11.CorrecaoFornecedor;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,12 +21,8 @@ public class Main {
 //        ex07();
 //        ex08();
 //        ex09();
-        ex10();
-
-        // Exercício 11:
-        // 1. Criar uma instância da classe Fornecedor.
-        // 2. Exibir o nome, CNPJ e telefone do fornecedor.
-        // 3. Alterar o telefone do fornecedor e exibir novamente.
+//        ex10();
+        ex11();
 
         // Exercício 12:
         // 1. Criar uma instância da classe Maquina.
@@ -46,6 +43,17 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex11() {
+        // Exercício 11:
+        // 1. Criar uma instância da classe Fornecedor.
+        CorrecaoFornecedor fornecedor = new CorrecaoFornecedor("Dispel","3016540820001-02","98996632514");
+        // 2. Exibir o nome, CNPJ e telefone do fornecedor.
+        System.out.println("Fornecedor: " + fornecedor.getNome() + ", CNPJ: " + fornecedor.getCnpj() + ", telefone: " + fornecedor.getTelefone());
+        // 3. Alterar o telefone do fornecedor e exibir novamente.
+        fornecedor.setTelefone("78996655441");
+        System.out.println("Fornecedor: " + fornecedor.getNome() + ", CNPJ: " + fornecedor.getCnpj() + ", telefone: " + fornecedor.getTelefone());
     }
 
     private static void ex10() {
