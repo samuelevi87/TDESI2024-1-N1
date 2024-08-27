@@ -12,6 +12,7 @@ import Exercicio11.Fornecedor;
 import Exercicio12.Maquina;
 import Exercicio13.VeiculoEmpresa;
 import Exercicio14.Projeto;
+import Exercicio15.Seguro;
 
 public class Main {
     public static void main(String[] args) {
@@ -184,14 +185,14 @@ public class Main {
         // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
         // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
 
-        VeiculoEmpresa veicteste = new VeiculoEmpresa("MFL7J49", "Voyage", 2005, 12345.77);
-        System.out.println("Placa: " + veicteste.getPlaca());
-        System.out.println("Modelo: " + veicteste.getModelo());
-        System.out.println("Ano: " + veicteste.getAno());
-        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
-
-        veicteste.adicionarQuilometragem(700);
-        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
+//        VeiculoEmpresa veicteste = new VeiculoEmpresa("MFL7J49", "Voyage", 2005, 12345.77);
+//        System.out.println("Placa: " + veicteste.getPlaca());
+//        System.out.println("Modelo: " + veicteste.getModelo());
+//        System.out.println("Ano: " + veicteste.getAno());
+//        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
+//
+//        veicteste.adicionarQuilometragem(700);
+//        System.out.println("Quilometragem: " + veicteste.getQuilometragem());
 
         // Exercício 14:
         // 1. Criar uma instância da classe Projeto.
@@ -210,6 +211,15 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+
+        Seguro seguroteste = new Seguro("091617189", "Seguro de Carro", 8000.00, 1000.00);
+        System.out.println("Número da Apólice: " + seguroteste.getNumeroApolice());
+        System.out.println("Tipo de Seguro: " + seguroteste.getTipo());
+        System.out.println("Valor da Cobertura: " + seguroteste.getValorCobertura());
+        System.out.println("Valor de Prêmio: " + seguroteste.getValorPremio());
+
+        seguroteste.setValorPremio(3000.00);
+        System.out.println("Valor de Prêmio: " + seguroteste.getValorPremio());
 
     }
 }
