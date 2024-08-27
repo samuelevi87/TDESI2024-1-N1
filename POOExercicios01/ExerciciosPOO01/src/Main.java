@@ -7,6 +7,7 @@ import Exercicio06.CorrecaoCliente;
 import Exercicio07.CorrecaoPedido;
 import Exercicio08.CorrecaoFuncionario;
 import Exercicio09.CorrecaoProdutoIndustrial;
+import Exercicio10.CorrecaoContrato;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,13 +19,8 @@ public class Main {
 //        ex06();
 //        ex07();
 //        ex08();
-        ex09();
-
-
-        // Exercício 10:
-        // 1. Criar uma instância da classe Contrato.
-        // 2. Exibir o número do contrato, descrição, valor e vigência.
-        // 3. Alterar a vigência do contrato e exibir novamente.
+//        ex09();
+        ex10();
 
         // Exercício 11:
         // 1. Criar uma instância da classe Fornecedor.
@@ -50,6 +46,17 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex10() {
+        // Exercício 10:
+        // 1. Criar uma instância da classe Contrato.
+        CorrecaoContrato contratoNovo = new CorrecaoContrato("987","Seguro de Vida",70000,12);
+        // 2. Exibir o número do contrato, descrição, valor e vigência.
+        System.out.println("O Contrato nº " + contratoNovo.getNumeroContrato() + " é da modalidade " + contratoNovo.getDescricao() + ", tem o valor de R$ " + contratoNovo.getValor() + " com duração de " + contratoNovo.getVigencia()+" meses.");
+        // 3. Alterar a vigência do contrato e exibir novamente.
+        contratoNovo.setVigencia(24);
+        System.out.println("O Contrato nº " + contratoNovo.getNumeroContrato() + " é da modalidade " + contratoNovo.getDescricao() + ", tem o valor de R$ " + contratoNovo.getValor() + " com duração de " + contratoNovo.getVigencia()+" meses.");
     }
 
     private static void ex09() {
