@@ -6,6 +6,7 @@ import Exercicio05.CorrecaoCarro;
 import Exercicio06.CorrecaoCliente;
 import Exercicio07.CorrecaoPedido;
 import Exercicio08.CorrecaoFuncionario;
+import Exercicio09.CorrecaoProdutoIndustrial;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,12 +17,9 @@ public class Main {
 //        ex05();
 //        ex06();
 //        ex07();
-        ex08();
+//        ex08();
+        ex09();
 
-        // Exercício 9:
-        // 1. Criar uma instância da classe ProdutoIndustrial.
-        // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
-        // 3. Calcular e exibir a margem de lucro do produto.
 
         // Exercício 10:
         // 1. Criar uma instância da classe Contrato.
@@ -52,6 +50,19 @@ public class Main {
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex09() {
+        // Exercício 9:
+        // 1. Criar uma instância da classe ProdutoIndustrial.
+        CorrecaoProdutoIndustrial produtoIndustrial = new CorrecaoProdutoIndustrial("001","Nitro5",4500,8700);
+        // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
+        System.out.println("Código do Produto: " + produtoIndustrial.getCodigo());
+        System.out.println("Nome do Produto: " + produtoIndustrial.getNome());
+        System.out.println("Preço de Custo do Produto: R$ " + produtoIndustrial.getPrecoCusto());
+        System.out.println("Preço de Venda do Produto: R$ " + produtoIndustrial.getPrecoVenda());
+        // 3. Calcular e exibir a margem de lucro do produto.
+        System.out.println("A margem de lucro é: R$ " + produtoIndustrial.calcularMargemLucro());
     }
 
     private static void ex08() {
