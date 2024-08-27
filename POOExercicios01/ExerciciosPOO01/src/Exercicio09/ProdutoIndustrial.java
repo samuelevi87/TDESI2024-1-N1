@@ -1,5 +1,7 @@
 package Exercicio09;
 
+import Exercicio03.Produto;
+
 public class ProdutoIndustrial {
 
     private String codigo;
@@ -34,7 +36,7 @@ public class ProdutoIndustrial {
     }
 
     public double calcularMargemLucro(){
-       return precoVenda - precoCusto;
+       return this.precoVenda - this.precoCusto;
 
     }
 }

@@ -21,10 +21,10 @@ public class Main {
         // 2. Exibir o nome e a idade da pessoa.
         // 3. Alterar a idade da pessoa e exibir novamente.
 
-        /*Pessoa pessoa = new Pessoa ("Nathália", 18);
-        System.out.println("Nome: " + pessoa.getNome() + "\nIdade: " + pessoa.getIdade());
-        pessoa.setIdade(19);
-        System.out.println("Idade: " + pessoa.getIdade());*/
+//        Pessoa pessoa = new Pessoa ("Nathália", 18);
+//        System.out.println("Nome: " + pessoa.getNome() + "\nIdade: " + pessoa.getIdade());
+//        pessoa.setIdade(19);
+//        System.out.println("Idade: " + pessoa.getIdade());
 
         // Exercício 2:
         // 1. Criar uma instância da classe ContaBancaria com um saldo inicial.
@@ -72,10 +72,10 @@ public class Main {
 //        System.out.println(carro.getQuilometragem());
 
 
-        // Exercício 6:
-        // 1. Criar uma instância da classe Cliente.
-        // 2. Exibir o nome, email e telefone do cliente.
-        // 3. Alterar o telefone do cliente e exibir novamente.
+//         Exercício 6:
+//         1. Criar uma instância da classe Cliente.
+//         2. Exibir o nome, email e telefone do cliente.
+//         3. Alterar o telefone do cliente e exibir novamente.
 
 //        Cliente cliente = new Cliente("Nathália", "(47)1234-5678", "nathalia@gmail.com");
 //        System.out.println(cliente.getNome() + " " + cliente.getTelefone() + " " + cliente.getEmail());
@@ -166,9 +166,10 @@ public class Main {
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
 
-        Seguro seguro = new Seguro("10", "Saúde", 200, 50 );
-        System.out.println(seguro.getNumeroApolice() + " " + seguro.getTipo() + " " + seguro.getValorCobertura() + " " + seguro.getValorPremio());
-        seguro.setValorPremio(100);
-        System.out.println(seguro.getValorPremio());
+//        Seguro seguro = new Seguro("10", "Saúde", 200, 50 );
+//        System.out.println(seguro.getNumeroApolice() + " " + seguro.getTipo() + " " + seguro.getValorCobertura() + " " + seguro.getValorPremio());
+//        seguro.setValorPremio(100);
+//        System.out.println(seguro.getValorPremio());
     }
 }
+//

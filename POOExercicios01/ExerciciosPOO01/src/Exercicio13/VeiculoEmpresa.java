@@ -33,7 +33,7 @@ public class VeiculoEmpresa {
         return quilometragem;
     }
     public void adicionarQuilometragem(double km){
-        quilometragem += km;
+        this.quilometragem += km;
     }
 
 }
