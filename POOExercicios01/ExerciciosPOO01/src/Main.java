@@ -15,13 +15,6 @@ import Exercicio14.CorrecaoProjeto;
 
 public class Main {
     public static void main(String[] args) {
-
-        ex14();
-
-        // Exercício 15:
-        // 1. Criar uma instância da classe Seguro.
-        // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
-        // 3. Alterar o valor do prêmio e exibir novamente.
     }
 
     private static void ex14() {
