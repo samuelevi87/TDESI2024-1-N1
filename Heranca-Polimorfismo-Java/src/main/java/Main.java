@@ -1,11 +1,20 @@
 package main.java;
 
-    public class Animal {
-
+    public class Main {
         public static void main(String[] args) {
-            Animal Leao = new main.java.Animal("Alex",22);
-            Animal cachorro = new main.java.Animal("Toto", 10);
-            Animal gato = new main.java.Animal("Abel", 20);
+            Animal Leao = new Animal("Alex", 22);
+            Animal cachorro = new Animal("Toto", 10);
+            Animal elefante = new Animal("Moacir", 20);
+            Animal gato = new Animal("Pedro", 3);
+            Animal guaxinim = new Animal("Jose", 10);
+
+
+            Leao.emitirSom();
+            cachorro.emitirSom();
+            elefante.emitirSom();
+            gato.emitirSom();
+            guaxinim.emitirSom();
+
         }
 
 

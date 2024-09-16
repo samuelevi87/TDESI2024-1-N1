@@ -7,8 +7,8 @@ public class Animal {
         this.nome = nome;
         this.idade = idade;
     }
-    public void emitirson{
-        System.out.println(nome + "Emitir son" );
+    public void emitirSom(){
+        System.out.println("Rugido");
     }
 
 
