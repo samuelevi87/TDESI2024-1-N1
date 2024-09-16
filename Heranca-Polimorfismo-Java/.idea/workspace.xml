@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gaxinim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -40,6 +42,11 @@
     "last_opened_file_path": "C:/Users/ruan_fortes/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -17,7 +17,7 @@ public class Animal {
         return idade;
     }
 
-    public void emetirSom(){
+    public void emitirSom(){
         System.out.println("som generico do animal");
     }
     //TODO Atributos, construtor e métodos básicos serão adicionados durante a aula

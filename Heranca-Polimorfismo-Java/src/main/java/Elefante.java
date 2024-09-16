@@ -5,7 +5,7 @@ public class Elefante extends Animal{
         super(nome, idade);
     }
     @Override
-    public void emetirSom(){
+    public void emitirSom(){
         System.out.println("Truuuuuuu");
     }
 }
