@@ -1,7 +1,10 @@
 package main.java;
 
 public class Main {
-    //FIXME Adicione o método main usando o atalho psvm
-
     //TODO O conteúdo será desenvolvido durante a aula
+    public static void main(String[] args) {
+        Animal Leao = new Animal(22, "Pedro");
+        Animal Zebra = new Animal(10, "João");
+        Animal Gato = new Animal(15, "Mia");
+    }
 }
