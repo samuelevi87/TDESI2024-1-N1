@@ -7,8 +7,10 @@ public class Main {
         Animal leao = new Animal("Alex", 5);
         Animal cachorro = new Animal("lola", 8);
         Animal gato = new Animal("Moacir", 5);
-    }
 
+        leao.emitirSom();
+    }
 
     //TODO O conteúdo será desenvolvido durante a aula
 }
+
