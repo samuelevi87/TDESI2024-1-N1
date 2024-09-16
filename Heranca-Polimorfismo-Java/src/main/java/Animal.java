@@ -1,18 +1,14 @@
 package main.java;
 
 public class Animal {
-     int idade;
-     String nome;
 
-    public Animal(int i, String pedro) {
-    }
+    private String nome;
+     private int idade;
 
-    public void animal(int idade, String nome){
+    public Animal( String nome, int idade){
         this.idade = idade;
         this.nome = nome;
     }
-
-
 
     public void emitirSom(){
         System.out.println("Som genérico do animal");
