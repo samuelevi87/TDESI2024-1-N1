@@ -12,6 +12,4 @@ public class Main {
         cachorro.emitirSom();
         gato.emitirSom();
     }
-
-    //TODO O conteúdo será desenvolvido durante a aula
 }
