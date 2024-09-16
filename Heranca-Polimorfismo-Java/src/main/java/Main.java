@@ -10,6 +10,7 @@ public class Main {
         LeaoSolitario leaoSolitario = new LeaoSolitario("13Anos", 31);
         Animal cachorro = new Animal("Caramelo", 9);
         Animal guaxinim = new Guaxinim("José", 5);
+        Animal elefante = new Elefante("Elu", 9);
 
 
         leao.emitirSom();
@@ -18,5 +19,6 @@ public class Main {
         serpente.emitirSom();
         cachorro.emitirSom();
         guaxinim.emitirSom();
+        elefante.emitirSom();
     }
 }
