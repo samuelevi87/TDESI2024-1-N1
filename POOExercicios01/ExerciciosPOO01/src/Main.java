@@ -4,6 +4,14 @@ import Exercicio03.CorrecaoProduto;
 import Exercicio04.CorrecaoLivro;
 import Exercicio05.CorrecaoCarro;
 import Exercicio06.CorrecaoCliente;
+import Exercicio07.CorrecaoPedido;
+import Exercicio08.CorrecaoFuncionario;
+import Exercicio09.CorrecaoProdutoIndustrial;
+import Exercicio10.CorrecaoContrato;
+import Exercicio11.CorrecaoFornecedor;
+import Exercicio12.CorrecaoMaquina;
+import Exercicio13.CorrecaoVeiculoEmpresa;
+import Exercicio14.CorrecaoProjeto;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,52 +20,110 @@ public class Main {
 //        ex03();
 //        ex04();
 //        ex05();
-        ex06();
-
-        // Exercício 7:
-        // 1. Criar uma instância da classe Pedido.
-        // 2. Exibir o número do pedido, valor total e status.
-        // 3. Alterar o status do pedido e exibir novamente.
-
-        // Exercício 8:
-        // 1. Criar uma instância da classe Funcionario.
-        // 2. Exibir o nome, cargo e salário do funcionário.
-        // 3. Alterar o salário do funcionário e exibir novamente.
-
-        // Exercício 9:
-        // 1. Criar uma instância da classe ProdutoIndustrial.
-        // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
-        // 3. Calcular e exibir a margem de lucro do produto.
-
-        // Exercício 10:
-        // 1. Criar uma instância da classe Contrato.
-        // 2. Exibir o número do contrato, descrição, valor e vigência.
-        // 3. Alterar a vigência do contrato e exibir novamente.
-
-        // Exercício 11:
-        // 1. Criar uma instância da classe Fornecedor.
-        // 2. Exibir o nome, CNPJ e telefone do fornecedor.
-        // 3. Alterar o telefone do fornecedor e exibir novamente.
-
-        // Exercício 12:
-        // 1. Criar uma instância da classe Maquina.
-        // 2. Exibir o ID da máquina, tipo e status de operação.
-        // 3. Alterar o status de operação da máquina e exibir novamente.
-
-        // Exercício 13:
-        // 1. Criar uma instância da classe VeiculoEmpresa.
-        // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
-        // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
-
-        // Exercício 14:
-        // 1. Criar uma instância da classe Projeto.
-        // 2. Exibir o nome, duração e orçamento do projeto.
-        // 3. Alterar o orçamento do projeto e exibir novamente.
+//        ex06();
+//        ex07();
+//        ex08();
+//        ex09();
+//        ex10();
+//        ex11();
+//        ex12();
+//        ex13();
+        ex14();
 
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         // 3. Alterar o valor do prêmio e exibir novamente.
+    }
+
+    private static void ex14() {
+        // Exercício 14:
+        // 1. Criar uma instância da classe Projeto.
+        CorrecaoProjeto projeto = new CorrecaoProjeto("Desenvolvimento de Calculadora", 2, 1000);
+        // 2. Exibir o nome, duração e orçamento do projeto.
+        System.out.println("O projeto " + projeto.getNome() + " deve durar " + projeto.getDuracao() + " e custará R$ " + projeto.getOrcamento());
+        // 3. Alterar o orçamento do projeto e exibir novamente.
+        projeto.setOrcamento(3);
+        System.out.println("O projeto " + projeto.getNome() + " deve durar " + projeto.getDuracao() + " e custará R$ " + projeto.getOrcamento());
+    }
+
+    private static void ex13() {
+        // Exercício 13:
+        // 1. Criar uma instância da classe VeiculoEmpresa.
+        CorrecaoVeiculoEmpresa veiculoEmpresa = new CorrecaoVeiculoEmpresa("ABC12P9","BMW", 2023, 1000);
+        // 2. Exibir a placa, modelo, ano e quilometragem do veículo.
+        System.out.println("Veículo placa: " + veiculoEmpresa.getPlaca() + ", modelo: " + veiculoEmpresa.getModelo() + ", ano de fabricação: " + veiculoEmpresa.getAno() + " tem, atualmente, " + veiculoEmpresa.getQuilometragem() + " quilômetros rodados.");
+        // 3. Adicionar quilometragem ao veículo e exibir a nova quilometragem.
+        veiculoEmpresa.adicionarQuilometragem(1000);
+        System.out.println("Veículo placa: " + veiculoEmpresa.getPlaca() + ", modelo: " + veiculoEmpresa.getModelo() + ", ano de fabricação: " + veiculoEmpresa.getAno() + " tem, atualmente, " + veiculoEmpresa.getQuilometragem() + " quilômetros rodados.");
+    }
+
+    private static void ex12() {
+        // Exercício 12:
+        // 1. Criar uma instância da classe Maquina.
+        CorrecaoMaquina maquina = new CorrecaoMaquina("365","Corte", "Manutençao");
+        // 2. Exibir o ID da máquina, tipo e status de operação.
+        System.out.println("A máquina de código: " + maquina.getIdMaquina() + ", do tipo: " + maquina.getTipo() + " está com o status: " + maquina.getStatusOperacao());
+        // 3. Alterar o status de operação da máquina e exibir novamente.
+        maquina.setStatusOperacao("Parada");
+        System.out.println("A máquina de código: " + maquina.getIdMaquina() + ", do tipo: " + maquina.getTipo() + " está com o status: " + maquina.getStatusOperacao());
+    }
+
+    private static void ex11() {
+        // Exercício 11:
+        // 1. Criar uma instância da classe Fornecedor.
+        CorrecaoFornecedor fornecedor = new CorrecaoFornecedor("Dispel","3016540820001-02","98996632514");
+        // 2. Exibir o nome, CNPJ e telefone do fornecedor.
+        System.out.println("Fornecedor: " + fornecedor.getNome() + ", CNPJ: " + fornecedor.getCnpj() + ", telefone: " + fornecedor.getTelefone());
+        // 3. Alterar o telefone do fornecedor e exibir novamente.
+        fornecedor.setTelefone("78996655441");
+        System.out.println("Fornecedor: " + fornecedor.getNome() + ", CNPJ: " + fornecedor.getCnpj() + ", telefone: " + fornecedor.getTelefone());
+    }
+
+    private static void ex10() {
+        // Exercício 10:
+        // 1. Criar uma instância da classe Contrato.
+        CorrecaoContrato contratoNovo = new CorrecaoContrato("987","Seguro de Vida",70000,12);
+        // 2. Exibir o número do contrato, descrição, valor e vigência.
+        System.out.println("O Contrato nº " + contratoNovo.getNumeroContrato() + " é da modalidade " + contratoNovo.getDescricao() + ", tem o valor de R$ " + contratoNovo.getValor() + " com duração de " + contratoNovo.getVigencia()+" meses.");
+        // 3. Alterar a vigência do contrato e exibir novamente.
+        contratoNovo.setVigencia(24);
+        System.out.println("O Contrato nº " + contratoNovo.getNumeroContrato() + " é da modalidade " + contratoNovo.getDescricao() + ", tem o valor de R$ " + contratoNovo.getValor() + " com duração de " + contratoNovo.getVigencia()+" meses.");
+    }
+
+    private static void ex09() {
+        // Exercício 9:
+        // 1. Criar uma instância da classe ProdutoIndustrial.
+        CorrecaoProdutoIndustrial produtoIndustrial = new CorrecaoProdutoIndustrial("001","Nitro5",4500,8700);
+        // 2. Exibir o código, nome, preço de custo e preço de venda do produto.
+        System.out.println("Código do Produto: " + produtoIndustrial.getCodigo());
+        System.out.println("Nome do Produto: " + produtoIndustrial.getNome());
+        System.out.println("Preço de Custo do Produto: R$ " + produtoIndustrial.getPrecoCusto());
+        System.out.println("Preço de Venda do Produto: R$ " + produtoIndustrial.getPrecoVenda());
+        // 3. Calcular e exibir a margem de lucro do produto.
+        System.out.println("A margem de lucro é: R$ " + produtoIndustrial.calcularMargemLucro());
+    }
+
+    private static void ex08() {
+        // Exercício 8:
+        // 1. Criar uma instância da classe Funcionario.
+        CorrecaoFuncionario funcionarioNovo = new CorrecaoFuncionario("Pedro","Desenvolvedor", 8500);
+        // 2. Exibir o nome, cargo e salário do funcionário.
+        System.out.println("O funcionário " + funcionarioNovo.getNome() + " atua como " + funcionarioNovo.getCargo() + " e recebe R$ " + funcionarioNovo.getSalario() + " por mês.");
+        // 3. Alterar o salário do funcionário e exibir novamente.
+        funcionarioNovo.setSalario(10500);
+        System.out.println("O funcionário " + funcionarioNovo.getNome() + " atua como " + funcionarioNovo.getCargo() + " e recebe R$ " + funcionarioNovo.getSalario() + " por mês.");
+    }
+
+    private static void ex07() {
+        // Exercício 7:
+        // 1. Criar uma instância da classe Pedido.
+        CorrecaoPedido pedidoNovo = new CorrecaoPedido(123,300.00,"Pendente");
+        // 2. Exibir o número do pedido, valor total e status.
+        System.out.println("Pedido nº: " + pedidoNovo.getNumeroPedido() + "\nValor Total: R$" + pedidoNovo.getValorTotal() + "\nStatus Atual: " + pedidoNovo.getStatus());
+        // 3. Alterar o status do pedido e exibir novamente.
+        pedidoNovo.setStatus("Processado");
+        System.out.println("Pedido nº: " + pedidoNovo.getNumeroPedido() + "\nValor Total: R$" + pedidoNovo.getValorTotal() + "\nStatus Atual: " + pedidoNovo.getStatus());
     }
 
     private static void ex06() {
