@@ -1,13 +1,13 @@
 package main.java;
 
 public class Leao extends Animal {
-    public Leao(int idade, String nome) {
+    public Leao(String nome, int idade) {
         super(nome, idade);
     }
 
     @Override
     public void emitirSom(){
-        System.out.println("ROAAAAAAAAAR");
+        System.out.println("Leao: ROAAAAAAAAAR");
     }
 
 }

@@ -8,4 +8,8 @@ public class LeaoSolitario {
         this.idade = idade;
         this.nome = nome;
     }
+
+    public void emitirSom(){
+        System.out.println("uiui to triste me da monster pra tomar");
+    }
 }
