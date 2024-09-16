@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf82566-6ddf-44d8-8b52-839fb96321b8" name="Changes" comment="Criação da classe Animal b♣sica">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
