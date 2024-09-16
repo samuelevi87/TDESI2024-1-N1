@@ -6,7 +6,7 @@ public class Leao extends Animal {
     }
     @Override
     public void emitirSom(){
-        System.out.println("");
+        System.out.println("Bramirrrr");
     }
 
 }
