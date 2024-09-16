@@ -6,6 +6,6 @@ public class Elefante extends Animal{
     }
     @Override
     public void emitirSom() {
-        System.out.println("bruumm");
+        System.out.println("bruumm (barrito)");
     }
 }

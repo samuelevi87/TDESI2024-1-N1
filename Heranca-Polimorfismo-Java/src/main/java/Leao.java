@@ -7,6 +7,6 @@ public class Leao extends Animal{
     }
     @Override
     public void emitirSom() {
-        System.out.println("roar");
+        System.out.println("roar (rugido)");
     }
 }
