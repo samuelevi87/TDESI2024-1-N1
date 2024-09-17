@@ -14,4 +14,12 @@ public class Animal {
         System.out.println("Som genérico do animal");
     }
 
+    public String  getNome(){
+        return nome;
+    }
+
+    public void comer(){
+        System.out.println(getNome() + " Está comendo!");
+    }
+
 }

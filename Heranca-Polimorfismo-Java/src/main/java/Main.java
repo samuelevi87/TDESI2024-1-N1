@@ -1,5 +1,10 @@
 package main.java;
 
+import javax.net.ssl.SNIHostName;
+import java.net.CacheRequest;
+import java.security.interfaces.EdECKey;
+import java.util.Calendar;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -12,6 +17,11 @@ public class Main {
         Animal guaxinim = new Guaxinim("José", 5);
         Animal elefante = new Elefante("Elu", 9);
 
+        Animal[] animais = {
+                new Leao("Léo", 3),
+                new Sanatiel("Sanael", 20),
+                new Guaxinim("Jos", 10)
+        };
 
         leao.emitirSom();
         gato.emitirSom();
@@ -20,5 +30,20 @@ public class Main {
         cachorro.emitirSom();
         guaxinim.emitirSom();
         elefante.emitirSom();
+
+        sanatiel.comer();
+
+        if (elefante instanceof Elefante){
+            ((Elefante)elefante).usarTromba();
+        }
+        if (leao instanceof Leao){
+            ((Leao)leao).Rugir();
+        }
+
+        for (Animal animal : animais){
+            if (sanatiel instanceof Sanatiel){
+                ((Sanatiel)sanatiel).pitarUm();
+            }
+        }
     }
 }

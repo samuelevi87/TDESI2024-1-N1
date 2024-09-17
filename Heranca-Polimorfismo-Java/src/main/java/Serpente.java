@@ -7,6 +7,10 @@ public class Serpente extends Animal {
 
     @Override
     public void emitirSom() {
-        System.out.println("Serpente: sssssss");
+        System.out.println(getNome() + ": sssssss");
+    }
+
+    public void estrangula(){
+        System.out.println(getNome() + " está estrangulando");
     }
 }
