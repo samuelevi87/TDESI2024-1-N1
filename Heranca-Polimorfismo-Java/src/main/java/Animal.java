@@ -12,7 +12,6 @@ public class Animal {
     }
 
     public void emitirSom() {
-
     }
 
     public String getNome() {

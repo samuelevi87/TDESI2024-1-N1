@@ -9,4 +9,8 @@ public class Cachorro extends Animal {
     public void emitirSom() {
         System.out.println("Woof woof");
     }
+
+    public void marcarTerritorio() {
+        System.out.println(getNome() + " está marcando território! 🐶");
+    }
 }
