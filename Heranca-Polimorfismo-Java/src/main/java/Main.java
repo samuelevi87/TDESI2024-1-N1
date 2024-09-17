@@ -13,10 +13,9 @@ public class Main {
         elefante.emitirSom();
         gato.emitirSom();
         guaxinim.emitirSom();
-        
-
 
     }
+
     //FIXME Adicione o método main usando o atalho psvm
 
     //TODO O conteúdo será desenvolvido durante a aula
