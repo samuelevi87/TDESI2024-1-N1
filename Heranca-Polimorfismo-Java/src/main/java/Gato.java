@@ -9,4 +9,8 @@ public class Gato extends Animal {
     public void emitirSom() {
         System.out.println("MIAU");
     }
+
+    public void miar(){
+        System.out.println(getNome()+" esta miando.");
+    }
 }

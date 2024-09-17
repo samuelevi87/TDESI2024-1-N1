@@ -12,4 +12,12 @@ public class Animal {
     public void emitirSom(){
         System.out.println("Som genérico do animal");
     }
+
+    public void comer(){
+        System.out.println(getNome() + " esta comendo.");
+    }
+
+    public String getNome() {
+        return nome;
+    }
 }

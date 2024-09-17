@@ -9,4 +9,8 @@ public class Cachorro extends Animal {
     public void emitirSom() {
         System.out.println("AUAU");
     }
+
+    public void latir(){
+        System.out.println(getNome()+" esta latindo.");
+    }
 }

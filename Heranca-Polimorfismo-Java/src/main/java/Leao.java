@@ -9,4 +9,8 @@ public class Leao extends Animal{
     public void emitirSom() {
         System.out.println("RUARRRR");
     }
+
+    public void rugir(){
+        System.out.println(getNome()+" esta rugindo.");
+    }
 }
