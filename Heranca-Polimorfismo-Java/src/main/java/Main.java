@@ -27,19 +27,19 @@ public class Main {
 
         for (Animal animal:listaDeAnimais){
              if(animal instanceof Elefante){
-            ((Elefante) elefante).usarTromba();
+                ((Elefante) animal).usarTromba();
              }
             if(animal instanceof Cachorro){
-                ((Cachorro) cachorro).brincando();
+                ((Cachorro) animal).brincando();
             }
             if(animal instanceof Gato){
-                ((Gato) gato).cacando();
+                ((Gato) animal).cacando();
             }
             if(animal instanceof Leao){
-                ((Leao) leao).rugir();
+                ((Leao) animal).rugir();
             }
             if(animal instanceof Guaxinim){
-                ((Guaxinim) guaxinim).comendoLixo();
+                ((Guaxinim) animal).comendoLixo();
             }
         }
     }
