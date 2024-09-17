@@ -13,4 +13,11 @@ public class Animal {
     public void emitirSom(){
         System.out.println("Efeito Sonoro");
     }
+    public void comer(){
+        System.out.println(getNome()+" Está comendo!");
+    }
+
+    public String getNome() {
+        return nome;
+    }
 }

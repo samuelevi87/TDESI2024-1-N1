@@ -9,4 +9,8 @@ public class Guaxinim extends Animal {
     public void emitirSom(){
         System.out.println("Trill!");
     }
+
+    public void comendoLixo(){
+        System.out.println(getNome()+ "está comendo lixo!🦝");
+    }
 }
