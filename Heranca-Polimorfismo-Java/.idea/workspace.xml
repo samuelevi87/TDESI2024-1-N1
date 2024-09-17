@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dbec687-e500-4561-b26d-5594fcb9c6b5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1dbec687-e500-4561-b26d-5594fcb9c6b5" name="Changes" comment="Implementação da classe leao e elefante usando herança">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guaxinim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +44,11 @@
     "last_opened_file_path": "C:/Users/stephanie_neuwiem/IdeaProjects/aulaPDA/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +58,18 @@
       <option name="presentableId" value="Default" />
       <updated>1726524516545</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementação da classe leao e elefante usando herança">
+      <created>1726527217511</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726527217511</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementação da classe leao e elefante usando herança" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação da classe leao e elefante usando herança" />
   </component>
 </project>
