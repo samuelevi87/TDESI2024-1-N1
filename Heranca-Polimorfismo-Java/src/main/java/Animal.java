@@ -20,6 +20,10 @@ public class Animal {
     public void emitirSom(){
         System.out.println("som generico do animal");
     }
+    public void comer(){
+        System.out.println(getNome() + "esta comendo");
+    }
+
     //TODO Atributos, construtor e métodos básicos serão adicionados durante a aula
 
 }

@@ -6,6 +6,13 @@ public class Cachorro extends Animal {
     }
     @Override
     public void emitirSom(){
-        System.out.println("auauauauaua");
+        System.out.println("auauauauaua (latindo)");
+    }
+    @Override
+    public void comer(){
+        System.out.println(getNome()+" esta comedo ração");
+    }
+    public void latindo(){
+        System.out.println(getNome()+" esta latindo para a vizinhança toda");
     }
 }

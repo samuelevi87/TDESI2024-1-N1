@@ -6,6 +6,13 @@ public class Gato extends Animal {
     }
     @Override
     public void emitirSom(){
-        System.out.println("miauuuu");
+        System.out.println("miauuuu (miando)");
+    }
+    @Override
+    public void comer(){
+        System.out.println(getNome()+" esta comedo rato");
+    }
+    public void miando(){
+        System.out.println(getNome()+" esta miando");
     }
 }
