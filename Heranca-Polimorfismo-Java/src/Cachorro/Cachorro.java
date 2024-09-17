@@ -11,4 +11,8 @@ public class Cachorro extends Animal {
     public void emitirSom() {
         System.out.println("Woof");
     }
+
+    public void lamber(){
+        System.out.println(getNome() + " está se lambendo!🐶");
+    }
 }
