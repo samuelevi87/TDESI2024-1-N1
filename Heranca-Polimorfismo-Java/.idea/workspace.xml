@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7128946-5175-417e-b28e-c69c474c0a5d" name="Changes" comment="Demonstração de polimorfismo com diferentes sons de animais">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guaxinim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="a7128946-5175-417e-b28e-c69c474c0a5d" name="Changes" comment="Implementação de métodos específicos e uso de casting" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,13 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1726530706125</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementação de métodos específicos e uso de casting">
+      <created>1726532999583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726532999583</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementação da classe leão e elefante usando herança" />
     <MESSAGE value="Implementação da classe Cachorro, Gato e Guaxinim usando herança" />
     <MESSAGE value="Demonstração de polimorfismo com diferentes sons de animais" />
-    <option name="LAST_COMMIT_MESSAGE" value="Demonstração de polimorfismo com diferentes sons de animais" />
+    <MESSAGE value="Implementação de métodos específicos e uso de casting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação de métodos específicos e uso de casting" />
   </component>
 </project>
