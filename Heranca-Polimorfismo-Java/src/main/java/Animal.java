@@ -13,4 +13,12 @@ public class Animal {
     public void emitirSom(){
         System.out.println("Som do animal");
     }
+
+    public void comer(){
+        System.out.println(getNome() + " está comendo!");
+    }
+
+    public String getNome() {
+        return nome;
+    }
 }

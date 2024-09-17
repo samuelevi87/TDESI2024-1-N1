@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7128946-5175-417e-b28e-c69c474c0a5d" name="Changes" comment="Implementação da classe leão e elefante usando herança">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
+    <list default="true" id="a7128946-5175-417e-b28e-c69c474c0a5d" name="Changes" comment="Demonstração de polimorfismo com diferentes sons de animais">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guaxinim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
@@ -67,11 +68,27 @@
       <option name="project" value="LOCAL" />
       <updated>1726527238064</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementação da classe Cachorro, Gato e Guaxinim usando herança">
+      <created>1726530466477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726530466477</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Demonstração de polimorfismo com diferentes sons de animais">
+      <created>1726530706125</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726530706125</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementação da classe leão e elefante usando herança" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação da classe leão e elefante usando herança" />
+    <MESSAGE value="Implementação da classe Cachorro, Gato e Guaxinim usando herança" />
+    <MESSAGE value="Demonstração de polimorfismo com diferentes sons de animais" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstração de polimorfismo com diferentes sons de animais" />
   </component>
 </project>

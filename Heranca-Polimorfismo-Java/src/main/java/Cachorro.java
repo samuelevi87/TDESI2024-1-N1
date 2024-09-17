@@ -9,4 +9,8 @@ public class Cachorro extends Animal {
     public void emitirSom() {
         System.out.println("Au Au (Latido)");
     }
+
+    public void roerOsso(){
+        System.out.println(getNome() + " está roendo o seu osso!");
+    }
 }

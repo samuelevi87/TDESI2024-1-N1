@@ -6,7 +6,11 @@ public class Guaxinim extends Animal {
     }
 
     @Override
-    public void emitirSom() {
+    public void emitirSom(){
         System.out.println("Trrr Trrr (Guincho)");
+    }
+
+    public void roubarComida(){
+        System.out.println(getNome() + " roubou seu biscoito!");
     }
 }
