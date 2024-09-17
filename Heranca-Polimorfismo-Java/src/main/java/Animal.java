@@ -18,14 +18,13 @@ public class Animal {
         return idade;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
-    }
-
     public void emitirSom() {
 
         System.out.println("Som genérico do animal");
     }
 
+    public void comer () {
+        System.out.println(nome + " está comendo");
+    }
 }
 
