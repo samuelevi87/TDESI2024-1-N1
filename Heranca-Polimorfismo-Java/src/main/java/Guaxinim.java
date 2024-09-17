@@ -1,2 +1,16 @@
-package main.java;public class Guaxinim {
+package main.java;
+
+public class Guaxinim extends Animal{
+    public Guaxinim(String nome, int idade) {
+        super(nome, idade);
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Trill trilll trilll");
+    }
+
+    public void roubarComida() {
+        System.out.println(getNome() + "lambeu mais um doce!");
+    }
 }
