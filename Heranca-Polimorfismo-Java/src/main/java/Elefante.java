@@ -10,4 +10,7 @@ public class Elefante extends Animal{
     public void emitirSom() {
         System.out.println("Bramiiirrr");
     }
+    public void usartromba(){
+        System.out.println(getNome() + "está usando tromba!");
+    }
 }
