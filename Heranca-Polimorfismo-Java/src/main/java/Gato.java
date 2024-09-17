@@ -8,4 +8,8 @@ public class Gato extends Animal{
     public void emitirSom() {
         System.out.println("*Miados*");
     }
+
+    public void miar() {
+        System.out.println(getNome() + " miou impacientemente ao ficar 5 minutos sem comer! 🐱");
+    }
 }

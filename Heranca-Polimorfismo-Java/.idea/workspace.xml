@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3e485e6-b5db-4152-990e-8f04a5aaaa82" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guaxinim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
