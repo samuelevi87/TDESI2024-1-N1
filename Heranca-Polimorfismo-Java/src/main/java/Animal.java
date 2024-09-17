@@ -18,6 +18,7 @@ public class Animal {
         this.idade = idade;
     }
     public void emitirSom(){
+
         System.out.println("Som do animal");
     }
     //TODO Atributos, construtor e métodos básicos serão adicionados durante a aula
