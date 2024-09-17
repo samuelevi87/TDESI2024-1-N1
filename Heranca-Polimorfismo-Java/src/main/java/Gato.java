@@ -9,6 +9,8 @@ public class Gato extends Animal {
     @Override
     public void emitirSom() {
         System.out.println("Miauuuuu");
-
+    }
+    public  void derrubarAlgo(){
+        System.out.println(getNome() + " está derrubando algo");
     }
 }

@@ -10,12 +10,18 @@ public class Main {
         Animal guaxinim = new Guaxinim("José", 8);
         Animal cachorro = new Cachorro("Fred" , 12);
 
+
         leao.emitirSom();
         elefante.emitirSom();
         gato.emitirSom();
         guaxinim.emitirSom();
         cachorro.emitirSom();
+        cachorro.comer();
+        guaxinim.comer();
+        System.out.println("****Animais comendo****");
+        Animal[] listaDeAnimais = {
+            new Leao("Leo" ,12),
+            new Elefante()
+        }
     }
-
-    //TODO O conteúdo será desenvolvido durante a aula
 }

@@ -7,6 +7,10 @@ public class Leao extends Animal{
     }
 
     public void emitirsom(){
+
         System.out.println("Roarrrr");
+    }
+    public void estaRugindo(){
+        System.out.println(getNome() + " está rugindo");
     }
 }
