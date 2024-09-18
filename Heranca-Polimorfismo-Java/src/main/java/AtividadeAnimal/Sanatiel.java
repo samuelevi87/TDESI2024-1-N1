@@ -1,4 +1,4 @@
-package main.java;
+package main.java.AtividadeAnimal;
 
 public class Sanatiel extends Animal{
     public Sanatiel(String nome, int idade) {

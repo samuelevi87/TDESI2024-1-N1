@@ -1,9 +1,4 @@
-package main.java;
-
-import javax.net.ssl.SNIHostName;
-import java.net.CacheRequest;
-import java.security.interfaces.EdECKey;
-import java.util.Calendar;
+package main.java.AtividadeAnimal;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package main.java;
+package main.java.AtividadeAnimal;
 
 public class Guaxinim extends Animal {
     public Guaxinim(String nome, int idade) {

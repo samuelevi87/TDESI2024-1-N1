@@ -1,4 +1,4 @@
-package main.java;
+package main.java.AtividadeAnimal;
 
 public class LeaoSolitario {
     private String nome;
