@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import Exercicio01.Pessoa;
 import Exercicio02.ContaBancaria;
 import Exercicio03.Produto;
@@ -171,6 +171,7 @@ import Exercicio11.CorrecaoFornecedor;
 import Exercicio12.CorrecaoMaquina;
 import Exercicio13.CorrecaoVeiculoEmpresa;
 import Exercicio14.CorrecaoProjeto;
+import Exercicio15.CorrecaoSeguro;
 
 public class Main {
     public static void main(String[] args) {
@@ -188,22 +189,37 @@ public class Main {
 //        ex12();
 //        ex13();
         ex14();
->>>>>>> 1b6ab4efcc722b2df8205fdda4c9402c83592cae
+
 
 //        Projeto projeto = new Projeto("site", 3, 1000);
 //        System.out.println(projeto);
 //        projeto.setOrcamento(2000);
 //        System.out.println(projeto.getOrcamento());
 
+        ex15();
+    }
+
+    private static void ex15() {
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
+        CorrecaoSeguro seguro = new CorrecaoSeguro("12345","UniPessoal - Vida", 250000,800);
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
+        System.out.println("Seguro com apólice nº: " + seguro.getNumeroApolice() + "\n" +
+                "Tipo: " + seguro.getTipo() + ",\n" +
+                "Valor de Cobertura: R$ " + seguro.getValorCobertura() + "\n" +
+                "Valor do Prêmio (mensalidade): R$ " + seguro.getValorPremio());
+        ;
         // 3. Alterar o valor do prêmio e exibir novamente.
 
 //        Seguro seguro = new Seguro("234", "de vida", 1000, 1000);
 //        System.out.println(seguro);
 //        seguro.setValorPremio(200);
 //        System.out.println(seguro.getValorPremio());
+        seguro.setValorPremio(900);
+        System.out.println("Seguro com apólice nº: " + seguro.getNumeroApolice() + "\n" +
+                "Tipo: " + seguro.getTipo() + ",\n" +
+                "Valor de Cobertura: R$ " + seguro.getValorCobertura() + "\n" +
+                "Valor do Prêmio (mensalidade): R$ " + seguro.getValorPremio());
     }
 
     private static void ex14() {
