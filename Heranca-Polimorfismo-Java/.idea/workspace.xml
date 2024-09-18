@@ -4,20 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efcaf2be-e9a3-442a-80c6-197356307f4c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
+    <list default="true" id="efcaf2be-e9a3-442a-80c6-197356307f4c" name="Changes" comment="Criação das classes funcionario, Desenvolvedor e Gerente na atividade 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Desenvolvedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,6 +44,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -38,13 +54,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/joao_arthur-santos/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
@@ -80,5 +89,20 @@
       <updated>1726524497981</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criação das classes funcionario, Desenvolvedor e Gerente na atividade 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes funcionario, Desenvolvedor e Gerente na atividade 1" />
   </component>
 </project>
