@@ -1,4 +1,4 @@
-package Gato;
+package main.java.Gato;
 
 import main.java.Animal;
 

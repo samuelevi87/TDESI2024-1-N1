@@ -1,4 +1,4 @@
-package Guaxinim;
+package main.java.Guaxinim;
 
 import main.java.Animal;
 

@@ -1,4 +1,4 @@
-package Cachorro;
+package main.java.Cachorro;
 
 import main.java.Animal;
 

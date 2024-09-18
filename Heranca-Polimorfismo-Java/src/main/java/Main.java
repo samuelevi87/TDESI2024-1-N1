@@ -1,8 +1,8 @@
 package main.java;
 
-import Cachorro.Cachorro;
-import Gato.Gato;
-import Guaxinim.Guaxinim;
+import main.java.Cachorro.Cachorro;
+import main.java.Gato.Gato;
+import main.java.Guaxinim.Guaxinim;
 
 public class Main {
     public static void main(String[] args) {
