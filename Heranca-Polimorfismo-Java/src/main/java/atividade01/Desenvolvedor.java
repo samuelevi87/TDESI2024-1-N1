@@ -9,7 +9,7 @@ public class Desenvolvedor extends Funcionario {
     private String linguagemProgramacao;
 
     /**
-     * Constrói um desenvolvedor.
+     * Constrói um Desenvolvedor.
      * @param nome O nome do Desenvolvedor.
      * @param id O número identificador do Desenvolvedor.
      * @param salarioBase O salário base do Desenvolvedor.

@@ -9,7 +9,7 @@ public class Gerente extends Funcionario {
     private Double bonusAnual;
 
     /**
-     * Constrói um desenvolvedor.
+     * Constrói um Gerente.
      * @param nome O nome do Gerente.
      * @param id O número identificador do Gerente.
      * @param salarioBase O salário base do Gerente.

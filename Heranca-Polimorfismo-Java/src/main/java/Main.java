@@ -1,46 +1,25 @@
 package main.java;
 
+import main.java.atividade01.AnalistaQA;
+import main.java.atividade01.Desenvolvedor;
+import main.java.atividade01.Empresa;
+import main.java.atividade01.Gerente;
+
 public class Main {
-    //FIXME Adicione o método main usando o atalho psvm
-
     public static void main(String[] args) {
-        Animal leao = new Leao("Alex", 22);
-        Animal elefante = new Elefante("Moacir", 48);
-        Animal gato = new Gato("Pedro", 3);
-        Animal guaxinim = new Guaxinim("José", 8);
-        Animal cachorro = new Cachorro("Luke", 2);
+        Empresa empresa = new Empresa();
 
-        leao.emitirSom();
-        elefante.emitirSom();
-        gato.emitirSom();
-        guaxinim.emitirSom();
-        cachorro.emitirSom();
+        empresa.adicionarFuncionario(new Desenvolvedor("Samuel Levi", 123456, 15000.0, "Java"));
+        empresa.adicionarFuncionario(new Desenvolvedor("Jackson Callado", 123456, 20000.0, "C++"));
+        empresa.adicionarFuncionario(new Gerente("Sanatiel", 789456, 6000.0, 10000.0));
+        empresa.adicionarFuncionario(new Gerente("Jackson Stumpf", 789456, 7000.0, 10000.0));
+        empresa.adicionarFuncionario(new AnalistaQA("Jonathan Sost", 756248, 12000.0, 15));
+        empresa.adicionarFuncionario(new AnalistaQA("Tainá Estefani", 951424, 15000.0, 35));
 
-        System.out.println("**** Animais com métodos específicos ****");
-        Animal[] listaDeAnimais = {
-                new Leao("Simba", 12),
-                new Elefante("Dumbo", 15),
-                new Gato("Garfield", 7),
-                new Guaxinim("Rigby", 4),
-                new Cachorro("Marley", 10)
-        };
+        System.out.println("******* LISTA DE FUNCIONÁRIOS *******");
+        empresa.listarFuncionarios();
 
-            for (Animal animal:listaDeAnimais) {
-                if (animal instanceof Leao) {
-                    ((Leao) animal).rugir();
-                }
-                if (animal instanceof Elefante) {
-                    ((Elefante) animal).usarTromba();
-                }
-                if (animal instanceof Gato) {
-                    ((Gato) animal).ronronar();
-                }
-                if (animal instanceof Guaxinim) {
-                    ((Guaxinim) animal).roubarComida();
-                }
-                if (animal instanceof Cachorro) {
-                    ((Cachorro) animal).marcarTerritorio();
-                }
-            }
+        System.out.println("======= FOLHA DE PAGAMENTO =======");
+        System.out.println("Folha de pagamento total: R$ " + String.format("%.2f", empresa.calcularFolhaDePagamentolTotal()));
     }
 }
