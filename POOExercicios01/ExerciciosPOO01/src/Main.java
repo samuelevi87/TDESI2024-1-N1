@@ -160,6 +160,7 @@ import Exercicio11.CorrecaoFornecedor;
 import Exercicio12.CorrecaoMaquina;
 import Exercicio13.CorrecaoVeiculoEmpresa;
 import Exercicio14.CorrecaoProjeto;
+import Exercicio15.CorrecaoSeguro;
 
 public class Main {
     public static void main(String[] args) {
@@ -179,15 +180,33 @@ public class Main {
         ex14();
 >>>>>>> 1b6ab4efcc722b2df8205fdda4c9402c83592cae
 
+        ex15();
+    }
+
+    private static void ex15() {
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
+        CorrecaoSeguro seguro = new CorrecaoSeguro("12345","UniPessoal - Vida", 250000,800);
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
+        System.out.println("Seguro com apólice nº: " + seguro.getNumeroApolice() + "\n" +
+                "Tipo: " + seguro.getTipo() + ",\n" +
+                "Valor de Cobertura: R$ " + seguro.getValorCobertura() + "\n" +
+                "Valor do Prêmio (mensalidade): R$ " + seguro.getValorPremio());
+        ;
         // 3. Alterar o valor do prêmio e exibir novamente.
+<<<<<<< HEAD
         Seguro seguro1 = new Seguro("10", "Veículo", 20000, 10000);
         System.out.println("DESCRIÇÃO DO SEGURO \n" + "NÚMERO APOLICE:" + seguro1.getNumeroApolice() + "\n" + "TIPO:" + seguro1.getTipo() + "\n" + "VALOR COBERTURA:" + seguro1.getValorCobertura() + "\n" + "VALOR PREMIO:" + seguro1.getValorPremio());
         seguro1.setValorPremio(2000);
         System.out.println("VALOR DO PREMIO ATUALIZADO:" + seguro1.getValorPremio() + "\n");
 
+=======
+        seguro.setValorPremio(900);
+        System.out.println("Seguro com apólice nº: " + seguro.getNumeroApolice() + "\n" +
+                "Tipo: " + seguro.getTipo() + ",\n" +
+                "Valor de Cobertura: R$ " + seguro.getValorCobertura() + "\n" +
+                "Valor do Prêmio (mensalidade): R$ " + seguro.getValorPremio());
+>>>>>>> 66080b08055ca14c0999792cbbd8474bee88d6fe
     }
 
     private static void ex14() {
