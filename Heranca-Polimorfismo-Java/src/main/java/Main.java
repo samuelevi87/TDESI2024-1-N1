@@ -1,45 +1,32 @@
 package main.java;
 
-import main.java.Cachorro.Cachorro;
-import main.java.Gato.Gato;
-import main.java.Guaxinim.Guaxinim;
+import main.java.atividade01.AnalistaQA;
+import main.java.atividade01.Desenvolvedor;
+import main.java.atividade01.Empresa;
+import main.java.atividade01.Gerente;
 
 public class Main {
-    public static void main(String[] args) {
-        Animal leao = new Leao("Alex", 22);
-        Animal cachorro = new Cachorro("Naruto", 5);
-        Animal elefante = new Elefante("Harriet", 69);
-        Animal gato = new Gato("Namu", 1);
-        Animal guaxinim = new Guaxinim("Rocket", 10);
+    public static void main(String[] args){
 
-        leao.emitirSom();
-        cachorro.emitirSom();
-        elefante.emitirSom();
-        gato.emitirSom();
-        guaxinim.emitirSom();
-        cachorro.comer();
-        System.out.println("****Animais comendo****");
+        Empresa empresaDeTeste = new Empresa();
 
-        Animal[] ListaDeAnimais = {
-                new Leao("Léo", 12),
-                new Cachorro("Dumbo", 15),
-                new Elefante("Gus", 2),
-                new Gato("Max", 12),
-                new Guaxinim("Leonard", 11),
-        };
-        for (Animal animal : ListaDeAnimais) {
-            if(animal instanceof Leao){
-                ((Leao) animal).rugir();
-            }if(animal instanceof Cachorro){
-                ((Cachorro) animal).lamber();
-            }if(animal instanceof Elefante){
-                ((Elefante) animal).usarTromba();
-            }if(animal instanceof Gato){
-                ((Gato) animal).cantar();
-            }if(animal instanceof Guaxinim){
-                ((Guaxinim) animal).revirarLixo();
-            }
+        empresaDeTeste.adicionarFuncionario(new Desenvolvedor("Nathália Ohana", 2468, 3000.0, "Java"));
 
-        }
+        empresaDeTeste.adicionarFuncionario(new Desenvolvedor("Tainá Estefani", 1234, 12000.0, "Java"));
+
+        empresaDeTeste.adicionarFuncionario(new Desenvolvedor("Gabriella Maurea", 5678, 10000.0, "JavaScript"));
+
+        empresaDeTeste.adicionarFuncionario(new Gerente("Maria Eduarda", 5569, 18000.0, 12000.0));
+
+        empresaDeTeste.adicionarFuncionario(new Gerente ("Sayonara Da Silva", 5698, 18000.0, 12000.00));
+
+        empresaDeTeste.adicionarFuncionario(new AnalistaQA("Juliana Forbici", 4582, 20000.0, 250));
+
+        empresaDeTeste.listarFuncionarios();
+        empresaDeTeste.calcularFolhaDePagamentoTotal();
+        empresaDeTeste.calcularFolhaDePagamentoTotalComStream();
+
+
     }
 }
+

@@ -16,7 +16,6 @@ public class Gerente extends Funcionario{
         super(nome, id, salarioBase);
         this.bonusAnual = bonusAnual;
 
-
     }
 
     /**
