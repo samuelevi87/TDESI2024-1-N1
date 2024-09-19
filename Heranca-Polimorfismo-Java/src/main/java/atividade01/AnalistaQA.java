@@ -18,6 +18,14 @@ public class AnalistaQA extends Funcionario{
         this.projetosTestados = projetos;
     }
 
+    public int getProjetosTestados() {
+        return projetosTestados;
+    }
+
+    public void setProjetosTestados(int projetosTestados) {
+        this.projetosTestados = projetosTestados;
+    }
+
     /**
      * Calcula o salário do AnalistaQA acrescentando 5%
      * do valor do salário base mais R$ 100 por projeto testados

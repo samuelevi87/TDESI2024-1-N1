@@ -55,10 +55,10 @@ public abstract class Funcionario {
 
     @Override
     public String toString() {
-        return "Funcionario{" +
-                "Nome: '" + nome + '\'' +
-                ", matrícula: " + identificador +
-                ", Salário base: R$ " + salarioBase +
+        return "Funcionario: " + "\'" +
+                "Nome: '" + nome  +
+                ", matricula: " + identificador +
+                ", Salario base: R$ " + salarioBase +
                 '}';
     }
 }
