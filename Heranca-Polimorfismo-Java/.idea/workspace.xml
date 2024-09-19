@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81d8261-cf83-4d3b-8bc5-6782edbc9f9d" name="Changes" comment="">
+    <list default="true" id="d81d8261-cf83-4d3b-8bc5-6782edbc9f9d" name="Changes" comment="Criacao das classe funcionario, DEsenvolvedor,Gerente, na atividade 1.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Guaxinim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guaxinim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,13 +37,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/henrique_loos1/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
@@ -78,6 +76,29 @@
       <option name="presentableId" value="Default" />
       <updated>1726524511641</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criacao das classe funcionario, DEsenvolvedor,Gerente, na atividade 1.">
+      <created>1726701041218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726701041218</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criacao das classe funcionario, DEsenvolvedor,Gerente, na atividade 1." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criacao das classe funcionario, DEsenvolvedor,Gerente, na atividade 1." />
   </component>
 </project>
