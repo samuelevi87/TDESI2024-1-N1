@@ -36,7 +36,7 @@ public abstract class Funcionario {
     }
 
     /**
-     * 
+     *
      * @return
      */
 
@@ -50,8 +50,8 @@ public abstract class Funcionario {
     @Override
     public String toString() {
         return "Funcionario:\n" +
-                "nome:" + nome +
-                "Matricula:" + id +
-                "salarioBase:" + salarioBase;
+                "nome: " + nome +
+                "Matricula: " + id +
+                "salarioBase: " + salarioBase;
     }
 }
