@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1384b3b8-d8f8-4dba-918d-003df4de08fb" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor, Gerente e AnalistaQA">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Desenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +42,26 @@
       <recent name="main.java" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
+      <module name="Heranca-Polimorfismo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,6 +71,14 @@
       <option name="presentableId" value="Default" />
       <updated>1726524185767</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criação das classes Funcionario, Desenvolvedor, Gerente e AnalistaQA">
+      <created>1726701100950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726701100951</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

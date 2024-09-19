@@ -1,46 +1,25 @@
 package main.java;
 
+import main.java.atividade01.AnalistaQA;
+import main.java.atividade01.Desenvolvedor;
+import main.java.atividade01.Empresa;
+import main.java.atividade01.Gerente;
+
 public class Main {
     public static void main(String[] args) {
-        Animal leao = new Leao("Alex", 5);
-        Animal cachorro = new Cachorro("Lola", 8);
-        Animal elefante = new Elefante("Bernado", 10);
-        Animal gato = new Gato("Yoon", 4);
-        Animal guaxinim = new Guaxinim("Rocket", 1);
+        Empresa empresaDeTeste = new Empresa();
 
-        leao.emitirSom();
-        cachorro.emitirSom();
-        elefante.emitirSom();
-        gato.emitirSom();
-        guaxinim.emitirSom();
+        empresaDeTeste.adicionarFuncionario(new Desenvolvedor("Gabriella", 1, 15000.0, "Java"));
+        empresaDeTeste.adicionarFuncionario(new Desenvolvedor("Taina", 2, 20000.0, "JavaScript"));
+        empresaDeTeste.adicionarFuncionario(new Gerente("Nathalia", 3, 10000.0, 10000));
+        empresaDeTeste.adicionarFuncionario(new Gerente("Maria", 4,12000.0, 5000));
+        empresaDeTeste.adicionarFuncionario(new AnalistaQA("Sayonara", 5, 14000, 200));
+        empresaDeTeste.adicionarFuncionario(new AnalistaQA("Juliana", 6, 50000, 5));
 
-        cachorro.comer();
-
-      Animal[] animais = {
-              new Leao("Simba", 5),
-              new Cachorro("Sheshi", 8),
-              new Elefante("Bernado", 10),
-              new Gato("Yumi", 4),
-              new Guaxinim("Perry", 1)
-      };
-      for(Animal animal : animais){
-          if(animal instanceof Leao){
-              ((Leao) animal).rugir();
-          }
-          if(animal instanceof Cachorro){
-              ((Cachorro) animal).dormir();
-          }
-          if(animal instanceof  Elefante){
-              ((Elefante) animal).usarTromba();
-          }
-          if(animal instanceof Gato){
-              ((Gato) animal).miar();
-          }
-          if(animal instanceof  Guaxinim){
-              ((Guaxinim) animal).comerLixo();
-          }
-      }
-
+        empresaDeTeste.listarFuncionarios();
+        empresaDeTeste.listarFuncionarios02();
+        empresaDeTeste.calcularFolhaDePagamentoTotal();
+        empresaDeTeste.listarFuncionarios02();
     }
 
 }
