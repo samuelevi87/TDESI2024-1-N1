@@ -61,6 +61,7 @@ public abstract class Funcionario {
         return "Funcionario: " +
                 "\n\nNome= '" + nome + '\'' +
                 "\nMatrícula= " + id +
-                "\nSalário base= R$" + salarioBase;
+                "\nSalário base= R$ " + salarioBase +
+                "\nSalário total= R$ " + calcularSalario();
     }
 }
