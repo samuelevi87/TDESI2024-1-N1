@@ -61,6 +61,6 @@ public abstract class Funcionario {
         return "Funcionario:\n" +
                 "Nome: " + nome +
                 ", matrícula: " + identificador +
-                ", Salário base: R$ " + salarioBase;
+                ", Salário base: R$ " + salarioBase + "\n";
     }
 }
