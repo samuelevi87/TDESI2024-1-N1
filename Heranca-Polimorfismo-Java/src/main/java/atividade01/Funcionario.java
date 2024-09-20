@@ -1,7 +1,7 @@
 package main.java.atividade01;
 
 /**
- * Representa um funcionário genéricona empresa.
+ * Representa um funcionário genérico na empresa.
  * Esta classe serve como base para todos os tipos de funcionários.
  */
 public abstract class Funcionario {
