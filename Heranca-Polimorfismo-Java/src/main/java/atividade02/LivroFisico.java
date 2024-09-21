@@ -19,6 +19,6 @@ public class LivroFisico extends ItemBiblioteca{
 
     @Override
     public double calcularMulta(int diasAtraso) {
-        return 0;
+        return 0.50 * diasAtraso;
     }
 }
