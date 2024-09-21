@@ -8,34 +8,31 @@ import main.java.atividade02.AudioLivro;
 import main.java.atividade02.Biblioteca;
 import main.java.atividade02.Ebook;
 import main.java.atividade02.LivroFisico;
+import main.java.atividade03.Caminhao;
+import main.java.atividade03.Carro;
+import main.java.atividade03.Frota;
+import main.java.atividade03.Moto;
 
 public class Main {
     public static void main(String[] args) {
-        Biblioteca biblioteca = new Biblioteca();
-        biblioteca.adicionarLivros(new AudioLivro("teste 1", "eu", 2024, true, 205));
-        biblioteca.adicionarLivros(new AudioLivro("teste 2", "eu mesmo", 2020, true, 137));
-        biblioteca.adicionarLivros(new Ebook("teste 3", "Monteiro Lobato", 2018, true, 15.00));
-        biblioteca.adicionarLivros(new Ebook("teste 4", "Leonardo DaVinci", 2023, true, 9.00));
-        biblioteca.adicionarLivros(new LivroFisico("teste 5", "Leonardo DaVinci", 2010, true, 347));
-        biblioteca.adicionarLivros(new LivroFisico("teste 6", "Sócrates", 2004, true, 409));
+        Frota frota = new Frota();
+        frota.adicionarVeiculo(new Caminhao("abcd123", "teste 1", 2011, 53000.0, 20.0));
+        frota.adicionarVeiculo(new Caminhao("efgh456", "teste 2", 2001, 42756.5, 15.0));
+        frota.adicionarVeiculo(new Carro("ijkl789", "teste 3", 2004, 12000.7, 4));
+        frota.adicionarVeiculo(new Carro("mnop123", "teste 4", 2014, 23987.5, 4));
+        frota.adicionarVeiculo(new Moto("qrst456", "teste 5", 2016, 8763.5, 200));
+        frota.adicionarVeiculo(new Moto("uvwx456", "teste 6", 2013, 4827.5, 250));
 
-        biblioteca.getItensDaBiblioteca().get(1).emprestar();
-        biblioteca.getItensDaBiblioteca().get(3).emprestar();
-        biblioteca.getItensDaBiblioteca().get(5).emprestar();
+        System.out.println("***** LISTA DE VEÍCULOS *****");
+        frota.listarVeiculos();
+        System.out.println("Custo total de viagem: R$" + frota.calcularCustoDeViagemTotal(100.0));
 
-        System.out.println("***** LISTA DE ITENS *****");
-        biblioteca.listarItens();
+        frota.removerVeiculo("efgh456");
+        frota.removerVeiculo("mnop123");
+        frota.removerVeiculo("uvwx456");
 
-        biblioteca.getItensDaBiblioteca().get(1).devolver();
-        biblioteca.getItensDaBiblioteca().get(3).devolver();
-        biblioteca.getItensDaBiblioteca().get(5).devolver();
-
-        System.out.println("***** LISTA DE ITENS *****");
-        biblioteca.listarItens();
-
-        System.out.println();
-        System.out.println("Multa do audiolivro: R$" + biblioteca.getItensDaBiblioteca().get(1).calcularMulta(10));
-        System.out.println("Multa do ebook: R$" + biblioteca.getItensDaBiblioteca().get(3).calcularMulta(10));
-        System.out.println("Multa do livro físico: R$" + biblioteca.getItensDaBiblioteca().get(5).calcularMulta(10));
+        System.out.println("***** LISTA DE VEÍCULOS *****");
+        frota.listarVeiculos();
+        System.out.println("Custo total de viagem: R$" + frota.calcularCustoDeViagemTotal(100.0));
     }
 }
