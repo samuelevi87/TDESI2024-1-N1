@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cab56e5c-3c1b-4b50-a2cb-6ce317324a96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Heranca-Polimorfismo-Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio01/CorrecaoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio02/CorrecaoContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio03/CorrecaoProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio04/CorrecaoLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio05/CorrecaoCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio06/CorrecaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio07/CorrecaoPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio08/CorrecaoFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio09/CorrecaoProdutoIndustrial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio10/CorrecaoContrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio11/CorrecaoFornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio12/CorrecaoMaquina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio13/CorrecaoVeiculoEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio14/CorrecaoProjeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POOExercicios01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2lv2ULMDtjxs1B7gV7wqPMMU2s4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging ruanFortes",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab56e5c-3c1b-4b50-a2cb-6ce317324a96" name="Changes" comment="" />
+      <created>1726046243416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1726046243416</updated>
+    </task>
+    <servers />
+  </component>
+</project>

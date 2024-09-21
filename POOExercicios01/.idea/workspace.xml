@@ -5,30 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="620dbd04-3559-4e83-b55d-e16ac0e18e2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/TDESI2024-1-N1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/ExerciciosPOO01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio01/InstruçõesExercicio01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio02/InstruçõesExercicio02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio03/InstruçõesExercicio03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio04/InstruçõesExercicio04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POOExercicios01/Exercicio05/InstruçõesExercicio05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TDESI2024-1-N1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../curriculo-ruanFortes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/Heranca-Polimorfismo-Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/Instruções Gerais.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio01/CorrecaoPessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio02/CorrecaoContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio03/CorrecaoProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio04/CorrecaoLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio05/CorrecaoCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio06/CorrecaoCliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio07/CorrecaoPedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio08/CorrecaoFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio09/CorrecaoProdutoIndustrial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio10/CorrecaoContrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio11/CorrecaoFornecedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio12/CorrecaoMaquina.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio13/CorrecaoVeiculoEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio14/CorrecaoProjeto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,6 +66,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ka3cR18UDqXEH0F2xR0KzEphxh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,9 +79,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Merging ruanFortes",
-    "last_opened_file_path": "C:/Users/ruan_fortes/Documents/TDESI2024-1-N1/POOExercicios01/ExerciciosPOO01"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documents/TDESI2024-1-N1"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
