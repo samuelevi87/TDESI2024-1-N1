@@ -19,7 +19,7 @@ public class Main {
         System.out.println("******* LISTA DE FUNCIONÁRIOS *******");
         empresa.listarFuncionarios();
 
-        System.out.println("======= FOLHA DE PAGAMENTO =======");
+        System.out.println("\n======= FOLHA DE PAGAMENTO =======");
         System.out.println("Folha de pagamento total: R$ " + String.format("%.2f", empresa.calcularFolhaDePagamentolTotal()));
     }
 }

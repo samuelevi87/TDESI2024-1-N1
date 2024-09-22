@@ -62,7 +62,7 @@ public class Empresa {
 
     public void listaSimples() {
         for(Funcionario funcionario : listaDeFuncionarios) {
-            System.out.println("Funcionário: " +funcionario.getNome() + ", Salário: R$ " + funcionario.calcularSalario());
+            System.out.println("Funcionário: " + funcionario.getNome() + ", Salário: R$ " + funcionario.calcularSalario());
         }
     }
 

@@ -17,7 +17,7 @@ public abstract class Funcionario {
      * @param salarioBase O salário base do Funcionario.
      */
 
-    public Funcionario(String nome, int id, double salarioBase) {
+    public Funcionario(String nome, Integer id, Double salarioBase) {
         this.nome = nome;
         this.id = id;
         this.salarioBase = salarioBase;
@@ -37,11 +37,11 @@ public abstract class Funcionario {
         return nome;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public double getSalarioBase() {
+    public Double getSalarioBase() {
         return salarioBase;
     }
 
@@ -49,25 +49,24 @@ public abstract class Funcionario {
         this.nome = nome;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public void setSalarioBase(double salarioBase) {
+    public void setSalarioBase(Double salarioBase) {
         this.salarioBase = salarioBase;
     }
 
     /**
-     * Retorna a representação em string do funcionário.
-     * @return uma string contendo o nome, id e o salario base do funcionário.
+     * Retorna a representação em string do Funcionario.
+     * @return uma string contendo o nome, id e o salário base do Funcionario.
      */
 
     @Override
     public String toString() {
-        return "Funcionario: " +
-                "nome: " + nome + '\'' +
-                ", id: " + id +
-                ", salarioBase: " + salarioBase +
-                '}';
+        return "\nFuncionário: \n" +
+                "Nome: " + nome +
+                ", Matrícula: " + id +
+                ", Salário Base: R$ " + salarioBase + "\n";
     }
 }

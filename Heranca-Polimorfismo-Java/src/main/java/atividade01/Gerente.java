@@ -16,8 +16,16 @@ public class Gerente extends Funcionario {
      * @param bonusAnual O bônus recebido do Gerente.
      */
 
-    public Gerente(String nome, int id, double salarioBase, Double bonusAnual) {
+    public Gerente(String nome, Integer id, Double salarioBase, Double bonusAnual) {
         super(nome, id, salarioBase);
+        this.bonusAnual = bonusAnual;
+    }
+
+    public Double getBonusAnual() {
+        return bonusAnual;
+    }
+
+    public void setBonusAnual(Double bonusAnual) {
         this.bonusAnual = bonusAnual;
     }
 

@@ -6,7 +6,7 @@ package main.java.atividade01;
  */
 
 public class AnalistaQA extends Funcionario {
-    private int projetosTestados;
+    private Integer projetosTestados;
 
     /**
      * Constrói um AnalistaQA.
@@ -16,8 +16,16 @@ public class AnalistaQA extends Funcionario {
      * @param projetosTestados Os projetos testados do AnalistaQA.
      */
 
-    public AnalistaQA(String nome, int id, double salarioBase, int projetosTestados ) {
+    public AnalistaQA(String nome, Integer id, Double salarioBase, Integer projetosTestados ) {
         super(nome, id, salarioBase);
+        this.projetosTestados = projetosTestados;
+    }
+
+    public Integer getProjetosTestados() {
+        return projetosTestados;
+    }
+
+    public void setProjetosTestados(Integer projetosTestados) {
         this.projetosTestados = projetosTestados;
     }
 

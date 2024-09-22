@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf82566-6ddf-44d8-8b52-839fb96321b8" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Desenvolvedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Desenvolvedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Funcionario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Gerente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,16 +37,24 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
   <component name="ProjectId" id="2mAfDfq7jWlHKt7ybgn1TUuXlNK" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "tainaMartins",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/585/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  }
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />

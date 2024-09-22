@@ -16,8 +16,16 @@ public class Desenvolvedor extends Funcionario {
      * @param linguagemProgramacao A linguagem de programação do Desenvolvedor.
      */
 
-    public Desenvolvedor(String nome, int id, double salarioBase, String linguagemProgramacao) {
+    public Desenvolvedor(String nome, Integer id, Double salarioBase, String linguagemProgramacao) {
         super(nome, id, salarioBase);
+        this.linguagemProgramacao = linguagemProgramacao;
+    }
+
+    public String getLinguagemProgramacao() {
+        return linguagemProgramacao;
+    }
+
+    public void setLinguagemProgramacao(String linguagemProgramacao) {
         this.linguagemProgramacao = linguagemProgramacao;
     }
 
@@ -30,13 +38,5 @@ public class Desenvolvedor extends Funcionario {
     @Override
     public double calcularSalario() {
         return getSalarioBase() * 1.1;
-    }
-
-    public String getLinguagemProgramacao() {
-        return linguagemProgramacao;
-    }
-
-    public void setLinguagemProgramacao(String linguagemProgramacao) {
-        this.linguagemProgramacao = linguagemProgramacao;
     }
 }
