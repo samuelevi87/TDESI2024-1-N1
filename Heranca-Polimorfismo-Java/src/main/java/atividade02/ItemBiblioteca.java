@@ -59,4 +59,13 @@ public abstract class ItemBiblioteca {
     public void setDisponivel(Boolean disponivel) {
         this.disponivel = disponivel;
     }
+
+    @Override
+    public String toString() {
+        return "ItemBiblioteca: " +
+                "titulo: " + titulo + '\'' +
+                ", autor: " + autor + '\'' +
+                ", anoPublicacao: " + anoPublicacao +
+                ", disponivel: " + disponivel;
+    }
 }
