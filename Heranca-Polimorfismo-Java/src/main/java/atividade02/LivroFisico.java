@@ -4,8 +4,8 @@ public class LivroFisico extends ItemBiblioteca{
 
     private Integer numeroPaginas;
 
-    public LivroFisico(String titulo, String autor, Integer anoPublicacao, Boolean disponivel, Integer numeroPaginas) {
-        super(titulo, autor, anoPublicacao, disponivel);
+    public LivroFisico(String titulo, String autor, Integer anoPublicacao, Integer numeroPaginas) {
+        super(titulo, autor, anoPublicacao);
         this.numeroPaginas = numeroPaginas;
     }
 

@@ -6,15 +6,15 @@ public abstract class ItemBiblioteca {
     private Integer anoPublicacao;
     private Boolean disponivel;
 
-    public ItemBiblioteca(String titulo, String autor, Integer anoPublicacao, Boolean disponivel) {
+    public ItemBiblioteca(String titulo, String autor, Integer anoPublicacao) {
         this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
-        this.disponivel = disponivel;
+        this.disponivel = true;
     }
     public void emprestar(){
         if(disponivel){
-            disponivel = false;
+            this.disponivel = false;
         }else{
             System.out.println("Item não disponível");
         }
@@ -62,8 +62,7 @@ public abstract class ItemBiblioteca {
 
     @Override
     public String toString() {
-        return "ItemBiblioteca: " +
-                "titulo: " + titulo + '\'' +
+        return "titulo: " + titulo + '\'' +
                 ", autor: " + autor + '\'' +
                 ", anoPublicacao: " + anoPublicacao +
                 ", disponivel: " + disponivel;

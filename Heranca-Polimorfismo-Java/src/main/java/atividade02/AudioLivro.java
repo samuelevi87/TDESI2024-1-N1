@@ -4,8 +4,8 @@ public class AudioLivro extends ItemBiblioteca{
 
     private Integer duracaoMinutos;
 
-    public AudioLivro(String titulo, String autor, Integer anoPublicacao, Boolean disponivel, Integer duracaoMinutos) {
-        super(titulo, autor, anoPublicacao, disponivel);
+    public AudioLivro(String titulo, String autor, Integer anoPublicacao, Integer duracaoMinutos) {
+        super(titulo, autor, anoPublicacao);
         this.duracaoMinutos = duracaoMinutos;
     }
 

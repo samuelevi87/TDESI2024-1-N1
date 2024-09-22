@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1384b3b8-d8f8-4dba-918d-003df4de08fb" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor, Gerente e AnalistaQA">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +40,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;gabriellaBento&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/shirl/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "gabriellaBento",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/shirl/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
