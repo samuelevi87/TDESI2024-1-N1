@@ -11,6 +11,6 @@ public class Leao extends  Animal{
     }
 
     public void rugir(){
-        System.out.println(getNome()+ "está rugindo ");
+        System.out.println(getNome()+ " está rugindo ");
     }
 }

@@ -1,6 +1,6 @@
 package main.java;
 
-public class cachorro extends  Animal{
+public class  cachorro extends  Animal{
     public cachorro(String nome, int idade) {
         super(nome, idade);
     }

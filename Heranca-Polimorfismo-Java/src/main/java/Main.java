@@ -22,6 +22,7 @@ public class Main {
                new cachorro("Max", 1),
        };
 
+       Animal.
 
        for (Animal animal : listaDeAnimaisanimais){
            if (animal instanceof Leao){
