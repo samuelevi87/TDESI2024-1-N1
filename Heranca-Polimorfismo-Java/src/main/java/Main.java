@@ -1,47 +1,28 @@
 package main.java;
 
+import main.java.atividade01.*;
+
 public class Main {
-    //FIXME Adicione o método main usando o atalho psvm
     public static void main(String[] args) {
-        Animal Leao = new Leao("Alex",22);
-        Animal cachorro = new cachorro("DOGGY",5);
-        Animal Elefante = new Elefante( "MOmo",4);
-        Animal gato = new gato("Pedro",3);
-        Animal guaxinim = new guaxinim("jose",8);
+        Empresa empresa1 = new Empresa();
 
-        Leao.emitirSom();
-        cachorro.emitirSom();
-        Elefante.emitirSom();
-        gato.emitirSom();
-        guaxinim.emitirSom();
-        cachorro.comer();
-       Animal[] listaDeAnimaisanimais = {new Leao("Steeve", 5),
-               new guaxinim("body", 6),
-               new Elefante("dumbo", 15),
-               new gato("Gus", 2),
-               new cachorro("Max", 1),
-       };
+        empresa1.adicionnarFuncionarios(new Desensolvedor("Pablo",2565,
+                4000.0,"Java"));
+        empresa1.adicionnarFuncionarios(new Desensolvedor("Rocky",2330,
+                3500.0,"Python"));
 
-       Animal.
+        empresa1.adicionnarFuncionarios(new Gerente("Jhon",3565,
+                10000.0,5000.0));
+        empresa1.adicionnarFuncionarios(new Gerente("Carla",2707,
+                12000.0,6000.0));
 
-       for (Animal animal : listaDeAnimaisanimais){
-           if (animal instanceof Leao){
-               ((Leao) animal).rugir();
-               }
-           if (animal instanceof gato){
-               ((gato) animal).derrubarCopo();
-           }
-           if(animal instanceof Elefante){
-               ((Elefante) animal).usarTromba();
-           }
-           if (animal instanceof cachorro){
-               ((cachorro) animal).roubandoComida();
-           }
-           if(animal instanceof guaxinim){
-               ((guaxinim) animal).pulando();
-           }
-       }
+        empresa1.adicionnarFuncionarios(new AnalistaQA("Silva",2345,
+                15000.0,3));
+        empresa1.adicionnarFuncionarios(new AnalistaQA("Claudyson",2560,
+                18000.0,5));
+        System.out.println(" ****lista de Funcionarios*** ");
+empresa1.listaDeFuncionario();
+Double pagamentoTotal = empresa1.folhaDePagamentoTotal();
+        System.out.println(" folha de pagamento total : "+ String.format("2%f",pagamentoTotal));
     }
-    //TODO O conteúdo será desenvolvido durante a aula
-
 }
