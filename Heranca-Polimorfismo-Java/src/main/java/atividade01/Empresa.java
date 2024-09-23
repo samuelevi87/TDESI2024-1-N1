@@ -42,11 +42,11 @@ public class Empresa {
         listaFuncionarios.forEach(funcionario -> System.out.println(funcionario + "Salário Total: R$" + String.format("%.2f", funcionario.calcularSalarioTotal())));
     }
 
-    public void calcularDiferente(){
+    public void calcularDiferente() {
         listaFuncionarios.stream().mapToDouble(Funcionario::calcularSalarioTotal).sum();
     }
 
-    public void listaSimples(){
+    public void listaSimples() {
         for (Funcionario funcionario : listaFuncionarios) {
             System.out.println(
                     "Funcionário: " + funcionario.getNome() + ", Salário: R$ " + funcionario.calcularSalarioTotal()

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4962c353-c0c6-47e9-a5ca-cbc822c49ca1" name="Changes" comment="Classe AnalistaQA e Empresa criada. Instancias de cada classe foram criadas para teste. Versão funcional Atividade1" />
+    <list default="true" id="4962c353-c0c6-47e9-a5ca-cbc822c49ca1" name="Changes" comment="Classe AnalistaQA e Empresa criada. Instancias de cada classe foram criadas para teste. Versão funcional Atividade1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +33,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectId" id="2mGHdgjDQXpB2NTuLo2ovxXp85k" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -37,11 +44,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "jacksonRibeiro",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Jacks/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
@@ -49,11 +59,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.atividade01.Main" />
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="Heranca-Polimorfismo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.atividade01.*" />
+          <option name="PATTERN" value="main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
