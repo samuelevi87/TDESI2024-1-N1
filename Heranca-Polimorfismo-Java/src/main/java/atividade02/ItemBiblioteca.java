@@ -64,7 +64,7 @@ public abstract class ItemBiblioteca {
      * Método que empresta o livro, que muda `disponivel` para false, tornando-o indisponível.
      */
     public void emprestar() {
-        disponivel = false;
+        this.disponivel = false;
     }
 
     /**

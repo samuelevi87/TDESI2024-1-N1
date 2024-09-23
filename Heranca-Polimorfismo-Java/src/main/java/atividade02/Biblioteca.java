@@ -61,4 +61,19 @@ public class Biblioteca {
     public void listarItens() {
         itemBiblioteca.forEach(System.out::println);
     }
+
+    /**
+     * Busca um item pelo título (versão simples).
+     *
+     * @param titulo O título do item a ser buscado.
+     * @return O item encontrado, ou null se não for encontrado.
+     */
+    private CorrecaoItemBiblioteca buscarItemPorTituloSimples(String titulo) {
+        for (ItemBiblioteca itemBiblioteca : itemBiblioteca) {
+            if (itemBiblioteca.getTitulo().equalsIgnoreCase(titulo)) {
+                System.out.println(itemBiblioteca);
+            }
+        }
+        return null;
+    }
 }
