@@ -46,8 +46,12 @@ public abstract class ItemBiblioteca {
         return disponivel;
     }
 
-    public void emprestar() {
-        this.disponivel = false;
+    public boolean emprestar() {
+        if (disponivel) {
+            disponivel = false;
+            return true;
+        }
+        return false;
     }
 
     public void devolver() {

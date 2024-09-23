@@ -1,55 +1,32 @@
 package main.java;
 
-<<<<<<< HEAD
-import main.java.atividade02.AudioLivro;
-import main.java.atividade02.Biblioteca;
-import main.java.atividade02.Ebook;
-import main.java.atividade02.LivroFisico;
+import main.java.atividade03.Caminhao;
+import main.java.atividade03.Carro;
+import main.java.atividade03.Frota;
+import main.java.atividade03.Moto;
 
 public class Main {
     public static void main(String[] args) {
-        Biblioteca bibliote = new Biblioteca();
+        Frota frota1 = new Frota();
 
-        LivroFisico livroFisico1 = new LivroFisico("Piratas", "Caribe", 2000, true, 365);
-        LivroFisico livroFisico2 = new LivroFisico("Eletricidade", "Tomas", 1783, true, 2000);
-        Ebook ebook1 = new Ebook("Sapiens", "WOW", 2010, true, 60);
-        Ebook ebook2 = new Ebook("Ondas", "Pedro", 555, true, 60);
-        AudioLivro audioLivro1 = new AudioLivro("aaa", "autorFoda", 2001, true, 180);
-        AudioLivro audioLivro2 = new AudioLivro("bbb", "autorFodinha", 1999, true, 530);
+        Carro carro1 = new Carro("123abc", "uno", 2011, 180000, 4);
+        Carro carro2 = new Carro("435avc", "palio", 2020, 25000, 4);
+        Caminhao caminhao1 = new Caminhao("asdasd", "Scania", 550, 11111, 2);
+        Caminhao caminhao2 = new Caminhao("aaaa", "11Triste", 1000, 80000000, 2);
+        Moto moto1 = new Moto("Man1903", "cg99", 1999, 50000, 150);
+        Moto moto2 = new Moto("socorro", "hornet", 2015, 70000, 3000);
 
-        livroFisico1.emprestar();
-        livroFisico1.devolver();
-        livroFisico1.devolver();
-        ebook2.emprestar();
+        moto1.calcularCustoViagem(400);
+        moto2.calcularCustoViagem(100);
 
-        livroFisico1.calcularMulta(8);
-=======
-import main.java.atividade01.CorrecaoAnalistaQA;
-import main.java.atividade01.CorrecaoDesenvolvedor;
-import main.java.atividade01.CorrecaoEmpresa;
-import main.java.atividade01.CorrecaoGerente;
+        frota1.addFrotaVeiculos(moto1);
+        frota1.addFrotaVeiculos(caminhao1);
+        frota1.addFrotaVeiculos(carro1);
 
-public class Main {
-    public static void main(String[] args) {
-        CorrecaoAtividade01();
+        frota1.remFrotaVeiculos(carro1);
+
+        frota1.calcularCustoTotalViagem(100000);
+
     }
 
-    private static void CorrecaoAtividade01() {
-        // Código para testar a atividade 01
-        CorrecaoEmpresa empresa = new CorrecaoEmpresa();
-
-        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Ana Silva", 1, 5000, "Java"));
-        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Carlos Santos", 2, 5500, "Python"));
-        empresa.adicionarFuncionario(new CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
-        empresa.adicionarFuncionario(new CorrecaoGerente("João Pereira", 4, 8500, 12000));
-        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Pedro Costa", 5, 4500, 50));
-        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Lúcia Ferreira", 6, 4800, 60));
-
-        System.out.println("Lista de Funcionários:");
-        empresa.listarFuncionarios();
-
-        System.out.println("\nFolha de Pagamento Total: R$" +
-                String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
->>>>>>> 2952e16851cc6c999b216163e24c62942517e74a
-    }
 }
