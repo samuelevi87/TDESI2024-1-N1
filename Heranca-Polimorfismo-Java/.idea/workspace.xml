@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="Criação das classes Funcionarios, Desenvolvedor e gerente, na Atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POOExercicios01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +36,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "ruanFortes"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
@@ -102,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação das classes Funcionarios, Desenvolvedor e gerente, na Atividade 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes Funcionarios, Desenvolvedor e gerente, na Atividade 1." />
+    <MESSAGE value="ajustes pré merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajustes pré merge" />
   </component>
 </project>

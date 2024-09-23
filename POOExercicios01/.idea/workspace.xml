@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="620dbd04-3559-4e83-b55d-e16ac0e18e2e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/Heranca-Polimorfismo-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/Instruções Gerais.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Heranca-Polimorfismo-Java/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio01/CorrecaoPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio02/CorrecaoContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio03/CorrecaoProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio04/CorrecaoLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio05/CorrecaoCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio06/CorrecaoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio07/CorrecaoPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio08/CorrecaoFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio09/CorrecaoProdutoIndustrial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio10/CorrecaoContrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio11/CorrecaoFornecedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio12/CorrecaoMaquina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio13/CorrecaoVeiculoEmpresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio14/CorrecaoProjeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ExerciciosPOO01/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="620dbd04-3559-4e83-b55d-e16ac0e18e2e" name="Changes" comment="Resolvendo conflitos no merge" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,9 +40,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging ruanFortes",
+    "git-widget-placeholder": "ruanFortes",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Documents/TDESI2024-1-N1"
+    "last_opened_file_path": "D:/Documents/TDESI2024-1-N1/POOExercicios01"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -99,6 +61,19 @@
       <option name="presentableId" value="Default" />
       <updated>1723507938480</updated>
     </task>
+    <task id="LOCAL-00001" summary="Resolvendo conflitos no merge">
+      <option name="closed" value="true" />
+      <created>1727127552968</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727127552968</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Resolvendo conflitos no merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resolvendo conflitos no merge" />
   </component>
 </project>
