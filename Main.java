@@ -1,19 +1,24 @@
 public class Main {
     public static void main(String[] args) {
-        Empresa empresa = new Empresa();
+        Biblioteca biblioteca = new Biblioteca();
 
-        empresa.adicionarFuncionario(new Desenvolvedor("Alice", 1, 5000, "Java"));
-        empresa.adicionarFuncionario(new Desenvolvedor("Bob", 2, 6000, "Python"));
-        empresa.adicionarFuncionario(new Gerente("Carlos", 3, 8000, 2000));
-        empresa.adicionarFuncionario(new Gerente("Diana", 4, 9000, 3000));
-        empresa.adicionarFuncionario(new AnalistaQA("Eva", 5, 4000, 5));
-        empresa.adicionarFuncionario(new AnalistaQA("Frank", 6, 4500, 3));
+        biblioteca.adicionarItem(new LivroFisico("O Senhor dos Anéis", "J.R.R. Tolkien", 1954, 1216));
+        biblioteca.adicionarItem(new LivroFisico("1984", "George Orwell", 1949, 328));
+        biblioteca.adicionarItem(new Ebook("Dom Casmurro", "Machado de Assis", 1899, 1.5));
+        biblioteca.adicionarItem(new Ebook("A Moreninha", "Joaquim Manuel de Macedo", 1844, 0.8));
+        biblioteca.adicionarItem(new AudioLivro("O Alquimista", "Paulo Coelho", 1988, 300));
+        biblioteca.adicionarItem(new AudioLivro("A Revolução dos Bichos", "George Orwell", 1945, 120));
 
-        System.out.println("Funcionários e seus salários:");
-        empresa.listarFuncionarios();
+        biblioteca.listarItensDisponiveis();
 
-        double totalFolha = empresa.calcularFolhaPagamento();
-        System.out.println("Folha de pagamento total: " + totalFolha);
+        biblioteca.emprestarItem("1984");
+
+        double multa = biblioteca.calcularMulta("1984", 3);
+        System.out.println("Multa por atraso: R$ " + multa);
+
+        biblioteca.devolverItem("1984");
+
+        biblioteca.listarItensDisponiveis();
     }
 }
 
