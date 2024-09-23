@@ -2,8 +2,11 @@ package main.java.atividade02;
 
 public class LivroFisico extends ItemBiblioteca {
 
-    public LivroFisico(String titulo, String autor, Integer anoPublicacao, boolean disponivel) {
+    private Integer numeroPaginas;
+
+    public LivroFisico(String titulo, String autor, Integer anoPublicacao, boolean disponivel,Integer numeroPaginas) {
         super(titulo, autor, anoPublicacao, disponivel);
+        this.numeroPaginas = numeroPaginas;
     }
 
     @Override

@@ -19,8 +19,8 @@ public class Main {
         AudioLivro audioLivro2 = new AudioLivro("Seja FODA", "Caio Carneiro", 2017, true, 220);
         Ebook ebook1 = new Ebook("Código Limpo", "Robert Cecil Martin", 2012, true, 200.00);
         Ebook ebook2 = new Ebook("A Linguagem de Programação Go", "Brian Kernighan", 2015, true, 20.00);
-        LivroFisico livroFisico1 = new LivroFisico("Maluquinho pelo mundo", "Ziraldo", 2012, true);
-        LivroFisico livroFisico2 = new LivroFisico("Turma da Mônica", "Mauricio de Sousa", 1959, true);
+        LivroFisico livroFisico1 = new LivroFisico("Maluquinho pelo mundo", "Ziraldo", 2012, true,250);
+        LivroFisico livroFisico2 = new LivroFisico("Turma da Mônica", "Mauricio de Sousa", 1959, true, 300);
 
         biblioteca1.adicionarItem(audioLivro1);
         biblioteca1.adicionarItem(audioLivro2);
