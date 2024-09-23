@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1384b3b8-d8f8-4dba-918d-003df4de08fb" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor, Gerente e AnalistaQA">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Caminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Frota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Veiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
