@@ -4,9 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="">
+    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Criacao das classes funcionario, desenvolvedor e gerente.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Desenvolvedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/giovani_lenoir/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/giovani_lenoir/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -51,5 +69,9 @@
       <updated>1726524023411</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criacao das classes funcionario, desenvolvedor e gerente." />
+    <option name="LAST_COMMIT_MESSAGE" value="Criacao das classes funcionario, desenvolvedor e gerente." />
   </component>
 </project>
