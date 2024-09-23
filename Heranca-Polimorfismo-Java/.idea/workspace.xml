@@ -5,14 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7f10795-96d8-4500-8b37-a8b9c5e575fd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Elefante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Leao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cachorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guaxinim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/guaxinim.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="2mAg6GBjd5TBvgdd6hdLvLRpF8L" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,8 +41,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "claudysonClairmeus",
     "last_opened_file_path": "C:/Users/claudyson_clairmeus/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
 }]]></component>

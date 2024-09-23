@@ -1,28 +1,36 @@
 package main.java;
 
 import main.java.atividade01.*;
+import main.java.atividade02.AudioLivro;
+import main.java.atividade02.Biblioteca;
+import main.java.atividade02.Ebook;
+import main.java.atividade02.LivroFisico;
 
 public class Main {
     public static void main(String[] args) {
-        Empresa empresa1 = new Empresa();
+        Biblioteca biblio1 = new Biblioteca();
 
-        empresa1.adicionnarFuncionarios(new Desensolvedor("Pablo",2565,
-                4000.0,"Java"));
-        empresa1.adicionnarFuncionarios(new Desensolvedor("Rocky",2330,
-                3500.0,"Python"));
+        biblio1.adicionarItens(new AudioLivro("Sapiens ","George",
+                1949,true,3));
+        biblio1.adicionarItens(new AudioLivro("Python para Todos", "Autor B",
+                2019, true,6) );
+        biblio1.adicionarItens(new LivroFisico("Java para Iniciantes", "Autor A",
+                2020, true,7));
+        biblio1.adicionarItens(new LivroFisico("Desenvolvimento Web", "Autor D",
+                2022, true,10));
+        biblio1.adicionarItens(new Ebook("Java: Como Programar", "Deitel & Deitel",
+                2020, false,300.0));
+        biblio1.adicionarItens(new Ebook("Clean Code", "Robert C. Martin",
+                2019, false,434.0));
 
-        empresa1.adicionnarFuncionarios(new Gerente("Jhon",3565,
-                10000.0,5000.0));
-        empresa1.adicionnarFuncionarios(new Gerente("Carla",2707,
-                12000.0,6000.0));
+        biblio1.devolver("Python para Todos");
+        biblio1.devolver("Sapiens ");
 
-        empresa1.adicionnarFuncionarios(new AnalistaQA("Silva",2345,
-                15000.0,3));
-        empresa1.adicionnarFuncionarios(new AnalistaQA("Claudyson",2560,
-                18000.0,5));
-        System.out.println(" ****lista de Funcionarios*** ");
-empresa1.listaDeFuncionario();
-Double pagamentoTotal = empresa1.folhaDePagamentoTotal();
-        System.out.println(" folha de pagamento total : "+ String.format("2%f",pagamentoTotal));
+        biblio1.emprestar("Clean code");
+        biblio1.emprestar("web");
+
+
+        System.out.println("Multa de : R$ "+biblio1.calcularMulta("Clean Code",12)+ " por atraso.");
+        System.out.println("Multa de : R$ "+ biblio1.calcularMulta("Java: Como Programar",22)+ " por atraso.");
     }
 }
