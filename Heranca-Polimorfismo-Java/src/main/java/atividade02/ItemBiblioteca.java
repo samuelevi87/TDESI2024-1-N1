@@ -13,12 +13,14 @@ public abstract class ItemBiblioteca {
     private Boolean disponivel;
 
     /**
+     * Cria um novo item de biblioteca com as informações fornecidas.
      *
-     * @param titulo
-     * @param autor
-     * @param anoPublicacao
-     * @param disponivel
+     * @param titulo o título do item a ser adicionado.
+     * @param autor o autor do item a ser adicionado.
+     * @param anoPublicacao o ano de publicação do item.
+     * @param disponivel indica se o item está disponível para empréstimo (true) ou não (false).
      */
+
     public ItemBiblioteca(String titulo, String autor, Integer anoPublicacao, Boolean disponivel) {
         this.titulo = titulo;
         this.autor = autor;
