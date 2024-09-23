@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efcaf2be-e9a3-442a-80c6-197356307f4c" name="Changes" comment="Criação das classes funcionario, Desenvolvedor e Gerente na atividade 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +36,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
   <component name="ProjectId" id="2mAfrCjnafgiWtxZzSt8MsXq7pG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "joaoSantos",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/pc/Downloads/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />

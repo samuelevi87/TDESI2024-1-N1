@@ -1,50 +1,27 @@
 package main.java;
 
+import main.java.atividade01.AnalistaQA;
+import main.java.atividade01.Desenvolvedor;
+import main.java.atividade01.Empresa;
+import main.java.atividade01.Gerente;
+
 public class Main {
     public static void main(String[] args) {
 
-        Animal leao = new Leao("Leão", 2);
-        Animal elefante = new Elefante("Xinim", 5);
-        Animal gato = new Gato("Pedro", 3);
-        Animal guaxinim = new Guaxinim("José" , 8);
-        Animal cachorro = new Cachorro("Vacilao", 12);
+        Empresa empresa1 = new Empresa();
 
-        leao.emitirSom();
-        elefante.emitirSom();
-        gato.emitirSom();
-        guaxinim.emitirSom();
-        cachorro.emitirSom();
-        cachorro.comer();
-        guaxinim.comer();
+        empresa1.adicionarFuncionario(new Desenvolvedor("Joao", 2, 2500, "Node.js"));
+        empresa1.adicionarFuncionario(new Desenvolvedor("Pedro", 3, 3000, "Java"));
+        empresa1.adicionarFuncionario(new Gerente("Arthur", 1, 6000, 10000.00));
+        empresa1.adicionarFuncionario(new Gerente("Junior", 4, 8000, 12000.00));
+        empresa1.adicionarFuncionario(new AnalistaQA("Vini", 5, 2000, 15));
+        empresa1.adicionarFuncionario(new AnalistaQA("Henrique", 5, 1800, 5));
 
-        Animal [] listaDeAnimais = {
-                new Leao("Pedro", 5),
-                new Elefante("Santa", 10),
-                new Gato ("XInim", 2),
-                new Guaxinim("Pata", 23),
-                new Cachorro("Tobi", 17)
-        };
+        System.out.println("LISTA DE FUNCIONÁRIO");
+        empresa1.listaFuncionarios();
 
-        for(Animal  animal : listaDeAnimais ) {
-
-            if(animal instanceof  Leao) {
-                ((Leao) animal).rugir();
-            }
-            if(animal instanceof  Elefante) {
-                ((Elefante) animal).levantarTrompa();
-            }
-            if(animal instanceof  Gato) {
-                ((Gato) animal).dormir();
-            }
-            if(animal instanceof  Guaxinim) {
-                ((Guaxinim) animal).roubarComid();
-            }
-            if(animal instanceof  Cachorro) {
-                ((Cachorro) animal).correr();
-            }
-
-
-        }
+        System.out.println("\n" + "FOLHA DE PAGAMENTO");
+        System.out.printf("Folha de pagamento total: R$ %.2f%n", empresa1.calcularFolhaDePagamentoTotal());
 
     }
 }
