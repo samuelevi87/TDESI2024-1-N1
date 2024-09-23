@@ -1,10 +1,19 @@
 package main.java.atividade02;
 
-public class ItemBiblioteca {
+public abstract class ItemBiblioteca {
+
     private String titulo;
     private String autor;
     private int anoPublicacao;
     private boolean disponivel;
+
+    /**
+     *
+     * @param titulo
+     * @param disponivel
+     * @param anoPublicacao
+     * @param autor
+     */
 
     public ItemBiblioteca(String titulo, boolean disponivel, int anoPublicacao, String autor) {
         this.titulo = titulo;
@@ -37,7 +46,8 @@ public class ItemBiblioteca {
         this.anoPublicacao = anoPublicacao;
     }
 
-    public boolean getDisponivel() {
+    public boolean isDisponivel
+            () {
         return disponivel;
     }
 
