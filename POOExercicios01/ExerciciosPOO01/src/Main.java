@@ -243,19 +243,18 @@ public class Main {
 
         ex15();
     }
->>>>>>> 239f51ffae3a50c6da546da0c1a1435bcf90ca68
 
     private static void ex15() {
         // Exercício 15:
         // 1. Criar uma instância da classe Seguro.
-<<<<<<< HEAD
+
         Seguro seguro = new Seguro("AP123456", "veículo", 50000.00, 1200.00);
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         System.out.println("numero da Aapolice: " + seguro.getNumeroApolice());
         System.out.println("tipo: " + seguro.getTipo());
         System.out.println("valor da cobertura: " + seguro.getValorCobertura());
         System.out.println("valor do premio: " + seguro.getValorPremio());
-=======
+
         CorrecaoSeguro seguro = new CorrecaoSeguro("12345","UniPessoal - Vida", 250000,800);
         // 2. Exibir o número da apólice, tipo de seguro, valor de cobertura e valor do prêmio.
         System.out.println("Seguro com apólice nº: " + seguro.getNumeroApolice() + "\n" +
@@ -263,7 +262,6 @@ public class Main {
                 "Valor de Cobertura: R$ " + seguro.getValorCobertura() + "\n" +
                 "Valor do Prêmio (mensalidade): R$ " + seguro.getValorPremio());
         ;
->>>>>>> 239f51ffae3a50c6da546da0c1a1435bcf90ca68
         // 3. Alterar o valor do prêmio e exibir novamente.
         seguro.setValorPremio(900);
         System.out.println("Seguro com apólice nº: " + seguro.getNumeroApolice() + "\n" +
