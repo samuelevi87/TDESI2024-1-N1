@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d54b61-15fd-45bc-800a-c432e56a0f9b" name="Changes" comment="Criação das classe Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/AnalistaQA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Caminhao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Frota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Frota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Moto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Veiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +38,23 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
   <component name="ProjectId" id="2mAfHbhtJllQAct3Niwx2ux3Frq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "nathaliaSantos",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/natha/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cachorro" />
