@@ -59,11 +59,11 @@ public class Frota {
      * @return O valor total da viagem.
      */
     public Double calcularCustoDeViagemTotal(Double distancia) {
-        Double custoTotalViagem = 0.0;
+        /*Double custoTotalViagem = 0.0;
         for(int i = 0; i < veiculosDaFrota.size(); i++) {
             custoTotalViagem += veiculosDaFrota.get(i).calcularCustoViagem(distancia);
         }
-        return custoTotalViagem;
-        //return veiculosDaFrota.stream().mapToDouble(Veiculo::calcularCustoViagem).sum();
+        return custoTotalViagem;*/
+        return veiculosDaFrota.stream().mapToDouble(veiculo -> veiculo.calcularCustoViagem(distancia)).sum();
     }
 }
