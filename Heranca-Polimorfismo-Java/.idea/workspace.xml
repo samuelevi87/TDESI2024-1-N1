@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6329d605-0073-42d1-b8fc-606cdf03e0d3" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor e Gerente na atividade 1" />
+    <list default="true" id="6329d605-0073-42d1-b8fc-606cdf03e0d3" name="Changes" comment="Atividade 1 atualizada">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,9 +34,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mAeSnKOb1gR7MjmIcDeIeEybDI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -92,7 +97,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726523809866</updated>
-      <workItem from="1726931084061" duration="335000" />
+      <workItem from="1726931084061" duration="1196000" />
+      <workItem from="1727113303396" duration="166000" />
+      <workItem from="1727113529208" duration="1537000" />
     </task>
     <task id="LOCAL-00001" summary="Criação das classes Funcionario, Desenvolvedor e Gerente na atividade 1">
       <created>1726700906708</created>
@@ -101,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726700906708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atividade 1 atualizada">
+      <option name="closed" value="true" />
+      <created>1726932214904</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726932214904</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação das classes Funcionario, Desenvolvedor e Gerente na atividade 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes Funcionario, Desenvolvedor e Gerente na atividade 1" />
+    <MESSAGE value="Atividade 1 atualizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade 1 atualizada" />
   </component>
 </project>
