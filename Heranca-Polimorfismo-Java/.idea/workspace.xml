@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Criacao das classes funcionario, desenvolvedor e gerente.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoAudioLivro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoBiblioteca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoEbook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoItemBiblioteca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoLivroFisico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
