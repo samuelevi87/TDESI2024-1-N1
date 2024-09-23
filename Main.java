@@ -1,24 +1,26 @@
 public class Main {
     public static void main(String[] args) {
-        Biblioteca biblioteca = new Biblioteca();
+        Frota frota = new Frota();
 
-        biblioteca.adicionarItem(new LivroFisico("O Senhor dos Anéis", "J.R.R. Tolkien", 1954, 1216));
-        biblioteca.adicionarItem(new LivroFisico("1984", "George Orwell", 1949, 328));
-        biblioteca.adicionarItem(new Ebook("Dom Casmurro", "Machado de Assis", 1899, 1.5));
-        biblioteca.adicionarItem(new Ebook("A Moreninha", "Joaquim Manuel de Macedo", 1844, 0.8));
-        biblioteca.adicionarItem(new AudioLivro("O Alquimista", "Paulo Coelho", 1988, 300));
-        biblioteca.adicionarItem(new AudioLivro("A Revolução dos Bichos", "George Orwell", 1945, 120));
+        // Adicionando veículos à frota
+        frota.adicionarVeiculo(new Carro("ABC-1234", "Fusca", 1985, 100000, 2));
+        frota.adicionarVeiculo(new Carro("DEF-5678", "Civic", 2020, 15000, 4));
+        frota.adicionarVeiculo(new Caminhao("GHI-9012", "Scania", 2018, 50000, 10));
+        frota.adicionarVeiculo(new Caminhao("JKL-3456", "Mercedes", 2019, 30000, 15));
+        frota.adicionarVeiculo(new Moto("MNO-7890", "CB500", 2021, 5000, 500));
+        frota.adicionarVeiculo(new Moto("PQR-4567", "Ninja", 2020, 7000, 650));
 
-        biblioteca.listarItensDisponiveis();
+        // Listar veículos da frota
+        frota.listarVeiculos();
 
-        biblioteca.emprestarItem("1984");
+        // Calcular custo total de uma viagem
+        double distancia = 100; // km
+        double custoTotal = frota.calcularCustoTotalViagem(distancia);
+        System.out.println("Custo total da viagem para toda a frota: R$ " + custoTotal);
 
-        double multa = biblioteca.calcularMulta("1984", 3);
-        System.out.println("Multa por atraso: R$ " + multa);
-
-        biblioteca.devolverItem("1984");
-
-        biblioteca.listarItensDisponiveis();
+        // Remover um veículo
+        frota.removerVeiculo("ABC-1234");
+        frota.listarVeiculos();
     }
 }
 
