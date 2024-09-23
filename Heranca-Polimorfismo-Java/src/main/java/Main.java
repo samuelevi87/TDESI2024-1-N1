@@ -1,53 +1,30 @@
 package main.java;
 
+import main.java.atividade01.CorrecaoAnalistaQA;
+import main.java.atividade01.CorrecaoDesenvolvedor;
+import main.java.atividade01.CorrecaoEmpresa;
+import main.java.atividade01.CorrecaoGerente;
+
 public class Main {
-
     public static void main(String[] args) {
-        Animal leao = new Leao("Alex", 22);
-        Animal elefante = new Elefante("Moacir", 4);
-        Animal gato = new Gato("Pedro", 3);
-        Animal guaxinim = new Guaxinim("José", 8);
-        Animal cachorro = new Cachorro("Alemao", 4);
+        CorrecaoAtividade01();
+    }
 
-        System.out.println();
-        System.out.println("**** Animais emitindo sons ***");
-        leao.emitirSom();
-        elefante.emitirSom();
-        gato.emitirSom();
-        guaxinim.emitirSom();
-        cachorro.emitirSom();
+    private static void CorrecaoAtividade01() {
+        // Código para testar a atividade 01
+        CorrecaoEmpresa empresa = new CorrecaoEmpresa();
 
-        System.out.println();
-        System.out.println("**** Animais comendo ****");
-        leao.comer();
-        elefante.comer();
-        gato.comer();
-        guaxinim.comer();
-        cachorro.comer();
+        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Ana Silva", 1, 5000, "Java"));
+        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Carlos Santos", 2, 5500, "Python"));
+        empresa.adicionarFuncionario(new CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
+        empresa.adicionarFuncionario(new CorrecaoGerente("João Pereira", 4, 8500, 12000));
+        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Pedro Costa", 5, 4500, 50));
+        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Lúcia Ferreira", 6, 4800, 60));
 
-        System.out.println();
-        System.out.println("**** Animais com métodos específicos ****");
+        System.out.println("Lista de Funcionários:");
+        empresa.listarFuncionarios();
 
-        Animal[] listaDeAnimais = {
-                new Leao("Léo", 12),
-                new Elefante("Dumbo", 15),
-                new Gato("Gus", 2),
-                new Cachorro("Max", 6),
-                new Guaxinim("Ted", 15)
-        };
-
-        for (Animal animal:listaDeAnimais) {
-            if (animal instanceof Leao){
-                ((Leao) animal).rugir();
-            } else if (animal instanceof Elefante){
-                ((Elefante) animal).usarTromba();
-            } else if (animal instanceof Gato){
-                ((Gato) animal).derrubarCopo();
-            } else if (animal instanceof Cachorro){
-                ((Cachorro) animal).roerOsso();
-            } else if (animal instanceof Guaxinim){
-                ((Guaxinim) animal).roubarComida();
-            }
-        }
+        System.out.println("\nFolha de Pagamento Total: R$" +
+                String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
     }
 }
