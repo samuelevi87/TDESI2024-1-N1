@@ -1,6 +1,6 @@
 package main.java.atividade04;
 
-public abstract class EmailNotificacao extends Notificacao {
+public class EmailNotificacao extends Notificacao {
 
     private String assunto;
 
@@ -10,12 +10,13 @@ public abstract class EmailNotificacao extends Notificacao {
     }
 
     @Override
-    public String formatarMensagem(String msg) {
-        return "E-mail: ";
+    public String formatarMensagem() {
+        return "E-mail: "+assunto;
     }
 
     @Override
     public void enviarNotificacao() {
+        System.out.println("Enviando "+formatarMensagem()+" para "+ getDestinatario());
 
     }
 }
