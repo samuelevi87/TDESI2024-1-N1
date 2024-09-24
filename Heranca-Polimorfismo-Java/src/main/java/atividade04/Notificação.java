@@ -11,7 +11,7 @@ public abstract class Notificação
     private LocalDateTime dataEnvio;
 
     public Notificação(String
-       mensagem, String destinatario, LocalDate dataEnvio) {
+       mensagem, String destinatario, LocalDateTime dataEnvio) {
         this.mensagem = mensagem;
         this.destinatario = destinatario;
         this.dataEnvio = LocalDateTime.now();
