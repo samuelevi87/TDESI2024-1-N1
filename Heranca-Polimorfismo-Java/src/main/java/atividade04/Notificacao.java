@@ -49,4 +49,5 @@ public abstract class Notificacao implements Notificavel{
                 ", dataEnvio=" + dataEnvio +
                 '}';
     }
+
 }
