@@ -1,6 +1,6 @@
 package main.java.atividade04;
 
-import java.time.LocalDate;
+
 import java.time.LocalDateTime;
 
 public abstract class Notificacao implements Notificavel{
@@ -9,7 +9,7 @@ public abstract class Notificacao implements Notificavel{
     private String destinatario;
     private LocalDateTime dataEnvio;
 
-    public Notificacao(String mensagem, String destinatario, LocalDate dataEnvio) {
+    public Notificacao(String mensagem, String destinatario, LocalDateTime dataEnvio) {
         this.mensagem = mensagem;
         this.destinatario = destinatario;
         this.dataEnvio = LocalDateTime.now();
