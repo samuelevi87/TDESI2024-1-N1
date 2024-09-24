@@ -1,5 +1,8 @@
 package main.java.atividade03;
-
+/**
+ * Representa um carro da frota.
+ * Estende a classe Veículo e adiciona funcionalidades específicas para Carro.
+ */
 public class Carro extends Veiculo{
 
     private Integer numeroPortas;

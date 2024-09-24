@@ -1,5 +1,8 @@
 package main.java.atividade03;
-
+/**
+ * Representa um veículo da frota.
+ * Esta classe serve como base para todos os ve[iculos da frota.
+ */
 public abstract class Veiculo {
 
     private String placa;
@@ -10,6 +13,14 @@ public abstract class Veiculo {
 
     private Double quilometragem;
 
+    /**
+     * Constrói uma nova Moto
+     *
+     * @param placa A placa do veículo.
+     * @param modelo O modelo do carro.
+     * @param ano  O ano do carro.
+     * @param quilometragem A quilometragem do veículo
+     */
     public Veiculo(String placa, String modelo, Integer ano, Double quilometragem) {
         this.placa = placa;
         this.modelo = modelo;
@@ -49,6 +60,11 @@ public abstract class Veiculo {
         this.quilometragem = quilometragem;
     }
 
+    /**
+     * Calcula o custo da viagem do veículo.
+     *
+     * @return o valor da viagem.
+     */
     public abstract double calcularCustoViagem(double distancia);
 
     @Override

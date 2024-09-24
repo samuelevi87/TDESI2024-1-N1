@@ -1,5 +1,9 @@
 package main.java.atividade02;
 
+/**
+ * Representa um um item na biblioteca.
+ * Esta classe serve como base para todos os tipos de "Livros"".
+ */
 public abstract class ItemBiblioteca {
 
     private String titulo;
@@ -7,6 +11,13 @@ public abstract class ItemBiblioteca {
     private Integer anoPublicacao;
     private Boolean disponivel;
 
+    /**
+     * Constrói um novo item da biblioteca.
+     * @param titulo título do livro
+     * @param autor nome do autor do livro.
+     * @param anoPublicacao ano de publicação do livro.
+     * @param disponivel determina se o livro está ou não disponível.
+     */
     public ItemBiblioteca(String titulo, String autor, Integer anoPublicacao, Boolean disponivel) {
         this.titulo = titulo;
         this.autor = autor;
@@ -46,6 +57,9 @@ public abstract class ItemBiblioteca {
         this.disponivel = disponivel;
     }
 
+    /**
+     * Determina se o livro pode ou não ser emprestado.
+     */
     public void emprestar() {
         if(this.disponivel){
             this.disponivel = false;
@@ -55,7 +69,9 @@ public abstract class ItemBiblioteca {
         }
     }
 
-
+    /**
+     * Determina se o livro pode ou não ser devolvido.
+     */
     public void devolver() {
         if(!this.disponivel) {
             this.disponivel = true;
@@ -64,6 +80,7 @@ public abstract class ItemBiblioteca {
             System.out.println("O livro não possui empréstimo para ser devolvido.");
         }
     }
+
 
     public boolean isDisponivel(){
         return disponivel;
