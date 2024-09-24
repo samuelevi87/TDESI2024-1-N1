@@ -10,11 +10,11 @@ public class SMSNotificacao extends Notificacao {
 
     @Override
     public String formatarMensagem() {
-        return null;
+        return "SMS para [" + numeroTelefone + "]: ";
     }
 
     @Override
     public void enviarNotificacao() {
-
+        System.out.println(formatarMensagem() + " - " + getDestinatario() + ": " + getMensagem());
     }
 }
