@@ -6,11 +6,13 @@ public abstract class Notificacao implements Notificavel{
     private String mensagem;
     private String destinatario;
     private LocalDateTime dataEnvio;
+    private Boolean enviada;
 
     public Notificacao(String mensagem, String destinatario) {
         this.mensagem = mensagem;
         this.destinatario = destinatario;
         this.dataEnvio = LocalDateTime.now();
+        this.enviada = false;
     }
 
     public String getMensagem() {
@@ -31,6 +33,14 @@ public abstract class Notificacao implements Notificavel{
 
     public LocalDateTime getDataEnvio() {
         return dataEnvio;
+    }
+
+    public Boolean getEnviada() {
+        return enviada;
+    }
+
+    public void setEnviada(Boolean enviada) {
+        this.enviada = enviada;
     }
 
     @Override
