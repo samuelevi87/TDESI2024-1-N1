@@ -1,49 +1,31 @@
 package main.java;
 
+import main.java.atividade01.CorrecaoAnalistaQA;
+import main.java.atividade01.CorrecaoDesenvolvedor;
+import main.java.atividade01.CorrecaoEmpresa;
+import main.java.atividade01.CorrecaoGerente;
+
 public class Main {
-    //FIXME Adicione o método main usando o atalho psvm
     public static void main(String[] args) {
-
-
-        Animal leao = new Leao("Alex", 22);
-        Animal cachorro=new Animal("Amora", 1);
-        Animal elefante =new Elefante("Bolota",3);
-        Animal gato=new Animal("Nina",7);
-        Animal guaxinim = new Animal("maicon",5);
-
-        leao.emitirSom();
-        cachorro.emitirSom();
-        elefante.emitirSom();
-        gato.emitirSom();
-        guaxinim.emitirSom();
-        cachorro.comer();
-
-        Animal[] listaDeAnimais = {
-                new Leao("leo", 12),
-                new Elefante("jorge", 3),
-                new Cachorro("fred", 6),
-                new Gato("nina", 8),
-                new Guaxinim("ladrão", 91)
-        };
-
-        for (Animal animal:listaDeAnimais){
-            if ( animal instanceof Elefante){
-                ((Elefante) animal).usartromba();
-            }
-            if ( animal instanceof Gato){
-                ((Gato) animal).selambendo();
-            }
-            if ( animal instanceof Cachorro){
-                ((Cachorro) animal).brincandoBolinha();
-            }
-            if ( animal instanceof Guaxinim){
-                ((Guaxinim) animal).roubando();
-            }
-            if ( animal instanceof Leao){
-                ((Leao) animal).rugir();
-            }
-
-        }
+        CorrecaoAtividade01();
     }
-    //TODO O conteúdo será desenvolvido durante a aula
+
+    private static void CorrecaoAtividade01() {
+        // Código para testar a atividade 01
+        CorrecaoEmpresa empresa = new CorrecaoEmpresa();
+
+        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Ana Silva", 1, 5000, "Java"));
+        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Carlos Santos", 2, 5500, "Python"));
+        empresa.adicionarFuncionario(new CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
+        empresa.adicionarFuncionario(new CorrecaoGerente("João Pereira", 4, 8500, 12000));
+        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Pedro Costa", 5, 4500, 50));
+        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Lúcia Ferreira", 6, 4800, 60));
+
+        System.out.println("Lista de Funcionários:");
+        empresa.listarFuncionarios();
+
+        System.out.println("\nFolha de Pagamento Total: R$" +
+                String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
+    }
+
 }
