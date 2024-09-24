@@ -8,11 +8,11 @@ public abstract class ItemBiblioteca {
     private boolean disponivel;
 
     /**
-     *
-     * @param titulo
-     * @param disponivel
-     * @param anoPublicacao
-     * @param autor
+     * Constró os atributos do item
+     * @param titulo titulo do item
+     * @param disponivel disponibilidade do item
+     * @param anoPublicacao ano de publicação do item
+     * @param autor autor do item
      */
 
     public ItemBiblioteca(String titulo, boolean disponivel, int anoPublicacao, String autor) {
@@ -55,14 +55,25 @@ public abstract class ItemBiblioteca {
         this.disponivel = disponivel;
     }
 
+    /**
+     * Metodo para emprestar um item
+     */
+
     public void emprestar(){
         this.disponivel = false;
     }
+
+    /**
+     * Metodo para devolver um item
+     */
+
     public void devolver(){
         this.disponivel = true;
     }
 
     public abstract double calcularMulta(int diasAtraso);
+
+
 
     @Override
     public String toString() {
