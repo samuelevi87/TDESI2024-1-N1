@@ -5,31 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d54b61-15fd-45bc-800a-c432e56a0f9b" name="Changes" comment="Criação das classe Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoAnalistaQA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoDesenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoEmpresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoGerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoAudioLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoEbook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoItemBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoLivroFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Caminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Caminhao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Carro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Moto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Moto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
