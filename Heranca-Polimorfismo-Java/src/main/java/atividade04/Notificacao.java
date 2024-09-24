@@ -30,7 +30,7 @@ public abstract class Notificacao implements Notificavel {
         this.destinario = destinario;
     }
 
-    public LocalDate getDataenvio() {
+    public LocalDateTime getDataenvio() {
         return dataenvio;
     }
 
