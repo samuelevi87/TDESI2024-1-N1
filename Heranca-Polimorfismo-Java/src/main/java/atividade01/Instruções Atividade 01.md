@@ -19,12 +19,12 @@ Crie um sistema de gerenciamento de funcionários para uma empresa de tecnologia
 
 4. Para cada subclasse, adicione atributos específicos:
     - `Desenvolvedor`: `linguagemProgramacao` (String)
-    - `Gerente`: `bonus` (double)
+    - `Gerente`: `bonusAnual` (double)
     - `AnalistaQA`: `projetosTestados` (int)
 
 5. Sobrescreva o método `calcularSalario()` em cada subclasse:
     - `Desenvolvedor`: Acrescente 10% ao salário base
-    - `Gerente`: Adicione o bônus ao salário base
+    - `Gerente`: Adicione a parcela do bônus anual ao salário base
     - `AnalistaQA`: Acrescente 5% ao salário base, mais 100 reais por projeto testado
 
 6. Crie uma classe `Empresa` com um array de `Funcionario` e métodos para:
