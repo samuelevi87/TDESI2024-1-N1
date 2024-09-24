@@ -4,15 +4,24 @@ public class SMSNotificacao extends  Notificacao{
     private String numeroTelefone;
     public SMSNotificacao(String mensagem, String destinatario, String numeroTelefone) {
         super(mensagem, destinatario);
+        this.numeroTelefone = numeroTelefone;
+    }
+
+    public String getNumeroTelefone() {
+        return numeroTelefone;
+    }
+
+    public void setNumeroTelefone(String numeroTelefone) {
+        this.numeroTelefone = numeroTelefone;
     }
 
     @Override
     public String formatarMensagem() {
-        return null;
+        return "SMS para " + numeroTelefone;
     }
 
     @Override
     public void enviarNotificacao() {
-
+        System.out.println(formatarMensagem() + " - " + getDestinatario() + ": " + getMensagem());
     }
 }
