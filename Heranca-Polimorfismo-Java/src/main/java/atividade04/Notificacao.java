@@ -38,7 +38,7 @@ public abstract class Notificacao implements Notificavel {
      * @return a mensagem é formatada
      */
     public  abstract String formatarMensagem();
-    
+
     @Override
     public String toString() {
         return "Notificacao{" +
