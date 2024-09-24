@@ -9,9 +9,17 @@ public class LivroFisico extends ItemBiblioteca {
         this.numeroPaginas = numeroPaginas;
     }
 
-    @Override
-    public double calcularMulta(int diasAtraso) {
-        return diasAtraso * 0.50;
+    public Integer getNumeroPaginas() {
+        return numeroPaginas;
     }
 
+    public void setNumeroPaginas(Integer numeroPaginas) {
+        this.numeroPaginas = numeroPaginas;
+    }
+
+    @Override
+    public double calcularMulta(int diasAtraso) {
+
+        return diasAtraso * 0.50;
+    }
 }
