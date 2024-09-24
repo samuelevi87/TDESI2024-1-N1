@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1384b3b8-d8f8-4dba-918d-003df4de08fb" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor, Gerente e AnalistaQA">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
