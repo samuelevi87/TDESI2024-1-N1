@@ -24,7 +24,7 @@ public class Biblioteca {
         return false;
     }
 
-    public boolean devolverItem(String titulo) {
+    public boolean devolverLivro(String titulo) {
         for (ItemBiblioteca item : livros) {
             if (item.getTitulo().equalsIgnoreCase(titulo)) {
                 item.devolver();
@@ -32,16 +32,6 @@ public class Biblioteca {
             }
         }
         return false;
-    }
-
-    public boolean devolverItem(String titulo) {
-        for (ItemBiblioteca item : livros) {
-            if (item.getTitulo().equalsIgnoreCase(titulo)) {
-                item.devolver();
-                return true; // Item devolvido com sucesso
-            }
-        }
-        return false; // Item não encontrado ou já disponível
     }
 
     public double calcularMulta(String titulo, int diasAtraso) {

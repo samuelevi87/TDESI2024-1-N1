@@ -4,10 +4,7 @@ import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
-import main.java.atividade02.CorrecaoAudioLivro;
-import main.java.atividade02.CorrecaoBiblioteca;
-import main.java.atividade02.CorrecaoEbook;
-import main.java.atividade02.CorrecaoLivroFisico;
+import main.java.atividade02.*;
 import main.java.atividade03.CorrecaoCaminhao;
 import main.java.atividade03.CorrecaoCarro;
 import main.java.atividade03.CorrecaoFrota;
@@ -16,8 +13,8 @@ import main.java.atividade03.CorrecaoMoto;
 public class Main {
     public static void main(String[] args) {
         //CorrecaoAtividade01();
-        //CorrecaoAtividade02();
-        CorrecaoAtividade03();
+        CorrecaoAtividade02();
+        //CorrecaoAtividade03();
 
     }
 
@@ -72,6 +69,35 @@ public class Main {
 
         System.out.println("\nDevolvendo 'O Senhor dos Anéis' com 5 dias de atraso:");
         biblioteca.devolverItem("O Senhor dos Anéis");
+        double multa = biblioteca.calcularMulta("O Senhor dos Anéis", 5);
+        System.out.println("Multa a pagar: R$" + String.format("%.2f", multa));
+
+        System.out.println("\nItens disponíveis após devolução:");
+        biblioteca.listarItensDisponiveis();
+    }
+
+    private static void Atividade02(){
+        Biblioteca biblioteca = new Biblioteca();
+
+        biblioteca.adicionarLivro(new LivroFisico("O Senhor dos Anéis", "J.R.R. Tolkien", 1954, true, 1178));
+        biblioteca.adicionarLivro(new Ebook("1984", "George Orwell", 1949, true, 2.5));
+        biblioteca.adicionarLivro(new AudioLivro("Harry Potter e a Pedra Filosofal", "J.K. Rowling", 1997, false, 520));
+
+        System.out.println("Itens disponíveis:");
+        biblioteca.listarItensDisponiveis();
+
+        System.out.println("\nEmprestando 'O Senhor dos Anéis':");
+        if (biblioteca.emprestarLivro("O Senhor dos Anéis")) {
+            System.out.println("Livro emprestado com sucesso.");
+        } else {
+            System.out.println("Não foi possível emprestar o livro.");
+        }
+
+        System.out.println("\nItens disponíveis após empréstimo:");
+        biblioteca.listarItensDisponiveis();
+
+        System.out.println("\nDevolvendo 'O Senhor dos Anéis' com 5 dias de atraso:");
+        biblioteca.devolverLivro("O Senhor dos Anéis");
         double multa = biblioteca.calcularMulta("O Senhor dos Anéis", 5);
         System.out.println("Multa a pagar: R$" + String.format("%.2f", multa));
 
