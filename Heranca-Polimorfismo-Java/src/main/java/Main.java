@@ -4,61 +4,20 @@ import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
+import main.java.atividade02.AudioLivro;
+import main.java.atividade02.Biblioteca;
+import main.java.atividade02.Ebook;
+import main.java.atividade02.LivroFisico;
 
 public class Main {
     public static void main(String[] args) {
-        CorrecaoAtividade01();
+        Atividade02();
     }
 
     private static void CorrecaoAtividade01() {
-        // Código para testar a atividade 01
+         //Código para testar a atividade 01
         CorrecaoEmpresa empresa = new CorrecaoEmpresa();
 
-
-        Animal leao = new Leao("Alex", 22);
-        Animal elefante = new Elefante("Moacir", 4);
-        Animal gato = new Gato("Pedro", 3);
-        Animal guaxinim = new Guaxinim("José", 8);
-        Animal cachorro = new Cachorro("Angel", 2);
-
-        System.out.println("********Animais emitindo sons********");
-        leao.emitirSom();
-        elefante.emitirSom();
-        gato.emitirSom();
-        cachorro.emitirSom();
-        guaxinim.emitirSom();
-        System.out.println("********Animais comendo********");
-        leao.comer();
-        elefante.comer();
-        gato.comer();
-        cachorro.comer();
-        guaxinim.comer();
-        System.out.println("********Animais executando ações********");
-
-        //array para todos os animais
-        Animal[] listaAnimais = {
-                new Leao("Mango", 7),
-                new Elefante("Dumbo", 9),
-                new Gato("Marrie", 3),
-                new Cachorro("Alemão", 3),
-                new Guaxinim("Pedro P.", 4)
-        };
-
-        //
-        for (Animal animal:listaAnimais){
-            if (animal instanceof Leao){
-                ((Leao) animal).rugir();
-            } else if (animal instanceof Elefante) {
-                ((Elefante) animal).usarAtromba();
-            }else if (animal instanceof Gato) {
-                ((Gato) animal).ronronar();
-            }else if (animal instanceof Cachorro) {
-                ((Cachorro) animal).dormir();
-            }else if (animal instanceof Guaxinim) {
-                ((Guaxinim) animal).dancar();
-            }
-        }
-    }
         empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Ana Silva", 1, 5000, "Java"));
         empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Carlos Santos", 2, 5500, "Python"));
         empresa.adicionarFuncionario(new CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
@@ -71,5 +30,19 @@ public class Main {
 
         System.out.println("\nFolha de Pagamento Total: R$" +
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
+    }
+    private static void Atividade02(){
+        Biblioteca biblioteca = new Biblioteca();
+
+        biblioteca.adicionarLivro(new LivroFisico("pequeno prícipe", "joão alfredo", 1997, true, 150));
+        biblioteca.adicionarLivro(new LivroFisico("era uma vez", "datena", 1850, false, 50));
+        biblioteca.adicionarLivro(new AudioLivro("casos criminais", "nora", 2008, true, 79.6));
+        biblioteca.adicionarLivro(new Ebook("livro4", "autor4", 1985,true, 45.5));
+
+        biblioteca.listarItensDisponiveis();
+
+        System.out.println(biblioteca.emprestarLivro("Livro2"));
+        System.out.println(biblioteca.emprestarLivro("Livro2"));
+        System.out.println(biblioteca.devolverItem("Livro2"));
     }
 }

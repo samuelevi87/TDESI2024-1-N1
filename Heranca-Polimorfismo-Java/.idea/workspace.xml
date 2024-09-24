@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dbec687-e500-4561-b26d-5594fcb9c6b5" name="Changes" comment="Implementação de métodos específicos e uso de casting" />
+    <list default="true" id="1dbec687-e500-4561-b26d-5594fcb9c6b5" name="Changes" comment="mergefix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +40,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/stephanie_neuwiem/IdeaProjects/aulaPDA/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+    "last_opened_file_path": "C:/Users/stephanie_neuwiem/IdeaProjects/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,12 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1726533012755</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mergefix">
+      <created>1727128280375</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727128280375</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implementação da classe leao e elefante usando herança" />
     <MESSAGE value="Implementação de métodos específicos e uso de casting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação de métodos específicos e uso de casting" />
+    <MESSAGE value="mergefix" />
+    <option name="LAST_COMMIT_MESSAGE" value="mergefix" />
   </component>
 </project>
