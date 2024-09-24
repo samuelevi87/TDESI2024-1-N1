@@ -1,5 +1,7 @@
 package main.java.atividade02;
 
+import java.time.LocalDate;
+
 /**
  * Representa um item genérico da biblioteca
  * Esta classe serve para todos os tipos de itens
@@ -9,6 +11,7 @@ public abstract class ItemBiblioteca {
     private String autor;
     private Integer anoPublicacao;
     private Boolean disponivel;
+    private LocalDate dataEmprestimo;
 
     /**
      * Constrói um novo item
@@ -21,28 +24,28 @@ public abstract class ItemBiblioteca {
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
         this.disponivel = true;
+        this.dataEmprestimo = null;
     }
 
     /**
-     * Empresta item, definindo seu estado de disponível para falso
+     * Empresta item, definindo seu estado de disponível para falso e setando a data do empréstimo como a data atual
+     * @return true caso o empréstimo for realizado e false caso contrário
      */
-    public void emprestar(){
+    public boolean emprestar(){
         if(disponivel){
-            this.disponivel = false;
-        }else{
-            System.out.println("Item não disponível");
+            disponivel = false;
+            dataEmprestimo = LocalDate.now();
+            return true;
         }
+        return false;
     }
 
     /**
      * Devolve item, definindo seu estado de dispponível para verdadeiro
      */
     public void devolver(){
-        if(!disponivel){
-            disponivel = true;
-        }else{
-            System.out.println("Livro já disponível");
-        }
+        disponivel = true;
+        dataEmprestimo = null;
     }
 
     /**

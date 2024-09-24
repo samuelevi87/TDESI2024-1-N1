@@ -42,28 +42,24 @@ public class Biblioteca {
 
     /**
      * Empresta um item da biblioteca, se encontrado, com base no título fornecido.
-     * Se o item não for encontrado, exibe uma mensagem de erro.
      * @param titulo o título do item a ser emprestado.
+     * @return true caso o empréstimo for realizado e false caso contrário
      */
-    public void emprestarItem(String titulo){
+    public boolean emprestarItem(String titulo){
         ItemBiblioteca itemEncontrado = encontrarPorTitulo(titulo);
-        if(itemEncontrado == null){
-            System.out.println("Item com título '" + titulo + "' não encontrado.");
-        }else{
-            itemEncontrado.emprestar();
+        if(itemEncontrado != null){
+           return itemEncontrado.emprestar();
         }
+        return false;
     }
     /**
      * Devolve um item à biblioteca, se encontrado, com base no título fornecido.
-     * Se o item não for encontrado, exibe uma mensagem de erro.
      * @param titulo o título do item a ser devolvido.
      */
     public void devolverItem(String titulo){
         ItemBiblioteca itemEncontrado = encontrarPorTitulo(titulo);
-        if(itemEncontrado == null){
-            System.out.println("Item com título '" + titulo + "' não encontrado.");
-        }else{
-            itemEncontrado.emprestar();
+        if(itemEncontrado != null){
+            itemEncontrado.devolver();
         }
     }
     /**
@@ -74,16 +70,15 @@ public class Biblioteca {
      */
     public Double calcularMulta(String titulo, int diasAtrasados){
         ItemBiblioteca itemEncontrado = encontrarPorTitulo(titulo);
-        if (itemEncontrado == null) {
-            System.out.println("Item com título '" + titulo + "' não encontrado.");
-            return 0.0;
+        if (itemEncontrado != null) {
+            return itemEncontrado.calcularMulta(diasAtrasados);
         }
-        return itemEncontrado.calcularMulta(diasAtrasados);
+        return 0.0;
     }
     /**
-     * Lista todos os itens da biblioteca
+     * Lista todos os itens disponiveis da biblioteca
      */
     public void listarItens(){
-        itensBiblioteca.forEach(System.out::println);
+        itensBiblioteca.stream().filter(ItemBiblioteca::isDisponivel).forEach(System.out::println);
     }
 }
