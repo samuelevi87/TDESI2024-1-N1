@@ -24,6 +24,7 @@ public class Main {
         frota.removerVeiculo("uvwx456");
 
         System.out.println("\n******* LISTA DE VEÍCULOS *******");
+
         frota.listarVeiculos();
         System.out.println("- Custo total de viagem: R$" + frota.calcularCustoViagem(100.0));
     }
