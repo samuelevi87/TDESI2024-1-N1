@@ -10,8 +10,15 @@ public abstract class PushNotificacao extends Notificacao {
 
     @Override
     public void enviarNotificacao() {
-
+        System.out.println(formatarMensagem()+
+                "\nDestino: "+ getDestinatario()+
+                "\n Data de envio: "+ getDataEnvio());
     }
+    @Override
+    public String formatarMensagem(){
+        return  "Push para "+ dispositivo +"-"+ getMensagem();
+    }
+
 
 
 }

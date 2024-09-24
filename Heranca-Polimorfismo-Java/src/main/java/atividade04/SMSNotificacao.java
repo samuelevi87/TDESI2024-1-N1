@@ -9,12 +9,13 @@ public abstract class SMSNotificacao extends Notificacao{
     }
 
     @Override
-    public String formatarMensagem() {
-        return null;
-    }
-
-    @Override
     public void enviarNotificacao() {
-
+        System.out.println(formatarMensagem()+
+                "\nDestino: "+ getDestinatario()+
+                "\n Data de envio: "+ getDataEnvio());
+    }
+    @Override
+    public String formatarMensagem() {
+        return "SMS para "+ numeroTelefone + "-" + getMensagem();
     }
 }

@@ -11,11 +11,13 @@ public abstract class EmailNotificacao  extends Notificacao{
 
     @Override
     public void enviarNotificacao() {
-
+        System.out.println(formatarMensagem()+
+                "\nDestino: "+ getDestinatario()+
+                "\n Data de envio: "+ getDataEnvio());
     }
     @Override
     public String formatarMensagem(){
 
-        return null;
+        return "E-Mail: "+ assunto +" - "+ getMensagem();
     }
 }
