@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d54b61-15fd-45bc-800a-c432e56a0f9b" name="Changes" comment="Criação das classe Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciarNotificacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Boleto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CartaoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/FormaPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Pagavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/ProcessarPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/TransferenciaBancaria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
