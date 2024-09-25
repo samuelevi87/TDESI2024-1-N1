@@ -1,28 +1,37 @@
 package main.java;
 
 import main.java.atividade03.*;
+import main.java.atividade04.*;
+
+import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
 
-        Frota frota1 = new Frota();
+        GerenciadorNotificacoes gerenciadorNotificacoes1 = new GerenciadorNotificacoes();
 
-        Caminhao caminhao1 = new Caminhao("MKT-2342", "ACTROSS", 2019, 300000.00, 44);
-        Caminhao caminhao2 = new Caminhao("MKH-2454", "CONSTALLATION", 2009, 900000.00, 35);
-        Carro carro1 = new Carro("KMT-3294", "CELTA", 2012, 132000.00, 5);
-        Carro carro2 = new Carro("KSR-3564", "GOL", 2002, 250000.00, 3);
-        Moto moto1 = new Moto("MKT-4444", "Titan", 2024, 15000.00);
-        Moto moto2 = new Moto("MKT-3053", "Xj6", 2018, 30000.00);
+        EmailNotificacao emailNotificacao1 = new EmailNotificacao("Mensagem por email", "Pedro", LocalDateTime.now(), "SObre a mensagem 1");
+        EmailNotificacao emailNotificacao2 = new EmailNotificacao("Mensagem por email teste 2", "Arthur", LocalDateTime.now(), "SObre a mensagem 2");
 
-        frota1.adicionarVeiculo(caminhao1);
-        frota1.adicionarVeiculo(caminhao2);
-        frota1.adicionarVeiculo(carro1);
-        frota1.adicionarVeiculo(carro2);
-        frota1.adicionarVeiculo(moto1);
-        frota1.adicionarVeiculo(moto2);
+        gerenciadorNotificacoes1.adicionarNotificacao(emailNotificacao1);
+        gerenciadorNotificacoes1.adicionarNotificacao(emailNotificacao2);
 
-        frota1.removerVeiculo(caminhao1);
+        SMSNotificacao smsNotificacao1 = new SMSNotificacao("SMS Msg 1", "Maria", LocalDateTime.now(), "+5547995832292");
+        SMSNotificacao smsNotificacao2 = new SMSNotificacao("SMS Msg 2", "Vitórid", LocalDateTime.now(), "+446722742293");
 
-        System.out.println("O CUSTO DE VIAGEM DA FROTA INTEIRA: " + frota1.custoTotalViagemFrota(1000));
+        gerenciadorNotificacoes1.adicionarNotificacao(smsNotificacao1);
+        gerenciadorNotificacoes1.adicionarNotificacao(smsNotificacao2);
+
+        PushNotificacao pushNotificacao1 = new PushNotificacao("Push MSGG1", "Não sei", LocalDateTime.now(), "IPHONE17");
+        PushNotificacao pushNotificacao2 = new PushNotificacao("Push MSGI89", "Não sei Denovo", LocalDateTime.now(), "IPHONE-11");
+
+        gerenciadorNotificacoes1.adicionarNotificacao(pushNotificacao1);
+        gerenciadorNotificacoes1.adicionarNotificacao(pushNotificacao2);
+
+        System.out.println("\n" + "Enviando notificações pendentes...");
+        gerenciadorNotificacoes1.enviarNotificacoesPendentes();
+
+        System.out.println("\n" + "Notificações enviadas:");
+        gerenciadorNotificacoes1.listarNotificacoesEnviadas();
     }
 }

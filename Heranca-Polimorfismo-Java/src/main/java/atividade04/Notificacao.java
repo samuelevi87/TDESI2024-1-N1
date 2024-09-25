@@ -4,7 +4,7 @@ import java.time.LocalDateTime;
 
 public  abstract class Notificacao  implements  Notificavel{
 
-    private  String  mensagem;
+    protected  String  mensagem;
     private String destinatario;
     private LocalDateTime dataEnvio;
 
