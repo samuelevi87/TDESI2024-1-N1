@@ -80,19 +80,6 @@ public class Main {
         medirTempo(() -> gerenciador.listarTarefasOrdenadasPorPrioridadeSimples().forEach(System.out::println));
     }
 
-    /**
-     * Mede o tempo de execução de uma operação.
-     *
-     * @param runnable A operação a ser executada e medida.
-     */
-    private static void medirTempo(Runnable runnable) {
-        long inicio = System.nanoTime();
-        runnable.run();
-        long fim = System.nanoTime();
-        long duracaoNanos = fim - inicio;
-        System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
-    }
-
     private static void CorrecaoAtividade05() {
         CorrecaoProcessadorPagamento processador = new CorrecaoProcessadorPagamento();
 
@@ -216,5 +203,18 @@ public class Main {
 
         System.out.println("\nFolha de Pagamento Total: R$" +
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
+    }
+
+    /**
+     * Mede o tempo de execução de uma operação.
+     *
+     * @param runnable A operação a ser executada e medida.
+     */
+    private static void medirTempo(Runnable runnable) {
+        long inicio = System.nanoTime();
+        runnable.run();
+        long fim = System.nanoTime();
+        long duracaoNanos = fim - inicio;
+        System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
     }
 }
