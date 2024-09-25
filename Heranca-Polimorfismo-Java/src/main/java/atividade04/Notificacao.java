@@ -2,7 +2,7 @@ package main.java.atividade04;
 
 import java.time.LocalDateTime;
 
-public class Notificacao implements Notificavel {
+public abstract class Notificacao implements Notificavel {
         private String mensagem;
         private String destinatario;
         private LocalDateTime dataEnvio;
