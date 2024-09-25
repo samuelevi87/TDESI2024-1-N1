@@ -1,16 +1,15 @@
 package main.java.atividade04;
 
-import java.time.LocalDateTime;
-
 public class SMSNotificacao extends Notificação {
     private String numeroTelefone;
 
-    public SMSNotificacao(String mensagem, String destinatario, LocalDateTime dataEnvio) {
-        super(mensagem, destinatario, dataEnvio);
+    public SMSNotificacao(String mensagem, String destinatario, String numeroTelefone) {
+        super(mensagem, destinatario);
+        this.numeroTelefone = numeroTelefone;
     }
 
     @Override
-    public String FromaTarMensagem() {
+    public String formatarMensagem() {
         return null;
     }
 

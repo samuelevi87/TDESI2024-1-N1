@@ -1,17 +1,15 @@
 package main.java.atividade04;
 
-
-import java.time.LocalDate;
-
 public class EmailNotificacao extends Notificação {
     private String assunto;
 
-    public EmailNotificacao(String mensagem, String destinatario, LocalDate dataEnvio) {
-        super(mensagem, destinatario, dataEnvio);
+    public EmailNotificacao(String mensagem, String destinatario, String assunto) {
+        super(mensagem, destinatario);
+        this.assunto = assunto;
     }
 
     @Override
-    public String FromaTarMensagem() {
+    public String formatarMensagem() {
         return null;
     }
 

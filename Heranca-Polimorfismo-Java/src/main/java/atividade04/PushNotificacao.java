@@ -1,16 +1,14 @@
 package main.java.atividade04;
 
-import java.time.LocalDateTime;
-
 public class PushNotificacao extends Notificação{
     private String dispositivo;
 
-    public PushNotificacao(String mensagem, String destinatario, LocalDateTime dataEnvio) {
-        super(mensagem, destinatario, dataEnvio);
+    public PushNotificacao(String mensagem, String destinatario, String dispositivo) {
+        super(mensagem, destinatario);
+        this.dispositivo = dispositivo;
     }
-
     @Override
-    public String FromaTarMensagem() {
+    public String formatarMensagem() {
         return null;
     }
 

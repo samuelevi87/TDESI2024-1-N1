@@ -1,7 +1,7 @@
 package main.java.atividade04;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 public abstract class Notificação
     implements Notificavel{
@@ -10,8 +10,7 @@ public abstract class Notificação
     private String destinatario;
     private LocalDateTime dataEnvio;
 
-    public Notificação(String
-       mensagem, String destinatario, LocalDateTime dataEnvio) {
+    public Notificação(String mensagem, String destinatario) {
         this.mensagem = mensagem;
         this.destinatario = destinatario;
         this.dataEnvio = LocalDateTime.now();
@@ -29,18 +28,5 @@ public abstract class Notificação
         return dataEnvio;
     }
 
-    /**
-     * Fromata a mensagem da Notificação
-     * @return a mensagem formatada
-     */
-    public abstract String FromaTarMensagem();
-
-    @Override
-    public String toString() {
-        return "Notificação{" +
-                "mensagem='" + mensagem + '\'' +
-                ", destinatario='" + destinatario + '\'' +
-                ", dataEnvio=" + dataEnvio +
-                '}';
-    }
+    public abstract String formatarMensagem();
 }
