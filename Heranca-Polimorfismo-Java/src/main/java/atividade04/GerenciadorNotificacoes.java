@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GerenciadorNotificacoes {
+
     private List<Notificacao> notificacoes = new ArrayList<>();
 
     public void adicionarNotificacao(Notificacao notificacao) {
@@ -21,4 +22,9 @@ public class GerenciadorNotificacoes {
             System.out.println(notificacao.formatarMensagem());
         }
     }
+
+    public void enviarNotificacoes() {
+    }
+
+
 }

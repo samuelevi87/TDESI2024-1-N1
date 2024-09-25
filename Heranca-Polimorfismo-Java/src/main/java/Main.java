@@ -4,10 +4,13 @@ import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
+import main.java.atividade04.*;
+import org.w3c.dom.ls.LSOutput;
 
 public class Main {
     public static void main(String[] args) {
-        CorrecaoAtividade01();
+       CorrecaoAtividade01();
+        atividade04();
     }
 
     private static void CorrecaoAtividade01() {
@@ -26,6 +29,28 @@ public class Main {
 
         System.out.println("\nFolha de Pagamento Total: R$" +
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
+    }
+
+
+
+    public static void atividade04 () {
+
+        GerenciadorNotificacoes gerenciador = new GerenciadorNotificacoes();
+
+        // Adicionando notificações
+        gerenciador.adicionarNotificacao(new EmailNotificacao("Olá, você tem um novo e-mail!", "usuario@example.com", "Nova Mensagem"));
+        gerenciador.adicionarNotificacao(new EmailNotificacao("Promoção!", "usuario@example.com", "Desconto Especial "));
+
+        gerenciador.adicionarNotificacao(new SMSNotificacao(" Seu código de verificação é 123456.", "destino", "999999999"));
+        gerenciador.adicionarNotificacao(new SMSNotificacao("Lembre-se da sua consulta amanhã!", "destino", "888888888 "));
+
+        gerenciador.adicionarNotificacao(new PushNotificacao(" Você recebeu uma nova mensagem!", "usuario@example.com", "Dispositivo1"));
+        gerenciador.adicionarNotificacao(new PushNotificacao("Atualização disponível!", "usuario@example.com", "Dispositivo2"));
+
+
+        System.out.println("\n Lista de Notificacoes:");
+        gerenciador.enviarNotificacoes();
+        gerenciador.listarNotificacoes();
     }
 
 }

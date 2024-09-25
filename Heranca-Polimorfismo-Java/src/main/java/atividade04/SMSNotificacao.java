@@ -1,6 +1,6 @@
 package main.java.atividade04;
 
-public abstract class SMSNotificacao extends Notificacao{
+public class SMSNotificacao extends Notificacao{
     private String numeroTelefone;
 
     public SMSNotificacao(String mensagem, String destinatario, String numeroTelefone) {
