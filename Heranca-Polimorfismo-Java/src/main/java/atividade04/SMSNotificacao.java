@@ -12,12 +12,12 @@ public class SMSNotificacao extends Notificacao{
 
     @Override
     public String formatarMensagem() {
-        return "SMS para  " + numeroTelefone + "-" + getDestinatario();
+        return "SMS para  " + numeroTelefone + " - " + getDestinatario() + ": ";
     }
 
     @Override
     public void enviarNotificacao() {
-        System.out.println(formatarMensagem() + getMensagem() );
+        System.out.println(formatarMensagem() + getMensagem());
     }
 
 

@@ -2,7 +2,9 @@ package main.java.atividade04;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-
+/**
+ * Cria a mensagem com dados de destinatário e data de envio.
+ */
 public abstract class Notificacao implements Notificavel {
 
     private String mensagem;
@@ -10,7 +12,9 @@ public abstract class Notificacao implements Notificavel {
     private String destinatario;
 
     private LocalDateTime dataEnvio;
-
+    /**
+     * Constrói uma nova notificação.
+     */
     public Notificacao(String mensagem, String destinatario) {
         this.mensagem = mensagem;
         this.destinatario = destinatario;
