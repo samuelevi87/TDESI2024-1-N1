@@ -15,6 +15,6 @@ public class SMSNotificacao extends Notificacao {
 
     @Override
     public void enviarNotificacao() {
-        System.out.println(formatarMensagem() + " - " + getDestinatario() + ": " + getMensagem());
+        System.out.println(formatarMensagem() + getDestinatario() + ": " + getMensagem());
     }
 }

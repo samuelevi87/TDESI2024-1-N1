@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf82566-6ddf-44d8-8b52-839fb96321b8" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor e Gerente, na atividade 1.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
     </list>
@@ -46,16 +49,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "tainaMartins",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/taina_e_martins/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;tainaMartins&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/taina_e_martins/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
