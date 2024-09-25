@@ -12,13 +12,39 @@ import main.java.atividade03.CorrecaoCaminhao;
 import main.java.atividade03.CorrecaoCarro;
 import main.java.atividade03.CorrecaoFrota;
 import main.java.atividade03.CorrecaoMoto;
+import main.java.atividade04.CorrecaoEmailNotificacao;
+import main.java.atividade04.CorrecaoGerenciadorNotificacoes;
+import main.java.atividade04.CorrecaoPushNotificacao;
+import main.java.atividade04.CorrecaoSMSNotificacao;
 
 public class Main {
     public static void main(String[] args) {
         //CorrecaoAtividade01();
         //CorrecaoAtividade02();
-        CorrecaoAtividade03();
+//        CorrecaoAtividade03();
+        CorrecaoAtividade04();
 
+    }
+
+    private static void CorrecaoAtividade04() {
+        // Código para testar a atividade 04
+        CorrecaoGerenciadorNotificacoes gerenciador = new CorrecaoGerenciadorNotificacoes();
+
+        gerenciador.adicionarNotificacao(new CorrecaoEmailNotificacao("Oferta especial!", "usuario@email.com", "Promoção"));
+        gerenciador.adicionarNotificacao(new CorrecaoSMSNotificacao("Seu código de verificação é 123456", "João", "123456789"));
+        gerenciador.adicionarNotificacao(new CorrecaoPushNotificacao("Nova mensagem recebida", "Maria", "device_id_123"));
+
+        System.out.println("Enviando todas as notificações:");
+        gerenciador.enviarTodasNotificacoes();
+
+        System.out.println("\nLista de notificações enviadas:");
+        gerenciador.listarNotificacoesEnviadas().forEach(System.out::println);
+
+        System.out.println("\nEnviando notificações (versão simples):");
+        gerenciador.enviarTodasNotificacoesSimples();
+
+        System.out.println("\nLista de notificações enviadas (versão simples):");
+        gerenciador.listarNotificacoesEnviadasSimples().forEach(System.out::println);
     }
 
     private static void CorrecaoAtividade03() {
