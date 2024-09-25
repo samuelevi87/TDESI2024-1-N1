@@ -1,6 +1,6 @@
 package main.java.atividade03;
 
-public class Veiculo {
+public abstract class Veiculo {
     private String placa;
     private String modelo;
     private int ano;

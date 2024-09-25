@@ -18,23 +18,13 @@ public abstract class Notificacao implements Notificavel {
         return mensagem;
     }
 
-    public void setMensagem(String mensagem) {
-        this.mensagem = mensagem;
-    }
-
     public String getDestinatario() {
         return destinatario;
     }
 
-    public void setDestinatario(String destinatario) {
-        this.destinatario = destinatario;
-    }
-
-    public LocalDate getDataEnvio() {
+    public LocalDateTime getDataEnvio() {
         return dataEnvio;
     }
 
-    public void setDataEnvio(LocalDate dataEnvio) {
-        this.dataEnvio = dataEnvio;
-    }
+    public abstract String formatarMensagem();
 }

@@ -12,13 +12,29 @@ import main.java.atividade03.CorrecaoCaminhao;
 import main.java.atividade03.CorrecaoCarro;
 import main.java.atividade03.CorrecaoFrota;
 import main.java.atividade03.CorrecaoMoto;
+import main.java.atividade04.EmailNotificacao;
+import main.java.atividade04.GerenciadorNotificacoes;
+import main.java.atividade04.PushNotificacao;
+import main.java.atividade04.SMSNotificacao;
 
 public class Main {
     public static void main(String[] args) {
         //CorrecaoAtividade01();
         //CorrecaoAtividade02();
-        CorrecaoAtividade03();
+        Atividade04();
 
+    }
+
+    private static void Atividade04(){
+        GerenciadorNotificacoes gerenciador = new GerenciadorNotificacoes();
+
+        gerenciador.adicionarNotificacao(new EmailNotificacao("Oferta especial!", "usuario@email.com", "Promoção"));
+        gerenciador.adicionarNotificacao(new SMSNotificacao("Seu código de verificação é 123456", "João", "123456789"));
+        gerenciador.adicionarNotificacao(new PushNotificacao("Nova mensagem recebida", "Maria", "device_id_123"));
+
+        gerenciador.enviarNotificacao();
+
+        gerenciador.listarNotificacoesEnviadas();
     }
 
     private static void CorrecaoAtividade03() {
