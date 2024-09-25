@@ -4,6 +4,9 @@ import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
+import main.java.atividade04.EmailNotificacao;
+import main.java.atividade04.PushNotificacao;
+import main.java.atividade04.SMSNotificacao;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,3 +31,29 @@ public class Main {
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
     }
 }
+public class Main {
+    public static void main(String[] args) {
+        // Criar uma instância do Gerenciador de Notificações
+        GerenciadorNotificacoes gerenciador;
+        gerenciador = new GerenciadorNotificacoes();
+
+        // Adicionando notificações do tip EmailNotificacao
+        gerenciador.notifyAll(new EmailNotificacao("Seu relatório está pronto.", "usuario1@example.com", "Relatório Mensal"));
+        gerenciador.notifyAll(new EmailNotificacao("Lembrete: Reunião às 10h.", "usuario2@example.com", "Reunião Importante"));
+
+        // Adicionando notificações do tipo SMSNotificacao
+        gerenciador.notifyAll(new SMSNotificacao("Seu código de verificação é 123456.", "usuario1@example.com", "999999999"));
+        gerenciador.notifyAll(new SMSNotificacao("Seu pedido foi enviado!", "usuario3@example.com", "888888888"));
+
+        // Adicionando notificações do tipo PushNotificacao
+        gerenciador.notifyAll(new PushNotificacao("Você tem uma nova mensagem.", "usuario2@example.com", "dispositivo1"));
+        gerenciador.notifyAll(new PushNotificacao("Atualização disponível.", "usuario1@example.com", "dispositivo2"));
+
+        // Enviar todas as notificações pendentes
+        gerenciador.notifyAll();
+
+        // Listar todas as notificações enviadas
+        gerenciador.notifyAll();
+    }
+}
+

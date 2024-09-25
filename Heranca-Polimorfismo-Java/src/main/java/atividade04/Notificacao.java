@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 public abstract class Notificacao implements Notificavel{
     private String mensagem;
     private String destinatario;
-    private LocalDateTime dataEnvio
+    private LocalDateTime dataEnvio;
 
     public Notificacao(String mensagem, String destinatario, LocalDateTime dataEnvio) {
         this.mensagem = mensagem;

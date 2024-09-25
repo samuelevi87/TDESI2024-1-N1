@@ -2,12 +2,12 @@ package main.java.atividade04;
 
 import java.time.LocalDateTime;
 
-public class EmailNotificacao extends Notificacao {
-    private String assunto;
+public  class PushNotificacao extends Notificacao {
+    private  String dispositivo;
 
-    public EmailNotificacao(String mensagem, String destinatario, LocalDateTime dataEnvio, String assunto) {
+    public PushNotificacao(String mensagem, String destinatario, LocalDateTime dataEnvio, String dispositivo) {
         super(mensagem, destinatario, dataEnvio);
-        this.assunto = assunto;
+        this.dispositivo = dispositivo;
     }
 
     @Override
@@ -17,8 +17,8 @@ public class EmailNotificacao extends Notificacao {
 
     @Override
     public String toString() {
-        return "EmailNotificacao{" +
-                "assunto='" + assunto + '\'' +
+        return "PushNotificacao{" +
+                "dispositivo='" + dispositivo + '\'' +
                 '}';
     }
 

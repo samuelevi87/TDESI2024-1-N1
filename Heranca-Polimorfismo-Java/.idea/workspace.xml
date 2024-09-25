@@ -5,70 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f1fdc29-88e7-4143-81b8-79873ab9de98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heranca-Polimorfismo-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoAnalistaQA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoDesenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoEmpresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoGerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoAudioLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoEbook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoItemBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoLivroFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio01/CorrecaoPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio02/CorrecaoContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio03/CorrecaoProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio04/CorrecaoLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio05/CorrecaoCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio06/CorrecaoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio06/InstruçõesExercicio06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio07/CorrecaoPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio07/InstruçõesExercicio07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio08/CorrecaoFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio08/InstruçõesExercicio08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio09/CorrecaoProdutoIndustrial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio09/InstruçõesExercicio09.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio10/CorrecaoContrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio10/InstruçõesExercicio10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio11/CorrecaoFornecedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio11/InstruçõesExercicio11.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio12/CorrecaoMaquina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio12/InstruçõesExercicio12.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio13/CorrecaoVeiculoEmpresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio13/InstruçõesExercicio13.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio14/CorrecaoProjeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio14/InstruçõesExercicio14.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/InstruçõesExercicio15.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POOExercicios01/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POOExercicios01/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GerenciadorNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/Notificavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,12 +39,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
+      <module name="Heranca-Polimorfismo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
