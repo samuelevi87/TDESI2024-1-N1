@@ -48,4 +48,15 @@ public abstract class Notificacao implements Notificavel {
                 ", dataEnvio=" + dataEnvio +
                 '}';
     }
+
+     public class Emailnotificação{
+        private String assunto;
+     }
+     public class SMSNotificacao{
+        private String numeroTelefone;
+     }
+     public class PushNotificacao{
+        private String dispositivo;
+     }
+
 }

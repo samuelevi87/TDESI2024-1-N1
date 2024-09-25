@@ -4,99 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3987b2a9-26b9-44f9-b87a-212489357648" name="Changes" comment="Commit exemplo professor">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Heranca-Polimorfismo-Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoAnalistaQA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoDesenvolvedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoEmpresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoGerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/Instruções Atividade 01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Instruções Atividade 02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Instruções Atividade 03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Instruções Atividade 04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Instruções Atividade 05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Instruções Atividade 06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Instruções Atividade 07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Instruções Atividade 08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Instruções Atividade 09.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/Instruções Atividade 10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/bin/Exercicio01/InstruçõesExercicio01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/bin/Exercicio02/InstruçõesExercicio02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/bin/Exercicio03/InstruçõesExercicio03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/bin/Exercicio04/InstruçõesExercicio04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/bin/Exercicio05/InstruçõesExercicio05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio01/CorrecaoPessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio01/InstruçõesExercicio01.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio02/CorrecaoContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio02/InstruçõesExercicio02.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio03/CorrecaoProduto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio03/InstruçõesExercicio03.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio04/CorrecaoLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio04/InstruçõesExercicio04.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio05/CorrecaoCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio05/InstruçõesExercicio05.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio06/CorrecaoCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio06/InstruçõesExercicio06.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio07/CorrecaoPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio07/InstruçõesExercicio07.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio08/CorrecaoFuncionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio08/InstruçõesExercicio08.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio09/CorrecaoProdutoIndustrial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio09/InstruçõesExercicio09.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio10/CorrecaoContrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio10/InstruçõesExercicio10.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio11/CorrecaoFornecedor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio11/InstruçõesExercicio11.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio12/CorrecaoMaquina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio12/InstruçõesExercicio12.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio13/CorrecaoVeiculoEmpresa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio13/InstruçõesExercicio13.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio14/CorrecaoProjeto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio14/InstruçõesExercicio14.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/CorrecaoSeguro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Exercicio15/InstruçõesExercicio15.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/ExerciciosPOO01/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../POOExercicios01/POOExercicios01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/RevCondicionais.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/src/ExRevisaoCondicional/2024-08-05-Instruções-Exercícios-Condicionais.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/src/ExRevisaoCondicional/ModeloExerciciosCondicionais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevCondicionais/src/JogoDecidaOCaminho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/RevRepeticao.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/src/ExRevRepeticao/2024-08-05-Instruções-Exercícios-EstruturasRepetição.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/src/ExRevRepeticao/ModeloExerciciosEstruturaRepeticao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RevRepeticao/src/JogoAventuraLoops.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="3987b2a9-26b9-44f9-b87a-212489357648" name="Changes" comment="Commit feito sozinho na primeira parte da aula" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,10 +45,19 @@
       <option name="presentableId" value="Default" />
       <updated>1727128245646</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit feito sozinho na primeira parte da aula">
+      <created>1727305009430</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727305009430</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit exemplo professor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit exemplo professor" />
+    <MESSAGE value="Commit feito sozinho na primeira parte da aula" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit feito sozinho na primeira parte da aula" />
   </component>
 </project>
