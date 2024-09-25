@@ -47,7 +47,7 @@ public class Biblioteca {
     public void listarItensDisponiveis() {
         for (ItemBiblioteca item : itensBiblioteca) {
             if (item.isDisponivel()) {
-                System.out.println(item.toString());
+                System.out.println(item);
             }
         }
     }

@@ -1,31 +1,36 @@
 package main.java;
 
-import main.java.atividade03.Caminhao;
-import main.java.atividade03.Carro;
-import main.java.atividade03.Frota;
-import main.java.atividade03.Moto;
+import main.java.atividade04.EmailNotificacao;
+import main.java.atividade04.GerenciadorNotificacoes;
+import main.java.atividade04.PushNotificacao;
+import main.java.atividade04.SMSNotificacao;
+
+import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
-        Frota frota1 = new Frota();
 
-        Carro carro1 = new Carro("123abc", "uno", 2011, 180000, 4);
-        Carro carro2 = new Carro("435avc", "palio", 2020, 25000, 4);
-        Caminhao caminhao1 = new Caminhao("asdasd", "Scania", 550, 11111, 2);
-        Caminhao caminhao2 = new Caminhao("aaaa", "11Triste", 1000, 80000000, 2);
-        Moto moto1 = new Moto("Man1903", "cg99", 1999, 50000, 150);
-        Moto moto2 = new Moto("socorro", "hornet", 2015, 70000, 3000);
+        GerenciadorNotificacoes gerenciadorNotificacoes1 = new GerenciadorNotificacoes();
 
-        moto1.calcularCustoViagem(400);
-        moto2.calcularCustoViagem(100);
+        EmailNotificacao emailNotificacao1 = new EmailNotificacao("Reunião às 10h", "email@exemplo.com", LocalDateTime.now(), "aaaa");
+        EmailNotificacao emailNotificacao2 = new EmailNotificacao("Novo projeto disponível", "email@exemplo.com", LocalDateTime.now(), "bbbb");
 
-        frota1.addFrotaVeiculos(moto1);
-        frota1.addFrotaVeiculos(caminhao1);
-        frota1.addFrotaVeiculos(carro1);
+        SMSNotificacao smsNotificacao1 = new SMSNotificacao("Lembrete de pagamento", "usuario@exemplo.com", LocalDateTime.now(), 999);
+        SMSNotificacao smsNotificacao2 = new SMSNotificacao("Promoção especial!", "usuario@exemplo.com", LocalDateTime.now(), 666);
 
-        frota1.remFrotaVeiculos(carro1);
+        PushNotificacao pushNotificacao1 = new PushNotificacao("Novo alerta!", "usuario@exemplo.com", LocalDateTime.now(), "Celular");
+        PushNotificacao pushNotificacao2 = new PushNotificacao("Atualização disponível!", "usuario@exemplo.com", LocalDateTime.now(), "PC");
 
-        frota1.calcularCustoTotalViagem(100000);
+        gerenciadorNotificacoes1.addNotificacoes(smsNotificacao1);
+        gerenciadorNotificacoes1.addNotificacoes(smsNotificacao2);
+        gerenciadorNotificacoes1.addNotificacoes(emailNotificacao1);
+        gerenciadorNotificacoes1.addNotificacoes(pushNotificacao2);
+
+        gerenciadorNotificacoes1.listarNotificacoes();
+
+        gerenciadorNotificacoes1.enviarNotificacoes();
+
+        gerenciadorNotificacoes1.listarNotificacoes();
 
     }
 
