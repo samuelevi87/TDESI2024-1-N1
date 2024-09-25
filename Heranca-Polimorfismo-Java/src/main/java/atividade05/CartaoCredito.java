@@ -12,9 +12,17 @@ public class CartaoCredito extends FormPagamento{
     }
 
     @Override
-    public Double calcularTaxa(double valor) {
-        return 5 + (valor*1.2);
+    public Double calcularTaxa(Double valor) {
+        return getTaxaTransacao() + (valor*1.2);
     }
 
+    @Override
+    public void processarPagamento(Double valor) {
+        System.out.println("Cartão de Credito\nPagamento informado foi: "+valor+"\nPagamento a pagar com taxas: "+calcularTaxa(valor));
+    }
 
+    @Override
+    public void estornarPagamento(Double valor) {
+        System.out.println("Cartão de Credito\nEstorno informado foi: "+valor+"\nEstorno a pagar com taxas: "+calcularTaxa(valor));
+    }
 }

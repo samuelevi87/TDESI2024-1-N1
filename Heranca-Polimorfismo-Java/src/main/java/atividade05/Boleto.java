@@ -9,7 +9,17 @@ public class Boleto extends FormPagamento{
     }
 
     @Override
-    public Double calcularTaxa(double valor) {
-        return 8 + valor;
+    public Double calcularTaxa(Double valor) {
+        return getTaxaTransacao() + valor;
+    }
+
+    @Override
+    public void processarPagamento(Double valor) {
+        System.out.println("Boleto\nPagamento informado foi: "+valor+"\nPagamento a pagar com taxas: "+calcularTaxa(valor));
+    }
+
+    @Override
+    public void estornarPagamento(Double valor) {
+        System.out.println("Boleto\nPagamento informado foi: "+valor+"\nPagamento a pagar com taxas: "+calcularTaxa(valor));
     }
 }

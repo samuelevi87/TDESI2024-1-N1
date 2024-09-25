@@ -13,7 +13,17 @@ public class TransferenciaBancaria extends FormPagamento{
     }
 
     @Override
-    public Double calcularTaxa(double valor) {
-        return 10 + (valor*1.1);
+    public Double calcularTaxa(Double valor) {
+        return getTaxaTransacao() + (valor*1.1);
+    }
+
+    @Override
+    public void processarPagamento(Double valor) {
+        System.out.println("Transferencia Bancaria\nPagamento informado foi: "+valor+"\nPagamento a pagar com taxas: "+calcularTaxa(valor));
+    }
+
+    @Override
+    public void estornarPagamento(Double valor) {
+        System.out.println("Transferencia Bancaria\nEstorno informado foi: "+valor+"\nEstorno a pagar com taxas: "+calcularTaxa(valor));
     }
 }

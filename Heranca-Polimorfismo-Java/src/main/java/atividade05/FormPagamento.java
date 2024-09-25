@@ -17,7 +17,7 @@ public abstract class FormPagamento implements Pagavel {
         return taxaTransacao;
     }
 
-    public abstract Double calcularTaxa(double valor);
+    public abstract Double calcularTaxa(Double valor);
 
 
     @Override

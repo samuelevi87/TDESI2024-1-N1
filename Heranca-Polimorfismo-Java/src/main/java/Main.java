@@ -1,6 +1,9 @@
 package main.java;
 
 import main.java.atividade04.*;
+import main.java.atividade05.CartaoCredito;
+import main.java.atividade05.ProcessadorPagamento;
+import main.java.atividade05.TransferenciaBancaria;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,7 +28,7 @@ public class Main {
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
 
       */
-        GerenciadorNotificacoes notificacoes = new GerenciadorNotificacoes();
+        /*GerenciadorNotificacoes notificacoes = new GerenciadorNotificacoes();
 
         notificacoes.adicionarNotificacao(new EmailNotificacao("Estou com Saudade","Matheus","Saudades"));
         notificacoes.adicionarNotificacao(new EmailNotificacao("Atividade no anexo a baixo","Samuel","Atividade 04"));
@@ -36,5 +39,22 @@ public class Main {
         notificacoes.enviarNotificacao();
 
         notificacoes.ListarNotificacoes();
+
+         */
+
+
+
+     ProcessadorPagamento pagamento = new ProcessadorPagamento();
+
+     pagamento.FormasPagamento(new CartaoCredito("Matheus",5.0,"2585 25841 6985","Visa"));
+
+     pagamento.FormasPagamento(new TransferenciaBancaria("Matheus",10.0,"Viacredi","1924","12345678-9"));
+
+     pagamento.ProcessarPagamentos(200.0);
+     pagamento.ListarTiposPagamentos();
+
+
+
+
     }
 }
