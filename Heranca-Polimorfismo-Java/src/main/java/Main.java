@@ -14,13 +14,18 @@ import main.java.atividade04.EmailNotificacao;
 import main.java.atividade04.GerenciadorNotificacoes;
 import main.java.atividade04.PushNotificacao;
 import main.java.atividade04.SMSNotificacao;
+import main.java.atividade05.Boleto;
+import main.java.atividade05.CartaoCredito;
+import main.java.atividade05.ProcessadorPagamento;
+import main.java.atividade05.TransferenciaBancaria;
 
 public class Main {
     public static void main(String[] args) {
 //        atividade01();
 //        atividade02();
 //        atividade03();
-        atividade04();
+//        atividade04();
+        atividade05();
     }
     public static void atividade01(){
         Empresa empresaDeTeste = new Empresa();
@@ -98,6 +103,23 @@ public class Main {
 
         gerenciador.enviarNotificacoesPendentes();
         gerenciador.listarNotificacoesEnviadas();
+    }
+    public static void atividade05(){
+        ProcessadorPagamento processador = new ProcessadorPagamento();
+
+        processador.adicionarFormaPagamento(new CartaoCredito("Cartão de Crédito", 1.5, "1234-5678-9012-3456", "Visa"));
+        processador.adicionarFormaPagamento(new Boleto("Boleto", 2.0, "123456789012"));
+        processador.adicionarFormaPagamento(new TransferenciaBancaria("Transferência", 1.0, "Banco do Brasil", "1234", "567890"));
+
+        processador.listarFormasPagamento();
+
+        processador.processarPagamento(100.0, "Cartão de Crédito");
+        processador.processarPagamento(200.0, "Boleto");
+        processador.processarPagamento(150.0, "Transferência");
+
+        processador.estornarPagamento(50.0, "Cartão de Crédito");
+        processador.estornarPagamento(30.0, "Boleto");
+        processador.estornarPagamento(100.0, "Transferência");
     }
 
 }
