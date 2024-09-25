@@ -16,7 +16,7 @@ public class EmailNotificacao extends Notificacao {
 
     @Override
     public void enviarNotificacao() {
-        System.out.println("Enviando "+formatarMensagem()+" para "+ getDestinatario());
+        System.out.println("Enviando "+formatarMensagem()+"\nDestinatario: "+getDestinatario());
 
     }
 }

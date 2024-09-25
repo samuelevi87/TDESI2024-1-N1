@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a86854-fcf4-41c7-a382-f75bc37c3042" name="Changes" comment="Criação de Funcionario, Desenvolvedor e Gerente">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Cachorro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Elefante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Gato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guaxinim.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Leao.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
     </list>
@@ -38,9 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2mAfKdmgRvyzPdsvesWKdE0J05y" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,10 +57,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "matheusRibeiro",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Matheus/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java",
+    "last_opened_file_path": "C:/Users/matheus_p_ribeiro/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

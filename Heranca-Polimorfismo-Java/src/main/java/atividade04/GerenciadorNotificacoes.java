@@ -15,10 +15,16 @@ public class GerenciadorNotificacoes {
         notificacoes.add(notificacao);
     }
 
-    public void enviarNotificacao(Notificacao notificacao){
+    public void enviarNotificacao(){
         for (Notificacao noti : notificacoes){
-            notificacao.enviarNotificacao();
+            noti.enviarNotificacao();
 
+        }
+    }
+
+    public void ListarNotificacoes(){
+        for (Notificacao noti : notificacoes){
+            System.out.println(noti);
         }
     }
 }
