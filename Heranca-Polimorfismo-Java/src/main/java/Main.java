@@ -4,27 +4,25 @@ import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
+import main.java.atividade04.EmailNotificacao;
+import main.java.atividade04.GerenciadorNotificacoes;
+import main.java.atividade04.PushNotificacao;
+import main.java.atividade04.SMSNotificacao;
+
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
-        CorrecaoAtividade01();
+        GerenciadorNotificacoes Gerenciador = new GerenciadorNotificacoes();
+
+        Gerenciador.adicionarNotificacao(new EmailNotificacao("ola bom dia ","Claudyson", LocalDate.now(),"sobre pagamento do cartao"));
+        Gerenciador.adicionarNotificacao(new EmailNotificacao("gostariamos de apresentar a nossa marca","Texneo",LocalDate.now(),"Marca esportiva"));
+
+        Gerenciador.adicionarNotificacao(new SMSNotificacao("boa tarde ","Luiza",LocalDate.now(),"47997853831"));
+        Gerenciador.adicionarNotificacao(new PushNotificacao("Novo alerta","LUCAS",LocalDate.now(),"Atualizacao de clima"));
+
+        Gerenciador.enviarNotificacao();
+        Gerenciador.listarNotificacao();
     }
 
-    private static void CorrecaoAtividade01() {
-        // Código para testar a atividade 01
-        CorrecaoEmpresa empresa = new CorrecaoEmpresa();
-
-        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Ana Silva", 1, 5000, "Java"));
-        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Carlos Santos", 2, 5500, "Python"));
-        empresa.adicionarFuncionario(new CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
-        empresa.adicionarFuncionario(new CorrecaoGerente("João Pereira", 4, 8500, 12000));
-        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Pedro Costa", 5, 4500, 50));
-        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Lúcia Ferreira", 6, 4800, 60));
-
-        System.out.println("Lista de Funcionários:");
-        empresa.listarFuncionarios();
-
-        System.out.println("\nFolha de Pagamento Total: R$" +
-                String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
-    }
 }
