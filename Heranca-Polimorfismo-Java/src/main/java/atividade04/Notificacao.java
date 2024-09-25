@@ -20,10 +20,6 @@ public abstract class Notificacao implements Notificavel{
         return mensagem;
     }
 
-    public void setDestinatario(String destinatario) {
-        this.destinatario = destinatario;
-    }
-
     public String getDestinatario() {
         return destinatario;
     }
@@ -32,13 +28,6 @@ public abstract class Notificacao implements Notificavel{
         return dataEnvio;
     }
 
-    public void setMensagem(String mensagem) {
-        this.mensagem = mensagem;
-    }
-
-    public void setDataEnvio(LocalDate dataEnvio) {
-        this.dataEnvio = dataEnvio;
-    }
     public String formatarMensagem(){
         return formatarMensagem();
     }
