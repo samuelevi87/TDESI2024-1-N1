@@ -8,21 +8,22 @@ public class Frota {
     private List<Veiculo> listaVeiculos;
 
     public Frota() {
-        this.listaVeiculos = new ArrayList<>() ;
+        this.listaVeiculos = new ArrayList<>();
     }
 
-    private void adicionarVeiculo (Veiculo veiculoParaAdionar) {
+    public void adicionarVeiculo(Veiculo veiculoParaAdionar) {
         this.listaVeiculos.add(veiculoParaAdionar);
     }
-    private void removerVeiculo (Veiculo veiculoParaRemover) {
+
+    public void removerVeiculo(Veiculo veiculoParaRemover) {
         this.listaVeiculos.remove(veiculoParaRemover);
     }
 
-    private double custoTotalViagemFrota(double distancia) {
-            double custoTotal = 0;
+    public double custoTotalViagemFrota(double distancia) {
+        double custoTotal = 0;
 
-        for(Veiculo veiculo : listaVeiculos) {
-        custoTotal += veiculo.calcularCustoViagem(distancia);
+        for (Veiculo veiculo : listaVeiculos) {
+            custoTotal += veiculo.calcularCustoViagem(distancia);
         }
         return custoTotal;
     }
