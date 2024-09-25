@@ -11,6 +11,11 @@ public class PushNotificacao extends Notificacao{
         return dispositivo;
     }
 
+    /**
+     * retorna para um dispositivo.
+     * @return
+     */
+
     @Override
     public String formatarMensagem() {
         return "Aplicativo: " + dispositivo + "\n" +
@@ -20,7 +25,9 @@ public class PushNotificacao extends Notificacao{
     }
     @Override
     public void enviarNotificacao() {
-        // Lógica para enviar a notificação push
+        /**
+         * Enviar a notificação push
+         */
         System.out.println("Enviando notificação push:\n" + formatarMensagem());
     }
 

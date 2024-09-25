@@ -19,7 +19,9 @@ public class EmailNotificacao extends Notificacao {
                 "Data de Envio: " + getDataEnvio();
     }
     public void enviarNotificacao() {
-        // Lógica para enviar a notificação por email
+        /**
+         *  Enviar a notificação por email
+         */
         System.out.println("Enviando email:\n" + formatarMensagem());
     }
 

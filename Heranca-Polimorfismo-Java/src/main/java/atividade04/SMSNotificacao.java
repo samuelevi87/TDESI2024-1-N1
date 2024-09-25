@@ -10,6 +10,7 @@ public class SMSNotificacao extends Notificacao{
     public String getNumeroTelefone() {
         return numeroTelefone;
     }
+
     @Override
     public String formatarMensagem() {
         return "Para: " + getDestinatario() + "\n" +
@@ -18,7 +19,9 @@ public class SMSNotificacao extends Notificacao{
     }
     @Override
     public void enviarNotificacao() {
-        // Lógica para enviar a notificação por SMS
+        /**
+         * Enviar a notificação por SMS
+         */
         System.out.println("Enviando SMS:\n" + formatarMensagem());
     }
 }
