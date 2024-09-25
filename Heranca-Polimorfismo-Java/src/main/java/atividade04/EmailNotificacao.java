@@ -21,6 +21,11 @@ public class EmailNotificacao extends Notificacao{
 
     @Override
     public String formatarMensagem() {
-        return null;
+        return "E-mail: " + "[" + assunto + "]" + "-";
+    }
+
+    @Override
+    public void enviarNotificacao() {
+        formatarMensagem();
     }
 }
