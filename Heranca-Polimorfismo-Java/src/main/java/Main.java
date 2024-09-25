@@ -95,6 +95,9 @@ public class Main {
 
         gerenciador.adicionarNotificacao(new SMSNotificacao("Renove seu plano", "Gabriella", "47984292863"));
         gerenciador.adicionarNotificacao(new SMSNotificacao("voce tem recado", "Gabriella", "564864564"));
+
+        gerenciador.enviarNotificacoesPendentes();
+        gerenciador.listarNotificacoesEnviadas();
     }
 
 }

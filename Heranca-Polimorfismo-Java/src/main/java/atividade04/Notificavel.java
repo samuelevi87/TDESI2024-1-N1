@@ -7,5 +7,5 @@ public interface Notificavel {
     /**
      * Envia notificação
      */
-    public void enviarNotificacao();
+    void enviarNotificacao();
 }
