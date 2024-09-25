@@ -1,7 +1,5 @@
 package main.java.atividade04;
 
-import main.java.Main;
-
 import java.time.LocalDateTime;
 
 public class EmailNotificacao extends Notificacao {
