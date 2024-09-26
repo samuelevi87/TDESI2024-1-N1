@@ -18,6 +18,12 @@ import main.java.atividade05.Boleto;
 import main.java.atividade05.CartaoCredito;
 import main.java.atividade05.ProcessadorPagamento;
 import main.java.atividade05.TransferenciaBancaria;
+import main.java.atividade06.GerenciadorTarefas;
+import main.java.atividade06.Status;
+import main.java.atividade06.TarefaDesenvolvimento;
+import main.java.atividade06.TarefaRevisao;
+
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
@@ -120,6 +126,13 @@ public class Main {
         processador.estornarPagamento(50.0, "Cartão de Crédito");
         processador.estornarPagamento(30.0, "Boleto");
         processador.estornarPagamento(100.0, "Transferência");
+    }
+    public static void atividade06(){
+        GerenciadorTarefas tarefas = new GerenciadorTarefas();
+
+        tarefas.adicionarTarefas(new TarefaDesenvolvimento("Projeto java", "projeto springboot", LocalDate.of(2024, 10, 01), Status.PENDENTE, "Java", 2));
+
+        tarefas.adicionarTarefas(new TarefaRevisao("revisar", "revisar tarefa", LocalDate.of(2024, 10, 02), Status.EM_ANDAMENTO, "Gabriella", 100));
     }
 
 }
