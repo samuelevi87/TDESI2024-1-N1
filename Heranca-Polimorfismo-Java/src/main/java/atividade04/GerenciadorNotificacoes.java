@@ -42,15 +42,17 @@ public class GerenciadorNotificacoes {
         for (Notificacao notificacao : notificacoes) {
             notificacao.enviarNotificacao();
         }
+        notificacoes.clear();
     }
 
     /**
      * Lista todas as notificações enviadas.
      * Esta implementação imprime no console a mensagem formatada de cada notificação.
      */
-    public void listarNotificacoesEnviadas() {
+    public void listarNotificacoesEnviadas() { // Revisar
         for (Notificacao notificacao : notificacoes) {
             System.out.println(notificacao.formatarMensagem());
+
         }
     }
 }
