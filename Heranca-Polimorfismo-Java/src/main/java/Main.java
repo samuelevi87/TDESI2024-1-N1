@@ -1,6 +1,5 @@
 package main.java;
 
-
 import main.java.atividade01.AnalistaQA;
 import main.java.atividade01.Desenvolvedor;
 import main.java.atividade01.Empresa;
@@ -127,13 +126,12 @@ public class Main {
         processador.estornarPagamento(30.0, "Boleto");
         processador.estornarPagamento(100.0, "Transferência");
     }
-    public static void atividade06(){
+    public static void atividade06() {
         GerenciadorTarefas tarefas = new GerenciadorTarefas();
 
         tarefas.adicionarTarefas(new TarefaDesenvolvimento("Projeto java", "projeto springboot", LocalDate.of(2024, 10, 01), Status.PENDENTE, "Java", 2));
 
         tarefas.adicionarTarefas(new TarefaRevisao("revisar", "revisar tarefa", LocalDate.of(2024, 10, 02), Status.EM_ANDAMENTO, "Gabriella", 100));
     }
-
 }
 
