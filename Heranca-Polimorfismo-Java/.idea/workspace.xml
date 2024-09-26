@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d81d8261-cf83-4d3b-8bc5-6782edbc9f9d" name="Changes" comment="Criacao das classe funcionario, DEsenvolvedor,Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CartaoCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/FormaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Pagavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade05/Pagavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade05/Pagavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
