@@ -5,6 +5,8 @@ import main.java.atividade05.CartaoCredito;
 import main.java.atividade05.ProcessadorPagamento;
 import main.java.atividade05.TransferenciaBancaria;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
         CorrecaoAtividade01();
@@ -43,7 +45,7 @@ public class Main {
          */
 
 
-
+/*
      ProcessadorPagamento pagamento = new ProcessadorPagamento();
 
      pagamento.FormasPagamento(new CartaoCredito("Matheus",5.0,"2585 25841 6985","Visa"));
@@ -52,6 +54,11 @@ public class Main {
 
      pagamento.ProcessarPagamentos(200.0);
      pagamento.ListarTiposPagamentos();
+
+
+ */
+        String teste = JOptionPane.showInputDialog("Olá");
+        System.out.println(teste);
 
 
 
