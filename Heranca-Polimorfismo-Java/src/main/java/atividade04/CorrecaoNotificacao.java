@@ -1,19 +1,33 @@
 package main.java.atividade04;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
 
-public abstract class Notificação implements Notificavel{
-
+/**
+ * Representa uma notificação abstrata.
+ * Esta classe serve como base para todos os tipos de notificações.
+ */
+public abstract class CorrecaoNotificacao implements CorrecaoNotificavel {
     private String mensagem;
     private String destinatario;
     private LocalDateTime dataEnvio;
 
-    public Notificação(String mensagem, String destinatario) {
+    /**
+     * Constrói uma nova Notificacao.
+     *
+     * @param mensagem A mensagem da notificação.
+     * @param destinatario O destinatário da notificação.
+     */
+    public CorrecaoNotificacao(String mensagem, String destinatario) {
         this.mensagem = mensagem;
         this.destinatario = destinatario;
         this.dataEnvio = LocalDateTime.now();
     }
+
+    /**
+     * Formata a mensagem da notificação.
+     *
+     * @return A mensagem formatada.
+     */
     public abstract String formatarMensagem();
 
     public String getMensagem() {

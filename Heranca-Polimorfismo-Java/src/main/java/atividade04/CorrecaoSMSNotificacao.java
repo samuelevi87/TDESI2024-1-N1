@@ -1,9 +1,20 @@
 package main.java.atividade04;
 
-public class SMSNotificacao extends Notificação {
+/**
+ * Representa uma notificação por SMS.
+ * Estende a classe Notificacao e implementa funcionalidades específicas para SMS.
+ */
+public class CorrecaoSMSNotificacao extends CorrecaoNotificacao {
     private String numeroTelefone;
 
-    public SMSNotificacao(String mensagem, String destinatario, String numeroTelefone) {
+    /**
+     * Constrói uma nova SMSNotificacao.
+     *
+     * @param mensagem A mensagem da notificação.
+     * @param destinatario O nome do destinatário.
+     * @param numeroTelefone O número de telefone do destinatário.
+     */
+    public CorrecaoSMSNotificacao(String mensagem, String destinatario, String numeroTelefone) {
         super(mensagem, destinatario);
         this.numeroTelefone = numeroTelefone;
     }
@@ -22,7 +33,7 @@ public class SMSNotificacao extends Notificação {
     }
 
     @Override
-    public void enviarNotificacão() {
+    public void enviarNotificacao() {
         System.out.println("Enviando SMS para " + getDestinatario() + " (" + numeroTelefone + "): " + formatarMensagem());
     }
 }

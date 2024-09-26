@@ -1,27 +1,43 @@
 package main.java.atividade04;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
+
 public class GerenciadorNotificacoes {
-    private List<Notificação> notificacoes;
+    private List<Notificação> todasNotificacoes;
 
     public GerenciadorNotificacoes() {
-        this.notificacoes = new ArrayList<>();
+        this.todasNotificacoes = new ArrayList<>();
     }
 
     public void adicionarNotificacao(Notificação notificacao) {
-        notificacoes.add(notificacao);
+        todasNotificacoes.add(notificacao);
     }
 
     public void enviarTodasNotificacoes() {
-        for (Notificação notificacao : notificacoes) {
+        todasNotificacoes.forEach(Notificação::enviarNotificacão);
+        }
+    public void enviarTodasNotificacoesSimples() {
+        for (Notificação notificacao : todasNotificacoes) {
             notificacao.enviarNotificacão();
         }
-        notificacoes.clear(); // Opcional: limpar a lista após envio
+    }
+    public List<String> listarNotificacoesEnviadas() {
+        return todasNotificacoes.stream()
+                .map(Notificação::toString)
+                .collect(Collectors.toList());
     }
 
-    public void listarNotificacoesEnviadas() {
-        for (Notificação notificacao : notificacoes) {
-            System.out.println("Notificação enviada: " + notificacao.formatarMensagem() + " para " + notificacao.getDestinatario());
+    public List<String> listarNotificacoesEnviadasSimples() {
+        List<String> listaDeNotificacoesEnviadas = new ArrayList<>();
+        for (Notificação notificacao : todasNotificacoes) {
+            listaDeNotificacoesEnviadas.add(notificacao.toString());
+        }
+        return listaDeNotificacoesEnviadas;
+    }
+
+    public class EmailNotificacao {
+        public EmailNotificacao(String s, String mail, String promoção) {
         }
     }
 }

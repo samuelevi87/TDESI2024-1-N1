@@ -7,14 +7,22 @@ public class EmailNotificacao extends Notificação {
         super(mensagem, destinatario);
         this.assunto = assunto;
     }
+    public String getAssunto() {
+        return assunto;
+    }
 
-    @Override
-    public String formatarMensagem() {
-        return null;
+    public void setAssunto(String assunto) {
+        this.assunto = assunto;
     }
 
     @Override
-    public void enviarNotificacão() {
+    public String formatarMensagem() {
+        return "E-mail: [" + assunto + "] - " + getMensagem();
+    }
 
+
+    @Override
+    public void enviarNotificacão() {
+        System.out.println("Enviando e-mail para " + getDestinatario() + ": " + formatarMensagem());
     }
 }

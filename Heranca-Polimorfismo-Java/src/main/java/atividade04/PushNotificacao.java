@@ -9,11 +9,12 @@ public class PushNotificacao extends Notificação{
     }
     @Override
     public String formatarMensagem() {
-        return null;
+        return "Push para " + dispositivo + ": " + getMensagem();
     }
 
     @Override
     public void enviarNotificacão() {
+        System.out.println("Enviando notificação push para " + getDestinatario() + " (dispositivo: " + dispositivo + "): " + formatarMensagem());
 
     }
 }

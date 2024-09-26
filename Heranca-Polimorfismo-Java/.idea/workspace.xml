@@ -4,12 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="Foi feito a inicio da atividade 4 feito a classe Notificavel e a subclasse Notificação">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="Foi retrabalhado as classes da atividade 4 e foi feito as subclassess GerenciadorNotificacoes e o Main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoAnalistaQA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoDesenvolvedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoGerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoAudioLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoEbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoItemBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoLivroFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCaminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoFrota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoMoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoVeiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoEmailNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoGerenciadorNotificacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoNotificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoPushNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoSMSNotificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/GerenciadorNotificacoes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/Notificação.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificação.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
@@ -49,10 +70,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.main.java.Main.executor": "Run",
+    "Application.main.java.atividade03.Main.executor": "Run",
     "Application.main.java.atividade04.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "ruanFortes",
+    "git-widget-placeholder": "Merging ruanFortes",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
@@ -68,6 +91,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.java.atividade01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
+      <module name="Heranca-Polimorfismo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +140,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.main.java.atividade04.Main" />
+        <item itemvalue="Application.main.java.Main" />
         <item itemvalue="Application.main.java.atividade03.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -148,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727137189250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Foi retrabalhado as classes da atividade 4 e foi feito as subclassess GerenciadorNotificacoes e o Main">
+      <option name="closed" value="true" />
+      <created>1727305252386</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727305252386</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +212,7 @@
     <MESSAGE value="ajustes pré merge" />
     <MESSAGE value="merge fix" />
     <MESSAGE value="Foi feito a inicio da atividade 4 feito a classe Notificavel e a subclasse Notificação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Foi feito a inicio da atividade 4 feito a classe Notificavel e a subclasse Notificação" />
+    <MESSAGE value="Foi retrabalhado as classes da atividade 4 e foi feito as subclassess GerenciadorNotificacoes e o Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Foi retrabalhado as classes da atividade 4 e foi feito as subclassess GerenciadorNotificacoes e o Main" />
   </component>
 </project>
