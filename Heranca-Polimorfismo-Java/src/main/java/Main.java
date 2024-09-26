@@ -62,13 +62,72 @@ import main.java.atividade03.CorrecaoCaminhao;
 import main.java.atividade03.CorrecaoCarro;
 import main.java.atividade03.CorrecaoFrota;
 import main.java.atividade03.CorrecaoMoto;
+import main.java.atividade04.CorrecaoEmailNotificacao;
+import main.java.atividade04.CorrecaoGerenciadorNotificacoes;
+import main.java.atividade04.CorrecaoPushNotificacao;
+import main.java.atividade04.CorrecaoSMSNotificacao;
+import main.java.atividade05.CorrecaoBoleto;
+import main.java.atividade05.CorrecaoCartaoCredito;
+import main.java.atividade05.CorrecaoProcessadorPagamento;
+import main.java.atividade05.CorrecaoTransferenciaBancaria;
 
 public class Main {
     public static void main(String[] args) {
         //CorrecaoAtividade01();
         //CorrecaoAtividade02();
-        CorrecaoAtividade03();
+        //CorrecaoAtividade03();
+        //CorrecaoAtividade04();
+        CorrecaoAtividade05();
 
+    }
+
+    private static void CorrecaoAtividade05() {
+        CorrecaoProcessadorPagamento processador = new CorrecaoProcessadorPagamento();
+
+        processador.adicionarFormaPagamento(new CorrecaoCartaoCredito("Cartão de Crédito", 1.5, "1234-5678-9012-3456", "Visa"));
+        processador.adicionarFormaPagamento(new CorrecaoBoleto("Boleto", 2.0, "23791.23405 67890.123456 78901.234567 8 12345678901234"));
+        processador.adicionarFormaPagamento(new CorrecaoTransferenciaBancaria("Transferência", 5.0, "Banco XYZ", "1234", "56789-0"));
+
+        System.out.println("Formas de pagamento disponíveis:");
+        processador.listarFormasPagamento().forEach(System.out::println);
+
+        double valorPagamento = 100.0;
+
+        System.out.println("\nProcessando pagamentos:");
+        double totalCartao = processador.processarPagamento(valorPagamento, "Cartão de Crédito");
+        System.out.println("Total pago (Cartão de Crédito): R$" + String.format("%.2f", totalCartao));
+
+        double totalBoleto = processador.processarPagamentoSimples(valorPagamento, "Boleto");
+        System.out.println("Total pago (Boleto): R$" + String.format("%.2f", totalBoleto));
+
+        double totalTransferencia = processador.processarPagamento(valorPagamento, "Transferência");
+        System.out.println("Total pago (Transferência): R$" + String.format("%.2f", totalTransferencia));
+
+        System.out.println("\nEstornando pagamentos:");
+        processador.estornarPagamento(valorPagamento, "Cartão de Crédito");
+        processador.estornarPagamento(valorPagamento, "Boleto");
+        processador.estornarPagamento(valorPagamento, "Transferência");
+    }
+
+    private static void CorrecaoAtividade04() {
+        // Código para testar a atividade 04
+        CorrecaoGerenciadorNotificacoes gerenciador = new CorrecaoGerenciadorNotificacoes();
+
+        gerenciador.adicionarNotificacao(new CorrecaoEmailNotificacao("Oferta especial!", "usuario@email.com", "Promoção"));
+        gerenciador.adicionarNotificacao(new CorrecaoSMSNotificacao("Seu código de verificação é 123456", "João", "123456789"));
+        gerenciador.adicionarNotificacao(new CorrecaoPushNotificacao("Nova mensagem recebida", "Maria", "device_id_123"));
+
+        System.out.println("Enviando todas as notificações:");
+        gerenciador.enviarTodasNotificacoes();
+
+        System.out.println("\nLista de notificações enviadas:");
+        gerenciador.listarNotificacoesEnviadas().forEach(System.out::println);
+
+        System.out.println("\nEnviando notificações (versão simples):");
+        gerenciador.enviarTodasNotificacoesSimples();
+
+        System.out.println("\nLista de notificações enviadas (versão simples):");
+        gerenciador.listarNotificacoesEnviadasSimples().forEach(System.out::println);
     }
 
     private static void CorrecaoAtividade03() {
