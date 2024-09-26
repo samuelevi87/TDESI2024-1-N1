@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6329d605-0073-42d1-b8fc-606cdf03e0d3" name="Changes" comment="Atividade 1 atualizada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CartaoCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/FormaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Pagavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6329d605-0073-42d1-b8fc-606cdf03e0d3" name="Changes" comment="Atividade 1 atualizada" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +44,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "gianlucaGrignani",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/gianluca_grignani/Documents/TDESI2024-1-N1/POOExercicios01",
+    "last_opened_file_path": "C:/Users/gianluca_grignani/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
