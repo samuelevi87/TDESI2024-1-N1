@@ -1,6 +1,5 @@
 package main.java;
 
-
 import main.java.atividade01.AnalistaQA;
 import main.java.atividade01.Desenvolvedor;
 import main.java.atividade01.Empresa;
@@ -18,6 +17,12 @@ import main.java.atividade05.Boleto;
 import main.java.atividade05.CartaoCredito;
 import main.java.atividade05.ProcessadorPagamento;
 import main.java.atividade05.TransferenciaBancaria;
+import main.java.atividade06.GerenciadorTarefas;
+import main.java.atividade06.Status;
+import main.java.atividade06.TarefaDesenvolvimento;
+import main.java.atividade06.TarefaRevisao;
+
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,13 +32,14 @@ public class Main {
 //        atividade04();
         atividade05();
     }
-    public static void atividade01(){
+
+    public static void atividade01() {
         Empresa empresaDeTeste = new Empresa();
 
         empresaDeTeste.adicionarFuncionario(new Desenvolvedor("Gabriella", 1, 15000.0, "Java"));
         empresaDeTeste.adicionarFuncionario(new Desenvolvedor("Taina", 2, 20000.0, "JavaScript"));
         empresaDeTeste.adicionarFuncionario(new Gerente("Nathalia", 3, 10000.0, 10000));
-        empresaDeTeste.adicionarFuncionario(new Gerente("Maria", 4,12000.0, 5000));
+        empresaDeTeste.adicionarFuncionario(new Gerente("Maria", 4, 12000.0, 5000));
         empresaDeTeste.adicionarFuncionario(new AnalistaQA("Sayonara", 5, 14000, 200));
         empresaDeTeste.adicionarFuncionario(new AnalistaQA("Juliana", 6, 50000, 5));
 
@@ -43,16 +49,17 @@ public class Main {
         empresaDeTeste.listarFuncionarios02();
 
     }
-    public static void atividade02(){
+
+    public static void atividade02() {
         Biblioteca biblioteca = new Biblioteca();
 
         biblioteca.adicionarItensABiblioteca(new LivroFisico("A vida invisivel de Addie Larue", "V.E Schwab", 2020, 620));
-        biblioteca.adicionarItensABiblioteca(new LivroFisico("Bem-vindos a livraria Hyunam Dong", "Hwang Boreum", 2021,230));
+        biblioteca.adicionarItensABiblioteca(new LivroFisico("Bem-vindos a livraria Hyunam Dong", "Hwang Boreum", 2021, 230));
 
         biblioteca.adicionarItensABiblioteca(new AudioLivro("Os sete maridos de Evelyn Hugo", "Taylor Jenkins Reid", 2023, 1000));
         biblioteca.adicionarItensABiblioteca(new AudioLivro("Daisy Jones & The Six", "Taylor Jenkins Reid", 2024, 1500));
 
-        biblioteca.adicionarItensABiblioteca(new Ebook("Loucos por livros", "Emily Henry", 2024,1.5));
+        biblioteca.adicionarItensABiblioteca(new Ebook("Loucos por livros", "Emily Henry", 2024, 1.5));
         biblioteca.adicionarItensABiblioteca(new Ebook("Leitura de Verão", "Emily Henry", 2024, 2.1));
 
         biblioteca.listarItens();
@@ -71,14 +78,15 @@ public class Main {
         System.out.println(biblioteca.calcularMulta("Loucos por livros", 10));
 
     }
-    public static void atividade03(){
+
+    public static void atividade03() {
         Frota frota = new Frota();
 
         frota.adicionarVeiculo(new Carro("1234", "fiat", 2006, 10000.0, 4));
         frota.adicionarVeiculo(new Carro("5678", "uno", 2024, 15000.0, 4));
 
         frota.adicionarVeiculo(new Moto("464512", "honda", 2022, 5000.0, 2));
-        frota.adicionarVeiculo(new Moto("841535", "civic", 2023, 5000.0,2));
+        frota.adicionarVeiculo(new Moto("841535", "civic", 2023, 5000.0, 2));
 
         frota.adicionarVeiculo(new Caminhao("45684648", "naosei", 2024, 20000.0, 10.0));
         frota.adicionarVeiculo(new Caminhao("2547963", "naosei", 2024, 20000.0, 5.0));
@@ -89,7 +97,8 @@ public class Main {
         frota.listarFrota();
         System.out.println(frota.calcularCustoTotalViagem(10));
     }
-    public static void atividade04(){
+
+    public static void atividade04() {
         GerenciadorNotificacoes gerenciador = new GerenciadorNotificacoes();
 
         gerenciador.adicionarNotificacao(new EmailNotificacao("Sua senha foi alterada", "gabimabento@gmail.com", "Alteração senha"));
@@ -104,7 +113,8 @@ public class Main {
         gerenciador.enviarNotificacoesPendentes();
         gerenciador.listarNotificacoesEnviadas();
     }
-    public static void atividade05(){
+
+    public static void atividade05() {
         ProcessadorPagamento processador = new ProcessadorPagamento();
 
         processador.adicionarFormaPagamento(new CartaoCredito("Cartão de Crédito", 1.5, "1234-5678-9012-3456", "Visa"));
@@ -121,6 +131,14 @@ public class Main {
         processador.estornarPagamento(30.0, "Boleto");
         processador.estornarPagamento(100.0, "Transferência");
 
+
+    }
+    public static void atividade06 () {
+        GerenciadorTarefas tarefas = new GerenciadorTarefas();
+
+        tarefas.adicionarTarefas(new TarefaDesenvolvimento("Projeto java", "projeto springboot", LocalDate.of(2024, 10, 01), Status.PENDENTE, "Java", 2));
+
+        tarefas.adicionarTarefas(new TarefaRevisao("revisar", "revisar tarefa", LocalDate.of(2024, 10, 02), Status.EM_ANDAMENTO, "Gabriella", 100));
     }
 
 }
