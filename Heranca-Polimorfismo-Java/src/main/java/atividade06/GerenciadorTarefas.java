@@ -23,8 +23,8 @@ public class GerenciadorTarefas {
         tarefas.stream().filter(tarefa -> tarefa.getTitulo().equalsIgnoreCase(tituloTarefa)).findFirst()
                 .ifPresent(tarefa -> tarefa.atualizarStatus(novoStatus));
     }
-    public void tarefasOrdenadasPorPrioridade(){
-        tarefas.stream().sorted(Comparator.comparingInt(Tarefa::calcularPrioridade)).forEach(System.out::println);
+    public void ordenarPorPrioridade(){
+        tarefas.stream().sorted(Comparator.comparingInt(Tarefa::calcularPrioridade).reversed()).forEach(System.out::println);
     }
 
 

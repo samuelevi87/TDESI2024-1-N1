@@ -17,10 +17,7 @@ import main.java.atividade05.Boleto;
 import main.java.atividade05.CartaoCredito;
 import main.java.atividade05.ProcessadorPagamento;
 import main.java.atividade05.TransferenciaBancaria;
-import main.java.atividade06.GerenciadorTarefas;
-import main.java.atividade06.Status;
-import main.java.atividade06.TarefaDesenvolvimento;
-import main.java.atividade06.TarefaRevisao;
+import main.java.atividade06.*;
 
 import java.time.LocalDate;
 
@@ -30,7 +27,8 @@ public class Main {
 //        atividade02();
 //        atividade03();
 //        atividade04();
-        atividade05();
+//        atividade05();
+        atividade06();
     }
 
     public static void atividade01() {
@@ -134,11 +132,28 @@ public class Main {
 
     }
     public static void atividade06 () {
-        GerenciadorTarefas tarefas = new GerenciadorTarefas();
+        GerenciadorTarefas gerenciador = new GerenciadorTarefas();
 
-        tarefas.adicionarTarefas(new TarefaDesenvolvimento("Projeto java", "projeto springboot", LocalDate.of(2024, 10, 01), Status.PENDENTE, "Java", 2));
+        gerenciador.adicionarTarefas(new TarefaDesenvolvimento("Projeto java", "projeto springboot", LocalDate.of(2024, 10, 1), Status.PENDENTE, "Java", 2));
+        gerenciador.adicionarTarefas(new TarefaDesenvolvimento("projeto js", "projeto com react", LocalDate.of(2024, 11, 10), Status.EM_ANDAMENTO, "JavaScript", 1));
 
-        tarefas.adicionarTarefas(new TarefaRevisao("revisar", "revisar tarefa", LocalDate.of(2024, 10, 02), Status.EM_ANDAMENTO, "Gabriella", 100));
+        gerenciador.adicionarTarefas(new TarefaRevisao("revisar", "revisar tarefa", LocalDate.of(2024, 10, 2), Status.EM_ANDAMENTO, "Gabriella", 100));
+        gerenciador.adicionarTarefas(new TarefaRevisao("Revisar Código Y", "Revisar código do módulo de pagamento", LocalDate.of(2023, 9, 25), Status.CONCLUIDA, "Carlos", 300));
+
+        gerenciador.adicionarTarefas(new TarefaBug("Corrigir Bug Z", "Erro crítico na tela de login", LocalDate.of(2023, 9, 28), Status.CONCLUIDA, Severidade.CRITICA, "Web"));
+        gerenciador.adicionarTarefas(new TarefaBug("Corrigir Bug W", "Erro de layout no mobile", LocalDate.of(2023, 9, 29), Status.EM_ANDAMENTO, Severidade.MEDIA, "Mobile"));
+
+        System.out.println("=== Todas as Tarefas ===");
+        gerenciador.listarTodasTarefas();
+
+        gerenciador.atualizarStatusTarefa("Desenvolver Feature X", Status.EM_ANDAMENTO);
+
+        System.out.println("\n=== Tarefas PENDENTES ===");
+        gerenciador.listarPorStatus(Status.PENDENTE);
+
+        System.out.println("\n=== Tarefas Ordenadas por Prioridade ===");
+        gerenciador.ordenarPorPrioridade();
+
     }
 
 }
