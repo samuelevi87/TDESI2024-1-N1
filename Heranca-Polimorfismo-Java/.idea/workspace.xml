@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="foi feito a atividade 6 e a classe Tarefa&#10;e as subclasses de TarefaDesenvolvimento, TarefaRevisao, TarefaBu&#10;GerenciadorTarefas e o Main">
+    <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="foi feito umas correções na atividade 6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/ImagePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/RedeSocial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/TextPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/VideoPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,39 +45,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.java.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.java.atividade03.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.java.atividade04.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.java.atividade06.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;ruanFortes&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.main.java.Main.executor": "Run",
+    "Application.main.java.atividade03.Main.executor": "Run",
+    "Application.main.java.atividade04.Main.executor": "Run",
+    "Application.main.java.atividade06.Main.executor": "Run",
+    "Application.main.java.atividade07.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "ruanFortes",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main.java.atividade06.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.atividade01.Main" />
-      <module name="Heranca-Polimorfismo-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.atividade01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.main.java.atividade07.Main">
     <configuration name="main.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="Heranca-Polimorfismo-Java" />
@@ -126,13 +118,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.java.atividade07.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.atividade07.Main" />
+      <module name="Heranca-Polimorfismo-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.atividade07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main.java.atividade07.Main" />
         <item itemvalue="Application.main.java.atividade06.Main" />
         <item itemvalue="Application.main.java.atividade04.Main" />
         <item itemvalue="Application.main.java.Main" />
         <item itemvalue="Application.main.java.atividade03.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727567935128</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="foi feito umas correções na atividade 6">
+      <option name="closed" value="true" />
+      <created>1727632111957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727632111957</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +235,7 @@
     <MESSAGE value="Foi feito a correção da atividade 4." />
     <MESSAGE value="alteração do main" />
     <MESSAGE value="foi feito a atividade 6 e a classe Tarefa&#10;e as subclasses de TarefaDesenvolvimento, TarefaRevisao, TarefaBu&#10;GerenciadorTarefas e o Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="foi feito a atividade 6 e a classe Tarefa&#10;e as subclasses de TarefaDesenvolvimento, TarefaRevisao, TarefaBu&#10;GerenciadorTarefas e o Main" />
+    <MESSAGE value="foi feito umas correções na atividade 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="foi feito umas correções na atividade 6" />
   </component>
 </project>
