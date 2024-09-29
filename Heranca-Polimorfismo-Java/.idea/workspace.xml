@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="foi feito umas correções na atividade 6">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/ImagePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/RedeSocial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/TextPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/VideoPost.java" afterDir="false" />
+    <list default="true" id="ea84d934-73a8-4621-b04a-dd8387f35be6" name="Changes" comment="foi feito a atividade 7 e foi criado a classe Post e as subclasses TexPost,ImagemPost,VideoPost e o main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Acomodacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoLuxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoStandard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/RedeHoteis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,16 +63,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java.atividade09" />
       <recent name="main.java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main.java.atividade07.Main">
-    <configuration name="main.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.atividade09.Main" />
       <module name="Heranca-Polimorfismo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.*" />
+          <option name="PATTERN" value="main.java.atividade09.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main.java.atividade03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.atividade03.Main" />
+    <configuration name="main.java.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.java.Main" />
       <module name="Heranca-Polimorfismo-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.atividade03.*" />
+          <option name="PATTERN" value="main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.main.java.atividade07.Main" />
         <item itemvalue="Application.main.java.atividade06.Main" />
         <item itemvalue="Application.main.java.atividade04.Main" />
         <item itemvalue="Application.main.java.Main" />
-        <item itemvalue="Application.main.java.atividade03.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727632111957</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="foi feito a atividade 7 e foi criado a classe Post e as subclasses TexPost,ImagemPost,VideoPost e o main">
+      <option name="closed" value="true" />
+      <created>1727641698846</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727641698846</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +246,7 @@
     <MESSAGE value="alteração do main" />
     <MESSAGE value="foi feito a atividade 6 e a classe Tarefa&#10;e as subclasses de TarefaDesenvolvimento, TarefaRevisao, TarefaBu&#10;GerenciadorTarefas e o Main" />
     <MESSAGE value="foi feito umas correções na atividade 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="foi feito umas correções na atividade 6" />
+    <MESSAGE value="foi feito a atividade 7 e foi criado a classe Post e as subclasses TexPost,ImagemPost,VideoPost e o main" />
+    <option name="LAST_COMMIT_MESSAGE" value="foi feito a atividade 7 e foi criado a classe Post e as subclasses TexPost,ImagemPost,VideoPost e o main" />
   </component>
 </project>
