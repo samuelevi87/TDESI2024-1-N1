@@ -9,27 +9,29 @@ public class Main {
          */
         GerenciadorTarefas gerenciador = new GerenciadorTarefas();
 
-        // Criação de algumas tarefas
-        Tarefa tarefa1 = new TarefaDesenvolvimento
+        /**
+         * Criação de algumas tarefas
+         */
+        Tarefa tarefa1 = (new TarefaDesenvolvimento
                 ("Desenvolver API",
                 "Criar uma API RESTful",
                 LocalDate.of(2024, 12, 31),
                 "Java",
-                4);
+                4));
 
-        Tarefa tarefa2 = new TarefaRevisao
+        Tarefa tarefa2 = (new TarefaRevisao
                 ("Revisar documento",
                 "Revisar o documento de especificações",
                 LocalDate.of(2024, 10, 15),
                 "João Silva",
-                20);
+                20));
 
-        Tarefa tarefa3 = new TarefaBug
+        Tarefa tarefa3 = (new TarefaBug
                 ("Corrigir bug na página",
                 "Bug na página de login",
                 LocalDate.of(2024, 9, 30),
                 TarefaBug.Severidade.ALTA,
-                "Web");
+                "Web"));
 
         /**
          * Adicionando tarefas ao gerenciador

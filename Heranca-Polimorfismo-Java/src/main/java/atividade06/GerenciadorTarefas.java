@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Comparator;
 public class GerenciadorTarefas {
-    private List<Tarefa> tarefas;
+    private static List<Tarefa> tarefas;
 
     /**
      * Constrói um novo Gerenciador de Tarefas.
@@ -18,7 +18,7 @@ public class GerenciadorTarefas {
      *
      * @param tarefa A tarefa a ser adicionada.
      */
-    public void adicionarTarefa(Tarefa tarefa) {
+    public static void adicionarTarefa(Tarefa tarefa) {
         if (tarefa == null) {
             throw new IllegalArgumentException("Tarefa não pode ser nula.");
         }
