@@ -1,6 +1,5 @@
 package main.java.atividade06;
 
-import java.io.ObjectInputFilter;
 import java.time.LocalDate;
 
 public abstract class Tarefa {
