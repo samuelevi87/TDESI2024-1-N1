@@ -27,7 +27,7 @@ public class ImagePost extends Post{
      */
     @Override
     public String exibir() {
-        return getAutor() + " " + getDataPublicacao() + "\n" +
+        return getAutor() + " " + getDataFormatada() + "\n" +
                 urlImagem + " " + filtro + "\nlikes: " + getLikes();
     }
 

@@ -25,7 +25,7 @@ public class VideoPost extends Post{
      */
     @Override
     public String exibir() {
-        return getAutor() + " " + getDataPublicacao() + "\n" +
+        return getAutor() + " " + getDataFormatada() + "\n" +
                 urlVideo + " " + duracao + "\nlikes: " + getLikes();
     }
 

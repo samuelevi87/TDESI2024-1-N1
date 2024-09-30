@@ -40,7 +40,7 @@ public class TextPost extends Post{
     public String exibir() {
         formatarHashtags();
         String hashtagsExibicao = String.join(" ", hashtags);
-        return getAutor() + " " + getDataPublicacao() + "\n" +
+        return getAutor() + " " + getDataFormatada() + "\n" +
                 getConteudo() + " " + hashtagsExibicao +
                 "\nlikes:" + getLikes();
     }

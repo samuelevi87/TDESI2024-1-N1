@@ -1,6 +1,7 @@
 package main.java.atividade07;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 /**
  * Classe abstrata que representa um Post
@@ -38,6 +39,16 @@ public abstract class Post {
      * @return uma string com o post dependendo da subclasse que implementar
      */
     public abstract String exibir();
+
+    /**
+     * Formata a data de publicação
+     * @return string da data de publicação formatada
+     */
+    public String getDataFormatada(){
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
+        String dataFormatada = this.dataPublicacao.format(formatter);
+        return dataFormatada;
+    }
 
     public int getId() {
         return id;

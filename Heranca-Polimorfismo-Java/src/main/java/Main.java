@@ -180,12 +180,13 @@ public class Main {
 
         redeSocial.adicionarLike(1);
         redeSocial.adicionarLike(3);
+        redeSocial.adicionarLike(3);
 
         System.out.println("=== Todos os posts ===");
         System.out.println(redeSocial.listarTodosPosts());
 
-
-
+        System.out.println("=== Post mais popular ===");
+        System.out.println(redeSocial.exibirPostMaisPopular());
     }
 
 }
