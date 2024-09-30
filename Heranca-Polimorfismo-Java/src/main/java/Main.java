@@ -2,36 +2,31 @@ package main.java;
 
 import main.java.atividade03.*;
 import main.java.atividade04.*;
+import main.java.atividade06.*;
 
+
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Main {
     public static void main(String[] args) {
 
-        GerenciadorNotificacoes gerenciadorNotificacoes1 = new GerenciadorNotificacoes();
 
-        EmailNotificacao emailNotificacao1 = new EmailNotificacao("Mensagem por email", "Pedro", LocalDateTime.now(), "SObre a mensagem 1");
-        EmailNotificacao emailNotificacao2 = new EmailNotificacao("Mensagem por email teste 2", "Arthur", LocalDateTime.now(), "SObre a mensagem 2");
+        GerenciadorTarefas gerenciadorTarefas1 = new GerenciadorTarefas();
 
-        gerenciadorNotificacoes1.adicionarNotificacao(emailNotificacao1);
-        gerenciadorNotificacoes1.adicionarNotificacao(emailNotificacao2);
+        TarefaBug tarefaBug1 = new TarefaBug("Bug na Tela de Login", "Corrigir erro de autenticação",
+                LocalDate.now().plusDays(2), LocalDate.parse("2024-10-10"), Status.CONCLUIDA, "VSCODe", Severiedade.ALTA);
 
-        SMSNotificacao smsNotificacao1 = new SMSNotificacao("SMS Msg 1", "Maria", LocalDateTime.now(), "+5547995832292");
-        SMSNotificacao smsNotificacao2 = new SMSNotificacao("SMS Msg 2", "Vitórid", LocalDateTime.now(), "+446722742293");
+        TarefaBug tarefaBug2 = new TarefaBug("Bug na Tela de Senha", "Corrigir erro de autenticação",
+                LocalDate.now().plusDays(2), LocalDate.parse("2024-09-30"), Status.PENDENTE, "VSCODe", Severiedade.CRITICA);
 
-        gerenciadorNotificacoes1.adicionarNotificacao(smsNotificacao1);
-        gerenciadorNotificacoes1.adicionarNotificacao(smsNotificacao2);
 
-        PushNotificacao pushNotificacao1 = new PushNotificacao("Push MSGG1", "Não sei", LocalDateTime.now(), "IPHONE17");
-        PushNotificacao pushNotificacao2 = new PushNotificacao("Push MSGI89", "Não sei Denovo", LocalDateTime.now(), "IPHONE-11");
+        gerenciadorTarefas1.adicionarTarefas(tarefaBug1);
+        gerenciadorTarefas1.adicionarTarefas(tarefaBug2);
 
-        gerenciadorNotificacoes1.adicionarNotificacao(pushNotificacao1);
-        gerenciadorNotificacoes1.adicionarNotificacao(pushNotificacao2);
+        gerenciadorTarefas1.listarTarefasPorPrioridade();
+        System.out.println("\n" + "--- Lista de todoas tarefas ---");
+        gerenciadorTarefas1.listarTodasTarefas();
 
-        System.out.println("\n" + "Enviando notificações pendentes...");
-        gerenciadorNotificacoes1.enviarNotificacoesPendentes();
-
-        System.out.println("\n" + "Notificações enviadas:");
-        gerenciadorNotificacoes1.listarNotificacoesEnviadas();
     }
 }
