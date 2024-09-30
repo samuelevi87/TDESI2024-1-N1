@@ -21,8 +21,10 @@ import main.java.atividade05.CorrecaoCartaoCredito;
 import main.java.atividade05.CorrecaoProcessadorPagamento;
 import main.java.atividade05.CorrecaoTransferenciaBancaria;
 import main.java.atividade06.*;
+import main.java.atividade07.*;
 
 import java.time.LocalDate;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -31,9 +33,68 @@ public class Main {
         //CorrecaoAtividade03();
         //CorrecaoAtividade04();
         //CorrecaoAtividade05();
-        CorrecaoAtividade06();
+        //CorrecaoAtividade06();
+        CorrecaoAtividade07();
 
 
+    }
+
+    private static void CorrecaoAtividade07() {
+        CorrecaoRedeSocial redeSocial = new CorrecaoRedeSocial();
+
+        // Criando posts de texto
+        CorrecaoTextPost textPost1 = new CorrecaoTextPost("Alice", "Olá, mundo!", List.of("saudação", "programação"));
+        CorrecaoTextPost textPost2 = new CorrecaoTextPost("Bob", "Java é incrível!", List.of("java", "programação"));
+        redeSocial.adicionarPost(textPost1);
+        redeSocial.adicionarPost(textPost2);
+
+        // Criando posts de imagem
+        CorrecaoImagePost imagePost1 = new CorrecaoImagePost("Charlie", "Minha nova foto de perfil", "http://exemplo.com/foto1.jpg", "sepia");
+        CorrecaoImagePost imagePost2 = new CorrecaoImagePost("Diana", "Paisagem linda", "http://exemplo.com/foto2.jpg", "vivid");
+        redeSocial.adicionarPost(imagePost1);
+        redeSocial.adicionarPost(imagePost2);
+
+        // Criando posts de vídeo
+        CorrecaoVideoPost videoPost1 = new CorrecaoVideoPost("Eve", "Tutorial de Java", "http://exemplo.com/video1.mp4", 600);
+        CorrecaoVideoPost videoPost2 = new CorrecaoVideoPost("Frank", "Vlog de viagem", "http://exemplo.com/video2.mp4", 900);
+        redeSocial.adicionarPost(videoPost1);
+        redeSocial.adicionarPost(videoPost2);
+
+        // Demonstrando funcionalidades
+        System.out.println("Listando todos os posts:");
+        redeSocial.listarPosts();
+
+        System.out.println("\nBuscando posts de Alice:");
+        List<CorrecaoPost> postsAlice = redeSocial.buscarPorAutor("Alice");
+        postsAlice.forEach(post -> System.out.println(post.exibir()));
+
+        System.out.println("\nAdicionando likes:");
+        redeSocial.adicionarLike(1);
+        redeSocial.adicionarLike(1);
+        redeSocial.adicionarLike(3);
+        redeSocial.adicionarLike(5);
+        redeSocial.adicionarLike(5);
+        redeSocial.adicionarLike(5);
+
+        System.out.println("\nExibindo post mais popular:");
+        redeSocial.exibirPostMaisPopular();
+
+        // Demonstrando métodos simples
+        System.out.println("\nUsando métodos simples:");
+        System.out.println("Listando posts (versão simples):");
+        redeSocial.listarPostsSimples();
+
+        System.out.println("\nBuscando posts de Bob (versão simples):");
+        List<CorrecaoPost> postsBob = redeSocial.buscarPorAutorSimples("Bob");
+        for (CorrecaoPost post : postsBob) {
+            System.out.println(post.exibir());
+        }
+
+        System.out.println("\nAdicionando like (versão simples):");
+        redeSocial.adicionarLikeSimples(2);
+
+        System.out.println("\nExibindo post mais popular (versão simples):");
+        redeSocial.exibirPostMaisPopularSimples();
     }
 
     private static void CorrecaoAtividade06() {
