@@ -5,14 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d54b61-15fd-45bc-800a-c432e56a0f9b" name="Changes" comment="Criação das classe Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Boleto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CartaoCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/FormaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Pagavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/ProcessarPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/TransferenciaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaBug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/ImagePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/RedeSocial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/TextPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/VideoPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,21 +49,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;nathaliaSantos&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nathalia_o_santos/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "nathaliaSantos",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/natha/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Cachorro" />
       <recent name="Guaxinim" />
       <recent name="Gato" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\natha\Documents\TDESI2024-1-N1\Heranca-Polimorfismo-Java\src\main\java\atividade07" />
+      <recent name="C:\Users\natha\Documents\TDESI2024-1-N1\Heranca-Polimorfismo-Java\src\main\java\atividade06" />
     </key>
   </component>
   <component name="RunManager">
