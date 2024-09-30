@@ -4,15 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GerenciadorTarefas {
-    private List<GerenciadorTarefas> Tarefa;
-    public GerenciadorTarefas(){this.Tarefa=new ArrayList<>();}
-    public void AddTarefas(Tarefa tarefa){Tarefa.add((GerenciadorTarefas) Tarefa);
-    }
-    public List<String> listarTarefas(){
-        List<String> lista=new ArrayList<>();
-        for (GerenciadorTarefas tarefa: Tarefa){
-            lista.add(String.valueOf(tarefa.getClass()));
+    private List<Tarefa> listaDeTarefa;
+    public GerenciadorTarefas(){this.listaDeTarefa=new ArrayList<>();}
+    public void AddTarefas(Tarefa tarefa){listaDeTarefa.add(tarefa);}
+    public List<String> listaTarefas() {
+        List<String> listaTarefas = new ArrayList<>();
+
+        for (Tarefa tarefa : listaDeTarefa) {
+            listaTarefas.add(tarefa.toString());
         }
-        return lista;
+        return listaTarefas;
+    }
+    public List<String> listaTarefaPorStatus(Tarefa.Status status){
+        List<String> TarefaFiltrada = new ArrayList<>();
+        for (Tarefa tarefa : listaDeTarefa){
+            if (tarefa.getStatus()==status){
+                TarefaFiltrada.add(tarefa.toString());
+            }
+        }
+        return TarefaFiltrada;
     }
 }

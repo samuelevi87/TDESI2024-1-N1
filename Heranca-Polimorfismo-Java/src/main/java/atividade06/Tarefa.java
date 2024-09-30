@@ -7,10 +7,11 @@ public abstract class Tarefa {
     private String descricao;
     private LocalDate dataCriacao;
     private LocalDate dataLimite;
+
+    public abstract int calculaPrioridade();
+
     public enum Status{
-        PENDENTE,
-        EM_ANDAMENTO,
-        CONCLUIDA
+        PENDENTE, EM_ANDAMENTO, CONCLUIDA
     }
     private Status status;
 
@@ -64,5 +65,5 @@ public abstract class Tarefa {
     public void atualizarStatus(Status novoStatus) {
         this.status = novoStatus;
     }
-    public abstract int calculaPrioridade();
+
 }

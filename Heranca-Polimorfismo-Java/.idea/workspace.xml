@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="520feeda-9041-4247-b568-78fb47f4e3cc" name="Changes" comment="Criassão de classes AnalistaQA, Empresa, Main na atv 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/Notificavel.java" afterDir="false" />
+    <list default="true" id="520feeda-9041-4247-b568-78fb47f4e3cc" name="Changes" comment="preenchimento das classes e criação da classe GerenciadorTarefas na atv6.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +42,29 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mGIJTLR7hBYxihJm1wFJlt65gJ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/william_liz/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/william_liz/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;
   }
-}]]></component>
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -73,7 +88,31 @@
       <option name="project" value="LOCAL" />
       <updated>1726706557676</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Criassão de classe Tarefa na atv.">
+      <option name="closed" value="true" />
+      <created>1727621050236</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727621050236</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Criassão de classe Tarefa e subclasses TarefaRevisao, TarefaBug e tarefaDesenvolvimento modeladas na atv6.">
+      <option name="closed" value="true" />
+      <created>1727622825274</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727622825274</updated>
+    </task>
+    <task id="LOCAL-00005" summary="preenchimento das classes e criação da classe GerenciadorTarefas na atv6.">
+      <option name="closed" value="true" />
+      <created>1727648108716</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727648108716</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,7 +129,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criassão de classes funcionarios, gerente, desenvolvedor, na atv 1." />
     <MESSAGE value="Criassão de classes AnalistaQA, Empresa, Main na atv 1." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criassão de classes AnalistaQA, Empresa, Main na atv 1." />
+    <MESSAGE value="Criassão de classe Tarefa na atv." />
+    <MESSAGE value="Criassão de classe Tarefa e subclasses TarefaRevisao, TarefaBug e tarefaDesenvolvimento modeladas na atv6." />
+    <MESSAGE value="preenchimento das classes e criação da classe GerenciadorTarefas na atv6." />
+    <option name="LAST_COMMIT_MESSAGE" value="preenchimento das classes e criação da classe GerenciadorTarefas na atv6." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
