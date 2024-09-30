@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Criacao das classes funcionario, desenvolvedor e gerente.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GrenciadorNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
+    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Correção do Merge da main com todas as atividades até a correção da atividade 06">
+      <changelist_data name="Samuel Levi" email="samuel.levi.alves@outlook.com" date="1727121479000" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoAnalistaQA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoDesenvolvedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade01/CorrecaoGerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    </list>
+    <list id="533b8077-6a5b-4d16-9307-806a422b4b46" name="Changes da atividade 02" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoAudioLivro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoEbook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoItemBiblioteca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/CorrecaoLivroFisico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +34,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Samuel Levi &lt;samuel.levi.alves@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,8 +70,33 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="giovaniLenoir" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criacao das classes funcionario, desenvolvedor e gerente." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criacao das classes funcionario, desenvolvedor e gerente." />
+    <MESSAGE value="Correção da Atividade 01" />
+    <MESSAGE value="Correção do Merge da main com todas as atividades até a correção da atividade 06" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção do Merge da main com todas as atividades até a correção da atividade 06" />
   </component>
 </project>

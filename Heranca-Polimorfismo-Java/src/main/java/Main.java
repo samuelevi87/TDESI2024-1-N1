@@ -174,18 +174,8 @@ public class Main {
         } else {
             System.out.println("Não foi possível emprestar o livro.");
         }
-
-        System.out.println("\nItens disponíveis após empréstimo:");
-        biblioteca.listarItensDisponiveis();
-
-        System.out.println("\nDevolvendo 'O Senhor dos Anéis' com 5 dias de atraso:");
-        biblioteca.devolverItem("O Senhor dos Anéis");
-        double multa = biblioteca.calcularMulta("O Senhor dos Anéis", 5);
-        System.out.println("Multa a pagar: R$" + String.format("%.2f", multa));
-
-        System.out.println("\nItens disponíveis após devolução:");
-        biblioteca.listarItensDisponiveis();
     }
+
 
     private static void CorrecaoAtividade01() {
         // Código para testar a atividade 01
@@ -217,4 +207,5 @@ public class Main {
         long duracaoNanos = fim - inicio;
         System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
     }
+
 }
