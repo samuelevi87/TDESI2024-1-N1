@@ -1,5 +1,7 @@
 package main.java.atividade02;
 
+import java.time.LocalDate;
+
 /**
  * Representa um item genérico na biblioteca.
  * Esta classe serve como base para todos os tipos de itens da biblioteca.
