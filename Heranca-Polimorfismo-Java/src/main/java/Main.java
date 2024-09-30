@@ -20,6 +20,11 @@ import main.java.atividade05.CorrecaoBoleto;
 import main.java.atividade05.CorrecaoCartaoCredito;
 import main.java.atividade05.CorrecaoProcessadorPagamento;
 import main.java.atividade05.CorrecaoTransferenciaBancaria;
+import main.java.atividade06.*;
+import main.java.atividade07.*;
+
+import java.time.LocalDate;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,8 +32,113 @@ public class Main {
         //CorrecaoAtividade02();
         //CorrecaoAtividade03();
         //CorrecaoAtividade04();
-        CorrecaoAtividade05();
+        //CorrecaoAtividade05();
+        //CorrecaoAtividade06();
+        CorrecaoAtividade07();
 
+
+    }
+
+    private static void CorrecaoAtividade07() {
+        CorrecaoRedeSocial redeSocial = new CorrecaoRedeSocial();
+
+        // Criando posts de texto
+        CorrecaoTextPost textPost1 = new CorrecaoTextPost("Alice", "Olá, mundo!", List.of("saudação", "programação"));
+        CorrecaoTextPost textPost2 = new CorrecaoTextPost("Bob", "Java é incrível!", List.of("java", "programação"));
+        redeSocial.adicionarPost(textPost1);
+        redeSocial.adicionarPost(textPost2);
+
+        // Criando posts de imagem
+        CorrecaoImagePost imagePost1 = new CorrecaoImagePost("Charlie", "Minha nova foto de perfil", "http://exemplo.com/foto1.jpg", "sepia");
+        CorrecaoImagePost imagePost2 = new CorrecaoImagePost("Diana", "Paisagem linda", "http://exemplo.com/foto2.jpg", "vivid");
+        redeSocial.adicionarPost(imagePost1);
+        redeSocial.adicionarPost(imagePost2);
+
+        // Criando posts de vídeo
+        CorrecaoVideoPost videoPost1 = new CorrecaoVideoPost("Eve", "Tutorial de Java", "http://exemplo.com/video1.mp4", 600);
+        CorrecaoVideoPost videoPost2 = new CorrecaoVideoPost("Frank", "Vlog de viagem", "http://exemplo.com/video2.mp4", 900);
+        redeSocial.adicionarPost(videoPost1);
+        redeSocial.adicionarPost(videoPost2);
+
+        // Demonstrando funcionalidades
+        System.out.println("Listando todos os posts:");
+        redeSocial.listarPosts();
+
+        System.out.println("\nBuscando posts de Alice:");
+        List<CorrecaoPost> postsAlice = redeSocial.buscarPorAutor("Alice");
+        postsAlice.forEach(post -> System.out.println(post.exibir()));
+
+        System.out.println("\nAdicionando likes:");
+        redeSocial.adicionarLike(1);
+        redeSocial.adicionarLike(1);
+        redeSocial.adicionarLike(3);
+        redeSocial.adicionarLike(5);
+        redeSocial.adicionarLike(5);
+        redeSocial.adicionarLike(5);
+
+        System.out.println("\nExibindo post mais popular:");
+        redeSocial.exibirPostMaisPopular();
+
+        // Demonstrando métodos simples
+        System.out.println("\nUsando métodos simples:");
+        System.out.println("Listando posts (versão simples):");
+        redeSocial.listarPostsSimples();
+
+        System.out.println("\nBuscando posts de Bob (versão simples):");
+        List<CorrecaoPost> postsBob = redeSocial.buscarPorAutorSimples("Bob");
+        for (CorrecaoPost post : postsBob) {
+            System.out.println(post.exibir());
+        }
+
+        System.out.println("\nAdicionando like (versão simples):");
+        redeSocial.adicionarLikeSimples(2);
+
+        System.out.println("\nExibindo post mais popular (versão simples):");
+        redeSocial.exibirPostMaisPopularSimples();
+    }
+
+    private static void CorrecaoAtividade06() {
+        CorrecaoGerenciadorTarefas gerenciador = new CorrecaoGerenciadorTarefas();
+
+        // Adicionando tarefas
+        gerenciador.adicionarTarefa(new CorrecaoTarefaDesenvolvimento("Implementar Login", "Criar sistema de login",
+                LocalDate.now().plusDays(7), "Java", 3));
+        gerenciador.adicionarTarefa(new CorrecaoTarefaRevisao("Revisar PR #123", "Revisar pull request de feature X",
+                LocalDate.now().plusDays(2), "João", 500));
+        gerenciador.adicionarTarefa(new CorrecaoTarefaBug("Corrigir bug #456", "Corrigir crash na tela inicial",
+                LocalDate.now().plusDays(1), CorrecaoTarefaBug.Severidade.ALTA, "Android"));
+
+        // Listando todas as tarefas (usando o método com stream)
+        System.out.println("Todas as tarefas (usando streams):");
+        gerenciador.listarTarefas().forEach(System.out::println);
+
+        // Listando todas as tarefas (usando o método simples)
+        System.out.println("\nTodas as tarefas (usando método simples):");
+        gerenciador.listarTarefasSimples().forEach(System.out::println);
+
+        // Listando tarefas por status (usando o método com stream)
+        System.out.println("\nTarefas pendentes (usando streams):");
+        gerenciador.listarTarefasPorStatus(CorrecaoTarefa.Status.PENDENTE).forEach(System.out::println);
+
+        // Listando tarefas por status (usando o método simples)
+        System.out.println("\nTarefas pendentes (usando método simples):");
+        gerenciador.listarTarefasPorStatusSimples(CorrecaoTarefa.Status.PENDENTE).forEach(System.out::println);
+
+        // Atualizando status de uma tarefa (usando o método com stream)
+        gerenciador.atualizarStatusTarefa("Implementar Login", CorrecaoTarefa.Status.EM_ANDAMENTO);
+        System.out.println("\nStatus da tarefa 'Implementar Login' atualizado para EM_ANDAMENTO");
+
+        // Atualizando status de outra tarefa (usando o método simples)
+        gerenciador.atualizarStatusTarefaSimples("Revisar PR #123", CorrecaoTarefa.Status.EM_ANDAMENTO);
+        System.out.println("Status da tarefa 'Revisar PR #123' atualizado para EM_ANDAMENTO");
+
+        // Listando tarefas ordenadas por prioridade (usando o método com stream)
+        System.out.println("\nTarefas ordenadas por prioridade (usando streams):");
+        medirTempo(() -> gerenciador.listarTarefasOrdenadasPorPrioridade().forEach(System.out::println));
+
+        // Listando tarefas ordenadas por prioridade (usando o método simples)
+        System.out.println("\nTarefas ordenadas por prioridade (usando método simples):");
+        medirTempo(() -> gerenciador.listarTarefasOrdenadasPorPrioridadeSimples().forEach(System.out::println));
     }
 
     private static void CorrecaoAtividade05() {
@@ -154,5 +264,18 @@ public class Main {
 
         System.out.println("\nFolha de Pagamento Total: R$" +
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
+    }
+
+    /**
+     * Mede o tempo de execução de uma operação.
+     *
+     * @param runnable A operação a ser executada e medida.
+     */
+    private static void medirTempo(Runnable runnable) {
+        long inicio = System.nanoTime();
+        runnable.run();
+        long fim = System.nanoTime();
+        long duracaoNanos = fim - inicio;
+        System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
     }
 }
