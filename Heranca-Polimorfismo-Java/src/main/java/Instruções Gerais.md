@@ -18,12 +18,14 @@ Este documento contém links para a documentação oficial do Java 17 das princi
 - [ArrayList](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/ArrayList.html) - Implementação de lista baseada em array
 - [Map](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Map.html) - Interface para mapas (dicionários)
 - [HashMap](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/HashMap.html) - Implementação de mapa baseada em hash
+- [Collections](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Collections.html) - Classe utilitária para coleções
 
 ## Data e Tempo
 
 - [LocalDate](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDate.html) - Representa uma data (ano, mês, dia)
 - [LocalDateTime](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/LocalDateTime.html) - Representa uma data com tempo
 - [DateTimeFormatter](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/format/DateTimeFormatter.html) - Formatador para data e hora
+- [Period](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Period.html) - Representa um período de tempo
 
 ## Exceções
 
@@ -53,6 +55,7 @@ Este documento contém links para a documentação oficial do Java 17 das princi
 
 - [Stream](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Stream.html) - Interface para operações de fluxo de dados
 - [Optional](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Optional.html) - Container para um valor que pode ser nulo
+- [Collectors](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/stream/Collectors.html) - Utilitários para operações de redução em streams
 
 ## Reflexão
 
@@ -62,12 +65,11 @@ Este documento contém links para a documentação oficial do Java 17 das princi
 
 - [final](https://docs.oracle.com/javase/tutorial/java/IandI/final.html) - Documentação sobre o uso do modificador `final`
 
+## Classes Adicionais que valem a pena pesquisar sobre
+
+- [BigDecimal](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/math/BigDecimal.html) - Para cálculos de alta precisão
+- [UUID](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/UUID.html) - Geração de identificadores únicos
+- [Arrays](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Arrays.html) - Utilitários para arrays
+- [Objects](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Objects.html) - Utilitários para objetos
+
 Lembre-se de consultar a documentação oficial do Java 17 para obter informações detalhadas sobre métodos, construtores e exemplos de uso de cada classe.
-
-Esta versão atualizada inclui links para:
-
-1. `StringBuilder`: Útil para manipulação eficiente de strings, especialmente quando há muitas concatenações.
-2. `AtomicInteger`: Fornece operações atômicas para inteiros, útil em contextos concorrentes.
-3. `final`: Embora não seja uma classe, adicionei um link para a documentação sobre o uso do modificador `final`, que é relevante para a discussão sobre atributos imutáveis.
-
-Estas adições complementam o conjunto de recursos úteis para os exercícios de programação Java, especialmente no contexto de herança, polimorfismo e boas práticas de programação.
