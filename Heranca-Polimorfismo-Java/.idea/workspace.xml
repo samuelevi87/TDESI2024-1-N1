@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf82566-6ddf-44d8-8b52-839fb96321b8" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/ImagePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/RedeSocial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/TextPost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/VideoPost.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Severidade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Severidade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaBug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
