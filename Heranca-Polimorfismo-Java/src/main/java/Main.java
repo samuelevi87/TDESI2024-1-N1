@@ -1,27 +1,23 @@
 package main.java;
 
-import main.java.atividade03.Frota;
+import main.java.atividade05.ProcessadorPagamento;
 
 public class Main {
     public static void main(String[] args) {
-        Frota frota = new Frota();
+        ProcessadorPagamento processador = new ProcessadorPagamento();
 
-        // Adicionando veículos
-        frota.adicionarVeiculo(new Carro("ABC1234", "Fusca", 1975, 50000, 2));
-        frota.adicionarVeiculo(new Carro("XYZ5678", "Civic", 2020, 10000, 4));
-        frota.adicionarVeiculo(new Caminhao("LMN2345", "Volvo", 2018, 150000, 10));
-        frota.adicionarVeiculo(new Caminhao("OPQ6789", "Mercedes", 2019, 80000, 15));
-        frota.adicionarVeiculo(new Moto("RST1357", "CB500", 2021, 5000, 500));
-        frota.adicionarVeiculo(new Moto("UVW2468", "XRE300", 2022, 2000, 300));
-        frota.listarVeiculos();
+        processador.adicionarFormaPagamento(new CartaoCredito("1234-5678-9101-1121", "Visa", 2.5));
+        processador.adicionarFormaPagamento(new Boleto("123456789012", 1.0));
+        processador.adicionarFormaPagamento(new TransferenciaBancaria("Banco do Brasil", "1234", "56789-0", 1.5));
 
-        // Cálculo de custo de viagem
-        double custoViagem = frota.calcularCustoTotalViagem(100);
-        System.out.println("Custo total da viagem: R$ " + custoViagem);
+        processador.listarFormasPagamento();
 
-        // Removendo um veículo
-        frota.removerVeiculo("ABC1234");
-        System.out.println("Veículo removido. Lista atual:");
-        frota.listarVeiculos();
+        processador.processarPagamento(100.0, "Cartão de Crédito");
+        processador.processarPagamento(150.0, "Boleto");
+        processador.processarPagamento(200.0, "Transferência Bancária");
+
+        processador.estornarPagamento(100.0, "Cartão de Crédito");
+        processador.estornarPagamento(150.0, "Boleto");
+        processador.estornarPagamento(200.0, "Transferência Bancária");
     }
 }
