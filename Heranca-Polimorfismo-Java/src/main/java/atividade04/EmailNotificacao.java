@@ -1,7 +1,19 @@
 package main.java.atividade04;
 
+/**
+ * Representa uma notificação por e-mail.
+ * Estende a classe Notificacao e implementa funcionalidades específicas para e-mail.
+ */
 public class EmailNotificacao extends Notificacao{
     private String assunto;
+
+    /**
+     * Constrói uma nova EmailNotificacao.
+     *
+     * @param mensagem A mensagem da notificação.
+     * @param destinatario O endereço de e-mail do destinatário.
+     * @param assunto O assunto do e-mail.
+     */
 
     public EmailNotificacao(String mensagem, String destinatario, String assunto) {
         super(mensagem, destinatario);
@@ -12,16 +24,19 @@ public class EmailNotificacao extends Notificacao{
         return assunto;
     }
 
-    @Override
-    public String toString() {
-        return "EmailNotificacao{" +
-                "assunto='" + assunto + '\'' +
-                '}';
+    public void setAssunto(String assunto) {
+        this.assunto = assunto;
     }
+
+
+    @Override
+    public String formatarMensagem() {return "E-mail: [" + assunto + "] - " + getMensagem();}
+
+    @Override
     public void enviarNotificacao() {
-        /**
-         * Enviar a notoficação por email
-         */
-        System.out.println("Enviar email:\n" + formatarMensagem());
+        System.out.println("Enviando e-mail para " + getDestinatario() + ": " + formatarMensagem());
     }
 }
+
+
+
