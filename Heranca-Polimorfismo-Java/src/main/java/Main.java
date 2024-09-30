@@ -113,5 +113,39 @@ public class Main {
         processarPagamento.estornarPagamento(50.0, "Cartão de Crédito");
         processarPagamento.estornarPagamento(75.0, "Boleto");
         processarPagamento.estornarPagamento(100.0, "Transferência");
+
+        System.out.println("\nAtividade 07  -----------------------------------------------------------------------------------------------------------------");
+        /*RedeSocial redeSocial = new RedeSocial();
+
+        List<String> hashtags1 = List.of("#Java", "#Coding");
+        List<String> hashtags2 = List.of("#Life", "#Inspiration");
+        TextPost textPost1 = new TextPost("Alice", "Amando aprender Java!", hashtags1);
+        TextPost textPost2 = new TextPost("Bob", "A vida é uma jornada incrível!", hashtags2);
+
+        ImagePost imagePost1 = new ImagePost("Alice", "Minha nova foto", "https://image.com/foto1.jpg", "Vintage");
+        ImagePost imagePost2 = new ImagePost("Charlie", "Céu ao entardecer", "https://image.com/ceu.jpg", "Sunset");
+
+        VideoPost videoPost1 = new VideoPost("Bob", "Treino de hoje", "https://video.com/treino.mp4", 120);
+        VideoPost videoPost2 = new VideoPost("Charlie", "Timelapse da cidade", "https://video.com/timelapse.mp4", 60);
+
+        redeSocial.adicionarPost(textPost1);
+        redeSocial.adicionarPost(textPost2);
+        redeSocial.adicionarPost(imagePost1);
+        redeSocial.adicionarPost(imagePost2);
+        redeSocial.adicionarPost(videoPost1);
+        redeSocial.adicionarPost(videoPost2);
+
+        System.out.println("Todos os posts:");
+        redeSocial.listarPosts();
+
+        System.out.println("\nPosts de Bob:");
+        redeSocial.buscarPostsPorAutor("Bob");
+
+        redeSocial.adicionarLikeAoPost(1);
+        redeSocial.adicionarLikeAoPost(1);
+        redeSocial.adicionarLikeAoPost(5);
+
+        System.out.println("\nPost mais popular:");
+        redeSocial.exibirPostMaisPopular();*/
     }
 }
