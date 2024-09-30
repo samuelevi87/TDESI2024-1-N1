@@ -1,13 +1,23 @@
 package main.java.atividade04;
 
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
+/**
+ * Representa uma notificação padrão.
+ * Esta classe serve como base para todos os tipos de notificações e implementa da interface Notificavel.
+ */
 public abstract class Notificacao implements Notificavel{
     private String mensagem;
     private String destinatario;
     private LocalDateTime dataEnvio;
     private Boolean enviada;
 
+    /**
+     * Constrói uma nova notificação.
+     * @param mensagem A mensagem a ser enviada
+     * @param destinatario O destinatário para o qual será enviada a mensagem
+     */
     public Notificacao(String mensagem, String destinatario) {
         this.mensagem = mensagem;
         this.destinatario = destinatario;
@@ -43,11 +53,15 @@ public abstract class Notificacao implements Notificavel{
         this.enviada = enviada;
     }
 
+    /**
+     * Retorna a representação em string da notificação.
+     * @return Uma string contendo a mensagem, o destinatário e a data de envio da mensagem.
+     */
     @Override
     public String toString() {
         return "\nMensagem: \"" + mensagem + '\"' +
                 "\nDestinatario: \"" + destinatario + '\"' +
-                "\nData de envio: " + dataEnvio;
+                "\nData de envio: " + dataEnvio.format(DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm"));
     }
 
     /**
