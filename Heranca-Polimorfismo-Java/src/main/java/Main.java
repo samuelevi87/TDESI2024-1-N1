@@ -18,6 +18,10 @@ import main.java.atividade05.CartaoCredito;
 import main.java.atividade05.ProcessadorPagamento;
 import main.java.atividade05.TransferenciaBancaria;
 import main.java.atividade06.*;
+import main.java.atividade07.ImagePost;
+import main.java.atividade07.RedeSocial;
+import main.java.atividade07.TextPost;
+import main.java.atividade07.VideoPost;
 
 import java.time.LocalDate;
 
@@ -28,7 +32,8 @@ public class Main {
 //        atividade03();
 //        atividade04();
 //        atividade05();
-        atividade06();
+//        atividade06();
+        atividade07();
     }
 
     public static void atividade01() {
@@ -153,6 +158,33 @@ public class Main {
 
         System.out.println("\n=== Tarefas Ordenadas por Prioridade ===");
         gerenciador.ordenarPorPrioridade();
+
+    }
+    public static void atividade07(){
+        RedeSocial redeSocial = new RedeSocial();
+
+        redeSocial.adicionarPost(new TextPost("Gabriella", "lalala"));
+        redeSocial.adicionarPost(new TextPost("Nathália", "estou programando"));
+
+        redeSocial.adicionarPost(new ImagePost("Gabriella", "código java", "imagem.jpg", "filtro"));
+        redeSocial.adicionarPost(new ImagePost("Tainá", "imagem de código", "codigo.png", "filtro código"));
+
+        redeSocial.adicionarPost(new VideoPost("Nathália", "codando", "video.mp4", 120));
+        redeSocial.adicionarPost(new VideoPost("Tainá", "vídeo da api", "api.mp4", 50));
+
+        System.out.println("=== Todos os posts ===");
+        System.out.println(redeSocial.listarTodosPosts());
+
+        System.out.println("=== Post por autor ===");
+        redeSocial.buscarPostsPorAutor("Gabriella").forEach(System.out::println);
+
+        redeSocial.adicionarLike(1);
+        redeSocial.adicionarLike(3);
+
+        System.out.println("=== Todos os posts ===");
+        System.out.println(redeSocial.listarTodosPosts());
+
+
 
     }
 
