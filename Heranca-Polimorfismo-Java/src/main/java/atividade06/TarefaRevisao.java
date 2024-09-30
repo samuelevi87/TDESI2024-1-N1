@@ -32,8 +32,8 @@ public class TarefaRevisao extends Tarefa {
         super(titulo, descricao, dataCriacao, dataLimite, status);
     }
 
-    public TarefaRevisao calcularPrioridade(){
-        Integer prioridade = numeroLinhas/100 ;
-                return calcularPrioridade();
+    public int calcularPrioridade(){
+        return numeroLinhas/100 ;
+
     }
 }

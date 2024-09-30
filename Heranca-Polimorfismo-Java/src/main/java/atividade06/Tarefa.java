@@ -22,7 +22,7 @@ public abstract class Tarefa {
         this.descricao = descricao;
         this.dataCriacao = LocalDate.now();
         this.dataLimite = dataLimite;
-        this.status = status;
+        this.status = status.PENDENTE;
     }
 
     public String getTitulo() {

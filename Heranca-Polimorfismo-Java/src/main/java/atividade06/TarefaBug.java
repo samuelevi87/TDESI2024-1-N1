@@ -20,7 +20,4 @@ public class TarefaBug extends Tarefa {
         super(titulo, descricao, dataCriacao, dataLimite, status);
     }
 
-public  TarefaBug calcularPrioridade(){
-        Integer prioridade = severidade
-}
 }
