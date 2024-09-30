@@ -2,6 +2,9 @@ package main.java.atividade06;
 
 import java.time.LocalDate;
 
+/**
+ * Classe abstrata que representa uma Tarefa
+ */
 public abstract class Tarefa {
     private String titulo;
     private String descricao;
@@ -9,6 +12,13 @@ public abstract class Tarefa {
     private LocalDate dataLimite;
     private Status status;
 
+    /**
+     * Constrói uma Tarefa
+     * @param titulo        título da tarefa
+     * @param descricao     descrição da tarefa
+     * @param dataLimite    data limite da tarefa
+     * @param status        status da tarefa
+     */
     public Tarefa(String titulo, String descricao, LocalDate dataLimite, Status status) {
         this.titulo = titulo;
         this.descricao = descricao;
@@ -16,9 +26,19 @@ public abstract class Tarefa {
         this.dataLimite = dataLimite;
         this.status = status;
     }
+
+    /**
+     * Atualiza o status da tarefa
+     * @param novoStatus status atualizado
+     */
     public void atualizarStatus(Status novoStatus){
         this.status = novoStatus;
     }
+
+    /**
+     * Método abstrato para calcular a prioridade
+     * @return a prioridade da tarefa
+     */
     public abstract int calcularPrioridade();
     public String getTitulo() {
         return titulo;
