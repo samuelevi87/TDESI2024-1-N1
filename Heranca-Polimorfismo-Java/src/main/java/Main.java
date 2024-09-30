@@ -20,6 +20,9 @@ import main.java.atividade05.CorrecaoBoleto;
 import main.java.atividade05.CorrecaoCartaoCredito;
 import main.java.atividade05.CorrecaoProcessadorPagamento;
 import main.java.atividade05.CorrecaoTransferenciaBancaria;
+import main.java.atividade06.*;
+
+import java.time.LocalDate;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,8 +30,54 @@ public class Main {
         //CorrecaoAtividade02();
         //CorrecaoAtividade03();
         //CorrecaoAtividade04();
-        CorrecaoAtividade05();
+        //CorrecaoAtividade05();
+        CorrecaoAtividade06();
 
+
+    }
+
+    private static void CorrecaoAtividade06() {
+        CorrecaoGerenciadorTarefas gerenciador = new CorrecaoGerenciadorTarefas();
+
+        // Adicionando tarefas
+        gerenciador.adicionarTarefa(new CorrecaoTarefaDesenvolvimento("Implementar Login", "Criar sistema de login",
+                LocalDate.now().plusDays(7), "Java", 3));
+        gerenciador.adicionarTarefa(new CorrecaoTarefaRevisao("Revisar PR #123", "Revisar pull request de feature X",
+                LocalDate.now().plusDays(2), "João", 500));
+        gerenciador.adicionarTarefa(new CorrecaoTarefaBug("Corrigir bug #456", "Corrigir crash na tela inicial",
+                LocalDate.now().plusDays(1), CorrecaoTarefaBug.Severidade.ALTA, "Android"));
+
+        // Listando todas as tarefas (usando o método com stream)
+        System.out.println("Todas as tarefas (usando streams):");
+        gerenciador.listarTarefas().forEach(System.out::println);
+
+        // Listando todas as tarefas (usando o método simples)
+        System.out.println("\nTodas as tarefas (usando método simples):");
+        gerenciador.listarTarefasSimples().forEach(System.out::println);
+
+        // Listando tarefas por status (usando o método com stream)
+        System.out.println("\nTarefas pendentes (usando streams):");
+        gerenciador.listarTarefasPorStatus(CorrecaoTarefa.Status.PENDENTE).forEach(System.out::println);
+
+        // Listando tarefas por status (usando o método simples)
+        System.out.println("\nTarefas pendentes (usando método simples):");
+        gerenciador.listarTarefasPorStatusSimples(CorrecaoTarefa.Status.PENDENTE).forEach(System.out::println);
+
+        // Atualizando status de uma tarefa (usando o método com stream)
+        gerenciador.atualizarStatusTarefa("Implementar Login", CorrecaoTarefa.Status.EM_ANDAMENTO);
+        System.out.println("\nStatus da tarefa 'Implementar Login' atualizado para EM_ANDAMENTO");
+
+        // Atualizando status de outra tarefa (usando o método simples)
+        gerenciador.atualizarStatusTarefaSimples("Revisar PR #123", CorrecaoTarefa.Status.EM_ANDAMENTO);
+        System.out.println("Status da tarefa 'Revisar PR #123' atualizado para EM_ANDAMENTO");
+
+        // Listando tarefas ordenadas por prioridade (usando o método com stream)
+        System.out.println("\nTarefas ordenadas por prioridade (usando streams):");
+        medirTempo(() -> gerenciador.listarTarefasOrdenadasPorPrioridade().forEach(System.out::println));
+
+        // Listando tarefas ordenadas por prioridade (usando o método simples)
+        System.out.println("\nTarefas ordenadas por prioridade (usando método simples):");
+        medirTempo(() -> gerenciador.listarTarefasOrdenadasPorPrioridadeSimples().forEach(System.out::println));
     }
 
     private static void CorrecaoAtividade05() {
@@ -154,5 +203,18 @@ public class Main {
 
         System.out.println("\nFolha de Pagamento Total: R$" +
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
+    }
+
+    /**
+     * Mede o tempo de execução de uma operação.
+     *
+     * @param runnable A operação a ser executada e medida.
+     */
+    private static void medirTempo(Runnable runnable) {
+        long inicio = System.nanoTime();
+        runnable.run();
+        long fim = System.nanoTime();
+        long duracaoNanos = fim - inicio;
+        System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
     }
 }
