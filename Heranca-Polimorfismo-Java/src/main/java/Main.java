@@ -1,9 +1,6 @@
 package main.java;
 
-import main.java.atividade01.CorrecaoAnalistaQA;
-import main.java.atividade01.CorrecaoDesenvolvedor;
-import main.java.atividade01.CorrecaoEmpresa;
-import main.java.atividade01.CorrecaoGerente;
+import main.java.atividade01.*;
 import main.java.atividade02.CorrecaoAudioLivro;
 import main.java.atividade02.CorrecaoBiblioteca;
 import main.java.atividade02.CorrecaoEbook;
@@ -32,24 +29,22 @@ public class Main {
     public static void main(String[] args) {
         //CorrecaoAtividade01();
         //CorrecaoAtividade02();
-        Atividade04();
+        Atividade01();
 
     }
 
-    private static void Atividade04(){
-        GerenciadorNotificacoes gerenciador = new GerenciadorNotificacoes();
+    private static void Atividade01(){
+        Empresa empresa01 = new Empresa();
 
-        gerenciador.adicionarNotificacao(new EmailNotificacao("Oferta especial!", "usuario@email.com", "Promoção"));
-        gerenciador.adicionarNotificacao(new SMSNotificacao("Seu código de verificação é 123456", "João", "123456789"));
-        gerenciador.adicionarNotificacao(new PushNotificacao("Nova mensagem recebida", "Maria", "device_id_123"));
-//        CorrecaoAtividade03();
-        CorrecaoAtividade04();
-        //CorrecaoAtividade03();
-        //CorrecaoAtividade04();
-        //CorrecaoAtividade05();
-        CorrecaoAtividade06();
+        empresa01.addFuncionarios(new AnalistaQA("Bryan", 1, 7000, 5));
+        empresa01.addFuncionarios(new AnalistaQA("Stephanie", 2, 8000, 6));
+        empresa01.addFuncionarios(new Desenvolvedor("Joao", 3, 4000, "Java"));
+        empresa01.addFuncionarios(new Desenvolvedor("Pedro", 4, 6000, "Python"));
+        empresa01.addFuncionarios(new Gerente("Roberto", 5, 8000, 3000));
+        empresa01.addFuncionarios(new Gerente("Sandra", 6, 8000, 2000));
 
-
+        empresa01.listarFuncionarios();
+        System.out.println("Folha Total: " + empresa01.calcularFolhaTotal());
     }
 
     private static void CorrecaoAtividade06() {
@@ -135,7 +130,7 @@ public class Main {
         System.out.println("Enviando todas as notificações:");
         gerenciador.enviarTodasNotificacoes();
 
-        gerenciador.enviarNotificacao();
+        //gerenciador.enviarNotificacao();
 
         gerenciador.listarNotificacoesEnviadas();
         System.out.println("\nLista de notificações enviadas:");
