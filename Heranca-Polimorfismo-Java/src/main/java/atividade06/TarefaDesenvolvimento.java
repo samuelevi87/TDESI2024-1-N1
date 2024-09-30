@@ -17,12 +17,11 @@ public class TarefaDesenvolvimento extends Tarefa {
      * @param titulo O título da tarefa.
      * @param descricao A descrição da tarefa.
      * @param dataLimite A data limite para a conclusão da tarefa.
-     * @param status O status inicial da tarefa.
      * @param linguagemProgramacao A linguagem de programação utilizada na tarefa.
      * @param complexidade O nível de complexidade da tarefa.
      */
-    public TarefaDesenvolvimento(String titulo, String descricao, LocalDate dataLimite, Status status, String linguagemProgramacao, int complexidade) {
-        super(titulo, descricao, dataLimite, status);
+    public TarefaDesenvolvimento(String titulo, String descricao, LocalDate dataLimite, String linguagemProgramacao, int complexidade) {
+        super(titulo, descricao, dataLimite);
         this.linguagemProgramacao = linguagemProgramacao;
         this.complexidade = complexidade;
     }

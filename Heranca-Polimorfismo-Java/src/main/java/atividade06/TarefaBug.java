@@ -17,12 +17,11 @@ public class TarefaBug extends Tarefa {
      * @param titulo O título da tarefa.
      * @param descricao A descrição da tarefa.
      * @param dataLimite A data limite para a conclusão da tarefa.
-     * @param status O status inicial da tarefa.
      * @param severidade O nível de severidade do bug.
      * @param plataforma A plataforma onde o bug foi encontrado.
      */
-    public TarefaBug(String titulo, String descricao, LocalDate dataLimite, Status status, Severidade severidade, String plataforma) {
-        super(titulo, descricao, dataLimite, status);
+    public TarefaBug(String titulo, String descricao, LocalDate dataLimite, Severidade severidade, String plataforma) {
+        super(titulo, descricao, dataLimite);
         this.severidade = severidade;
         this.plataforma = plataforma;
     }

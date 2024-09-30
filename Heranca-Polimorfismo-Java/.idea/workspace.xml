@@ -5,30 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf82566-6ddf-44d8-8b52-839fb96321b8" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCaminhao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCarro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoFrota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoMoto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoVeiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoEmailNotificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoGerenciadorNotificacoes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoNotificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoNotificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoPushNotificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoSMSNotificacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoBoleto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoCartaoCredito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoFormaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoPagavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoProcessadorPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoTransferenciaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Regras de Estorno.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoGerenciadorTarefas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaBug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaDesenvolvimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaRevisao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoDigital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Servico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaBug.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +59,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Merging tainaMartins",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/taina_e_martins/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+    "last_opened_file_path": "C:/Users/taina_e_martins/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
 }]]></component>
   <component name="RunManager">
