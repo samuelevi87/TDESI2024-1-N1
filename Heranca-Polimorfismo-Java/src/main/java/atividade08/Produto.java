@@ -88,4 +88,15 @@ public abstract class Produto {
     public static void setContadorId(int contadorId) {
         Produto.contadorId = contadorId;
     }
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", descricao='" + descricao + '\'' +
+                ", preco=" + preco +
+                ", estoque=" + estoque +
+                '}';
+    }
 }

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1384b3b8-d8f8-4dba-918d-003df4de08fb" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor, Gerente e AnalistaQA">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Carrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Loja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
