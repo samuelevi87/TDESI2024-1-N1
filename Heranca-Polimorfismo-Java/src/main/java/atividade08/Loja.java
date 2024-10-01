@@ -2,21 +2,33 @@ package main.java.atividade08;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Loja {
-    private List<Produto> produtos;
+    private List<Produto> estoque;
 
     public Loja(){
-        this.produtos = new ArrayList<>();
+        this.estoque = new ArrayList<>();
     }
     public void adicionarProdutoAoEstoque(Produto produto){
-        produtos.add(produto);
+        estoque.add(produto);
     }
     public void removerProdutoEstoque(Produto produto){
-        produtos.remove(produto);
+        estoque.remove(produto);
     }
-    public Produto buscarProdutoPorNome(String nome){
-        return produtos.stream().filter(produto -> produto.getNome().equalsIgnoreCase(nome)).findFirst().get();
+    public List<Produto> buscarProdutoPorNome(String nome){
+        return estoque.stream()
+                .filter(p -> p.getNome().toLowerCase().contains(nome.toLowerCase()))
+                .collect(Collectors.toList());
+    }
+    public List<Produto> listarPorCategoriaSimples(Class<? extends Produto> categoria) {
+        List<Produto> resultado = new ArrayList<>();
+        for (Produto p : estoque) {
+            if (categoria.isInstance(p)) {
+                resultado.add(p);
+            }
+        }
+        return resultado;
     }
 
 }

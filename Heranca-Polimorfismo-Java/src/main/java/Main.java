@@ -377,6 +377,7 @@ public class Main {
         System.out.println("\nFolha de Pagamento Total: R$" +
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
     }
+    
 
     /**
      * Mede o tempo de execução de uma operação.
