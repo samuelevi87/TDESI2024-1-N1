@@ -75,6 +75,7 @@ import main.java.atividade05.CorrecaoProcessadorPagamento;
 import main.java.atividade05.CorrecaoTransferenciaBancaria;
 import main.java.atividade06.*;
 import main.java.atividade07.*;
+import main.java.atividade08.*;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -87,9 +88,54 @@ public class Main {
         //CorrecaoAtividade04();
         //CorrecaoAtividade05();
         //CorrecaoAtividade06();
-        CorrecaoAtividade07();
+        //CorrecaoAtividade07();
+        CorrecaoAtividade08();
 
 
+    }
+
+    private static void CorrecaoAtividade08() {
+        CorrecaoLoja loja = new CorrecaoLoja();
+        CorrecaoCarrinho carrinho = new CorrecaoCarrinho();
+
+        // Adicionando produtos à loja
+        loja.adicionarProduto(new CorrecaoProdutoFisico("Smartphone", "Último modelo", 999.99, 50, 0.3, "15x7x1 cm"));
+        loja.adicionarProduto(new CorrecaoProdutoFisico("Livro", "Bestseller", 29.99, 100, 0.5, "20x15x3 cm"));
+        loja.adicionarProduto(new CorrecaoProdutoDigital("E-book", "Versão digital do bestseller", 9.99, 1000, 2.5, "PDF"));
+        loja.adicionarProduto(new CorrecaoProdutoDigital("Curso online", "Aprenda programação", 199.99, 500, 1500, "Video"));
+        loja.adicionarProduto(new CorrecaoServico("Consultoria", "Consultoria em TI", 150.00, 20, 2));
+
+        // Demonstrando busca por nome
+        System.out.println("Buscando produtos com 'book':");
+        loja.buscarPorNome("book").forEach(System.out::println);
+
+        // Demonstrando listagem por categoria
+        System.out.println("\nListando produtos físicos:");
+        loja.listarPorCategoria(CorrecaoProdutoFisico.class).forEach(System.out::println);
+
+        // Realizando uma compra
+        CorrecaoProduto smartphone = loja.buscarPorNome("Smartphone").getFirst();
+        CorrecaoProduto ebook = loja.buscarPorNome("E-book").get(0);
+        carrinho.adicionarProduto(smartphone);
+        carrinho.adicionarProduto(ebook);
+
+        System.out.println("\nItens no carrinho:");
+        carrinho.listarItens();
+
+        System.out.println("\nTotal da compra: R$" + String.format("%.2f", carrinho.calcularTotal()));
+
+        // Demonstrando métodos simples
+        System.out.println("\nUsando métodos simples:");
+        System.out.println("Buscando produtos com 'curso' (versão simples):");
+        loja.buscarPorNomeSimples("curso").forEach(System.out::println);
+
+        System.out.println("\nListando serviços (versão simples):");
+        loja.listarPorCategoriaSimples(CorrecaoServico.class).forEach(System.out::println);
+
+        System.out.println("\nItens no carrinho (versão simples):");
+        carrinho.listarItensSimples();
+
+        System.out.println("\nTotal da compra (versão simples): R$" + String.format("%.2f", carrinho.calcularTotalSimples()));
     }
 
     private static void CorrecaoAtividade07() {
