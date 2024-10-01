@@ -18,11 +18,16 @@ public class Main {
                 LocalDate.now().plusDays(2), LocalDate.parse("2024-10-10"), Status.CONCLUIDA, "VSCODe", Severiedade.ALTA);
 
         TarefaBug tarefaBug2 = new TarefaBug("Bug na Tela de Senha", "Corrigir erro de autenticação",
-                LocalDate.now().plusDays(2), LocalDate.parse("2024-09-30"), Status.PENDENTE, "VSCODe", Severiedade.CRITICA);
+                LocalDate.now().plusDays(2), LocalDate.parse("2024-09-30"), Status.PENDENTE, "VSCODe", Severiedade.MEDIA);
+
+        TarefaBug tarefaBug3 = new TarefaBug("Bug na Tela de Produção", "Corrigir erro de autenticação",
+                LocalDate.now().plusDays(2), LocalDate.parse("2024-10-01"), Status.PENDENTE, "VSCODe", Severiedade.BAIXA);
 
 
         gerenciadorTarefas1.adicionarTarefas(tarefaBug1);
         gerenciadorTarefas1.adicionarTarefas(tarefaBug2);
+        gerenciadorTarefas1.adicionarTarefas(tarefaBug3);
+
 
         gerenciadorTarefas1.listarTarefasPorPrioridade();
         System.out.println("\n" + "--- Lista de todoas tarefas ---");
