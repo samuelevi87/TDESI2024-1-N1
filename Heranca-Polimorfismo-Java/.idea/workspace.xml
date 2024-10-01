@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Correção do Merge da main com todas as atividades até a correção da atividade 06">
       <changelist_data name="Samuel Levi" email="samuel.levi.alves@outlook.com" date="1727121479000" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <list id="533b8077-6a5b-4d16-9307-806a422b4b46" name="Changes da atividade 02" comment="" />
     <option name="SHOW_DIALOG" value="false" />

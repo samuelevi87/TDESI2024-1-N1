@@ -36,10 +36,8 @@ public class Main {
         //CorrecaoAtividade05();
         //CorrecaoAtividade06();
         //CorrecaoAtividade07();
-<<<<<<< HEAD
-=======
-        CorrecaoAtividade08();
->>>>>>> fec0f85052335bfae6c7d7b99c1fb5e30d6629f3
+        //CorrecaoAtividade08();
+
 
 
     }
