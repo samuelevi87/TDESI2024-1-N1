@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf82566-6ddf-44d8-8b52-839fb96321b8" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Servico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaBug.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaBug.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Acomodacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoLuxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoStantard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Suite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/TipoToCama.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Kotlin Class" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -57,9 +54,9 @@
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging tainaMartins",
+    "git-widget-placeholder": "tainaMartins",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/taina_e_martins/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+    "last_opened_file_path": "C:/Users/585/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
   }
 }]]></component>
   <component name="RunManager">
