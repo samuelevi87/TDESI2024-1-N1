@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4962c353-c0c6-47e9-a5ca-cbc822c49ca1" name="Changes" comment="&#10;a">
+    <list default="true" id="4962c353-c0c6-47e9-a5ca-cbc822c49ca1" name="Changes" comment="Atividade 8 concluida">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727737108130</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Atividade 8 concluida">
+      <created>1727737502452</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727737502452</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +165,7 @@
     <MESSAGE value="Atividade 5 quase concluida (falta main)" />
     <MESSAGE value="Atividade 6 concluida" />
     <MESSAGE value="&#10;a" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;a" />
+    <MESSAGE value="Atividade 8 concluida" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade 8 concluida" />
   </component>
 </project>
