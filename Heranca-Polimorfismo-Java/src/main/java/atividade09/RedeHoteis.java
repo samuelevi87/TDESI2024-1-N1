@@ -21,6 +21,6 @@ public class RedeHoteis {
     }
 
     public void reservarAcomodacaoEspecifica(Integer numero) {
-        listaDeHoteis.stream().map(Hotel::getListaDeAcomodacoes).flatMap(Collection::stream).toList().stream().filter(acomodacao -> acomodacao.getNumero().equals(numero)).findFirst().ifPresent(Acomodacao::reservar);
+        listaDeHoteis.stream().map(Hotel::getListaDeAcomodacoes).flatMap(Collection::stream).filter(acomodacao -> acomodacao.getNumero().equals(numero)).findFirst().ifPresent(Acomodacao::reservar);
     }
 }
