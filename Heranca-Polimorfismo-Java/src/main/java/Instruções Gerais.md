@@ -9,6 +9,8 @@ Este documento contém links para a documentação oficial do Java 17 das princi
 - [Integer](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html) - Wrapper para o tipo primitivo `int`
 - [Double](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Double.html) - Wrapper para o tipo primitivo `double`
 - [Boolean](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Boolean.html) - Wrapper para o tipo primitivo `boolean`
+- [StringBuilder](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/StringBuilder.html) - Classe para construir strings mutáveis
+- [AtomicInteger](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/concurrent/atomic/AtomicInteger.html) - Inteiro com operações atômicas
 
 ## Coleções
 
@@ -56,4 +58,16 @@ Este documento contém links para a documentação oficial do Java 17 das princi
 
 - [Class](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Class.html) - Metadados de uma classe
 
+## Modificadores
+
+- [final](https://docs.oracle.com/javase/tutorial/java/IandI/final.html) - Documentação sobre o uso do modificador `final`
+
 Lembre-se de consultar a documentação oficial do Java 17 para obter informações detalhadas sobre métodos, construtores e exemplos de uso de cada classe.
+
+Esta versão atualizada inclui links para:
+
+1. `StringBuilder`: Útil para manipulação eficiente de strings, especialmente quando há muitas concatenações.
+2. `AtomicInteger`: Fornece operações atômicas para inteiros, útil em contextos concorrentes.
+3. `final`: Embora não seja uma classe, adicionei um link para a documentação sobre o uso do modificador `final`, que é relevante para a discussão sobre atributos imutáveis.
+
+Estas adições complementam o conjunto de recursos úteis para os exercícios de programação Java, especialmente no contexto de herança, polimorfismo e boas práticas de programação.
