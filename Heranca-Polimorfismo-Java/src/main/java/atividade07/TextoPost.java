@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class TextoPost extends Post{
 
-    private ArrayList hashtags;
+    private ArrayList<String> hashtags;
 
     public TextoPost(int id, String autor, String conteudo, LocalDateTime dataPublicacao, int likes, ArrayList hashtags) {
         super(id, autor, conteudo, dataPublicacao, likes);

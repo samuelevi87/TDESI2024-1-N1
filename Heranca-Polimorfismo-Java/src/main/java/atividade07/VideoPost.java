@@ -14,6 +14,6 @@ public class VideoPost extends Post{
 
     @Override
     public String exibir() {
-        return "Autor: "+getAutor()+"\nVideo: "+urlVideo+"\nDuração: "+duracao;
+        return "Autor: "+getAutor()+"Conteudo: "+getConteudo()+"\nVideo: "+urlVideo+"\nDuração: "+duracao;
     }
 }
