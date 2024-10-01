@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="520feeda-9041-4247-b568-78fb47f4e3cc" name="Changes" comment="preenchimento das classes e criação da classe GerenciadorTarefas na atv6.">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/GerenciadorTarefas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade06/Tarefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
