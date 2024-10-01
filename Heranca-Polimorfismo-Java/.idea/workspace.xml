@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6329d605-0073-42d1-b8fc-606cdf03e0d3" name="Changes" comment="Atividade 1 atualizada">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoGerenciadorTarefas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaBug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaDesenvolvimento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaRevisao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
