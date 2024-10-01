@@ -5,11 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="27d54b61-15fd-45bc-800a-c432e56a0f9b" name="Changes" comment="Criação das classe Funcionario, Desenvolvedor e Gerente, na atividade 1.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoDigital.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoFisico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/Servico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCaminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoFrota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoMoto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoVeiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoEmailNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoGerenciadorNotificacoes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoNotificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoPushNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/CorrecaoSMSNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoBoleto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoCartaoCredito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoFormaPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoPagavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoProcessadorPagamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/CorrecaoTransferenciaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Regras de Estorno.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoGerenciadorTarefas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaBug.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaDesenvolvimento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/CorrecaoTarefaRevisao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Atributos 'final'.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/CorrecaoImagePost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/CorrecaoPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/CorrecaoRedeSocial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/CorrecaoTextPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/CorrecaoVideoPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/CorrecaoCarrinho.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/CorrecaoLoja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/CorrecaoProduto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/CorrecaoProdutoDigital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/CorrecaoProdutoFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade08/CorrecaoServico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
