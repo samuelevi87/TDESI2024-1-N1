@@ -1,6 +1,30 @@
 package main.java;
 
-import main.java.atividade09.*;
+import main.java.atividade01.CorrecaoAnalistaQA;
+import main.java.atividade01.CorrecaoDesenvolvedor;
+import main.java.atividade01.CorrecaoEmpresa;
+import main.java.atividade01.CorrecaoGerente;
+import main.java.atividade02.CorrecaoAudioLivro;
+import main.java.atividade02.CorrecaoBiblioteca;
+import main.java.atividade02.CorrecaoEbook;
+import main.java.atividade02.CorrecaoLivroFisico;
+import main.java.atividade03.CorrecaoCaminhao;
+import main.java.atividade03.CorrecaoCarro;
+import main.java.atividade03.CorrecaoFrota;
+import main.java.atividade03.CorrecaoMoto;
+import main.java.atividade04.CorrecaoEmailNotificacao;
+import main.java.atividade04.CorrecaoGerenciadorNotificacoes;
+import main.java.atividade04.CorrecaoPushNotificacao;
+import main.java.atividade04.CorrecaoSMSNotificacao;
+import main.java.atividade05.CorrecaoBoleto;
+import main.java.atividade05.CorrecaoCartaoCredito;
+import main.java.atividade05.CorrecaoProcessadorPagamento;
+import main.java.atividade05.CorrecaoTransferenciaBancaria;
+import main.java.atividade06.*;
+import main.java.atividade07.*;
+
+import java.time.LocalDate;
+import java.util.List;
 
 public class Main {
 
