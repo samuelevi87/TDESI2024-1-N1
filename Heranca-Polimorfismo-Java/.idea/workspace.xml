@@ -10,6 +10,18 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaDesenvolvimento.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/atividade06/TarefaRevisao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade05/Boleto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade05/Boleto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade05/CartaoCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade05/CartaoCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade05/FormaPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade05/FormaPagamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade05/TransferenciaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade05/TransferenciaBancaria.java" afterDir="false" />
+>>>>>>> a074b06023477a0d68898921485d4633672faf4e
+>>>>>>> 8ba71ee17af2f0f02d8b7022c0a9e53f0811b29b
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
