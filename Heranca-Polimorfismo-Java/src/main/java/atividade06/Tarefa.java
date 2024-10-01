@@ -17,14 +17,13 @@ public abstract class Tarefa {
      * @param titulo        título da tarefa
      * @param descricao     descrição da tarefa
      * @param dataLimite    data limite da tarefa
-     * @param status        status da tarefa
      */
-    public Tarefa(String titulo, String descricao, LocalDate dataLimite, Status status) {
+    public Tarefa(String titulo, String descricao, LocalDate dataLimite) {
         this.titulo = titulo;
         this.descricao = descricao;
         this.dataCriacao = LocalDate.now();
         this.dataLimite = dataLimite;
-        this.status = status;
+        this.status = Status.PENDENTE;
     }
 
     /**
@@ -86,6 +85,6 @@ public abstract class Tarefa {
                 ", descricao: '" + descricao + '\'' +
                 ", data de criação: " + dataCriacao +
                 ", data limite: " + dataLimite +
-                ", status; " + status;
+                ", status: " + status;
     }
 }

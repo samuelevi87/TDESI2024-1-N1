@@ -26,53 +26,23 @@ import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
-<<<<<<< HEAD
-=======
-import main.java.atividade02.CorrecaoAudioLivro;
-import main.java.atividade02.CorrecaoBiblioteca;
-import main.java.atividade02.CorrecaoEbook;
-import main.java.atividade02.CorrecaoLivroFisico;
-import main.java.atividade03.CorrecaoCaminhao;
-import main.java.atividade03.CorrecaoCarro;
-import main.java.atividade03.CorrecaoFrota;
-import main.java.atividade03.CorrecaoMoto;
-import main.java.atividade04.CorrecaoEmailNotificacao;
-import main.java.atividade04.CorrecaoGerenciadorNotificacoes;
-import main.java.atividade04.CorrecaoPushNotificacao;
-import main.java.atividade04.CorrecaoSMSNotificacao;
-import main.java.atividade05.CorrecaoBoleto;
-import main.java.atividade05.CorrecaoCartaoCredito;
-import main.java.atividade05.CorrecaoProcessadorPagamento;
-import main.java.atividade05.CorrecaoTransferenciaBancaria;
-import main.java.atividade06.*;
 import main.java.atividade07.*;
 import main.java.atividade08.*;
->>>>>>> fec0f85052335bfae6c7d7b99c1fb5e30d6629f3
+
 
 import java.time.LocalDate;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-<<<<<<< HEAD
-=======
-        //CorrecaoAtividade01();
-        //CorrecaoAtividade02();
-        //CorrecaoAtividade03();
-        //CorrecaoAtividade04();
-        //CorrecaoAtividade05();
-        //CorrecaoAtividade06();
-        //CorrecaoAtividade07();
-        CorrecaoAtividade08();
->>>>>>> fec0f85052335bfae6c7d7b99c1fb5e30d6629f3
 
 //        atividade01();
 //        atividade02();
 //        atividade03();
 //        atividade04();
 //        atividade05();
-//        atividade06();
-        atividade07();
+       atividade06();
+//        atividade07();
     }
 
     public static void atividade01() {
@@ -112,7 +82,7 @@ public class Main {
         loja.listarPorCategoria(CorrecaoProdutoFisico.class).forEach(System.out::println);
 
         // Realizando uma compra
-        CorrecaoProduto smartphone = loja.buscarPorNome("Smartphone").getFirst();
+        CorrecaoProduto smartphone = loja.buscarPorNome("Smartphone").get(0);
         CorrecaoProduto ebook = loja.buscarPorNome("E-book").get(0);
         carrinho.adicionarProduto(smartphone);
         carrinho.adicionarProduto(ebook);
@@ -324,25 +294,41 @@ public class Main {
     public static void atividade06 () {
         GerenciadorTarefas gerenciador = new GerenciadorTarefas();
 
-        gerenciador.adicionarTarefas(new TarefaDesenvolvimento("Projeto java", "projeto springboot", LocalDate.of(2024, 10, 1), Status.PENDENTE, "Java", 2));
-        gerenciador.adicionarTarefas(new TarefaDesenvolvimento("projeto js", "projeto com react", LocalDate.of(2024, 11, 10), Status.EM_ANDAMENTO, "JavaScript", 1));
+        // Adicionando tarefas
+        gerenciador.adicionarTarefa(new TarefaDesenvolvimento("Implementar Login", "Criar sistema de login",
+                LocalDate.now().plusDays(7), "Java", 3));
+        gerenciador.adicionarTarefa(new TarefaRevisao("Revisar PR #123", "Revisar pull request de feature X",
+                LocalDate.now().plusDays(2), "João", 500));
+        gerenciador.adicionarTarefa(new TarefaBug("Corrigir bug #456", "Corrigir crash na tela inicial",
+                LocalDate.now().plusDays(1), Severidade.ALTA, "Android"));
 
-        gerenciador.adicionarTarefas(new TarefaRevisao("revisar", "revisar tarefa", LocalDate.of(2024, 10, 2), Status.EM_ANDAMENTO, "Gabriella", 100));
-        gerenciador.adicionarTarefas(new TarefaRevisao("Revisar Código Y", "Revisar código do módulo de pagamento", LocalDate.of(2023, 9, 25), Status.CONCLUIDA, "Carlos", 300));
+        // Listando todas as tarefas (usando o método com stream)
+        System.out.println("Todas as tarefas (usando streams):");
+        gerenciador.listarTodasTarefas().forEach(System.out::println);
 
-        gerenciador.adicionarTarefas(new TarefaBug("Corrigir Bug Z", "Erro crítico na tela de login", LocalDate.of(2023, 9, 28), Status.CONCLUIDA, Severidade.CRITICA, "Web"));
-        gerenciador.adicionarTarefas(new TarefaBug("Corrigir Bug W", "Erro de layout no mobile", LocalDate.of(2023, 9, 29), Status.EM_ANDAMENTO, Severidade.MEDIA, "Mobile"));
+        // Listando todas as tarefas (usando o método simples)
+        System.out.println("\nTodas as tarefas (usando método simples):");
+        gerenciador.listarTarefasSimples().forEach(System.out::println);
 
-        System.out.println("=== Todas as Tarefas ===");
-        gerenciador.listarTodasTarefas();
+        // Listando tarefas por status (usando o método com stream)
+        System.out.println("\nTarefas pendentes (usando streams):");
+        gerenciador.listarPorStatus(Status.PENDENTE).forEach(System.out::println);
 
-        gerenciador.atualizarStatusTarefa("Desenvolver Feature X", Status.EM_ANDAMENTO);
+        // Listando tarefas por status (usando o método simples)
+        System.out.println("\nTarefas pendentes (usando método simples):");
+        gerenciador.listarTarefasPorStatusSimples(Status.PENDENTE).forEach(System.out::println);
 
-        System.out.println("\n=== Tarefas PENDENTES ===");
-        gerenciador.listarPorStatus(Status.PENDENTE);
+        // Atualizando status de uma tarefa (usando o método com stream)
+        gerenciador.atualizarStatusTarefa("Implementar Login", Status.EM_ANDAMENTO);
+        System.out.println("\nStatus da tarefa 'Implementar Login' atualizado para EM_ANDAMENTO");
 
-        System.out.println("\n=== Tarefas Ordenadas por Prioridade ===");
-        gerenciador.ordenarPorPrioridade();
+        // Listando tarefas ordenadas por prioridade (usando o método com stream)
+        System.out.println("\nTarefas ordenadas por prioridade (usando streams):");
+       gerenciador.listarTarefasOrdenadasPorPrioridade().forEach(System.out::println);
+
+        // Listando tarefas ordenadas por prioridade (usando o método simples)
+        System.out.println("\nTarefas ordenadas por prioridade (usando método simples):");
+        gerenciador.listarTarefasOrdenadasPorPrioridadeSimples().forEach(System.out::println);
 
     }
     public static void atividade07(){

@@ -14,19 +14,20 @@ public class TarefaDesenvolvimento extends Tarefa{
      * @param titulo                título da tarefa
      * @param descricao             descrição da tarefa
      * @param dataLimite            data limite da tarefa
-     * @param status                status da tarefa
      * @param linguagemProgramacao  linguagem de programação da tarefa
      * @param complexidade          complexidade da tarefa
      */
-    public TarefaDesenvolvimento(String titulo, String descricao, LocalDate dataLimite, Status status, String linguagemProgramacao, int complexidade) {
-        super(titulo, descricao, dataLimite, status);
+    public TarefaDesenvolvimento(String titulo, String descricao, LocalDate dataLimite, String linguagemProgramacao, int complexidade) {
+        super(titulo, descricao, dataLimite);
         this.linguagemProgramacao = linguagemProgramacao;
         this.complexidade = complexidade;
     }
 
     /**
-     * Calcula a prioridade sendo duas vezes a complexidade
-     * @return a prioridade da tarefa
+     * Calcula a prioridade da tarefa de desenvolvimento.
+     * A prioridade é baseada na complexidade da tarefa.
+     *
+     * @return A prioridade calculada (complexidade * 2).
      */
     @Override
     public int calcularPrioridade() {

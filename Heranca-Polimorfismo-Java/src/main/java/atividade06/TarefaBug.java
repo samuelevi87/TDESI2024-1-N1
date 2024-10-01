@@ -14,12 +14,11 @@ public class TarefaBug extends Tarefa{
      * @param titulo        título da tarefa
      * @param descricao  descrição da tarefa
      * @param dataLimite  data limite da tarefa
-     * @param status      status da tarefa
      * @param severidade  severidade da tarefa
      * @param plataforma  plataforma da tarefa
      */
-    public TarefaBug(String titulo, String descricao, LocalDate dataLimite, Status status, Severidade severidade, String plataforma) {
-        super(titulo, descricao, dataLimite, status);
+    public TarefaBug(String titulo, String descricao, LocalDate dataLimite, Severidade severidade, String plataforma) {
+        super(titulo, descricao, dataLimite);
         this.severidade = severidade;
         this.plataforma = plataforma;
     }
@@ -30,11 +29,22 @@ public class TarefaBug extends Tarefa{
      */
     @Override
     public int calcularPrioridade() {
-        return switch (severidade) {
-            case BAIXA -> 1;
-            case MEDIA -> 2;
-            case ALTA -> 3;
-            case CRITICA -> 4;
-        };
+        return severidade.getValor();
+    }
+
+    public Severidade getSeveridade() {
+        return severidade;
+    }
+
+    public void setSeveridade(Severidade severidade) {
+        this.severidade = severidade;
+    }
+
+    public String getPlataforma() {
+        return plataforma;
+    }
+
+    public void setPlataforma(String plataforma) {
+        this.plataforma = plataforma;
     }
 }

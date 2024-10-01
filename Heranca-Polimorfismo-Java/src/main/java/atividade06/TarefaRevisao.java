@@ -13,12 +13,11 @@ public class TarefaRevisao extends Tarefa{
      * @param titulo        título da tarefa
      * @param descricao  descrição da tarefa
      * @param dataLimite  data limite da tarefa
-     * @param status      status da tarefa
      * @param autorOriginal autor original da tarefa
      * @param numeroLinhas número de linhas da tarefa
      */
-    public TarefaRevisao(String titulo, String descricao, LocalDate dataLimite, Status status, String autorOriginal, int numeroLinhas) {
-        super(titulo, descricao, dataLimite, status);
+    public TarefaRevisao(String titulo, String descricao, LocalDate dataLimite, String autorOriginal, int numeroLinhas) {
+        super(titulo, descricao, dataLimite);
         this.autorOriginal = autorOriginal;
         this.numeroLinhas = numeroLinhas;
     }
