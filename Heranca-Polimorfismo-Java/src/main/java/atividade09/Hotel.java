@@ -11,6 +11,10 @@ public class Hotel {
         this.listaDeAcomodacoes = new ArrayList<>();
     }
 
+    public List<Acomodacao> getListaDeAcomodacoes() {
+        return listaDeAcomodacoes;
+    }
+
     public void adicionarAcomodacoes(Acomodacao acomodacao) {
         this.listaDeAcomodacoes.add(acomodacao);
     }
