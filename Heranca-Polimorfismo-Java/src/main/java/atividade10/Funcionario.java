@@ -61,4 +61,14 @@ public abstract class Funcionario {
     }
 
     public abstract Double calcularSalario();
+
+    @Override
+    public String toString() {
+        return "Funcionario {ID: " + id +
+                ", Nome: '" + nome + '\'' +
+                ", CPF: '" + cpf + '\'' +
+                ", Data de admissão: " + dataAdmissao +
+                ", Salário base: R$" + salarioBase +
+                '}';
+    }
 }
