@@ -4,10 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Departamento {
-    List<Funcionario> listaDeFuncionarios;
+    private List<Funcionario> listaDeFuncionarios;
 
     public Departamento() {
         this.listaDeFuncionarios = new ArrayList<>();
+    }
+
+    public List<Funcionario> getListaDeFuncionarios() {
+        return listaDeFuncionarios;
     }
 
     public void adicionarFuncionario(Funcionario funcionario) {
