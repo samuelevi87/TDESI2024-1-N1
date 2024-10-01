@@ -36,6 +36,27 @@ import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
+<<<<<<< HEAD
+import main.java.atividade04.EmailNotificacao;
+import main.java.atividade04.GerenciadorNotificacoes;
+import main.java.atividade04.PushNotificacao;
+import main.java.atividade04.SMSNotificacao;
+
+import java.time.LocalDate;
+
+public class Main {
+    public static void main(String[] args) {
+        GerenciadorNotificacoes Gerenciador = new GerenciadorNotificacoes();
+
+        Gerenciador.adicionarNotificacao(new EmailNotificacao("ola bom dia ","Claudyson", LocalDate.now(),"sobre pagamento do cartao"));
+        Gerenciador.adicionarNotificacao(new EmailNotificacao("gostariamos de apresentar a nossa marca","Texneo",LocalDate.now(),"Marca esportiva"));
+
+        Gerenciador.adicionarNotificacao(new SMSNotificacao("boa tarde ","Luiza",LocalDate.now(),"47997853831"));
+        Gerenciador.adicionarNotificacao(new PushNotificacao("Novo alerta","LUCAS",LocalDate.now(),"Atualizacao de clima"));
+
+        Gerenciador.enviarNotificacao();
+        Gerenciador.listarNotificacao();
+=======
 import main.java.atividade02.CorrecaoAudioLivro;
 import main.java.atividade02.CorrecaoBiblioteca;
 import main.java.atividade02.CorrecaoEbook;
@@ -278,8 +299,10 @@ public class Main {
 
         System.out.println("\nItens disponíveis após devolução:");
         biblioteca.listarItensDisponiveis();
+>>>>>>> ac47e1b6631175ef2d5c6da6d4230910b10d0d4b
     }
 
+<<<<<<< HEAD
     private static void CorrecaoAtividade01() {
         // Código para testar a atividade 01
         CorrecaoEmpresa empresa = new CorrecaoEmpresa();
@@ -310,5 +333,7 @@ public class Main {
         long duracaoNanos = fim - inicio;
         System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
     }
+=======
+>>>>>>> d08f9044c7384b91a47523339399d10eb28e1f67
 }
 >>>>>>> 60190dea087096223a01f5e8cabd181bf8b9b0c4
