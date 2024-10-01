@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d81d8261-cf83-4d3b-8bc5-6782edbc9f9d" name="Changes" comment="Criacao das classe funcionario, DEsenvolvedor,Gerente, na atividade 1.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d81d8261-cf83-4d3b-8bc5-6782edbc9f9d" name="Changes" comment="Criacao das classe funcionario, DEsenvolvedor,Gerente, na atividade 1." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
