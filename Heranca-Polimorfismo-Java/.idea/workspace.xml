@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Atividade05" />
+=======
+    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Correção do Merge da main com todas as atividades até a correção da atividade 06">
+      <changelist_data name="Samuel Levi" email="samuel.levi.alves@outlook.com" date="1727121479000" />
+    </list>
+    <list id="533b8077-6a5b-4d16-9307-806a422b4b46" name="Changes da atividade 02" comment="" />
+>>>>>>> f49528e65b0468488bed61580893494517663322
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Samuel Levi &lt;samuel.levi.alves@outlook.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -80,11 +92,40 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="giovaniLenoir" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criacao das classes funcionario, desenvolvedor e gerente." />
+<<<<<<< HEAD
     <MESSAGE value="Atividade03" />
     <MESSAGE value="Atividade05" />
     <MESSAGE value="Atividade09" />
     <option name="LAST_COMMIT_MESSAGE" value="Atividade09" />
+=======
+    <MESSAGE value="Correção da Atividade 01" />
+    <MESSAGE value="Correção do Merge da main com todas as atividades até a correção da atividade 06" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção do Merge da main com todas as atividades até a correção da atividade 06" />
+>>>>>>> f49528e65b0468488bed61580893494517663322
   </component>
 </project>
