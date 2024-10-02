@@ -11,11 +11,13 @@ public class Hotel {
 
     private List<Acomodacao> acomodacoes;
     private List<Reserva> reservas;
+    private String nome;
 
     /**
      * Constrói um hotel inicializando a lista de acomodações e de reservas
      */
-    public Hotel(){
+    public Hotel(String nome){
+        this.nome = nome;
         this.acomodacoes = new ArrayList<>();
         this.reservas = new ArrayList<>();
     }
@@ -58,12 +60,10 @@ public class Hotel {
      * @return resultado da reserva ou exceção caso o número seja inválido
      */
     public boolean reservarAcomodacaoPorNumero(int numero, int numeroNoites){
-        return acomodacoes.stream().filter(acomodacao -> acomodacao.getNumero() == numero)
+        return acomodacoes.stream().filter(acomodacao -> acomodacao.getNumero() == numero && acomodacao.reservar())
                 .findFirst()
                 .map(acomodacao -> {
-                    if(acomodacao.reservar()){
-                        reservas.add(new Reserva(acomodacao, numeroNoites));
-                    }
+                    reservas.add(new Reserva(acomodacao, numeroNoites));
                     return acomodacao.reservar();
                 })
                 .orElseThrow(() -> new IllegalArgumentException("Número da acomodação inválido"));
@@ -87,15 +87,6 @@ public class Hotel {
         throw new IllegalArgumentException("Número da acomodação inválido");
     }
 
-    /**
-     * Libera acomodação de acordo com o objeto passado
-     * @param acomodacao acomodação a ser liberada
-     * @return resultado da liberação
-     */
-    public boolean liberarAcomodacao(Acomodacao acomodacao){
-        int index = acomodacoes.indexOf(acomodacao);
-        return acomodacoes.get(index).liberar();
-    }
 
     /**
      * Libera uma acomodação de acordo com seu número utilizando streams
@@ -142,5 +133,11 @@ public class Hotel {
         return total;
     }
 
+    public String getNome() {
+        return nome;
+    }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 }

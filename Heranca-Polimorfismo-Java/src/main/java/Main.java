@@ -37,6 +37,17 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
+        //CorrecaoAtividade01();
+        //CorrecaoAtividade02();
+        //CorrecaoAtividade03();
+        //CorrecaoAtividade04();
+        //CorrecaoAtividade05();
+        //CorrecaoAtividade06();
+        //CorrecaoAtividade07();
+        //CorrecaoAtividade08();
+//        CorrecaoAtividade09();
+
+
 //        atividade01();
 //        atividade02();
 //        atividade03();
@@ -62,6 +73,61 @@ public class Main {
         System.out.println(empresaDeTeste.calcularFolhaDePagamentoTotal());
         empresaDeTeste.listarFuncionarios02();
 
+    }
+
+    private static void CorrecaoAtividade09() {
+        CorrecaoRedeHoteis redeHoteis = new CorrecaoRedeHoteis();
+
+        // Criando hotéis
+        CorrecaoHotel hotel1 = new CorrecaoHotel("Hotel Vila do Farol");
+        CorrecaoHotel hotel2 = new CorrecaoHotel("Resort Ecoar");
+
+        // Adicionando acomodações ao Hotel Vila do Farol
+        hotel1.adicionarAcomodacao(new CorrecaoQuartoStandard(101, 2, 150.0, true, CorrecaoTipoCama.CASAL));
+        hotel1.adicionarAcomodacao(new CorrecaoQuartoLuxo(201, 2, 280.0, true, true, true));
+        hotel1.adicionarAcomodacao(new CorrecaoSuite(301, 4, 390.0, true, 2, true));
+
+        // Adicionando acomodações ao Resort Ecoar
+        hotel2.adicionarAcomodacao(new CorrecaoQuartoStandard(101, 1, 80.0, true, CorrecaoTipoCama.SOLTEIRO));
+        hotel2.adicionarAcomodacao(new CorrecaoQuartoLuxo(201, 2, 180.0, true, false, true));
+        hotel2.adicionarAcomodacao(new CorrecaoSuite(301, 3, 250.0, true, 1, true));
+
+        // Adicionando hotéis à rede
+        redeHoteis.adicionarHotel(hotel1);
+        redeHoteis.adicionarHotel(hotel2);
+
+        // Demonstrando funcionalidades
+        System.out.println("Acomodações disponíveis em toda a rede:");
+        redeHoteis.buscarAcomodacoesDisponiveis().forEach(System.out::println);
+
+        System.out.println("\nFazendo reservas:");
+        System.out.println("Reserva no Hotel Vila do Farol, quarto 201: " +
+                redeHoteis.fazerReserva("Hotel Vila do Farol", 201));
+        System.out.println("Reserva no Resort Ecoar, quarto 101: " +
+                redeHoteis.fazerReserva("Resort Ecoar", 101));
+
+        System.out.println("\nAcomodações disponíveis após reservas:");
+        redeHoteis.buscarAcomodacoesDisponiveis().forEach(System.out::println);
+
+        System.out.println("\nTentando reservar um quarto já ocupado:");
+        System.out.println("Reserva no Hotel Vila do Farol, quarto 201: " +
+                redeHoteis.fazerReserva("Hotel Vila do Farol", 201));
+
+        System.out.println("\nCalculando receita total para 3 noites:");
+        System.out.printf("Hotel Vila do Farol: R$ %.2f%n", hotel1.calcularReceitaTotal(3));
+        System.out.printf("Resort Ecoar: R$ %.2f%n", hotel2.calcularReceitaTotal(3));
+
+        System.out.println("\nDemonstrando métodos simples:");
+        System.out.println("Acomodações disponíveis (método simples):");
+        redeHoteis.buscarAcomodacoesDisponiveisSimples().forEach(System.out::println);
+
+        System.out.println("\nFazendo reserva com método simples:");
+        System.out.println("Reserva no Resort Ecoar, quarto 201: " +
+                redeHoteis.fazerReservaSimples("Resort Ecoar", 201));
+
+        System.out.println("\nCalculando receita total para 3 noites (método simples):");
+        System.out.printf("Hotel Vila do Farol: R$ %.2f%n", hotel1.calcularReceitaTotalSimples(3));
+        System.out.printf("Resort Ecoar: R$ %.2f%n", hotel2.calcularReceitaTotalSimples(3));
     }
 
     private static void CorrecaoAtividade08() {
@@ -380,7 +446,7 @@ public class Main {
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
     }
     public static void atividade09(){
-        Hotel hotel = new Hotel();
+        Hotel hotel = new Hotel("hotel prestol");
 
         hotel.adicionarAcomodacao(new QuartoStandard(1, 2, 100, QuartoStandard.TipoToCama.CASAL));
         hotel.adicionarAcomodacao(new QuartoLuxo(2, 3, 200, true, false));
@@ -419,7 +485,7 @@ public class Main {
         RedeHoteis redeHoteis = new RedeHoteis();
 
         redeHoteis.adicionarHotel(hotel);
-        System.out.println(redeHoteis.reservarAcomodacaoNaRede(3, 1) ? "Reserva bem sucedida" : "Acomodação indisponível");
+        System.out.println(redeHoteis.reservarAcomodacaoNaRede("hotel prestol", 3, 1) ? "Reserva bem sucedida" : "Acomodação indisponível");
         System.out.println("=== Acomodações disponiveis na rede ===");
         redeHoteis.buscarAcomodacoesDisponiveis();
     }

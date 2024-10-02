@@ -40,9 +40,11 @@ public class RedeHoteis {
      * @param numeroNoites numero de noites da reserva
      * @return resultado da reserva
      */
-    public boolean reservarAcomodacaoNaRede(int numeroAcomodacao, int numeroNoites) {
+    public boolean reservarAcomodacaoNaRede(String nomeHotel, int numeroAcomodacao, int numeroNoites) {
         for (Hotel hotel : hoteis) {
-            return hotel.reservarAcomodacaoPorNumeroSimples(numeroAcomodacao, numeroNoites);
+            if(hotel.getNome().equalsIgnoreCase(nomeHotel)){
+                return hotel.reservarAcomodacaoPorNumeroSimples(numeroAcomodacao, numeroNoites);
+            }
         }
         return false;
     }
