@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1384b3b8-d8f8-4dba-918d-003df4de08fb" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor, Gerente e AnalistaQA">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/CorrecaoAcomodacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/CorrecaoHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/CorrecaoQuartoLuxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/CorrecaoQuartoStandard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/CorrecaoRedeHoteis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/CorrecaoSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/CorrecaoTipoCama.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/CorrecaoAnalista.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/CorrecaoDepartamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/CorrecaoEmpresa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/CorrecaoFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/CorrecaoGerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/CorrecaoNivelSenioridade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/CorrecaoVendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade10/Empresa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Instruções Gerais.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade09/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade09/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade09/RedeHoteis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade09/RedeHoteis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade10/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade10/Departamento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

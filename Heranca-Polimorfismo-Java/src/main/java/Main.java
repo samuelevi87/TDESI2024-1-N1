@@ -24,11 +24,29 @@ import main.java.atividade07.TextPost;
 import main.java.atividade07.VideoPost;
 import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
-import main.java.atividade01.CorrecaoEmpresa;
-import main.java.atividade01.CorrecaoGerente;
+
+import main.java.atividade02.CorrecaoAudioLivro;
+import main.java.atividade02.CorrecaoBiblioteca;
+import main.java.atividade02.CorrecaoEbook;
+import main.java.atividade02.CorrecaoLivroFisico;
+import main.java.atividade03.CorrecaoCaminhao;
+import main.java.atividade03.CorrecaoCarro;
+import main.java.atividade03.CorrecaoFrota;
+import main.java.atividade03.CorrecaoMoto;
+import main.java.atividade04.CorrecaoEmailNotificacao;
+import main.java.atividade04.CorrecaoGerenciadorNotificacoes;
+import main.java.atividade04.CorrecaoPushNotificacao;
+import main.java.atividade04.CorrecaoSMSNotificacao;
+import main.java.atividade05.CorrecaoBoleto;
+import main.java.atividade05.CorrecaoCartaoCredito;
+import main.java.atividade05.CorrecaoProcessadorPagamento;
+import main.java.atividade05.CorrecaoTransferenciaBancaria;
+import main.java.atividade06.*;
+
 import main.java.atividade07.*;
 import main.java.atividade08.*;
 import main.java.atividade09.*;
+import main.java.atividade10.*;
 
 
 import java.time.LocalDate;
@@ -45,7 +63,9 @@ public class Main {
         //CorrecaoAtividade06();
         //CorrecaoAtividade07();
         //CorrecaoAtividade08();
-//        CorrecaoAtividade09();
+
+        //CorrecaoAtividade09();
+        CorrecaoAtividade10();
 
 
 //        atividade01();
@@ -73,6 +93,62 @@ public class Main {
         System.out.println(empresaDeTeste.calcularFolhaDePagamentoTotal());
         empresaDeTeste.listarFuncionarios02();
 
+    }
+
+    private static void CorrecaoAtividade10() {
+        CorrecaoEmpresa empresa = new CorrecaoEmpresa("TechCorp");
+
+        // Criando departamentos
+        CorrecaoDepartamento ti = new CorrecaoDepartamento("TI");
+        CorrecaoDepartamento vendas = new CorrecaoDepartamento("Vendas");
+
+        // Adicionando funcionários ao departamento de TI
+        ti.adicionarFuncionario(new CorrecaoGerente("João Silva", "123.456.789-00", LocalDate.of(2015, 1, 1), 10000.0, "TI", 2000.0));
+        ti.adicionarFuncionario(new CorrecaoAnalista("Maria Souza", "987.654.321-00", LocalDate.of(2018, 6, 1), 6000.0, "Desenvolvimento", CorrecaoNivelSenioridade.PLENO));
+        ti.adicionarFuncionario(new CorrecaoAnalista("Pedro Santos", "111.222.333-44", LocalDate.of(2020, 3, 15), 4500.0, "Suporte", CorrecaoNivelSenioridade.JUNIOR));
+
+        // Adicionando funcionários ao departamento de Vendas
+        vendas.adicionarFuncionario(new CorrecaoGerente("Ana Oliveira", "444.555.666-77", LocalDate.of(2017, 4, 1), 8000.0, "Vendas", 1500.0));
+        vendas.adicionarFuncionario(new CorrecaoVendedor("Carlos Ferreira", "888.999.000-11", LocalDate.of(2019, 8, 1), 3000.0, 0.05, 50000.0));
+        vendas.adicionarFuncionario(new CorrecaoVendedor("Mariana Costa", "222.333.444-55", LocalDate.of(2021, 1, 10), 3000.0, 0.05, 40000.0));
+
+        // Adicionando departamentos à empresa
+        empresa.adicionarDepartamento(ti);
+        empresa.adicionarDepartamento(vendas);
+
+        // Demonstrando funcionalidades
+        System.out.println("Funcionários do departamento de TI:");
+        ti.listarFuncionarios();
+
+        System.out.println("\nFuncionários do departamento de Vendas:");
+        vendas.listarFuncionariosSimples();
+
+        System.out.println("\nBuscando funcionários com 'Silva' no nome:");
+        empresa.buscarFuncionariosPorNome("Silva").forEach(System.out::println);
+
+        System.out.println("\nCalculando folha de pagamento total da empresa:");
+        System.out.printf("Total: R$ %.2f%n", empresa.calcularFolhaPagamentoTotal());
+
+        System.out.println("\nRelatório de tempo de serviço:");
+        System.out.println(empresa.gerarRelatorioTempoServico());
+
+        // Demonstrando métodos simples
+        System.out.println("Usando métodos simples:");
+        System.out.println("\nBuscando funcionários com 'a' no nome (método simples):");
+        empresa.buscarFuncionariosPorNomeSimples("a").forEach(System.out::println);
+
+        System.out.println("\nRelatório de tempo de serviço (método simples):");
+        System.out.println(empresa.gerarRelatorioTempoServicoSimples());
+
+        // Cálculo de salários
+        System.out.println("\nDemonstrando cálculo de salários:");
+        for (CorrecaoDepartamento departamento : List.of(ti, vendas)) {
+            System.out.printf("Departamento: %s%n", departamento.getNome());
+            for (CorrecaoFuncionario funcionario : departamento.getFuncionarios()) {
+                System.out.printf("%s: R$ %.2f%n", funcionario.getNome(), funcionario.calcularSalario());
+            }
+            System.out.println();
+        }
     }
 
     private static void CorrecaoAtividade09() {
@@ -430,12 +506,12 @@ public class Main {
 
     private static void CorrecaoAtividade01() {
         // Código para testar a atividade 01
-        CorrecaoEmpresa empresa = new CorrecaoEmpresa();
+        main.java.atividade01.CorrecaoEmpresa empresa = new main.java.atividade01.CorrecaoEmpresa();
 
         empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Ana Silva", 1, 5000, "Java"));
         empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Carlos Santos", 2, 5500, "Python"));
-        empresa.adicionarFuncionario(new CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
-        empresa.adicionarFuncionario(new CorrecaoGerente("João Pereira", 4, 8500, 12000));
+        empresa.adicionarFuncionario(new main.java.atividade01.CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
+        empresa.adicionarFuncionario(new main.java.atividade01.CorrecaoGerente("João Pereira", 4, 8500, 12000));
         empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Pedro Costa", 5, 4500, 50));
         empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Lúcia Ferreira", 6, 4800, 60));
 
