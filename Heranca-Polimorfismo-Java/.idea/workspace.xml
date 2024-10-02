@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf82566-6ddf-44d8-8b52-839fb96321b8" name="Changes" comment="Criação das classes Funcionario, Desenvolvedor e Gerente, na atividade 1.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade10/Analista.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade10/Analista.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade10/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade10/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade10/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade10/Gerente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade10/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade10/Vendedor.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/Atributos 'final'.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/CorrecaoImagePost.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/atividade07/CorrecaoPost.java" afterDir="false" />
@@ -35,8 +39,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
+        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -58,16 +63,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging tainaMartins",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/taina_e_martins/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;tainaMartins&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/585/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main" />
