@@ -410,5 +410,44 @@ public class Main {
         System.out.println("Post mais popular:");
         System.out.println(postMaisPopular.exibir() + " - Likes: " + postMaisPopular.getLikes());
     }
+    public static void Loja() {
+        Loja loja = new Loja();
+        Carrinho carrinho = new Carrinho();
+
+        // Adicionando produtos à loja
+        ProdutoFisico produto1 = new ProdutoFisico("Notebook", "Notebook Gamer", 3000.00, 10, 2.5, "30x20x5 cm");
+        ProdutoDigital produto2 = new ProdutoDigital("E-book", "E-book de programação", 50.00, 100, 2.0, "PDF");
+        Servico servico1 = new Servico("Consultoria", "Consultoria em TI", 500.00, 5, 2);
+
+        loja.adicionarProduto(produto1);
+        loja.adicionarProduto(produto2);
+        loja.adicionarProduto(servico1);
+
+        // Adicionando produtos ao carrinho
+        carrinho.adicionarProduto(produto1);
+        carrinho.adicionarProduto(produto2);
+
+        // Listando produtos na loja
+        System.out.println("Estoque da Loja:");
+        for (Produto p : loja.getEstoque()) {
+            System.out.println(p.getNome() + " - Preço: R$" + p.getPreco());
+        }
+
+        // Calculando total da compra
+        System.out.println("\nTotal da Compra: R$" + carrinho.calcularTotal());
+
+        // Listando itens do carrinho
+        System.out.println("\nItens no Carrinho:");
+        for (Produto p : carrinho.listarItens()) {
+            System.out.println(p.getNome() + " - Preço: R$" + p.getPreco() + " + Frete: R$" + p.calcularFrete());
+        }
+
+        // Buscando produtos por nome
+        System.out.println("\nBuscando produto 'E-book':");
+        for (Produto p : loja.buscarPorNome("E-book")) {
+            System.out.println(p.getNome() + " - Preço: R$" + p.getPreco());
+        }
+    }
 }
+
 
