@@ -5,11 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e247d5f-6a59-4925-b3bb-74571f8d0f71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade05/Pagavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Acomodacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoLuxo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoStandard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/RedeHoteis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Suite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/Carrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/Loja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoDigital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoDigital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoFisico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/ProdutoFisico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade08/Servico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade08/Servico.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
