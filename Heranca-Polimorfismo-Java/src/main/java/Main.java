@@ -415,6 +415,13 @@ public class Main {
 
         System.out.println("=== Receita total das reservas ===");
         System.out.println(hotel.calcularReceitaTotalReservas());
+
+        RedeHoteis redeHoteis = new RedeHoteis();
+
+        redeHoteis.adicionarHotel(hotel);
+        System.out.println(redeHoteis.reservarAcomodacaoNaRede(3, 1) ? "Reserva bem sucedida" : "Acomodação indisponível");
+        System.out.println("=== Acomodações disponiveis na rede ===");
+        redeHoteis.buscarAcomodacoesDisponiveis();
     }
 
     /**
