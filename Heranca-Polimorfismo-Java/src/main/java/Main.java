@@ -371,4 +371,44 @@ public class Main {
             }
         }
     }
+    public static void RedeSocial() {
+        RedeSocial redeSocial = new RedeSocial();
+
+        // Adicionando posts
+        TextPost post1 = new TextPost("Alice", "Hello World!");
+        post1.adicionarHashtag("#greetings");
+        TextPost post2 = new TextPost("Bob", "Java is awesome!");
+        post2.adicionarHashtag("#java");
+
+        ImagePost post3 = new ImagePost("Alice", "Check out my vacation!", "http://exemplo.com/imagem.jpg", "Brilho");
+        VideoPost post4 = new VideoPost("Charlie", "Meu novo vídeo!", "http://exemplo.com/video.mp4", 120);
+
+        redeSocial.adicionarPost(post1);
+        redeSocial.adicionarPost(post2);
+        redeSocial.adicionarPost(post3);
+        redeSocial.adicionarPost(post4);
+
+        // Listar todos os posts
+        System.out.println("Todos os Posts:");
+        for (Post post : redeSocial.listarPosts()) {
+            System.out.println(post.exibir() + "\n");
+        }
+
+        // Buscar posts por autor
+        System.out.println("Posts de Alice:");
+        for (Post post : redeSocial.buscarPorAutor("Alice")) {
+            System.out.println(post.exibir() + "\n");
+        }
+
+        // Adicionar likes
+        redeSocial.adicionarLike(post1.getId());
+        redeSocial.adicionarLike(post2.getId());
+        redeSocial.adicionarLike(post1.getId());
+
+        // Exibir o post mais popular
+        Post postMaisPopular = redeSocial.exibirPostMaisPopular();
+        System.out.println("Post mais popular:");
+        System.out.println(postMaisPopular.exibir() + " - Likes: " + postMaisPopular.getLikes());
+    }
 }
+
