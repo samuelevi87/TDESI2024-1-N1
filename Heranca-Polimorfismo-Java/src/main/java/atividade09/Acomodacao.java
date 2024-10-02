@@ -14,13 +14,12 @@ public abstract class Acomodacao {
      * @param numero numero da acomodação
      * @param capacidade capacidade de pessoas na acomodação
      * @param precoPorNoite preço por noite da acomodação
-     * @param disponivel disponibilidade da acomodação
      */
-    public Acomodacao(int numero, int capacidade, double precoPorNoite, boolean disponivel) {
+    public Acomodacao(int numero, int capacidade, double precoPorNoite) {
         this.numero = numero;
         this.capacidade = capacidade;
         this.precoPorNoite = precoPorNoite;
-        this.disponivel = disponivel;
+        this.disponivel = true;
     }
 
     /**
