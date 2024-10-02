@@ -11,4 +11,9 @@ public class Gerente extends Funcionario {
         this.departamento = departamento;
         this.bonus = bonus;
     }
+
+    @Override
+    public double calcularSalario() {
+        return salarioBase + bonus;
+    }
 }

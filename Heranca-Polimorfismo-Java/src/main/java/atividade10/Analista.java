@@ -11,4 +11,9 @@ public class Analista extends Funcionario {
         this.especialidade = especialidade;
         this.nivelSenioridade = nivelSenioridade;
     }
+
+    @Override
+    public double calcularSalario() {
+        return 0; // salarioBase * (1 + nivelSenioridade.valor);
+    }
 }

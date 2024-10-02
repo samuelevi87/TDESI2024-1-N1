@@ -2,13 +2,13 @@ package main.java.atividade10;
 
 import java.time.LocalDate;
 
-public class Funcionario {
+public abstract class Funcionario {
     private Integer id;
     private static int contadorId = 0;
     private String nome;
     private String cpf;
     private LocalDate dataAdmissao;
-    private Double salarioBase;
+    public Double salarioBase;
 
     public Funcionario(String nome, String cpf, LocalDate dataAdmissao, Double salarioBase) {
         this.id = contadorId++;

@@ -11,4 +11,9 @@ public class Vendedor extends Funcionario {
         this.comissao = comissao;
         this.vendasMensais = vendasMensais;
     }
+
+    @Override
+    public double calcularSalario() {
+        return salarioBase + (comissao * vendasMensais);
+    }
 }
