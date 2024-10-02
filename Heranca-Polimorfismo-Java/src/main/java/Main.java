@@ -28,6 +28,7 @@ import main.java.atividade01.CorrecaoEmpresa;
 import main.java.atividade01.CorrecaoGerente;
 import main.java.atividade07.*;
 import main.java.atividade08.*;
+import main.java.atividade09.*;
 
 
 import java.time.LocalDate;
@@ -41,8 +42,9 @@ public class Main {
 //        atividade03();
 //        atividade04();
 //        atividade05();
-       atividade06();
+//        atividade06();
 //        atividade07();
+        atividade09();
     }
 
     public static void atividade01() {
@@ -377,7 +379,43 @@ public class Main {
         System.out.println("\nFolha de Pagamento Total: R$" +
                 String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
     }
-    
+    public static void atividade09(){
+        Hotel hotel = new Hotel();
+
+        hotel.adicionarAcomodacao(new QuartoStandard(1, 2, 100, QuartoStandard.TipoToCama.CASAL));
+        hotel.adicionarAcomodacao(new QuartoLuxo(2, 3, 200, true, false));
+        hotel.adicionarAcomodacao(new Suite(3, 4, 150, 2, false));
+
+        System.out.println("=== Acomodações disponíveis ===");
+        hotel.listarAcomodacoesDisponiveis().forEach(System.out::println);
+
+        System.out.println();
+
+        System.out.println("=== Acomodações disponíveis simples ===");
+        hotel.listarAcomodacoesDisponiveisSimples().forEach(System.out::println);
+
+        System.out.println();
+
+        System.out.println("=== Reservar acomodação ===");
+        System.out.println(hotel.reservarAcomodacaoPorNumero(1, 2) ? "Reserva bem sucedida" : "Acomodação indisponível");
+        System.out.println(hotel.reservarAcomodacaoPorNumeroSimples(1, 3) ? "Reserva bem sucedida" : "Acomodação indisponível");
+        System.out.println(hotel.reservarAcomodacaoPorNumeroSimples(2, 3) ? "Reserva bem sucedida" : "Acomodação indisponível");
+        //System.out.println(hotel.reservarAcomodacaoPorNumero(4) ? "Reserva bem sucedida" : "Acomodação indisponível");
+
+        System.out.println();
+
+        System.out.println("=== Acomodações disponíveis simples ===");
+        hotel.listarAcomodacoesDisponiveisSimples().forEach(System.out::println);
+
+        System.out.println();
+
+        System.out.println("=== Liberar acomodação ===");
+        System.out.println(hotel.liberarAcomodacaoPorNumero(1) ? "Liberação bem sucedida" : "Acomodação já disponível");
+        System.out.println(hotel.liberarAcomodacaoPorNumeroSimples(1) ? "Liberação bem sucedida" : "Acomodação já disponível");
+
+        System.out.println("=== Receita total das reservas ===");
+        System.out.println(hotel.calcularReceitaTotalReservas());
+    }
 
     /**
      * Mede o tempo de execução de uma operação.
