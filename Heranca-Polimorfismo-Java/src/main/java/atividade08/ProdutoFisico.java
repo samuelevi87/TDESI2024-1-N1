@@ -13,9 +13,25 @@ public class ProdutoFisico extends Produto {
     /**
      * Construtor da classe Produto que inicializa o nome, a descriação, o preço, estoque, peso e dimensoes.
      */
-    public ProdutoFisico(String nome, String descricao, double preco, int estoque) {
+    public ProdutoFisico(String nome, String descricao, double preco, int estoque,double peso, String dimensoes ) {
         super(nome, descricao, preco, estoque);
         this.peso = peso;
+        this.dimensoes = dimensoes;
+    }
+
+    public double getPeso() {
+        return peso;
+    }
+
+    public void setPeso(double peso) {
+        this.peso = peso;
+    }
+
+    public String getDimensoes() {
+        return dimensoes;
+    }
+
+    public void setDimensoes(String dimensoes) {
         this.dimensoes = dimensoes;
     }
 
