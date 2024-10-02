@@ -1,7 +1,6 @@
 package main.java.atividade09;
 
-public class Acomoacao {
-    public abstract class Acomodacao {
+    abstract class Acomodacao {
         private int numero;
         private int capacidade;
         private double precoPorNoite;
@@ -38,6 +37,8 @@ public class Acomoacao {
             this.disponivel = true;
         }
 
-        public abstract double calcularPrecoTotal(int numeroNoites);
+        public double calcularPrecoTotal(int numeroNoites) {
+            return 0;
+        }
     }
-}
+
