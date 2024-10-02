@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Criacao das classes funcionario, desenvolvedor e gerente.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade04/GrenciadorNotificacao.java" afterDir="false" />
+    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Atividade05">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade01/Empresa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/EmailNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/PushNotificacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade04/SMSNotificacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +27,12 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2mAetbRQjIJwq8sINV8zH9I7T14" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,12 +42,19 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/giovani_lenoir/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;giovaniLenoir&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/USUARIO/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="main.java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,10 +64,29 @@
       <option name="presentableId" value="Default" />
       <updated>1726524023411</updated>
     </task>
+    <task id="LOCAL-00001" summary="Atividade03">
+      <option name="closed" value="true" />
+      <created>1727661382127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727661382127</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Atividade05">
+      <option name="closed" value="true" />
+      <created>1727665939460</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727665939460</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criacao das classes funcionario, desenvolvedor e gerente." />
-    <option name="LAST_COMMIT_MESSAGE" value="Criacao das classes funcionario, desenvolvedor e gerente." />
+    <MESSAGE value="Atividade03" />
+    <MESSAGE value="Atividade05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade05" />
   </component>
 </project>
