@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4962c353-c0c6-47e9-a5ca-cbc822c49ca1" name="Changes" comment="Classe AnalistaQA e Empresa criada. Instancias de cada classe foram criadas para teste. Versão funcional Atividade1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="4962c353-c0c6-47e9-a5ca-cbc822c49ca1" name="Changes" comment="Atividade 9 finalizada" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +29,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2mGHdgjDQXpB2NTuLo2ovxXp85k" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -43,14 +40,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "jacksonRibeiro",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Jacks/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;jacksonRibeiro&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jacks/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
@@ -99,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726706954958</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Atividade 9 finalizada">
+      <option name="closed" value="true" />
+      <created>1727749731780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727749731780</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,6 +121,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação das classes funcionario, desenvolvedor e gerente, na atividade1" />
     <MESSAGE value="Classe AnalistaQA e Empresa criada. Instancias de cada classe foram criadas para teste. Versão funcional Atividade1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Classe AnalistaQA e Empresa criada. Instancias de cada classe foram criadas para teste. Versão funcional Atividade1" />
+    <MESSAGE value="Atividade 9 finalizada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade 9 finalizada" />
   </component>
 </project>
