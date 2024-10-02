@@ -56,4 +56,13 @@ public abstract class Acomodacao {
     }
 
     public abstract double calcularPrecoTotal(int numeroNoites);
+
+    @Override
+    public String toString() {
+        return  "NÚmero: " + numero +
+                ", Capacidade: " + capacidade +
+                ", PreÇo Por Noite: " + precoPorNoite +
+                ", Disponivel: " + disponivel +
+                ", Tipo To Cama: " + tipoToCama;
+    }
 }
