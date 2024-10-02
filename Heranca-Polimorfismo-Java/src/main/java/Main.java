@@ -43,7 +43,7 @@ public class Main {
         //CorrecaoAtividade05();
         //CorrecaoAtividade06();
         //CorrecaoAtividade07();
-        CorrecaoAtividade08();
+        //CorrecaoAtividade08();
 
 
     }
@@ -328,5 +328,47 @@ public class Main {
         long fim = System.nanoTime();
         long duracaoNanos = fim - inicio;
         System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
+    }
+        public static void GerenciadorTarefas;() {
+            GerenciadorTarefas gerenciador = new GerenciadorTarefas();
+
+            // Adicionando tarefas
+            Tarefa tarefa1 = new TarefaDesenvolvimento("Implementar API", "Criar API para gerenciamento de usuários", LocalDate.of(2024, 10, 15), "Java", 4);
+            Tarefa tarefa2 = new TarefaRevisao("Revisar Código", "Revisar o código da feature X", LocalDate.of(2024, 10, 10), "Alice", 300);
+            Tarefa tarefa3 = new TarefaBug("Corrigir Bug", "Corrigir falha na página de login", LocalDate.of(2024, 10, 5), Severidade.CRITICA, "Web");
+            Tarefa tarefa4 = new TarefaDesenvolvimento("Documentar Código", "Documentar o código da feature Y", LocalDate.of(2024, 10, 20), "Python", 3);
+            Tarefa tarefa5 = new TarefaRevisao("Revisar Documentação", "Revisar a documentação do projeto", LocalDate.of(2024, 10, 8), "Bob", 150);
+            Tarefa tarefa6 = new TarefaBug("Corrigir Bug de Performance", "Aumentar a performance do sistema", LocalDate.of(2024, 10, 12), Severidade.MEDIA, "Mobile");
+
+            gerenciador.adicionarTarefa(tarefa1);
+            gerenciador.adicionarTarefa(tarefa2);
+            gerenciador.adicionarTarefa(tarefa3);
+            gerenciador.adicionarTarefa(tarefa4);
+            gerenciador.adicionarTarefa(tarefa5);
+            gerenciador.adicionarTarefa(tarefa6);
+
+            // Listar todas as tarefas
+            System.out.println("Todas as Tarefas:");
+            for (Tarefa t : gerenciador.listarTarefas()) {
+                System.out.println(t.getTitulo() + " - Status: " + t.getStatus());
+            }
+
+            // Listar tarefas por status
+            System.out.println("\nTarefas Pendentes:");
+            for (Tarefa t : gerenciador.listarPorStatus(Status.PENDENTE)) {
+                System.out.println(t.getTitulo());
+            }
+
+            // Atualizar status de uma tarefa
+            gerenciador.atualizarStatus(tarefa1, Status.EM_ANDAMENTO);
+            System.out.println("\nApós atualização:");
+            System.out.println(tarefa1.getTitulo() + " - Status: " + tarefa1.getStatus());
+
+            // Listar tarefas por prioridade
+            System.out.println("\nTarefas por Prioridade:");
+            for (Tarefa t : gerenciador.listarPorPrioridade()) {
+                System.out.println(t.getTitulo() + " - Prioridade: " + t.calcularPrioridade());
+            }
+        }
     }
 }
