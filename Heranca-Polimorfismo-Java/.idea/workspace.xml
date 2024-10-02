@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Atividade05">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Acomoacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoLuxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/QuartoStandard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b15b3aa2-c560-478e-b827-af038d1c2539" name="Changes" comment="Atividade05" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +84,7 @@
     <MESSAGE value="Criacao das classes funcionario, desenvolvedor e gerente." />
     <MESSAGE value="Atividade03" />
     <MESSAGE value="Atividade05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atividade05" />
+    <MESSAGE value="Atividade09" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atividade09" />
   </component>
 </project>
