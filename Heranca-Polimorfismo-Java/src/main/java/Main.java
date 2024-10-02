@@ -1,12 +1,15 @@
 package main.java;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import main.java.atividade05.ProcessadorPagamento;
 
 public class Main {
     public static void main(String[] args) {
         ProcessadorPagamento processador = new ProcessadorPagamento();
 =======
+=======
+>>>>>>> f49528e65b0468488bed61580893494517663322
 import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade01.CorrecaoEmpresa;
@@ -44,6 +47,10 @@ public class Main {
         //CorrecaoAtividade06();
         //CorrecaoAtividade07();
         //CorrecaoAtividade08();
+<<<<<<< HEAD
+=======
+
+>>>>>>> f49528e65b0468488bed61580893494517663322
 
 
     }
@@ -288,33 +295,29 @@ public class Main {
         } else {
             System.out.println("Não foi possível emprestar o livro.");
         }
-
-        System.out.println("\nItens disponíveis após empréstimo:");
-        biblioteca.listarItensDisponiveis();
-
-        System.out.println("\nDevolvendo 'O Senhor dos Anéis' com 5 dias de atraso:");
-        biblioteca.devolverItem("O Senhor dos Anéis");
-        double multa = biblioteca.calcularMulta("O Senhor dos Anéis", 5);
-        System.out.println("Multa a pagar: R$" + String.format("%.2f", multa));
-
-        System.out.println("\nItens disponíveis após devolução:");
-        biblioteca.listarItensDisponiveis();
     }
+<<<<<<< HEAD
 >>>>>>> fec0f85052335bfae6c7d7b99c1fb5e30d6629f3
+=======
+>>>>>>> f49528e65b0468488bed61580893494517663322
 
-        processador.adicionarFormaPagamento(new CartaoCredito("1234-5678-9101-1121", "Visa", 2.5));
-        processador.adicionarFormaPagamento(new Boleto("123456789012", 1.0));
-        processador.adicionarFormaPagamento(new TransferenciaBancaria("Banco do Brasil", "1234", "56789-0", 1.5));
 
-        processador.listarFormasPagamento();
+    private static void CorrecaoAtividade01() {
+        // Código para testar a atividade 01
+        CorrecaoEmpresa empresa = new CorrecaoEmpresa();
 
-        processador.processarPagamento(100.0, "Cartão de Crédito");
-        processador.processarPagamento(150.0, "Boleto");
-        processador.processarPagamento(200.0, "Transferência Bancária");
+        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Ana Silva", 1, 5000, "Java"));
+        empresa.adicionarFuncionario(new CorrecaoDesenvolvedor("Carlos Santos", 2, 5500, "Python"));
+        empresa.adicionarFuncionario(new CorrecaoGerente("Maria Oliveira", 3, 8000, 10000));
+        empresa.adicionarFuncionario(new CorrecaoGerente("João Pereira", 4, 8500, 12000));
+        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Pedro Costa", 5, 4500, 50));
+        empresa.adicionarFuncionario(new CorrecaoAnalistaQA("Lúcia Ferreira", 6, 4800, 60));
 
-        processador.estornarPagamento(100.0, "Cartão de Crédito");
-        processador.estornarPagamento(150.0, "Boleto");
-        processador.estornarPagamento(200.0, "Transferência Bancária");
+        System.out.println("Lista de Funcionários:");
+        empresa.listarFuncionarios();
+
+        System.out.println("\nFolha de Pagamento Total: R$" +
+                String.format("%.2f", empresa.calcularFolhaPagamentoTotal()));
     }
 
     /**
@@ -329,6 +332,7 @@ public class Main {
         long duracaoNanos = fim - inicio;
         System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
     }
+<<<<<<< HEAD
         public static void GerenciadorTarefas;() {
             GerenciadorTarefas gerenciador = new GerenciadorTarefas();
 
@@ -448,6 +452,9 @@ public class Main {
             System.out.println(p.getNome() + " - Preço: R$" + p.getPreco());
         }
     }
+=======
+
+>>>>>>> f49528e65b0468488bed61580893494517663322
 }
 
 
