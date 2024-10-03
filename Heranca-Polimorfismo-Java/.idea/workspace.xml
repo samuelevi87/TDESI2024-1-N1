@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a50f7498-3983-4e79-a11e-cc577c253fc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade09/Acomodacao.java" afterDir="false" />
-    </list>
+    <list default="true" id="a50f7498-3983-4e79-a11e-cc577c253fc1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "antonioJesus",
+    "git-widget-placeholder": "antoniojesus",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/tonyj/TDESI2024-1-N1/POOExercicios01/ExerciciosPOO01/src/Exercicio01",
     "node.js.detected.package.eslint": "true",
@@ -75,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727905357271</updated>
       <workItem from="1727905359990" duration="263000" />
-      <workItem from="1727905868256" duration="3113000" />
+      <workItem from="1727905868256" duration="3971000" />
     </task>
     <servers />
   </component>
