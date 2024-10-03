@@ -2,9 +2,10 @@ package main.java.atividade10;
 
 import java.time.LocalDate;
 
-public abstract class Gerente extends Funcionario{
+public abstract class Gerente extends Funcionario {
     private String departamento;
     private Double bonus;
+
     /**
      * Classe do Gerente
      */
@@ -13,6 +14,7 @@ public abstract class Gerente extends Funcionario{
         this.departamento = departamento;
         this.bonus = bonus;
     }
+
     /**
      * Classe GERENTE
      * id do gerente
@@ -42,5 +44,6 @@ public abstract class Gerente extends Funcionario{
     public Double getSalarioBase() {
         return getSalarioBase() + bonus;
     }
-
 }
+
+

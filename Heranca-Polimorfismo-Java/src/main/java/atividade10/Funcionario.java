@@ -3,6 +3,7 @@ package main.java.atividade10;
 import java.time.LocalDate;
 import java.time.Period;
 
+
 /**
  * Representa o funcionario na lista de empregados da empresa
  */

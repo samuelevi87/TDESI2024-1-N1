@@ -38,6 +38,7 @@ private NivelSenioridade nivelSenioridade;
 
     @Override
    public Double calcularSalario() {
-        return getSalarioBase() * (1 + nivelSenioridade.getValor());
+        return getSalarioBase() * (1 + nivelSenioridade.get.salarioBase());
+
     }
 }

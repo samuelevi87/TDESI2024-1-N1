@@ -38,5 +38,6 @@ public class vendedor extends Funcionario{
     @Override
     public Double calcularSalario() {
         return getSalarioBase() + (comissao * vendasMensais);
+
     }
 }
