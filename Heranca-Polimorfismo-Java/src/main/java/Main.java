@@ -1,5 +1,6 @@
 package main.java;
 
+<<<<<<<<< Temporary merge branch 1
 import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
 import main.java.atividade02.CorrecaoAudioLivro;
@@ -406,7 +407,14 @@ public class Main {
         System.out.println("\nItens disponíveis após devolução:");
         biblioteca.listarItensDisponiveis();
     }
+=========
+public class Main {
+    //FIXME Adicione o método main usando o atalho psvm
+>>>>>>>>> Temporary merge branch 2
 
+<<<<<<< HEAD
+    //TODO O conteúdo será desenvolvido durante a aula
+=======
     private static void CorrecaoAtividade01() {
         // Código para testar a atividade 01
         main.java.atividade01.CorrecaoEmpresa empresa = new main.java.atividade01.CorrecaoEmpresa();
@@ -437,4 +445,5 @@ public class Main {
         long duracaoNanos = fim - inicio;
         System.out.printf("Tempo de execução: %.3f ms%n", duracaoNanos / 1000000.0);
     }
+>>>>>>> 62eedf5d28bff67faa472fa7f65795247310e01f
 }
