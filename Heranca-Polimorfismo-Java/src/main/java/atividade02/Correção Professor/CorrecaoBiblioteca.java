@@ -7,7 +7,7 @@ import java.util.Optional;
 /**
  * Representa uma biblioteca digital que gerencia diversos tipos de itens.
  */
-public class CorrecaoBiblioteca {
+public class  CorrecaoBiblioteca {
     private List<CorrecaoItemBiblioteca> acervo;
 
     /**

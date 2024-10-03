@@ -1,4 +1,9 @@
 package main.java;
+import main.java.atividade02.*;
+import main.java.atividade02.CorrecaoAudioLivro;
+import main.java.atividade02.CorrecaoBiblioteca;
+import main.java.atividade02.CorrecaoEbook;
+import main.java.atividade02.CorrecaoLivroFisico;
 import main.java.atividade04.*;
 import main.java.atividade05.CartaoCredito;
 import main.java.atividade05.ProcessadorPagamento;
@@ -6,10 +11,6 @@ import main.java.atividade05.TransferenciaBancaria;
 import javax.swing.*;
 import main.java.atividade01.CorrecaoAnalistaQA;
 import main.java.atividade01.CorrecaoDesenvolvedor;
-import main.java.atividade02.CorrecaoAudioLivro;
-import main.java.atividade02.CorrecaoBiblioteca;
-import main.java.atividade02.CorrecaoEbook;
-import main.java.atividade02.CorrecaoLivroFisico;
 import main.java.atividade03.CorrecaoCaminhao;
 import main.java.atividade03.CorrecaoCarro;
 import main.java.atividade03.CorrecaoFrota;
@@ -23,14 +24,10 @@ import main.java.atividade05.CorrecaoCartaoCredito;
 import main.java.atividade05.CorrecaoProcessadorPagamento;
 import main.java.atividade05.CorrecaoTransferenciaBancaria;
 import main.java.atividade06.*;
-<<<<<<< HEAD
-=======
 import main.java.atividade07.*;
 import main.java.atividade08.*;
 import main.java.atividade09.*;
 import main.java.atividade10.*;
-
->>>>>>> fec0f85052335bfae6c7d7b99c1fb5e30d6629f3
 import java.time.LocalDate;
 import java.util.List;
 
@@ -38,7 +35,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         //CorrecaoAtividade01();
-        //CorrecaoAtividade02();
+        CorrecaoAtividade02();
         //CorrecaoAtividade03();
         //CorrecaoAtividade04();
         //CorrecaoAtividade05();
@@ -46,7 +43,7 @@ public class Main {
         //CorrecaoAtividade07();
         //CorrecaoAtividade08();
         //CorrecaoAtividade09();
-        CorrecaoAtividade10();
+       // CorrecaoAtividade10();
 
 
     }
@@ -163,7 +160,7 @@ public class Main {
     }
 
     private static void CorrecaoAtividade08() {
-        CorrecaoLoja loja = new CorrecaoLoja();
+       /* CorrecaoLoja loja = new CorrecaoLoja();
         CorrecaoCarrinho carrinho = new CorrecaoCarrinho();
 
         // Adicionando produtos à loja
@@ -182,7 +179,7 @@ public class Main {
         loja.listarPorCategoria(CorrecaoProdutoFisico.class).forEach(System.out::println);
 
         // Realizando uma compra
-        CorrecaoProduto smartphone = loja.buscarPorNome("Smartphone").getFirst();
+        CorrecaoProduto smartphone = loja.buscarPorNome("Smartphone");
         CorrecaoProduto ebook = loja.buscarPorNome("E-book").get(0);
         carrinho.adicionarProduto(smartphone);
         carrinho.adicionarProduto(ebook);
@@ -204,6 +201,8 @@ public class Main {
         carrinho.listarItensSimples();
 
         System.out.println("\nTotal da compra (versão simples): R$" + String.format("%.2f", carrinho.calcularTotalSimples()));
+
+        */
     }
 
     private static void CorrecaoAtividade07() {
@@ -387,6 +386,8 @@ public class Main {
 
     private static void CorrecaoAtividade02() {
         // Código para testar a atividade 02
+
+        /*
         CorrecaoBiblioteca biblioteca = new CorrecaoBiblioteca();
 
         biblioteca.adicionarItem(new CorrecaoLivroFisico("O Senhor dos Anéis", "J.R.R. Tolkien", 1954, 1178));
@@ -413,10 +414,30 @@ public class Main {
 
         System.out.println("\nItens disponíveis após devolução:");
         biblioteca.listarItensDisponiveis();
+
+         */
+
+        Biblioteca biblioteca = new Biblioteca();
+
+        biblioteca.adicionarItem(new LivroFisico("Harry Potter","Matheus",2024,true,500));
+        if (biblioteca.emprestarLivro("Harry Potter")){
+            System.out.println("Livro emprestado");
+        } else {
+            System.out.println("Livro Indisponivel");
+        }
+
+        if (biblioteca.devolverLivro("Harry Potter")){
+            System.out.println("Livro devolvido");
+        } else {
+            System.out.println("Erro em devolver");
+        }
+
+        System.out.println("Valor da multa: "+biblioteca.multaLivro("Harry Potter",10));
+
+        biblioteca.listarLivros();
     }
 
     private static void CorrecaoAtividade01() {
-<<<<<<< HEAD
      /*   // Código para testar a atividade 01
         CorrecaoEmpresa empresa = new CorrecaoEmpresa();
 =======

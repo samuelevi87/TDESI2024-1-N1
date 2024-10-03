@@ -4,5 +4,5 @@ import java.util.ArrayList;
 
 public class RedeSocial {
 
-    ArrayList<Post>
+    //ArrayList<Post>
 }
