@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a50f7498-3983-4e79-a11e-cc577c253fc1" name="Changes" comment="" />
+    <list default="true" id="a50f7498-3983-4e79-a11e-cc577c253fc1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade09/Acomodacao.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727905357271</updated>
       <workItem from="1727905359990" duration="263000" />
-      <workItem from="1727905868256" duration="5043000" />
+      <workItem from="1727905868256" duration="5410000" />
     </task>
     <servers />
   </component>
