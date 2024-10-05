@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a86854-fcf4-41c7-a382-f75bc37c3042" name="Changes" comment="Atividade 05">
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/AudioLivro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/Ebook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/ItemBiblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/atividade02/LivroFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Caminhao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Frota.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/atividade03/Veiculo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade02/Correção Professor/CorrecaoBiblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade02/Correção Professor/CorrecaoBiblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/atividade07/RedeSocial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade07/RedeSocial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCaminhao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorreçãoProfessor/CorrecaoCaminhao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoCarro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorreçãoProfessor/CorrecaoCarro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoFrota.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorreçãoProfessor/CorrecaoFrota.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoMoto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorreçãoProfessor/CorrecaoMoto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/atividade03/CorrecaoVeiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/atividade03/CorreçãoProfessor/CorrecaoVeiculo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +53,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "matheusRibeiro",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Matheus/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;matheusRibeiro&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Matheus/Documents/TDESI2024-1-N1/Heranca-Polimorfismo-Java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="main.java" />
@@ -103,7 +106,9 @@
       <option name="presentableId" value="Default" />
       <updated>1726524238222</updated>
       <workItem from="1727183596458" duration="2814000" />
-      <workItem from="1727954690107" duration="5470000" />
+      <workItem from="1727954690107" duration="6080000" />
+      <workItem from="1728159482104" duration="3968000" />
+      <workItem from="1728163718836" duration="1541000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de Funcionario, Desenvolvedor e Gerente">
       <created>1726703583927</created>

@@ -1,20 +1,16 @@
 package main.java;
 import main.java.atividade02.*;
-import main.java.atividade02.CorrecaoAudioLivro;
-import main.java.atividade02.CorrecaoBiblioteca;
-import main.java.atividade02.CorrecaoEbook;
-import main.java.atividade02.CorrecaoLivroFisico;
-import main.java.atividade04.*;
-import main.java.atividade05.CartaoCredito;
-import main.java.atividade05.ProcessadorPagamento;
-import main.java.atividade05.TransferenciaBancaria;
+
 import javax.swing.*;
-import main.java.atividade01.CorrecaoAnalistaQA;
-import main.java.atividade01.CorrecaoDesenvolvedor;
-import main.java.atividade03.CorrecaoCaminhao;
-import main.java.atividade03.CorrecaoCarro;
-import main.java.atividade03.CorrecaoFrota;
-import main.java.atividade03.CorrecaoMoto;
+
+import main.java.atividade03.Caminhao;
+import main.java.atividade03.Carro;
+import main.java.atividade03.CorreçãoProfessor.CorrecaoCaminhao;
+import main.java.atividade03.CorreçãoProfessor.CorrecaoCarro;
+import main.java.atividade03.CorreçãoProfessor.CorrecaoFrota;
+import main.java.atividade03.CorreçãoProfessor.CorrecaoMoto;
+import main.java.atividade03.Frota;
+import main.java.atividade03.Veiculo;
 import main.java.atividade04.CorrecaoEmailNotificacao;
 import main.java.atividade04.CorrecaoGerenciadorNotificacoes;
 import main.java.atividade04.CorrecaoPushNotificacao;
@@ -25,7 +21,6 @@ import main.java.atividade05.CorrecaoProcessadorPagamento;
 import main.java.atividade05.CorrecaoTransferenciaBancaria;
 import main.java.atividade06.*;
 import main.java.atividade07.*;
-import main.java.atividade08.*;
 import main.java.atividade09.*;
 import main.java.atividade10.*;
 import java.time.LocalDate;
@@ -35,8 +30,8 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         //CorrecaoAtividade01();
-        CorrecaoAtividade02();
-        //CorrecaoAtividade03();
+        //CorrecaoAtividade02();
+        CorrecaoAtividade03();
         //CorrecaoAtividade04();
         //CorrecaoAtividade05();
         //CorrecaoAtividade06();
@@ -357,7 +352,7 @@ public class Main {
     }
 
     private static void CorrecaoAtividade03() {
-        // Código para testar a atividade 03
+        /* Código para testar a atividade 03
         CorrecaoFrota frota = new CorrecaoFrota();
 
         frota.adicionarVeiculo(new CorrecaoCarro("ABC1234", "Fiat Uno", 2015, 50000, 4));
@@ -382,6 +377,21 @@ public class Main {
 
         System.out.println("\nCusto total da nova viagem de " + distanciaViagem + " km: R$" +
                 String.format("%.2f", frota.calcularCustoTotalViagemSimples(distanciaViagem)));
+
+         */
+
+        Frota frota = new Frota();
+
+        frota.AdcionarFrota(new Caminhao("WADWFW-QQQ","Volvo",2023,2000,5000));
+        frota.AdcionarFrota(new Carro("DEF5678", "Ford Ka", 2018, 30000, 4));
+
+        frota.ListarTodosVeiculos();
+
+        frota.RemoverVeiculoPorPlaca("DEF5678");
+
+        frota.ListarTodosVeiculos();
+
+        System.out.println( frota.CustoTotalFrota(2));
     }
 
     private static void CorrecaoAtividade02() {

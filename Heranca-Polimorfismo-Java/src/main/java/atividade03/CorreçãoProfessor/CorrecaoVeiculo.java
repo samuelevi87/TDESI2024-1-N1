@@ -1,4 +1,4 @@
-package main.java.atividade03;
+package main.java.atividade03.CorreçãoProfessor;
 
 /**
  * Representa um veículo genérico.
