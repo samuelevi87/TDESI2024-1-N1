@@ -9,7 +9,7 @@ Crie um sistema de processamento de pagamentos para um e-commerce.
 2. Crie uma classe base abstrata `FormaPagamento` que implemente `Pagavel`, com os seguintes atributos:
     - `nome` (String)
     - `taxaTransacao` (double)
- 
+
 3. Implemente os seguintes métodos na classe `FormaPagamento`:
     - Um construtor que aceite nome e taxaTransacao
     - Getters para todos os atributos
