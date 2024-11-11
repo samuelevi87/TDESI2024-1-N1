@@ -103,6 +103,10 @@ public class CorrecaoRedeSocial {
                 .ifPresent(post -> System.out.println("Post mais popular: " + post.exibir()));
     }
 
+    public void exibir(){
+        listaDePostagens.stream().max(Comparator.comparingInt(CorrecaoPost::getLikes)).ifPresent(post -> System.out.println("Post mais popular: " + post.exibir()));
+    }
+
     /**
      * Versão simples do método exibirPostMaisPopular.
      */
